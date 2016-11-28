@@ -17,7 +17,7 @@ const adjectivesDb =  {
         },
         {
         "f": "erron&#233;",
-        "a": "wrong/incorrect",
+        "a": "wrong/ incorrect",
         "definitions": [
             {
             "title": "masculine/feminie",
@@ -27,7 +27,7 @@ const adjectivesDb =  {
         },
         {
         "f": "faux",
-        "a": "wrong/incorrect",
+        "a": "fake",
         "definitions": [
             {
             "title": "masculine",
@@ -41,7 +41,7 @@ const adjectivesDb =  {
         },
         {
         "f": "gentil",
-        "a": "brillant/gentle/nice",
+        "a": "brillant/ gentle/ nice",
         "definitions": [
             {
             "title": "masculine",
@@ -50,6 +50,86 @@ const adjectivesDb =  {
             {
             "title" : "feminine",
             "descriptions": [ "gentille", "gentilles" ]
+            }
+            ]
+        },
+        {
+        "f": "jeune",
+        "a": "young",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "jeune", "jeunes"  ]
+            }
+            ]
+        },
+        {
+        "f": "vieux",
+        "a": "old",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "vieux"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "vieille", "vieilles" ]
+            }
+            ]
+        },
+        {
+        "f": "chaud",
+        "a": "hot",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "chaud", "chauds"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "chaude", "chaudes" ]
+            }
+            ]
+        },
+        {
+        "f": "froid",
+        "a": "cold",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "froid", "froids"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "froid", "froides" ]
+            }
+            ]
+        },
+        {
+        "f": "gros",
+        "a": "big",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "gros" ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "grosse", "grosses" ]
+            }
+            ]
+        },
+        {
+        "f": "petit",
+        "a": "small",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "petit", "petits"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "petite", "petites" ]
             }
             ]
         },
@@ -68,6 +148,20 @@ const adjectivesDb =  {
             ]
         },
         {
+        "f": "grand",
+        "a": "tall",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "grand", "grands"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "grande", "grandes" ]
+            }
+            ]
+        },
+        {
         "f": "bon",
         "a": "good",
         "definitions": [
@@ -78,6 +172,20 @@ const adjectivesDb =  {
             {
             "title" : "feminine",
             "descriptions": [ "bonne", "bonnes" ]
+            }
+            ]
+        },
+        {
+        "f": "court",
+        "a": "brief/ short",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "court", "courts"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "courte", "courtes" ]
             }
             ]
         },
@@ -117,6 +225,16 @@ const adjectivesDb =  {
             "title" : "feminine",
             "descriptions": [ "derniere", "dernieres" ]
             }
+            ]
+        },
+        {
+            "f": "prochain",
+            "a": "next",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "suivant"  ]
+                }
             ]
         },
         {
@@ -162,7 +280,7 @@ const adjectivesDb =  {
             ]
         },
         {
-        "f": "second/dieuxi&#232;me",
+        "f": "second",
         "a": "second",
         "definitions": [
             {
@@ -214,8 +332,18 @@ const adjectivesDb =  {
             ]
         },
         {
+        "f": "faible",
+        "a": "weak/ feeble",
+        "definitions": [
+            {
+            "title": "masculine/feminie",
+            "descriptions": [ "faible", "faibles"  ]
+            }
+            ]
+        },
+        {
         "f": "dur",
-        "a": "hard/lasts",
+        "a": "hard/ lasts",
         "definitions": [
             {
             "title": "masculine",
@@ -249,7 +377,7 @@ const adjectivesDb =  {
         },
         {
         "f": "&#233;norme",
-        "a": "last",
+        "a": "huge",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -321,7 +449,7 @@ const adjectivesDb =  {
         },
         {
         "f": "m&#233;chant",
-        "a": "last",
+        "a": "mean",
         "definitions": [
             {
             "title": "masculine",
@@ -345,7 +473,7 @@ const adjectivesDb =  {
         },
         {
         "f": "s&#233;rieux",
-        "a": "last",
+        "a": "serious",
         "definitions": [
             {
             "title": "masculine",
@@ -416,32 +544,6 @@ const transitionalsDb = {
         "type": "transitionals",
         "vocabArray" : [
             {
-            "f": "d'abord",
-            "a": "first/first of all",
-            },
-            {
-            "f": "ensuite",
-            "a": "next",
-            },
-            {
-            "f": "puis",
-            "a": "then",
-            },
-            {
-            "f": "enfin",
-            "a": "finally",
-            },
-            {
-            "f": "apr&#232;s",
-            "a": "after",
-            
-            },
-            {
-            "f": "avant",
-            "a": "before/ealier",
-            
-            },
-            {
             "f": "car",
             "a": "because",
             
@@ -453,7 +555,7 @@ const transitionalsDb = {
             },
             {
             "f": "tant que",
-            "a": "as long as",
+            "a": "as long as/ while/ until",
             },
             {
             "f": "comme",
@@ -469,17 +571,7 @@ const transitionalsDb = {
             },
             {
             "f": "cependant",
-            "a": "however/nonetheless",
-            },
-            {
-            "f": "en plus",
-            "a": "also",
-            "definitions": [
-                {
-                "title": "definition",
-                "descriptions": [ "en plus", "aussi"  ]
-                }
-                ]
+            "a": "however/ nonetheless",
             },
             {
             "f": "&#224; mon avis",
@@ -494,22 +586,16 @@ const transitionalsDb = {
             {
             "f": "alors que",
             "a": "while",
-            },
-            {
-            "f": "plus t&#244;t",
-            "a": "earlier",
-            },
-            {
-            "f": "en peu",
-            "a": "a little/pretty much",
-            },
-            {
-            "f": "partout",
-            "a": "everywhere/all over",
+            "definitions": [
+                {
+                "title": "alternates",
+                "descriptions": [ "tandis que", "pendant" ]
+                }
+                ]
             },
             {
             "f": "sur le chemin",
-            "a": "on the road/on the way",
+            "a": "on the road/ on the way",
             "definitions": [
                 {
                 "title": "alternates",
@@ -519,27 +605,164 @@ const transitionalsDb = {
             },
             {
             "f": "lors",
-            "a": "during",
+            "a": "pendant",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "lorsque", "durant"]
+                }
+            ]
             },
             {
             "f": "devant",
             "a": "in front of",
             },
             {
-            "f": "derri&#232;re",
-            "a": "finally",
+            "f": "mais",
+            "a": "but",
             },
             {
-            "f": "d&#233;j&#224;",
-            "a": "already",
+            "f": "plusiers",
+            "a": "several",
             },
             {
-            "f": "pr&#232;s",
-            "a": "near",
+            "f": "o&#249;",
+            "a": "or",
+            },
+            {
+            "f": "entre",
+            "a": "between",
+            },
+            {
+            "f": "d'o&#249;",
+            "a": "from where",
+            },
+            {
+            "f": "a c&#244;te",
+            "a": "next to/ beside"
             }
-            
             ]
     };
+
+const adverbsDb = {
+    "type": "adverbs",
+    "vocabArray": [
+        {
+            "f": "ensuite",
+            "a": "next"
+        },
+        {
+            "f": "aussi",
+            "a": "also",
+            "definitions": [
+                {
+                "title": "alternates",
+                "descriptions": [ "en plus"  ]
+                }
+                ]
+            },
+        {
+            "f": "puis",
+            "a": "then"
+        },
+        {
+            "f": "enfin",
+            "a": "finally"
+        },
+        {
+            "f": "apres",
+            "a": "after"
+        },
+        {
+            "f": "avant",
+            "a": "before/ previously"
+        },
+        {
+            "f": "plus t&#244;t",
+            "a": "earlier"
+        },
+        {
+            "f": "en peu",
+            "a": "a little/ pretty much"
+        },
+        {
+            "f": "partout",
+            "a": "everywhere/ all over"
+        },
+        {
+            "f": "d&#233;j&#224;",
+            "a": "already"
+        },
+        {
+            "f": "pr&#232;s",
+            "a": "near"
+        },
+        {
+            "f": "tr&#232;s",
+            "a": "very"
+        },
+        {
+            "f": "souvent",
+            "a": "often/ frequently"
+        },
+        {
+            "f": "rarement",
+            "a": "rarely/ infrequently"
+        },
+        {
+            "f": "assez",
+            "a": "enough"
+        },
+        {
+            "f": "vite",
+            "a": "quickly"
+        },
+        {
+            "f": "lentement",
+            "a": "slowly"
+        },
+        {
+            "f": "peu &#224; peu",
+            "a": "gradually/ little by little"
+        },
+        {
+            "f": "beaucoup",
+            "a": "a lot"
+        },
+        {
+            "f": "un peu",
+            "a": "a little"
+        },
+        {
+            "f": "ici",
+            "a": "here"
+        },
+        {
+            "f": "aussi",
+            "a": "also/ too/ as well"
+        },
+        {
+            "f": "maintentant",
+            "a": "currently/ now"
+        },
+        {
+            "f": "t&#244;t",
+            "a": "early"
+        },
+        {
+            "f": "tard",
+            "a": "late"
+        },
+        {
+            "f": "voici",
+            "a": "here is"
+        },
+        {
+            "f": "voil&#224;",
+            "a": "here are"
+        }
+    ]
+};
 
 const verbDb =   {
     "type": "verbs",
@@ -736,7 +959,7 @@ const verbDb =   {
     
         {
         "f": "avoir besoin",
-        "a": "to need/to require",
+        "a": "to need/ to require",
         "definitions": [
             {
             "title": "present tense",
@@ -862,7 +1085,7 @@ const verbDb =   {
     
         {
         "f": "lever",
-        "a": "to raise/lift/stand",
+        "a": "to raise/ lift/ stand",
         "definitions": [
             {
             "title": "present tense",
@@ -910,7 +1133,7 @@ const verbDb =   {
     
         {
         "f": "couper",
-        "a": "to cut/to take away",
+        "a": "to cut/ to take away",
         "definitions": [
             {
             "title": "present tense",
@@ -926,7 +1149,7 @@ const verbDb =   {
     
         {
         "f": "agir",
-        "a": "to act/behave",
+        "a": "to act/ behave",
         "definitions": [
             {
             "title": "present tense",    
@@ -1150,7 +1373,7 @@ const verbDb =   {
     
         {
         "f": "mettre",
-        "a": "to put/place/wear",
+        "a": "to put/ place/ wear",
         "definitions": [
             {
             "title": "present tense",
@@ -1195,7 +1418,7 @@ const verbDb =   {
     
         {
         "f": "poss&#233;der",
-        "a": "to own/possess",
+        "a": "to own/ possess",
         "definitions": [
             {
             "title": "present tense",
@@ -1225,7 +1448,7 @@ const verbDb =   {
     
         {
         "f": "porter",
-        "a": "to wear/carry",
+        "a": "to wear/ carry",
         "definitions": [
             {
             "title": "present tense",
@@ -1240,7 +1463,7 @@ const verbDb =   {
     
         {
         "f": "saisir",
-        "a": "to grab/seize",
+        "a": "to grab/ seize",
         "definitions": [
             {
             "title": "present tense",
@@ -1465,7 +1688,7 @@ const verbDb =   {
     
         {
         "f": "secourir",
-        "a": "to rescue/help",
+        "a": "to rescue/ help",
         "definitions": [
             {
             "title": "present tense",
@@ -1540,7 +1763,7 @@ const verbDb =   {
     
         {  
         "f": "penser",
-        "a": "to think/conceive",
+        "a": "to think/ conceive",
         "definitions": [
             {
             "title": "present tense",
@@ -1584,7 +1807,7 @@ const verbDb =   {
         },
         {
             "f": "emmener",
-            "a": "to drive/take (with)/ take (along)",
+            "a": "to drive/ take (with)/ take (along)",
             "definitions": [
                 {
                 "title": "present tense",
@@ -1827,7 +2050,31 @@ const timeDb = {
             {
             "f": "si&#232;cle",
             "a": "century"
-            }        
+            },
+            {
+            "f": "montre",
+            "a": "watch"
+            },
+            {
+            "f": "calendrier",
+            "a": "calendar"
+            },
+            {
+            "f": "&#233;t&#233;",
+            "a": "summer"
+            },
+            {
+            "f": "l'automne",
+            "a": "fall/ autumn"
+            },
+            {
+            "f": "hiver",
+            "a": "winter"
+            },
+            {
+            "f": "printemps",
+            "a": "spring"
+            }  
         ]
 };
 
@@ -1901,6 +2148,65 @@ const familyDb = {
         ]
     };
 
+const pronounsDb = {
+    "type": "possession",
+        "vocabArray" : [
+            {
+            "f": "le mien/ la mienne",
+            "a": "mine"
+            },
+            {
+            "f": "le tien/ la tienne",
+            "a": "yours (inf.)"
+            },
+            {
+            "f": "la sien/ la sienne",
+            "a": "his/ hers/ its (pronoun)"
+            },
+            {
+            "f": "le/ la n&#244;tre/ les n&#244;tres",
+            "a": "ours"
+            },
+            {
+            "f": "le/ la v&#244;tre/ les v&#244;tres",
+            "a": "yours (form.)"
+            },
+            {
+            "f": "le/ la leur/ les leurs",
+            "a": "theirs"
+            },
+            {
+            "f": "mon/ ma",
+            "a": "my"
+            },
+            {
+            "f": "ton/ ta",
+            "a": "your (inf.)"
+            },
+            {
+            "f": "son/ sa",
+            "a": "his/ her"
+            },
+            {
+            "f": "lui",
+            "a": "him/ her"
+            },
+            {
+            "f": "nos",
+            "a": "our"
+            },
+            {
+            "f": "vos",
+            "a": "your (formal)"
+            },
+            {
+            "f": "leur",
+            "a": "their"
+            }
+        ]           
+};
+
+
 
    let randomInt = function(min, max) {
                       min = Math.ceil(min);
@@ -1939,10 +2245,20 @@ const familyDb = {
         $scope.family = {
             "source": familyDb,
             "vocab": familyDb.vocabArray
-        };   
+        };  
+        
+        $scope.pronouns = {
+            "source": pronounsDb,
+            "vocab": pronounsDb.vocabArray
+        };
+          
+        $scope.adverbs = {
+            "source": adverbsDb,
+            "vocab": adverbsDb.vocabArray
+        };
         
         
-        $scope.sectionsArray = [ "verbs", "adjectives", "transitionals", "time", "family" ];
+        $scope.sectionsArray = [ "verbs", "adjectives", "transitionals", "time", "family", "pronouns", "adverbs" ];
           
         //initial values- populated when section clicked  
         $scope.section;  
@@ -2019,6 +2335,7 @@ const familyDb = {
         $scope.backToMenu = function() {
             $scope.hideElement('flash-card-content-wrapper');
             $scope.showElement('main-menu-content-fade');
+            $scope.about = false;
             $timeout(function() {
                 document.getElementById('main-menu-content-fade').style.display= 'block';
                 document.getElementById('main-menu-wrapper').style.display= 'block';
