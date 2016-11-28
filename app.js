@@ -634,7 +634,7 @@ const transitionalsDb = {
             "a": "between",
             },
             {
-            "f": "d'o&#249;",
+            "f": "d&#8217;o&#249;",
             "a": "from where",
             },
             {
@@ -787,7 +787,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j'ai", "tu as", "il/elle/on a", "nous avons", "vous avez", "ils/elles ont" ]
+            "descriptions": [ "j&#8217;ai", "tu as", "il/elle/on a", "nous avons", "vous avez", "ils/elles ont" ]
             },
             {
             "title": "past tense",    
@@ -845,7 +845,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": ["j'&#233;cris", "tu &#233;cris", "il/elle/on &#233;rit", "nous ecrivons", "vous &#233;crivez", "ils/elles &#233;crivent"]
+            "descriptions": ["j&#8217;&#233;cris", "tu &#233;cris", "il/elle/on &#233;rit", "nous ecrivons", "vous &#233;crivez", "ils/elles &#233;crivent"]
             },
             {
             "title": "past tense",
@@ -873,7 +873,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": ["j'ach&#232;te", "tu ach&#232;tes", "il/elle/on ach&#232;te", "nous achetons", "vous achetez", "ils/elles ach&#232;tent"]
+            "descriptions": ["j&#8217;ach&#232;te", "tu ach&#232;tes", "il/elle/on ach&#232;te", "nous achetons", "vous achetez", "ils/elles ach&#232;tent"]
             },
             {
             "title": "past tense",
@@ -902,7 +902,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": ["je adore", "tu adores", "il/elle/on adore", "nous adorons", "vous adorez", "ils/elles adorent"]
+            "descriptions": ["j&#8217;adore", "tu adores", "il/elle/on adore", "nous adorons", "vous adorez", "ils/elles adorent"]
             },
             {
             "title": "past tense",
@@ -917,7 +917,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j'apprends", "tu apprends", "il/elle/on apprend", "nous apprenons", "vous apprenez", "ils/elles apprennent"]
+            "descriptions": [ "j&#8217;apprends", "tu apprends", "il/elle/on apprend", "nous apprenons", "vous apprenez", "ils/elles apprennent"]
             },
             {
             "title": "past tense",
@@ -932,7 +932,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j'attends", "tu attends", "il/elle/on attend", "nous attendons", "vous attendez", "ils/elles attendent"]
+            "descriptions": [ "j&#8217;attends", "tu attends", "il/elle/on attend", "nous attendons", "vous attendez", "ils/elles attendent"]
             },
             {
             "title": "past tense",
@@ -948,7 +948,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j'appelle", "tu appelles", "il/elle/on appelle", "nous appelons", "vous appelez", "ils/elles appellent" ]
+            "descriptions": [ "j&#8217;appelle", "tu appelles", "il/elle/on appelle", "nous appelons", "vous appelez", "ils/elles appellent" ]
             },
             {
             "title": "past tense",
@@ -963,7 +963,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j'ai besoin", "tu as besoin", "il/elle/on a besoin", "nous avons besoin", "vous avez besoin", "ils/elles ont besoin" ]
+            "descriptions": [ "j&#8217;ai besoin", "tu as besoin", "il/elle/on a besoin", "nous avons besoin", "vous avez besoin", "ils/elles ont besoin" ]
             },
             {
             "title": "past tense",
@@ -1025,7 +1025,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",    
-            "descriptions": [ "j'appporte", "tu apportes", "il/elle/on apporte", "nous apportons", "vous apportez", "ils/elle apportent" ]
+            "descriptions": [ "j&#8217;appporte", "tu apportes", "il/elle/on apporte", "nous apportons", "vous apportez", "ils/elle apportent" ]
             },
             {
             "title": "past tense",    
@@ -1153,7 +1153,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",    
-            "descriptions": [ "je agis", "tu agis", "il/elle/on agit", "nous agissons", "vous agissez", "ils/elles agissent" ]
+            "descriptions": [ "j&#8217;agis", "tu agis", "il/elle/on agit", "nous agissons", "vous agissez", "ils/elles agissent" ]
             },
             {
             "title": "past tense",    
@@ -1230,7 +1230,7 @@ const verbDb =   {
         "definitions": [         
             {
             "title": "present tense",
-            "descriptions": [ "j'entre", "tu entres", "il/elle/on entre", "nous entrons", "vous entrez", "ils/elles entrent" ]
+            "descriptions": [ "j&#8217;entre", "tu entres", "il/elle/on entre", "nous entrons", "vous entrez", "ils/elles entrent" ]
             },
             {
             "title": "past tense",
@@ -1288,7 +1288,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j'int&#233;resse", "tu inter&#233;sses", "il/elle/on inter&#233;sse", "nous inter&#233;ssons", "vous inter&#233;ssez", "ils/elles inter&#233;ssent" ]
+            "descriptions": [ "j&#8217;int&#233;resse", "tu inter&#233;sses", "il/elle/on inter&#233;sse", "nous inter&#233;ssons", "vous inter&#233;ssez", "ils/elles inter&#233;ssent" ]
             },
             {
             "title": "past tense",    
@@ -1303,7 +1303,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "je ouvre", "tu ouvres", "il/elle/on ouvre", "nous ouvrons", "vous ouvrez", "ils/elles ouvrent" ]
+            "descriptions": [ "j&#8217;ouvre", "tu ouvres", "il/elle/on ouvre", "nous ouvrons", "vous ouvrez", "ils/elles ouvrent" ]
             },
             {
             "title": "past tense",
@@ -1587,7 +1587,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j'ameliore", "tu ameliores", "il/elle/on ameliore", "nous ameliorons", "vous ameliorez", "ils/elles ameliorent" ]
+            "descriptions": [ "j&#8217;ameliore", "tu ameliores", "il/elle/on ameliore", "nous ameliorons", "vous ameliorez", "ils/elles ameliorent" ]
             },
             {
             "title": "past tense",
@@ -1617,7 +1617,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j'ajoute", "tu ajoutes", "il/elle/on ajoute", "nous ajoutons", "vous ajoutez", "ils/elles ajoutent" ]
+            "descriptions": [ "j&#8217;ajoute", "tu ajoutes", "il/elle/on ajoute", "nous ajoutons", "vous ajoutez", "ils/elles ajoutent" ]
             },
             {
             "title": "past tense",
@@ -1662,7 +1662,7 @@ const verbDb =   {
         "definitions": [
             {
             "title": "present tense",    
-            "descriptions": [ "j'entends", "tu entends", "il/elle/on entend", "nous entendons", "vous entendez", "ils/elles entendent" ]
+            "descriptions": [ "j&#8217;entends", "tu entends", "il/elle/on entend", "nous entendons", "vous entendez", "ils/elles entendent" ]
             },
             {
             "title": "past tense",
@@ -1797,7 +1797,7 @@ const verbDb =   {
             "definitions": [
                 {
                 "title": "present tense",
-                "descriptions": [ "j'oublie", "tu oublies", "il/elle/on oublie", "nous oublions", "vous oubliez", "ils/elles oublient" ]
+                "descriptions": [ "j&#8217;oublie", "tu oublies", "il/elle/on oublie", "nous oublions", "vous oubliez", "ils/elles oublient" ]
                 },
                 {
                 "title": "past tense",
@@ -1811,7 +1811,7 @@ const verbDb =   {
             "definitions": [
                 {
                 "title": "present tense",
-                "descriptions": [ "j'emm&#232;ne", "tu emm&#232;nes", "il/elle/on emm&#232;ne", "nous emmenons", "vous emmenez", "ils/elles emm&#232;nent" ]
+                "descriptions": [ "j&#8217;emm&#232;ne", "tu emm&#232;nes", "il/elle/on emm&#232;ne", "nous emmenons", "vous emmenez", "ils/elles emm&#232;nent" ]
                 },
                 {
                 "title": "past tense",
@@ -2064,7 +2064,7 @@ const timeDb = {
             "a": "summer"
             },
             {
-            "f": "l'automne",
+            "f": "l&#8217;automne",
             "a": "fall/ autumn"
             },
             {
