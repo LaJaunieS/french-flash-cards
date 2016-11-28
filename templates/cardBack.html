@@ -1,0 +1,26 @@
+
+
+
+       <div id="card-back-content-fade">
+             
+                <p class="word" ng-bind-html="randomWord.f">{{randomWord.f}} </p>
+            
+                <div class="definitions">
+                    <ul ng-repeat="definition in definitions">
+                        <li>
+                        
+                            <h3 ng-bind-html="definition.title">{{definition.title}}                            </h3>
+                            <ul ng-bind-html="description" ng-repeat="description in definition.descriptions">
+                                <li>{{description}}</li></ul>
+
+                            </li>
+                    </ul>
+                        
+                </div>
+            
+            </div>
+
+            
+        
+ 
+        

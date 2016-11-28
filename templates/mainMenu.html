@@ -1,0 +1,12 @@
+        <div id="main-menu-content-fade">
+            <h1>sections</h1> 
+            <div id="mainMenu">
+                <ul ng-repeat="section in sectionsArray">
+                    <li ng-click="startSection(section)">{{section}}</li>
+                </ul>
+            </div>
+        		<div id="footer"><h6 ng-click="about=!about"><a>about</a></h6> 
+        		<about class="aboutHook" ng-show="about"></about>
+        		</div>
+        </div>
+

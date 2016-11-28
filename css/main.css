@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'gilroyblack';
+  src: url("../gilroy/gilroy-black-webfont.eot");
+  src: url("../gilroy/gilroy-black-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-black-webfont.woff2") format("woff2"), url("../gilroy/gilroy-black-webfont.woff") format("woff"), url("../gilroy/gilroy-black-webfont.svg#gilroyblack") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'gilroylight';
+  src: url("../gilroy/gilroy-light-webfont.eot");
+  src: url("../gilroy/gilroy-light-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-light-webfont.woff2") format("woff2"), url("../gilroy/gilroy-light-webfont.woff") format("woff"), url("../gilroy/gilroy-light-webfont.svg#gilroylight") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'gilroymedium';
+  src: url("../gilroy/gilroy-medium-webfont.eot");
+  src: url("../gilroy/gilroy-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-medium-webfont.woff") format("woff"), url("../gilroy/gilroy-medium-webfont.svg#gilroymedium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'gilroy-regular';
+  src: url("../gilroy/gilroy-regular-webfont.eot");
+  src: url("../gilroy/gilroy-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-regular-webfont.woff2") format("woff2"), url("../gilroy/gilroy-regular-webfont.woff") format("woff"), url("../gilroy/gilroy-regular-webfont.svg#gilroy-regularregular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+@keyframes hoverButton {
+  50% {
+    left: -5px; }
+  100% {
+    left: +5px; } }
+/*initial element positioning*/
+body {
+  margin: 0;
+  padding: 0; }
+
+#app-wrapper {
+  position: relative;
+  /*styling design-y stuff*/ }
+  #app-wrapper #main-menu-wrapper,
+  #app-wrapper #flash-card-wrapper {
+    padding-left: 2px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 98%; }
+    @media screen and (min-width: 750px) {
+      #app-wrapper #main-menu-wrapper,
+      #app-wrapper #flash-card-wrapper {
+        padding-left: 0; } }
+  #app-wrapper #flash-card-wrapper {
+    z-index: -1; }
+  #app-wrapper #main-menu-wrapper {
+    height: 90vh;
+    z-index: 100; }
+    #app-wrapper #main-menu-wrapper #footer {
+      margin-top: 20vh;
+      height: 20vh; }
+      @media screen and (min-width: 750px) {
+        #app-wrapper #main-menu-wrapper #footer {
+          margin-top: 10vh; } }
+    #app-wrapper #main-menu-wrapper ul {
+      list-style-type: none;
+      margin: 1px 0 0;
+      padding-left: 0;
+      width: 66%; }
+    #app-wrapper #main-menu-wrapper #main-menu-content-fade {
+      height: 85vh; }
+      #app-wrapper #main-menu-wrapper #main-menu-content-fade h6 {
+        margin: 1rem 0; }
+  #app-wrapper .aboutHook {
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear; }
+  #app-wrapper .aboutHook.ng-hide {
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s linear;
+    opacity: 0; }
+  #app-wrapper #flash-card-content-wrapper {
+    margin-top: 1rem;
+    position: relative;
+    height: 95vh; }
+  #app-wrapper #flash-card-content-wrapper,
+  #app-wrapper #main-menu-content-fade,
+  #app-wrapper #card-front-content-fade,
+  #app-wrapper #card-back-content-fade {
+    -webkit-transition: display 0.4s linear, opacity 0.3s linear;
+    transition: display 0.4s linear, opacity 0.3s linear; }
+  #app-wrapper #flash-card-content-wrapper {
+    opacity: 0;
+    width: 100%; }
+  @media screen and (min-width: 750px) {
+    #app-wrapper #main-menu-content-fade,
+    #app-wrapper #card-section,
+    #app-wrapper #card-front,
+    #app-wrapper #card-back {
+      padding-left: 1rem; } }
+  #app-wrapper #card-section {
+    position: absolute;
+    top: 10px; }
+  #app-wrapper #card-front,
+  #app-wrapper #card-back {
+    position: absolute;
+    top: 35px;
+    width: 100%; }
+    @media screen and (min-width: 750px) {
+      #app-wrapper #card-front,
+      #app-wrapper #card-back {
+        top: 75px; } }
+  #app-wrapper #card-front-content-fade,
+  #app-wrapper #card-back-content-fade {
+    opacity: 0; }
+  #app-wrapper #card-back-content-fade {
+    position: absolute;
+    height: 52vh;
+    overflow-y: scroll;
+    width: 98%; }
+    @media screen and (min-width: 750px) {
+      #app-wrapper #card-back-content-fade {
+        height: 60vh; } }
+  #app-wrapper #card-front {
+    z-index: 10; }
+  #app-wrapper #card-back {
+    z-index: 1; }
+  #app-wrapper #button-wrapper {
+    bottom: 0;
+    height: 30vh;
+    position: absolute;
+    z-index: 1000;
+    text-align: center;
+    width: 100%; }
+    @media screen and (min-width: 750px) {
+      #app-wrapper #button-wrapper {
+        height: 23vh; } }
+    #app-wrapper #button-wrapper button:not(#backButton) {
+      cursor: pointer;
+      padding: 15px 0;
+      width: 66%;
+      margin: 0 0 5px; }
+    #app-wrapper #button-wrapper #backButton {
+      cursor: pointer;
+      padding: 0;
+      position: absolute;
+      bottom: 92vh;
+      left: 0;
+      border-bottom: none;
+      z-index: 10000; }
+      #app-wrapper #button-wrapper #backButton img {
+        height: 1rem;
+        width: 2rem; }
+      #app-wrapper #button-wrapper #backButton:hover {
+        animation: hoverButton .4s ease-in-out; }
+      @media screen and (min-width: 750px) {
+        #app-wrapper #button-wrapper #backButton {
+          padding-left: 1rem;
+          bottom: 90vh; }
+          #app-wrapper #button-wrapper #backButton img {
+            height: 1rem;
+            width: 3rem; } }
+  #app-wrapper body {
+    font-size: 14px; }
+  #app-wrapper h1 {
+    color: #333;
+    font-family: 'gilroylight', sans-serif; }
+  #app-wrapper #main-menu-wrapper h1 {
+    font-size: 2.6rem;
+    margin: 2.6rem 0 1rem; }
+    @media screen and (min-width: 750px) {
+      #app-wrapper #main-menu-wrapper h1 {
+        font-size: 2.9rem;
+        margin: 3.6rem 0 3rem; } }
+  #app-wrapper #main-menu-wrapper li {
+    border-bottom: 1px solid #4d4d4d;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 15px 0;
+    transition: border-bottom .4s ease-in-out, color .4s ease-in-out; }
+    @media screen and (min-width: 750px) {
+      #app-wrapper #main-menu-wrapper li {
+        border: none;
+        border-bottom: 1px solid rgba(77, 77, 77, 0);
+        font-size: 2rem; }
+        #app-wrapper #main-menu-wrapper li:hover {
+          border-bottom: 1px solid #4d4d4d; } }
+
+#flash-card-wrapper h1 {
+  font-size: 1.4rem;
+  margin: 1rem 0 0; }
+  @media screen and (min-width: 750px) {
+    #flash-card-wrapper h1 {
+      margin: 2rem 0 0; } }
+
+li, p, button, .word, h6 {
+  color: #333;
+  font-family: 'gilroymedium', 'gilroylight', sans-serif; }
+
+li, button {
+  font-size: 1rem; }
+
+p {
+  font-size: 2rem;
+  margin: 2rem 0 0; }
+  @media screen and (min-width: 750px) {
+    p {
+      font-size: 2.6rem;
+      margin: 2.6rem 0 0; } }
+
+h6 {
+  color: #333; }
+  h6 a {
+    cursor: pointer;
+    text-decoration: none; }
+    h6 a:hover {
+      text-decoration: underline; }
+  @media screen and (min-width: 750px) {
+    h6 {
+      font-size: .85rem; } }
+
+.definitions ul {
+  list-style-type: none;
+  padding-left: 0; }
+
+h3 {
+  font-size: 1.1rem;
+  margin: 1rem 0 .2rem; }
+
+#button-wrapper {
+  border-top: 1px solid #4d4d4d;
+  background-color: white; }
+  @media screen and (min-width: 750px) {
+    #button-wrapper {
+      border-top: none; } }
+  #button-wrapper button {
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #4d4d4d; }
+    @media screen and (min-width: 750px) {
+      #button-wrapper button {
+        background-color: white;
+        border: none;
+        border-bottom: 1px solid rgba(77, 77, 77, 0);
+        font-size: 2rem;
+        transition: border-bottom .4s ease-in-out; }
+        #button-wrapper button:hover {
+          border-bottom: 1px solid #4d4d4d; } }
+
+@media screen and (min-width: 750px) {
+  .definitions {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start; }
+    .definitions ul {
+      margin-right: 3rem; } }
+
+/*# sourceMappingURL=main.css.map */
