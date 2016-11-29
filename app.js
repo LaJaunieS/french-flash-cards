@@ -26,6 +26,16 @@ const adjectivesDb =  {
             ]
         },
         {
+        "f": "tranquille;",
+        "a": "quiet",
+        "definitions": [
+            {
+            "title": "masculine/feminie",
+            "descriptions": [ "tranquille", "tranquilles"  ]
+            }
+            ]
+        },
+        {
         "f": "faux",
         "a": "fake",
         "definitions": [
@@ -319,7 +329,7 @@ const adjectivesDb =  {
         },
         {
         "f": "fort",
-        "a": "strong",
+        "a": "strong/ loud",
         "definitions": [
             {
             "title": "masculine",
@@ -328,6 +338,20 @@ const adjectivesDb =  {
             {
             "title" : "feminine",
             "descriptions": [ "forte", "fortes" ]
+            }
+            ]
+        },
+        {
+        "f": "doux",
+        "a": "soft",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "doux" ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "douce", "douces" ]
             }
             ]
         },
@@ -662,6 +686,36 @@ const adverbsDb = {
                 ]
             },
         {
+            "f": "plus",
+            "a": "more",
+            "definitions": [
+                {
+                "title": "example",
+                "descriptions": [ "je suis plus gros que vos.", "i am taller than you."  ]
+                }
+                ]
+        },
+        {
+            "f": "tr&#244;p",
+            "a": "too",
+            "definitions": [
+                {
+                "title": "example",
+                "descriptions": [ "ma soupe est tr&#244;p chaud.", "my soup is too hot."  ]
+                }
+                ]
+            },
+        {
+            "f": "moins",
+            "a": "less",
+            "definitions": [
+                {
+                "title": "example",
+                "descriptions": [ "il est moins gros que vos.", "he is shorter than you."  ]
+                }
+                ]
+            },
+        {
             "f": "puis",
             "a": "then"
         },
@@ -788,6 +842,34 @@ const verbDb =   {
             {
             "title": "present tense",
             "descriptions": [ "j&#8217;ai", "tu as", "il/elle/on a", "nous avons", "vous avez", "ils/elles ont" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "commencer",
+        "a": "to begin",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je commence", "tu commences", "il/elle/on commence", "nous commen&#231;ons", "vous commencez", "ils/elles commencent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "compl&#233;ter",
+        "a": "to have",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je compl&#232;te", "tu compl&#232;tes", "il/elle/on compl&#232;te", "nous compl&#233;tons", "vous compl&#233;tez", "ils/elles compl&#233;tent" ]
             },
             {
             "title": "past tense",    
