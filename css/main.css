@@ -1,10 +1,4 @@
 @font-face {
-  font-family: 'gilroyblack';
-  src: url("../gilroy/gilroy-black-webfont.eot");
-  src: url("../gilroy/gilroy-black-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-black-webfont.woff2") format("woff2"), url("../gilroy/gilroy-black-webfont.woff") format("woff"), url("../gilroy/gilroy-black-webfont.svg#gilroyblack") format("svg");
-  font-weight: 700;
-  font-style: normal; }
-@font-face {
   font-family: 'gilroylight';
   src: url("../gilroy/gilroy-light-webfont.eot");
   src: url("../gilroy/gilroy-light-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-light-webfont.woff2") format("woff2"), url("../gilroy/gilroy-light-webfont.woff") format("woff"), url("../gilroy/gilroy-light-webfont.svg#gilroylight") format("svg");
@@ -16,12 +10,6 @@
   src: url("../gilroy/gilroy-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-medium-webfont.woff") format("woff"), url("../gilroy/gilroy-medium-webfont.svg#gilroymedium") format("svg");
   font-weight: 500;
   font-style: normal; }
-@font-face {
-  font-family: 'gilroy-regular';
-  src: url("../gilroy/gilroy-regular-webfont.eot");
-  src: url("../gilroy/gilroy-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-regular-webfont.woff2") format("woff2"), url("../gilroy/gilroy-regular-webfont.woff") format("woff"), url("../gilroy/gilroy-regular-webfont.svg#gilroy-regularregular") format("svg");
-  font-weight: 400;
-  font-style: normal; }
 @keyframes hoverButton {
   50% {
     left: -5px; }
@@ -29,6 +17,7 @@
     left: +5px; } }
 /*initial element positioning*/
 body {
+  font-size: 14px;
   margin: 0;
   padding: 0; }
 
@@ -154,8 +143,6 @@ body {
           #app-wrapper #button-wrapper #backButton img {
             height: 1rem;
             width: 3rem; } }
-  #app-wrapper body {
-    font-size: 14px; }
   #app-wrapper h1 {
     color: #333;
     font-family: 'gilroylight', sans-serif; }
@@ -167,7 +154,7 @@ body {
         font-size: 2.9rem;
         margin: 3.6rem 0 3rem; } }
   #app-wrapper #main-menu-wrapper li {
-    border-bottom: 1px solid #4d4d4d;
+    border-bottom: 1px solid #333;
     border-radius: 3px;
     cursor: pointer;
     padding: 15px 0;
@@ -175,10 +162,10 @@ body {
     @media screen and (min-width: 750px) {
       #app-wrapper #main-menu-wrapper li {
         border: none;
-        border-bottom: 1px solid rgba(77, 77, 77, 0);
+        border-bottom: 1px solid rgba(51, 51, 51, 0);
         font-size: 2rem; }
         #app-wrapper #main-menu-wrapper li:hover {
-          border-bottom: 1px solid #4d4d4d; } }
+          border-bottom: 1px solid #333333; } }
 
 #flash-card-wrapper h1 {
   font-size: 1.4rem;
@@ -213,34 +200,33 @@ h6 {
     h6 {
       font-size: .85rem; } }
 
-.definitions ul {
-  list-style-type: none;
-  padding-left: 0; }
-
 h3 {
   font-size: 1.1rem;
   margin: 1rem 0 .2rem; }
 
 #button-wrapper {
-  border-top: 1px solid #4d4d4d;
-  background-color: white; }
+  border-top: 1px solid #333;
+  background-color: #fff; }
   @media screen and (min-width: 750px) {
     #button-wrapper {
       border-top: none; } }
   #button-wrapper button {
-    background-color: white;
+    background-color: #fff;
     border: none;
-    border-bottom: 1px solid #4d4d4d; }
+    border-bottom: 1px solid #333; }
     @media screen and (min-width: 750px) {
       #button-wrapper button {
-        background-color: white;
+        background-color: #fff;
         border: none;
-        border-bottom: 1px solid rgba(77, 77, 77, 0);
+        border-bottom: 1px solid rgba(51, 51, 51, 0);
         font-size: 2rem;
         transition: border-bottom .4s ease-in-out; }
         #button-wrapper button:hover {
-          border-bottom: 1px solid #4d4d4d; } }
+          border-bottom: 1px solid #333333; } }
 
+.definitions ul {
+  list-style-type: none;
+  padding-left: 0; }
 @media screen and (min-width: 750px) {
   .definitions {
     display: -webkit-flex;
