@@ -2218,7 +2218,7 @@ const pronounsDb = {
 
 (function(angular) {
     
-  var app = angular.module("francaisApp", ['ngSanitize', 'ngAnimate', 'ngAria'])
+  var app = angular.module("francaisApp", ['ngSanitize', 'ngAnimate'])
 
       .controller("flashCardCtrl", [ "$scope", "$timeout", function($scope, $timeout) {
           
