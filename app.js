@@ -2364,7 +2364,6 @@ const pronouns = {
             $timeout(function() {
                     $scope.getNewWord($scope.thisSection.vocab);
                     $scope.setTitle($scope.thisSection.source);
-                    $scope.currentDb = $scope.thisSection.vocab;
                     $scope.language = 0;
                     $scope.switchLanguage();
                     $scope.showElement('flash-card-content-wrapper');
