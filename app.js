@@ -2340,12 +2340,20 @@ const pronouns = {
         };
 
         
-        
-        $scope.sectionsArray = [ "verbs", "adjectives", "transitionals", "time", "family", "pronouns", "adverbs" ];
-          
+        $scope.sectionsObject = {
+            "sectionsArray": [ "verbs", "adjectives", "transitionals", "time", "family", "pronouns", "adverbs" ],
+            "verbs": verbs,
+            "adjectives": adjectives,
+            "transitionals": transitionals,
+            "time": time,
+            "family": family,
+            "pronouns": pronouns,
+            "adverbs": adverbs
+        };
+
         //initial values- populated when section clicked  
         $scope.section;   
-        $scope.currentDb = {}
+        $scope.thisSection = {}
           
                   
         $scope.randomNum = randomInt(0, $scope.verbs.vocab.length-1 );
