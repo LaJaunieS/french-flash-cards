@@ -2304,42 +2304,7 @@ const pronouns = {
 
       .controller("flashCardCtrl", [ "$scope", "$timeout", function($scope, $timeout) {
           
-        $scope.verbs = {
-            "source": verbs,
-            "vocab": verbs.vocabArray
-        };
-                    
-        $scope.adjectives = {
-            "source": adjectives,
-            "vocab": adjectives.vocabArray
-        };
-             
-        $scope.transitionals = {
-            "source": transitionals,
-            "vocab": transitionals.vocabArray
-        };
-          
-        $scope.time = {
-            "source": time,
-            "vocab": time.vocabArray
-        };
-          
-        $scope.family = {
-            "source": family,
-            "vocab": family.vocabArray
-        };  
-        
-        $scope.pronouns = {
-            "source": pronouns,
-            "vocab": pronouns.vocabArray
-        };
-          
-        $scope.adverbs = {
-            "source": adverbs,
-            "vocab": adverbs.vocabArray
-        };
-
-        
+     
         $scope.sectionsObject = {
             "sectionsArray": [ "verbs", "adjectives", "transitionals", "time", "family", "pronouns", "adverbs" ],
             "verbs": verbs,
@@ -2353,11 +2318,14 @@ const pronouns = {
 
         //initial values- populated when section clicked  
         $scope.section;   
-        $scope.thisSection = {}
+        $scope.thisSection = {
+            "source": verbs,
+            "vocab": verbs.vocabArray
+            };
           
                   
-        $scope.randomNum = randomInt(0, $scope.verbs.vocab.length-1 );
-        $scope.randomWord = $scope.verbs.vocab[$scope.randomNum];
+        $scope.randomNum = randomInt(0, $scope.thisSection.vocab.length-1 );
+        $scope.randomWord = $scope.thisSection.vocab[$scope.randomNum];
         $scope.language = 1;  //1=anglais, 0=francais
         $scope.definitions = $scope.randomWord.definitions; 
         $scope.descriptions = [];
@@ -2367,12 +2335,10 @@ const pronouns = {
             $scope.randomNum = randomInt(0, dbArray.length-1);
             $scope.randomWord = dbArray[$scope.randomNum];
             $scope.definitions = $scope.randomWord.definitions;
-           
             };   
           
         $scope.setTitle = function(db) {
-            $scope.section = db.source.type;  //eg $scope.{verbs}
-            //console.log(db.source.type);
+            $scope.section = db.type;  //eg $scope.{verbs}
             };
           
         $scope.startSection = function(section) {
@@ -2386,19 +2352,14 @@ const pronouns = {
             //remove menu wrapper from DOM (sub-wrapper as well since absolute positioned)
             document.getElementById('main-menu-content-fade').style.display= 'none';
             document.getElementById('main-menu-wrapper').style.display="none";
-            $scope.section = section;
-          	$scope.currentDb = {
-        	"source": [section],
-        	"vocab": section.vocabArray
-        	};
-        	console.log($scope.currentDb);
-
-            $scope.thisSection = {
-                "source": $scope[section],
-                "vocab": $scope[section].source.vocabArray
-            };
             
-            //console.log($scope.thisSection.source);
+            $scope.thisSection = {
+                "source": $scope.sectionsObject[section],
+                "vocab": $scope.sectionsObject[section].vocabArray
+            };
+          	
+        	//console.log($scope.thisSection.vocab);
+            
             $scope.switchToEnglish();
             $timeout(function() {
                     $scope.getNewWord($scope.thisSection.vocab);
@@ -2417,9 +2378,7 @@ const pronouns = {
         $scope.hideElement = function(element) {
               document.getElementById(element).style.opacity='0.0';
               };
-          
-      
-                  
+                           
         $scope.switchToEnglish = function() {
             document.getElementById('showButton').innerHTML = "fr";
             $scope.language = 1;
