@@ -2419,7 +2419,7 @@ const pronouns = {
             $scope.hideElement('card-back-content-fade');
             //get a new word after both sides faded
             $timeout(function() {
-                    $scope.getNewWord($scope.currentDb);
+                    $scope.getNewWord($scope.thisSection.vocab);
                     //show front of card by default
                     $scope.showElement('card-front-content-fade');
                     //if in french view switch back to english
