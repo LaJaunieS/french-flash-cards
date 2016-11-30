@@ -280,8 +280,8 @@ const adjectives =  {
         "a": "bad",
         "definitions": [
             {
-            "title": "mauvais",
-            "descriptions": [ "mauvais", "mauvais"  ]
+            "title": "masculine",
+            "descriptions": [ "mauvais" ]
             },
             {
             "title" : "feminine",
@@ -533,7 +533,7 @@ const adjectives =  {
             },
             {
             "title" : "feminine",
-            "descriptions": [ "seules", "seules" ]
+            "descriptions": [ "seule", "seules" ]
             }
             ]
         },
@@ -600,12 +600,6 @@ const transitionals = {
             {
             "f": "&#224; mon avis",
             "a": "in my opinion",
-            "definitions": [
-                {
-                "title": "alternates",
-                "descriptions": [ "&#224; mon avis"  ]
-                }
-                ]
             },
             {
             "f": "alors que",
@@ -628,8 +622,8 @@ const transitionals = {
                 ]
             },
             {
-            "f": "lors",
-            "a": "pendant",
+            "f": "pendant",
+            "a": "during",
             "definitions": [
                 {
                     "title": "alternates",
