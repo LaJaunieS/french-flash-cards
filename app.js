@@ -1,4 +1,4 @@
-const adjectivesDb =  {
+const adjectives =  {
     "type": "adjectives",
     "vocabArray": [
         {
@@ -564,7 +564,7 @@ const adjectivesDb =  {
     ]
 };
 
-const transitionalsDb = {
+const transitionals = {
         "type": "transitionals",
         "vocabArray" : [
             {
@@ -668,7 +668,7 @@ const transitionalsDb = {
             ]
     };
 
-const adverbsDb = {
+const adverbs = {
     "type": "adverbs",
     "vocabArray": [
         {
@@ -818,7 +818,7 @@ const adverbsDb = {
     ]
 };
 
-const verbDb =   {
+const verbs =   {
     "type": "verbs",
     "vocabArray": [
         {
@@ -1974,7 +1974,7 @@ const verbDb =   {
     ]
 };
 
-const timeDb = {
+const time = {
     "type": "time",
         "vocabArray" : [
             {
@@ -2160,7 +2160,7 @@ const timeDb = {
         ]
 };
 
-const familyDb = {
+const family = {
     "type": "family",
         "vocabArray" : [
             {
@@ -2230,9 +2230,9 @@ const familyDb = {
         ]
     };
 
-const pronounsDb = {
-    "type": "possession",
-        "vocabArray" : [
+const pronouns = {
+    "type": "pronouns",
+     "vocabArray" : [
             {
             "f": "le mien/ la mienne",
             "a": "mine"
@@ -2305,46 +2305,47 @@ const pronounsDb = {
       .controller("flashCardCtrl", [ "$scope", "$timeout", function($scope, $timeout) {
           
         $scope.verbs = {
-            "source": verbDb,
-            "vocab": verbDb.vocabArray
+            "source": verbs,
+            "vocab": verbs.vocabArray
         };
                     
         $scope.adjectives = {
-            "source": adjectivesDb,
-            "vocab": adjectivesDb.vocabArray
+            "source": adjectives,
+            "vocab": adjectives.vocabArray
         };
              
         $scope.transitionals = {
-            "source": transitionalsDb,
-            "vocab": transitionalsDb.vocabArray
+            "source": transitionals,
+            "vocab": transitionals.vocabArray
         };
           
         $scope.time = {
-            "source": timeDb,
-            "vocab": timeDb.vocabArray
+            "source": time,
+            "vocab": time.vocabArray
         };
           
         $scope.family = {
-            "source": familyDb,
-            "vocab": familyDb.vocabArray
+            "source": family,
+            "vocab": family.vocabArray
         };  
         
         $scope.pronouns = {
-            "source": pronounsDb,
-            "vocab": pronounsDb.vocabArray
+            "source": pronouns,
+            "vocab": pronouns.vocabArray
         };
           
         $scope.adverbs = {
-            "source": adverbsDb,
-            "vocab": adverbsDb.vocabArray
+            "source": adverbs,
+            "vocab": adverbs.vocabArray
         };
+
         
         
         $scope.sectionsArray = [ "verbs", "adjectives", "transitionals", "time", "family", "pronouns", "adverbs" ];
           
         //initial values- populated when section clicked  
-        $scope.section;  
-        $scope.currentDb; 
+        $scope.section;   
+        $scope.currentDb = {}
           
                   
         $scope.randomNum = randomInt(0, $scope.verbs.vocab.length-1 );
@@ -2377,7 +2378,13 @@ const pronounsDb = {
             //remove menu wrapper from DOM (sub-wrapper as well since absolute positioned)
             document.getElementById('main-menu-content-fade').style.display= 'none';
             document.getElementById('main-menu-wrapper').style.display="none";
-            
+            $scope.section = section;
+          	$scope.currentDb = {
+        	"source": [section],
+        	"vocab": section.vocabArray
+        	};
+        	console.log($scope.currentDb);
+
             $scope.thisSection = {
                 "source": $scope[section],
                 "vocab": $scope[section].source.vocabArray
