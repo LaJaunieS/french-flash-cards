@@ -2268,16 +2268,20 @@ const pronouns = {
             "a": "him/ her"
             },
             {
-            "f": "nos",
+            "f": "notre",
             "a": "our"
             },
             {
-            "f": "vos",
+            "f": "nous",
+            "a": "us/ we"	
+            },
+            {
+            "f": "votre",
             "a": "your (formal)"
             },
             {
             "f": "leur",
-            "a": "their"
+            "a": "their/ them"
             }
         ]           
 };
