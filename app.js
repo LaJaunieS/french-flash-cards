@@ -2256,6 +2256,14 @@ const pronouns = {
             "a": "my"
             },
             {
+            "f": "me",
+            "a": "me (dir./indir. obj.)"	
+            },
+            {
+            "f": "te",
+            "a": "you (dir./indir. obj.)"	
+            },
+            {
             "f": "ton/ ta",
             "a": "your (inf.)"
             },
@@ -2264,8 +2272,12 @@ const pronouns = {
             "a": "his/ her"
             },
             {
+            "f": "le/ la",
+            "a": "him/it/her (dir. obj.)"
+            }
+            {
             "f": "lui",
-            "a": "him/ her"
+            "a": "him/ her (indir. object)"
             },
             {
             "f": "notre",
