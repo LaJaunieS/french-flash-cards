@@ -2273,15 +2273,23 @@ const pronouns = {
             },
             {
             "f": "nous",
-            "a": "us/ we"	
+            "a": "us/ we (dir./indir. object)"	
             },
+            {
+            "f": "vous",
+            "a": "you (formal- dir./indir. obj.)"	
+            }
             {
             "f": "votre",
             "a": "your (formal)"
             },
             {
             "f": "leur",
-            "a": "their/ them"
+            "a": "their/ them (indir. obj.)"
+            },
+            {
+            "f": "les",
+            "a": "them (dir. obj.)"	
             }
         ]           
 };
