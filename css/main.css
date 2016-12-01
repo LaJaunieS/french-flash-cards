@@ -1,15 +1,13 @@
 @font-face {
-  font-family: 'gilroylight';
+  font-family: "gilroylight";
   src: url("../gilroy/gilroy-light-webfont.eot");
   src: url("../gilroy/gilroy-light-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-light-webfont.woff2") format("woff2"), url("../gilroy/gilroy-light-webfont.woff") format("woff"), url("../gilroy/gilroy-light-webfont.svg#gilroylight") format("svg");
-  font-weight: 300;
-  font-style: normal; }
+  font-weight: 300; }
 @font-face {
-  font-family: 'gilroymedium';
+  font-family: "gilroymedium";
   src: url("../gilroy/gilroy-medium-webfont.eot");
-  src: url("../gilroy/gilroy-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-medium-webfont.woff") format("woff"), url("../gilroy/gilroy-medium-webfont.svg#gilroymedium") format("svg");
-  font-weight: 500;
-  font-style: normal; }
+  src: url("../gilroy/gilroy-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-medium-webfont.woff2") format("woff2"), url("../gilroy/gilroy-medium-webfont.woff") format("woff"), url("../gilroy/gilroy-medium-webfont.svg#gilroylight") format("svg");
+  font-weight: 500; }
 @keyframes hoverButton {
   50% {
     left: -5px; }
