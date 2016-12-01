@@ -1232,384 +1232,392 @@ const verbs = {
 
 const adjectives = {
     "type": "adjectives",
-    "vocabArray": []
+    "vocabArray": [
+        {
+        "f": "pr&#234;c&#234;dent",
+        "a": "previous",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "pr&#234;c&#234;dent", "pr&#234;c&#234;dents"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "pr&#234;c&#234;dente", "pr&#234;c&#234;dentes"]
+            }
+            ]
+        },
+                {
+        "f": "erron&#233;",
+        "a": "wrong/ incorrect",
+        "definitions": [
+            {
+            "title": "masculine/feminie",
+            "descriptions": [ "erron&#233;", "erron&#233;s"  ]
+            }
+            ]
+        },
+                {
+        "f": "tranquille;",
+        "a": "quiet",
+        "definitions": [
+            {
+            "title": "masculine/feminie",
+            "descriptions": [ "tranquille", "tranquilles"  ]
+            }
+            ]
+        },
+                {
+        "f": "faux",
+        "a": "fake",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "faux"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "fausse, fausses" ]
+            }
+            ]
+        },
+                {
+        "f": "gentil",
+        "a": "brillant/ gentle/ nice",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "gentil", "gentils"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "gentille", "gentilles" ]
+            }
+            ]
+        },
+                {
+        "f": "jeune",
+        "a": "young",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "jeune", "jeunes"  ]
+            }
+            ]
+        },
+
+        {
+        "f": "vieux",
+        "a": "old",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "vieux"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "vieille", "vieilles" ]
+            }
+            ]
+        },
+
+        {
+        "f": "chaud",
+        "a": "hot",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "chaud", "chauds"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "chaude", "chaudes" ]
+            }
+            ]
+        },
+        {
+        "f": "froid",
+        "a": "cold",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "froid", "froids"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "froid", "froides" ]
+            }
+            ]
+        },
+        {
+        "f": "gros",
+        "a": "big",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "gros" ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "grosse", "grosses" ]
+            }
+            ]
+        },
+        {
+        "f": "petit",
+        "a": "small",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "petit", "petits"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "petite", "petites" ]
+            }
+            ]
+        },
+
+        {
+        "f": "sal",
+        "a": "dirty",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "sal", "sals"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "sale", "sales" ]
+            }
+            ]
+        },
+
+        
+        {
+        "f": "bon",
+        "a": "good",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "bon" ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "bonne", "bonnes" ]
+            }
+            ]
+        },
+
+        {
+        "f": "grand",
+        "a": "tall",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "grand", "grands"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "grande", "grandes" ]
+            }
+            ]
+        },
+                {
+        "f": "court",
+        "a": "brief/ short",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "court", "courts"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "courte", "courtes" ]
+            }
+            ]
+        },
+
+        {
+        "f": "premier",
+        "a": "first",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "premier", "premiers"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "premi&#232;re", "premi&#232;res" ]
+            }   
+            ]
+        },
+
+        {
+        "f": "m&#234;me",
+        "a": "same",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "m&#234;me", "m&#234;mes"  ]
+            }
+            ]
+        },
+        {
+        "f": "dernier",
+        "a": "last",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "dernier", "derniers"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "derniere", "dernieres" ]
+            }
+            ]
+        },
+        {
+            "f": "prochain",
+            "a": "next",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "suivant"  ]
+                }
+            ]
+        },
+        {
+        "f": "long",
+        "a": "long",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "long", "longs"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "longue", "longues" ]
+            }
+            ]
+        },
+        {
+        "f": "beau",
+        "a": "beautiful",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "beau", "bueax"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "belle", "belles" ]
+            }
+            ]
+        },
+
+
+        {
+        "f": "mauvais",
+        "a": "bad",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "mauvais" ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "mauvaise", "mauvaises" ]
+            }
+            ]
+        },
+        {
+        "f": "second",
+        "a": "second",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "dieuxi&#232;me", "second", "dieuxi&#232;mes", "seconds"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "seconde", "seconde" ]
+            }
+            ]
+        },
+        {
+        "f": "troisi&#232;me",
+        "a": "third",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "troisi&#232;me", "troisi&#232;mes"  ]
+            }
+            ]
+        },
+        {
+        "f": "nombreau",
+        "a": "numerous",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "nombreaux"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "nombruses" ]
+            }
+            ]
+        },
+        {
+        "f": "fort",
+        "a": "strong/ loud",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "fort", "forts"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "forte", "fortes" ]
+            }
+            ]
+        },
+        {
+        "f": "doux",
+        "a": "soft",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "doux" ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "douce", "douces" ]
+            }
+            ]
+        },
+
+
+
+
+
+
+
+    ]
 };
 
 // const adjectives =  {
 //     "type": "adjectives",
 //     "vocabArray": [
-//         {
-//         "f": "pr&#234;c&#234;dent",
-//         "a": "previous",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "pr&#234;c&#234;dent", "pr&#234;c&#234;dents"  ]
-//             },
-//             {
-//             "title": "feminine",
-//             "descriptions": [ "pr&#234;c&#234;dente", "pr&#234;c&#234;dentes"]
-//             }
-//             ]
-//         },
-
-//         {
-//         "f": "erron&#233;",
-//         "a": "wrong/ incorrect",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminie",
-//             "descriptions": [ "erron&#233;", "erron&#233;s"  ]
-//             }
-//             ]
-//         },
-
-//         {
-//         "f": "tranquille;",
-//         "a": "quiet",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminie",
-//             "descriptions": [ "tranquille", "tranquilles"  ]
-//             }
-//             ]
-//         },
-
-//         {
-//         "f": "faux",
-//         "a": "fake",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "faux"  ]
-//             },
-//             {
-//             "title": "feminine",
-//             "descriptions": [ "fausse, fausses" ]
-//             }
-//             ]
-//         },
-
-//         {
-//         "f": "gentil",
-//         "a": "brillant/ gentle/ nice",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "gentil", "gentils"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "gentille", "gentilles" ]
-//             }
-//             ]
-//         },
-
-//         {
-//         "f": "jeune",
-//         "a": "young",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminine",
-//             "descriptions": [ "jeune", "jeunes"  ]
-//             }
-//             ]
-//         },
-
-//         {
-//         "f": "vieux",
-//         "a": "old",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "vieux"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "vieille", "vieilles" ]
-//             }
-//             ]
-//         },
-
-//         {
-//         "f": "chaud",
-//         "a": "hot",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "chaud", "chauds"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "chaude", "chaudes" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "froid",
-//         "a": "cold",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "froid", "froids"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "froid", "froides" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "gros",
-//         "a": "big",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "gros" ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "grosse", "grosses" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "petit",
-//         "a": "small",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "petit", "petits"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "petite", "petites" ]
-//             }
-//             ]
-//         },
-
-//         {
-//         "f": "sal",
-//         "a": "dirty",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "sal", "sals"  ]
-//             },
-//             {
-//             "title": "feminine",
-//             "descriptions": [ "sale", "sales" ]
-//             }
-//             ]
-//         },
-
-        
-//         {
-//         "f": "bon",
-//         "a": "good",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "bon" ]
-//             },
-//             {
-//             "title": "feminine",
-//             "descriptions": [ "bonne", "bonnes" ]
-//             }
-//             ]
-//         },
-
-//         {
-//         "f": "grand",
-//         "a": "tall",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "grand", "grands"  ]
-//             },
-//             {
-//             "title": "feminine",
-//             "descriptions": [ "grande", "grandes" ]
-//             }
-//             ]
-//         },
 
 
 
-//         {
-//         "f": "court",
-//         "a": "brief/ short",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "court", "courts"  ]
-//             },
-//             {
-//             "title": "feminine",
-//             "descriptions": [ "courte", "courtes" ]
-//             }
-//             ]
-//         },
-
-//         {
-//         "f": "premier",
-//         "a": "first",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "premier", "premiers"  ]
-//             },
-//             {
-//             "title": "feminine",
-//             "descriptions": [ "premi&#232;re", "premi&#232;res" ]
-//             }   
-//             ]
-//         },
-
-//         {
-//         "f": "m&#234;me",
-//         "a": "same",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminine",
-//             "descriptions": [ "m&#234;me", "m&#234;mes"  ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "dernier",
-//         "a": "last",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "dernier", "derniers"  ]
-//             },
-//             {
-//             "title": "feminine",
-//             "descriptions": [ "derniere", "dernieres" ]
-//             }
-//             ]
-//         },
-//         {
-//             "f": "prochain",
-//             "a": "next",
-//             "definitions": [
-//                 {
-//                     "title": "alternates",
-//                     "descriptions": [ "suivant"  ]
-//                 }
-//             ]
-//         },
-//         {
-//         "f": "long",
-//         "a": "long",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "long", "longs"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "longue", "longues" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "beau",
-//         "a": "beautiful",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "beau", "bueax"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "belle", "belles" ]
-//             }
-//             ]
-//         },
 
 
-//         {
-//         "f": "mauvais",
-//         "a": "bad",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "mauvais" ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "mauvaise", "mauvaises" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "second",
-//         "a": "second",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "dieuxi&#232;me", "second", "dieuxi&#232;mes", "seconds"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "seconde", "seconde" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "troisi&#232;me",
-//         "a": "third",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminine",
-//             "descriptions": [ "troisi&#232;me", "troisi&#232;mes"  ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "nombreau",
-//         "a": "numerous",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "nombreaux"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "nombruses" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "fort",
-//         "a": "strong/ loud",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "fort", "forts"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "forte", "fortes" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "doux",
-//         "a": "soft",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "doux" ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "douce", "douces" ]
-//             }
-//             ]
-//         },
+
+
+
 //         {
 //         "f": "faible",
 //         "a": "weak/ feeble",
@@ -2383,8 +2391,8 @@ const pronouns = {
         //initial values- populated when section clicked  
         $scope.section;   
         $scope.thisSection = {
-            "source": verbs,
-            "vocab": verbs.vocabArray
+            "source": adjectives,
+            "vocab": adjectives.vocabArray
             };
           
                   
