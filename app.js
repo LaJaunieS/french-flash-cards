@@ -1817,6 +1817,16 @@ const adjectives = {
 const transitionals = {
     "type": "transitonals",
     "vocabArray": [
+                    {
+            "f": "car",
+            "a": "because",
+            
+            },
+            {
+            "f": "pour que",
+            "a": "so that",
+            
+            },
 
     ]
 };
@@ -1824,16 +1834,6 @@ const transitionals = {
 // const transitionals = {
 //         "type": "transitionals",
 //         "vocabArray" : [
-//             {
-//             "f": "car",
-//             "a": "because",
-            
-//             },
-//             {
-//             "f": "pour que",
-//             "a": "so that",
-            
-//             },
 //             {
 //             "f": "tant que",
 //             "a": "as long as/ while/ until",
