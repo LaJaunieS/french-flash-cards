@@ -1,821 +1,77 @@
-const adjectives =  {
-    "type": "adjectives",
-    "vocabArray": [
-        {
-        "f": "pr&#234;c&#234;dent",
-        "a": "previous",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "pr&#234;c&#234;dent", "pr&#234;c&#234;dents"  ]
-            },
-            {
-            "title": "feminine",
-            "descriptions": [ "pr&#234;c&#234;dente", "pr&#234;c&#234;dentes"]
-            }
-            ]
-        },
-        {
-        "f": "erron&#233;",
-        "a": "wrong/ incorrect",
-        "definitions": [
-            {
-            "title": "masculine/feminie",
-            "descriptions": [ "erron&#233;", "erron&#233;s"  ]
-            }
-            ]
-        },
-        {
-        "f": "tranquille;",
-        "a": "quiet",
-        "definitions": [
-            {
-            "title": "masculine/feminie",
-            "descriptions": [ "tranquille", "tranquilles"  ]
-            }
-            ]
-        },
-        {
-        "f": "faux",
-        "a": "fake",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "faux"  ]
-            },
-            {
-            "title": "feminine",
-            "descriptions": [ "fausse, fausses" ]
-            }
-            ]
-        },
-        {
-        "f": "gentil",
-        "a": "brillant/ gentle/ nice",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "gentil", "gentils"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "gentille", "gentilles" ]
-            }
-            ]
-        },
-        {
-        "f": "jeune",
-        "a": "young",
-        "definitions": [
-            {
-            "title": "masculine/feminine",
-            "descriptions": [ "jeune", "jeunes"  ]
-            }
-            ]
-        },
-        {
-        "f": "vieux",
-        "a": "old",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "vieux"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "vieille", "vieilles" ]
-            }
-            ]
-        },
-        {
-        "f": "chaud",
-        "a": "hot",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "chaud", "chauds"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "chaude", "chaudes" ]
-            }
-            ]
-        },
-        {
-        "f": "froid",
-        "a": "cold",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "froid", "froids"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "froid", "froides" ]
-            }
-            ]
-        },
-        {
-        "f": "gros",
-        "a": "big",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "gros" ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "grosse", "grosses" ]
-            }
-            ]
-        },
-        {
-        "f": "petit",
-        "a": "small",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "petit", "petits"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "petite", "petites" ]
-            }
-            ]
-        },
-        {
-        "f": "sal",
-        "a": "dirty",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "sal", "sals"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "sale", "sales" ]
-            }
-            ]
-        },
-        {
-        "f": "grand",
-        "a": "tall",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "grand", "grands"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "grande", "grandes" ]
-            }
-            ]
-        },
-        {
-        "f": "bon",
-        "a": "good",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "bon" ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "bonne", "bonnes" ]
-            }
-            ]
-        },
-        {
-        "f": "court",
-        "a": "brief/ short",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "court", "courts"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "courte", "courtes" ]
-            }
-            ]
-        },
-        {
-        "f": "premier",
-        "a": "first",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "premier", "premiers"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "premi&#232;re", "premi&#232;res" ]
-            }   
-            ]
-        },
-        {
-        "f": "m&#234;me",
-        "a": "same",
-        "definitions": [
-            {
-            "title": "masculine/feminine",
-            "descriptions": [ "m&#234;me", "m&#234;mes"  ]
-            }
-            ]
-        },
-        {
-        "f": "dernier",
-        "a": "last",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "dernier", "derniers"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "derniere", "dernieres" ]
-            }
-            ]
-        },
-        {
-            "f": "prochain",
-            "a": "next",
-            "definitions": [
-                {
-                    "title": "alternates",
-                    "descriptions": [ "suivant"  ]
-                }
-            ]
-        },
-        {
-        "f": "long",
-        "a": "long",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "long", "longs"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "longue", "longues" ]
-            }
-            ]
-        },
-        {
-        "f": "beau",
-        "a": "beautiful",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "beau", "bueax"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "belle", "belles" ]
-            }
-            ]
-        },
-        {
-        "f": "mauvais",
-        "a": "bad",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "mauvais" ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "mauvaise", "mauvaises" ]
-            }
-            ]
-        },
-        {
-        "f": "second",
-        "a": "second",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "dieuxi&#232;me", "second", "dieuxi&#232;mes", "seconds"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "seconde", "seconde" ]
-            }
-            ]
-        },
-        {
-        "f": "troisi&#232;me",
-        "a": "third",
-        "definitions": [
-            {
-            "title": "masculine/feminine",
-            "descriptions": [ "troisi&#232;me", "troisi&#232;mes"  ]
-            }
-            ]
-        },
-        {
-        "f": "nombreau",
-        "a": "numerous",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "nombreaux"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "nombruses" ]
-            }
-            ]
-        },
-        {
-        "f": "fort",
-        "a": "strong/ loud",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "fort", "forts"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "forte", "fortes" ]
-            }
-            ]
-        },
-        {
-        "f": "doux",
-        "a": "soft",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "doux" ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "douce", "douces" ]
-            }
-            ]
-        },
-        {
-        "f": "faible",
-        "a": "weak/ feeble",
-        "definitions": [
-            {
-            "title": "masculine/feminie",
-            "descriptions": [ "faible", "faibles"  ]
-            }
-            ]
-        },
-        {
-        "f": "dur",
-        "a": "hard/ lasts",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "dur", "durs"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "dure", "dures" ]
-            }
-            ]
-        },
-        {
-        "f": "pauvre",
-        "a": "poor",
-        "definitions": [
-            {
-            "title": "masculine/feminine",
-            "descriptions": [ "pauvre", "pauvres"  ]
-            },
-            ]
-        },
-        {
-        "f": "b&#234;te",
-        "a": "stupid",
-        "definitions": [
-            {
-            "title": "masculine/feminine",
-            "descriptions": [ "b&#234;te", "b&#234;tes"  ]
-            },
-            ]
-        },
-        {
-        "f": "&#233;norme",
-        "a": "huge",
-        "definitions": [
-            {
-            "title": "masculine/feminine",
-            "descriptions": [ "&#233;norme", "&#233;normes"  ]
-            }
-            ]
-        },
-        {
-        "f": "dr&#244;le",
-        "a": "funny",
-        "definitions": [
-            {
-            "title": "masculine/feminine",
-            "descriptions": [ "dr&#244;le", "dr&#244;les"  ]
-            }
-            ]
-        },
-        {
-        "f": "laid",
-        "a": "ugly",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "laid", "laids"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "laide", "laides" ]
-            }
-            ]
-        },
-        {
-        "f": "sombre",
-        "a": "dark",
-        "definitions": [
-            {
-            "title": "masculine/feminine",
-            "descriptions": [ "sombre", "sombres"  ]
-            },
-            ]
-        },
-        {
-        "f": "vicieux",
-        "a": "vicious",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "vicieux" ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "vicieuse, vicieuses" ]
-            }
-            ]
-        },
-        {
-        "f": "pr&#234;t",
-        "a": "ready",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "pr&#234;t", "pr&#234;tes"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "pr&#234;te", "pr&#234;te" ]
-            }
-            ]
-        },
-        {
-        "f": "m&#233;chant",
-        "a": "mean",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "m&#233;chant", "m&#233;chants"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "m&#233;chante", "m&#233;chantes" ]
-            }
-            ]
-        },
-        {
-        "f": "sympa",
-        "a": "nice",
-        "definitions": [
-            {
-            "title": "masculine/feminine",
-            "descriptions": [ "sympa", "sympas"  ]
-            },
-            ]
-        },
-        {
-        "f": "s&#233;rieux",
-        "a": "serious",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "s&#233;rieux" ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "s&#233;rieuse", "s&#233;rieuses" ]
-            }
-            ]
-        },
-        {
-        "f": "sec",
-        "a": "dry",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "sec", "secs"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "s&#232;che", "s&#232;ches" ]
-            }
-            ]
-        },
-        {
-        "f": "seul",
-        "a": "alone",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "seul", "seuls"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "seule", "seules" ]
-            }
-            ]
-        },
-        {
-        "f": "l&#233;ger",
-        "a": "light",
-        "definitions": [
-            {
-            "title": "masculine",
-            "descriptions": [ "l&#233;ger", "l&#233;gers"  ]
-            },
-            {
-            "title" : "feminine",
-            "descriptions": [ "l&#233;g&#232;re", "l&#233;g&#232;res" ]
-            }
-            ]
-        },
-        {
-        "f": "propre",
-        "a": "clean",
-        "definitions": [
-            {
-            "title": "masculine/feminine",
-            "descriptions": [ "propre", "propres"  ]
-            },
-            ]
-        }
-    ]
-};
-
-const transitionals = {
-        "type": "transitionals",
+const family = {
+    "type": "family",
         "vocabArray" : [
             {
-            "f": "car",
-            "a": "because",
-            
+            "f": "m&#232;re",
+            "a": "mother",
             },
             {
-            "f": "pour que",
-            "a": "so that",
-            
+            "f": "p&#232;re",
+            "a": "father"
             },
             {
-            "f": "tant que",
-            "a": "as long as/ while/ until",
+            "f": "fr&#232;re",
+            "a": "brother"
             },
             {
-            "f": "comme",
-            "a": "since",
+            "f": "s&#156;ur",
+            "a": "sister"
             },
             {
-            "f": "donc",
-            "a": "so",
+            "f": "mari",
+            "a": "husband"
             },
             {
-            "f": "en fait",
-            "a": "in fact",
+            "f": "femme",
+            "a": "wife"
             },
             {
-            "f": "cependant",
-            "a": "however/ nonetheless",
+            "f": "grand-m&#232;re",
+            "a": "grandmother"
             },
             {
-            "f": "&#224; mon avis",
-            "a": "in my opinion",
+            "f": "grand-p&#232;re",
+            "a": "grandfather"
             },
             {
-            "f": "alors que",
-            "a": "while",
-            "definitions": [
-                {
-                "title": "alternates",
-                "descriptions": [ "tandis que", "pendant" ]
-                }
-                ]
+            "f": "petit fils",
+            "a": "grandson"
             },
             {
-            "f": "sur le chemin",
-            "a": "on the road/ on the way",
-            "definitions": [
-                {
-                "title": "alternates",
-                "descriptions": [ "sur le chemin", "en route"  ]
-                }
-                ]
+            "f": "petite fille",
+            "a": "granddaughter"
             },
             {
-            "f": "pendant",
-            "a": "during",
-            "definitions": [
-                {
-                    "title": "alternates",
-                    "descriptions": [ "lorsque", "durant"]
-                }
-            ]
+            "f": "tante",
+            "a": "aunt"
             },
             {
-            "f": "devant",
-            "a": "in front of",
+            "f": "oncle",
+            "a": "uncle"
             },
             {
-            "f": "mais",
-            "a": "but",
+            "f": "neveu/neveux",
+            "a": "nephew"
             },
             {
-            "f": "plusiers",
-            "a": "several",
+            "f": "ni&#232;ce",
+            "a": "niece"
             },
             {
-            "f": "o&#249;",
-            "a": "or",
+            "f": "fils",
+            "a": "son"
             },
             {
-            "f": "entre",
-            "a": "between",
-            },
-            {
-            "f": "d&#8217;o&#249;",
-            "a": "from where",
-            },
-            {
-            "f": "a c&#244;te",
-            "a": "next to/ beside"
+            "f": "fille/filles",
+            "a": "daughter"
             }
-            ]
+        ]
     };
 
-const adverbs = {
-    "type": "adverbs",
-    "vocabArray": [
-        {
-            "f": "ensuite",
-            "a": "next"
-        },
-        {
-            "f": "aussi",
-            "a": "also",
-            "definitions": [
-                {
-                "title": "alternates",
-                "descriptions": [ "en plus"  ]
-                }
-                ]
-            },
-        {
-            "f": "plus",
-            "a": "more",
-            "definitions": [
-                {
-                "title": "example",
-                "descriptions": [ "je suis plus gros que vos.", "i am taller than you."  ]
-                }
-                ]
-        },
-        {
-            "f": "tr&#244;p",
-            "a": "too",
-            "definitions": [
-                {
-                "title": "example",
-                "descriptions": [ "ma soupe est tr&#244;p chaud.", "my soup is too hot."  ]
-                }
-                ]
-            },
-        {
-            "f": "moins",
-            "a": "less",
-            "definitions": [
-                {
-                "title": "example",
-                "descriptions": [ "il est moins gros que vos.", "he is shorter than you."  ]
-                }
-                ]
-            },
-        {
-            "f": "puis",
-            "a": "then"
-        },
-        {
-            "f": "enfin",
-            "a": "finally"
-        },
-        {
-            "f": "apres",
-            "a": "after"
-        },
-        {
-            "f": "avant",
-            "a": "before/ previously"
-        },
-        {
-            "f": "plus t&#244;t",
-            "a": "earlier"
-        },
-        {
-            "f": "en peu",
-            "a": "a little/ pretty much"
-        },
-        {
-            "f": "partout",
-            "a": "everywhere/ all over"
-        },
-        {
-            "f": "d&#233;j&#224;",
-            "a": "already"
-        },
-        {
-            "f": "pr&#232;s",
-            "a": "near"
-        },
-        {
-            "f": "tr&#232;s",
-            "a": "very"
-        },
-        {
-            "f": "souvent",
-            "a": "often/ frequently"
-        },
-        {
-            "f": "rarement",
-            "a": "rarely/ infrequently"
-        },
-        {
-            "f": "assez",
-            "a": "enough"
-        },
-        {
-            "f": "vite",
-            "a": "quickly"
-        },
-        {
-            "f": "lentement",
-            "a": "slowly"
-        },
-        {
-            "f": "peu &#224; peu",
-            "a": "gradually/ little by little"
-        },
-        {
-            "f": "beaucoup",
-            "a": "a lot"
-        },
-        {
-            "f": "un peu",
-            "a": "a little"
-        },
-        {
-            "f": "ici",
-            "a": "here"
-        },
-        {
-            "f": "aussi",
-            "a": "also/ too/ as well"
-        },
-        {
-            "f": "maintentant",
-            "a": "currently/ now"
-        },
-        {
-            "f": "t&#244;t",
-            "a": "early"
-        },
-        {
-            "f": "tard",
-            "a": "late"
-        },
-        {
-            "f": "voici",
-            "a": "here is"
-        },
-        {
-            "f": "voil&#224;",
-            "a": "here are"
-        }
-    ]
-};
-
-const verbs =   {
+const verbs = {
     "type": "verbs",
     "vocabArray": [
-        {
+                {
         "f": "parler",
         "a": "to speak",
         "definitions": [
@@ -829,7 +85,7 @@ const verbs =   {
             }
             ]
         },
-        {
+                {
         "f": "avoir",
         "a": "to have",
         "definitions": [
@@ -857,6 +113,7 @@ const verbs =   {
             }
             ]
         },
+
         {
         "f": "compl&#233;ter",
         "a": "to have",
@@ -871,6 +128,7 @@ const verbs =   {
             }
             ]
         },
+
         {
         "f": "&#234;tre",
         "a": "to be",
@@ -929,6 +187,7 @@ const verbs =   {
             }
             ]
         },
+
         {
         "f": "chercher",
         "a": "to look for",
@@ -943,6 +202,7 @@ const verbs =   {
             }
             ]
         },
+
         {
         "f": "acheter",
         "a": "to buy",
@@ -957,6 +217,7 @@ const verbs =   {
             }
             ]
         },
+
         {
         "f": "comprendre",
         "a": "to understand",
@@ -1078,8 +339,8 @@ const verbs =   {
             }
             ]
         },
-    
-        {
+
+                {
         "f": "pouvoir",
         "a": "to be able",
         "definitions": [
@@ -1283,9 +544,7 @@ const verbs =   {
             }
             ]
         },
-    
-    
-        {
+                {
         "f": "gagner",
         "a": "to win",
         "definitions": [
@@ -1671,8 +930,7 @@ const verbs =   {
             }
             ]
         },
-    
-        {
+                {
         "f": "concerner",
         "a": "to be about",
         "definitions": [
@@ -1965,8 +1223,861 @@ const verbs =   {
                 }
                 ]
         }        
+
+
+
     ]
 };
+
+
+const adjectives = {
+    "type": "adjectives",
+    "vocabArray": []
+};
+
+// const adjectives =  {
+//     "type": "adjectives",
+//     "vocabArray": [
+//         {
+//         "f": "pr&#234;c&#234;dent",
+//         "a": "previous",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "pr&#234;c&#234;dent", "pr&#234;c&#234;dents"  ]
+//             },
+//             {
+//             "title": "feminine",
+//             "descriptions": [ "pr&#234;c&#234;dente", "pr&#234;c&#234;dentes"]
+//             }
+//             ]
+//         },
+
+//         {
+//         "f": "erron&#233;",
+//         "a": "wrong/ incorrect",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminie",
+//             "descriptions": [ "erron&#233;", "erron&#233;s"  ]
+//             }
+//             ]
+//         },
+
+//         {
+//         "f": "tranquille;",
+//         "a": "quiet",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminie",
+//             "descriptions": [ "tranquille", "tranquilles"  ]
+//             }
+//             ]
+//         },
+
+//         {
+//         "f": "faux",
+//         "a": "fake",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "faux"  ]
+//             },
+//             {
+//             "title": "feminine",
+//             "descriptions": [ "fausse, fausses" ]
+//             }
+//             ]
+//         },
+
+//         {
+//         "f": "gentil",
+//         "a": "brillant/ gentle/ nice",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "gentil", "gentils"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "gentille", "gentilles" ]
+//             }
+//             ]
+//         },
+
+//         {
+//         "f": "jeune",
+//         "a": "young",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminine",
+//             "descriptions": [ "jeune", "jeunes"  ]
+//             }
+//             ]
+//         },
+
+//         {
+//         "f": "vieux",
+//         "a": "old",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "vieux"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "vieille", "vieilles" ]
+//             }
+//             ]
+//         },
+
+//         {
+//         "f": "chaud",
+//         "a": "hot",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "chaud", "chauds"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "chaude", "chaudes" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "froid",
+//         "a": "cold",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "froid", "froids"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "froid", "froides" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "gros",
+//         "a": "big",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "gros" ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "grosse", "grosses" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "petit",
+//         "a": "small",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "petit", "petits"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "petite", "petites" ]
+//             }
+//             ]
+//         },
+
+//         {
+//         "f": "sal",
+//         "a": "dirty",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "sal", "sals"  ]
+//             },
+//             {
+//             "title": "feminine",
+//             "descriptions": [ "sale", "sales" ]
+//             }
+//             ]
+//         },
+
+        
+//         {
+//         "f": "bon",
+//         "a": "good",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "bon" ]
+//             },
+//             {
+//             "title": "feminine",
+//             "descriptions": [ "bonne", "bonnes" ]
+//             }
+//             ]
+//         },
+
+//         {
+//         "f": "grand",
+//         "a": "tall",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "grand", "grands"  ]
+//             },
+//             {
+//             "title": "feminine",
+//             "descriptions": [ "grande", "grandes" ]
+//             }
+//             ]
+//         },
+
+
+
+//         {
+//         "f": "court",
+//         "a": "brief/ short",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "court", "courts"  ]
+//             },
+//             {
+//             "title": "feminine",
+//             "descriptions": [ "courte", "courtes" ]
+//             }
+//             ]
+//         },
+
+//         {
+//         "f": "premier",
+//         "a": "first",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "premier", "premiers"  ]
+//             },
+//             {
+//             "title": "feminine",
+//             "descriptions": [ "premi&#232;re", "premi&#232;res" ]
+//             }   
+//             ]
+//         },
+
+//         {
+//         "f": "m&#234;me",
+//         "a": "same",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminine",
+//             "descriptions": [ "m&#234;me", "m&#234;mes"  ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "dernier",
+//         "a": "last",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "dernier", "derniers"  ]
+//             },
+//             {
+//             "title": "feminine",
+//             "descriptions": [ "derniere", "dernieres" ]
+//             }
+//             ]
+//         },
+//         {
+//             "f": "prochain",
+//             "a": "next",
+//             "definitions": [
+//                 {
+//                     "title": "alternates",
+//                     "descriptions": [ "suivant"  ]
+//                 }
+//             ]
+//         },
+//         {
+//         "f": "long",
+//         "a": "long",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "long", "longs"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "longue", "longues" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "beau",
+//         "a": "beautiful",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "beau", "bueax"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "belle", "belles" ]
+//             }
+//             ]
+//         },
+
+
+//         {
+//         "f": "mauvais",
+//         "a": "bad",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "mauvais" ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "mauvaise", "mauvaises" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "second",
+//         "a": "second",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "dieuxi&#232;me", "second", "dieuxi&#232;mes", "seconds"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "seconde", "seconde" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "troisi&#232;me",
+//         "a": "third",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminine",
+//             "descriptions": [ "troisi&#232;me", "troisi&#232;mes"  ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "nombreau",
+//         "a": "numerous",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "nombreaux"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "nombruses" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "fort",
+//         "a": "strong/ loud",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "fort", "forts"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "forte", "fortes" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "doux",
+//         "a": "soft",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "doux" ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "douce", "douces" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "faible",
+//         "a": "weak/ feeble",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminie",
+//             "descriptions": [ "faible", "faibles"  ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "dur",
+//         "a": "hard/ lasts",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "dur", "durs"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "dure", "dures" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "pauvre",
+//         "a": "poor",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminine",
+//             "descriptions": [ "pauvre", "pauvres"  ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "b&#234;te",
+//         "a": "stupid",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminine",
+//             "descriptions": [ "b&#234;te", "b&#234;tes"  ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "&#233;norme",
+//         "a": "huge",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminine",
+//             "descriptions": [ "&#233;norme", "&#233;normes"  ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "dr&#244;le",
+//         "a": "funny",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminine",
+//             "descriptions": [ "dr&#244;le", "dr&#244;les"  ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "laid",
+//         "a": "ugly",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "laid", "laids"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "laide", "laides" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "sombre",
+//         "a": "dark",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminine",
+//             "descriptions": [ "sombre", "sombres"  ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "vicieux",
+//         "a": "vicious",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "vicieux" ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "vicieuse, vicieuses" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "pr&#234;t",
+//         "a": "ready",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "pr&#234;t", "pr&#234;tes"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "pr&#234;te", "pr&#234;te" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "m&#233;chant",
+//         "a": "mean",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "m&#233;chant", "m&#233;chants"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "m&#233;chante", "m&#233;chantes" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "sympa",
+//         "a": "nice",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminine",
+//             "descriptions": [ "sympa", "sympas"  ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "s&#233;rieux",
+//         "a": "serious",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "s&#233;rieux" ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "s&#233;rieuse", "s&#233;rieuses" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "sec",
+//         "a": "dry",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "sec", "secs"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "s&#232;che", "s&#232;ches" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "seul",
+//         "a": "alone",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "seul", "seuls"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "seule", "seules" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "l&#233;ger",
+//         "a": "light",
+//         "definitions": [
+//             {
+//             "title": "masculine",
+//             "descriptions": [ "l&#233;ger", "l&#233;gers"  ]
+//             },
+//             {
+//             "title" : "feminine",
+//             "descriptions": [ "l&#233;g&#232;re", "l&#233;g&#232;res" ]
+//             }
+//             ]
+//         },
+//         {
+//         "f": "propre",
+//         "a": "clean",
+//         "definitions": [
+//             {
+//             "title": "masculine/feminine",
+//             "descriptions": [ "propre", "propres"  ]
+//             }
+//             ]
+//         }
+    
+//         ]
+// };
+
+const transitionals = {
+    "type": "transitonals",
+    "vocabArray": []
+};
+
+// const transitionals = {
+//         "type": "transitionals",
+//         "vocabArray" : [
+//             {
+//             "f": "car",
+//             "a": "because",
+            
+//             },
+//             {
+//             "f": "pour que",
+//             "a": "so that",
+            
+//             },
+//             {
+//             "f": "tant que",
+//             "a": "as long as/ while/ until",
+//             },
+//             {
+//             "f": "comme",
+//             "a": "since",
+//             },
+//             {
+//             "f": "donc",
+//             "a": "so",
+//             },
+//             {
+//             "f": "en fait",
+//             "a": "in fact",
+//             },
+//             {
+//             "f": "cependant",
+//             "a": "however/ nonetheless",
+//             },
+//             {
+//             "f": "&#224; mon avis",
+//             "a": "in my opinion",
+//             },
+//             {
+//             "f": "alors que",
+//             "a": "while",
+//             "definitions": [
+//                 {
+//                 "title": "alternates",
+//                 "descriptions": [ "tandis que", "pendant" ]
+//                 }
+//                 ]
+//             },
+//             {
+//             "f": "sur le chemin",
+//             "a": "on the road/ on the way",
+//             "definitions": [
+//                 {
+//                 "title": "alternates",
+//                 "descriptions": [ "sur le chemin", "en route"  ]
+//                 }
+//                 ]
+//             },
+//             {
+//             "f": "pendant",
+//             "a": "during",
+//             "definitions": [
+//                 {
+//                     "title": "alternates",
+//                     "descriptions": [ "lorsque", "durant"]
+//                 }
+//             ]
+//             },
+//             {
+//             "f": "devant",
+//             "a": "in front of",
+//             },
+//             {
+//             "f": "mais",
+//             "a": "but",
+//             },
+//             {
+//             "f": "plusiers",
+//             "a": "several",
+//             },
+//             {
+//             "f": "o&#249;",
+//             "a": "or",
+//             },
+//             {
+//             "f": "entre",
+//             "a": "between",
+//             },
+//             {
+//             "f": "d&#8217;o&#249;",
+//             "a": "from where",
+//             },
+//             {
+//             "f": "a c&#244;te",
+//             "a": "next to/ beside"
+//             }
+//             ]
+//     };
+
+const adverbs = {
+    "type": "adverbs",
+    "vocabArray": []
+};
+
+// const adverbs = {
+//     "type": "adverbs",
+//     "vocabArray": [
+//         {
+//             "f": "ensuite",
+//             "a": "next"
+//         },
+//         {
+//             "f": "aussi",
+//             "a": "also",
+//             "definitions": [
+//                 {
+//                 "title": "alternates",
+//                 "descriptions": [ "en plus"  ]
+//                 }
+//                 ]
+//             },
+//         {
+//             "f": "plus",
+//             "a": "more",
+//             "definitions": [
+//                 {
+//                 "title": "example",
+//                 "descriptions": [ "je suis plus gros que vos.", "i am taller than you."  ]
+//                 }
+//                 ]
+//         },
+//         {
+//             "f": "tr&#244;p",
+//             "a": "too",
+//             "definitions": [
+//                 {
+//                 "title": "example",
+//                 "descriptions": [ "ma soupe est tr&#244;p chaud.", "my soup is too hot."  ]
+//                 }
+//                 ]
+//             },
+//         {
+//             "f": "moins",
+//             "a": "less",
+//             "definitions": [
+//                 {
+//                 "title": "example",
+//                 "descriptions": [ "il est moins gros que vos.", "he is shorter than you."  ]
+//                 }
+//                 ]
+//             },
+//         {
+//             "f": "puis",
+//             "a": "then"
+//         },
+//         {
+//             "f": "enfin",
+//             "a": "finally"
+//         },
+//         {
+//             "f": "apres",
+//             "a": "after"
+//         },
+//         {
+//             "f": "avant",
+//             "a": "before/ previously"
+//         },
+//         {
+//             "f": "plus t&#244;t",
+//             "a": "earlier"
+//         },
+//         {
+//             "f": "en peu",
+//             "a": "a little/ pretty much"
+//         },
+//         {
+//             "f": "partout",
+//             "a": "everywhere/ all over"
+//         },
+//         {
+//             "f": "d&#233;j&#224;",
+//             "a": "already"
+//         },
+//         {
+//             "f": "pr&#232;s",
+//             "a": "near"
+//         },
+//         {
+//             "f": "tr&#232;s",
+//             "a": "very"
+//         },
+//         {
+//             "f": "souvent",
+//             "a": "often/ frequently"
+//         },
+//         {
+//             "f": "rarement",
+//             "a": "rarely/ infrequently"
+//         },
+//         {
+//             "f": "assez",
+//             "a": "enough"
+//         },
+//         {
+//             "f": "vite",
+//             "a": "quickly"
+//         },
+//         {
+//             "f": "lentement",
+//             "a": "slowly"
+//         },
+//         {
+//             "f": "peu &#224; peu",
+//             "a": "gradually/ little by little"
+//         },
+//         {
+//             "f": "beaucoup",
+//             "a": "a lot"
+//         },
+//         {
+//             "f": "un peu",
+//             "a": "a little"
+//         },
+//         {
+//             "f": "ici",
+//             "a": "here"
+//         },
+//         {
+//             "f": "aussi",
+//             "a": "also/ too/ as well"
+//         },
+//         {
+//             "f": "maintentant",
+//             "a": "currently/ now"
+//         },
+//         {
+//             "f": "t&#244;t",
+//             "a": "early"
+//         },
+//         {
+//             "f": "tard",
+//             "a": "late"
+//         },
+//         {
+//             "f": "voici",
+//             "a": "here is"
+//         },
+//         {
+//             "f": "voil&#224;",
+//             "a": "here are"
+//         }
+//     ]
+// };
+
 
 const time = {
     "type": "time",
@@ -2154,157 +2265,92 @@ const time = {
         ]
 };
 
-const family = {
-    "type": "family",
-        "vocabArray" : [
-            {
-            "f": "m&#232;re",
-            "a": "mother",
-            },
-            {
-            "f": "p&#232;re",
-            "a": "father"
-            },
-            {
-            "f": "fr&#232;re",
-            "a": "brother"
-            },
-            {
-            "f": "s&#156;ur",
-            "a": "sister"
-            },
-            {
-            "f": "mari",
-            "a": "husband"
-            },
-            {
-            "f": "femme",
-            "a": "wife"
-            },
-            {
-            "f": "grand-m&#232;re",
-            "a": "grandmother"
-            },
-            {
-            "f": "grand-p&#232;re",
-            "a": "grandfather"
-            },
-            {
-            "f": "petit fils",
-            "a": "grandson"
-            },
-            {
-            "f": "petite fille",
-            "a": "granddaughter"
-            },
-            {
-            "f": "tante",
-            "a": "aunt"
-            },
-            {
-            "f": "oncle",
-            "a": "uncle"
-            },
-            {
-            "f": "neveu/neveux",
-            "a": "nephew"
-            },
-            {
-            "f": "ni&#232;ce",
-            "a": "niece"
-            },
-            {
-            "f": "fils",
-            "a": "son"
-            },
-            {
-            "f": "fille/filles",
-            "a": "daughter"
-            }
-        ]
-    };
 
 const pronouns = {
     "type": "pronouns",
-     "vocabArray" : [
-            {
-            "f": "le mien/ la mienne",
-            "a": "mine"
-            },
-            {
-            "f": "le tien/ la tienne",
-            "a": "yours (inf.)"
-            },
-            {
-            "f": "la sien/ la sienne",
-            "a": "his/ hers/ its (pronoun)"
-            },
-            {
-            "f": "le/ la n&#244;tre/ les n&#244;tres",
-            "a": "ours"
-            },
-            {
-            "f": "le/ la v&#244;tre/ les v&#244;tres",
-            "a": "yours (form.)"
-            },
-            {
-            "f": "le/ la leur/ les leurs",
-            "a": "theirs"
-            },
-            {
-            "f": "mon/ ma",
-            "a": "my"
-            },
-            {
-            "f": "me",
-            "a": "me (dir./indir. obj.)"	
-            },
-            {
-            "f": "te",
-            "a": "you (dir./indir. obj.)"	
-            },
-            {
-            "f": "ton/ ta",
-            "a": "your (inf.)"
-            },
-            {
-            "f": "son/ sa",
-            "a": "his/ her"
-            },
-            {
-            "f": "le/ la",
-            "a": "him/it/her (dir. obj.)"
-            }
-            {
-            "f": "lui",
-            "a": "him/ her (indir. object)"
-            },
-            {
-            "f": "notre",
-            "a": "our"
-            },
-            {
-            "f": "nous",
-            "a": "us/ we (dir./indir. object)"	
-            },
-            {
-            "f": "vous",
-            "a": "you (formal- dir./indir. obj.)"	
-            }
-            {
-            "f": "votre",
-            "a": "your (formal)"
-            },
-            {
-            "f": "leur",
-            "a": "their/ them (indir. obj.)"
-            },
-            {
-            "f": "les",
-            "a": "them (dir. obj.)"	
-            }
-        ]           
+    "vocabArray": []
 };
+// const pronouns = {
+//     "type": "pronouns",
+//      "vocabArray" : [
+//             {
+//             "f": "le mien/ la mienne",
+//             "a": "mine"
+//             },
+//             {
+//             "f": "le tien/ la tienne",
+//             "a": "yours (inf.)"
+//             },
+//             {
+//             "f": "la sien/ la sienne",
+//             "a": "his/ hers/ its (pronoun)"
+//             },
+//             {
+//             "f": "le/ la n&#244;tre/ les n&#244;tres",
+//             "a": "ours"
+//             },
+//             {
+//             "f": "le/ la v&#244;tre/ les v&#244;tres",
+//             "a": "yours (form.)"
+//             },
+//             {
+//             "f": "le/ la leur/ les leurs",
+//             "a": "theirs"
+//             },
+//             {
+//             "f": "mon/ ma",
+//             "a": "my"
+//             },
+//             {
+//             "f": "me",
+//             "a": "me (dir./indir. obj.)"    
+//             },
+//             {
+//             "f": "te",
+//             "a": "you (dir./indir. obj.)"   
+//             },
+//             {
+//             "f": "ton/ ta",
+//             "a": "your (inf.)"
+//             },
+//             {
+//             "f": "son/ sa",
+//             "a": "his/ her"
+//             },
+//             {
+//             "f": "le/ la",
+//             "a": "him/it/her (dir. obj.)"
+//             }
+//             {
+//             "f": "lui",
+//             "a": "him/ her (indir. object)"
+//             },
+//             {
+//             "f": "notre",
+//             "a": "our"
+//             },
+//             {
+//             "f": "nous",
+//             "a": "us/ we (dir./indir. object)"  
+//             },
+//             {
+//             "f": "vous",
+//             "a": "you (formal- dir./indir. obj.)"   
+//             }
+//             {
+//             "f": "votre",
+//             "a": "your (formal)"
+//             },
+//             {
+//             "f": "leur",
+//             "a": "their/ them (indir. obj.)"
+//             },
+//             {
+//             "f": "les",
+//             "a": "them (dir. obj.)" 
+//             }
+//         ]           
+// };
 
 
 
