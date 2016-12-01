@@ -1915,166 +1915,157 @@ const transitionals = {
     ]
 };
 
-// const transitionals = {
-//         "type": "transitionals",
-//         "vocabArray" : [
-//             ]
-//     };
 
 const adverbs = {
     "type": "adverbs",
-    "vocabArray": []
+    "vocabArray": [
+                {
+            "f": "ensuite",
+            "a": "next"
+        },
+        {
+            "f": "aussi",
+            "a": "also",
+            "definitions": [
+                {
+                "title": "alternates",
+                "descriptions": [ "en plus"  ]
+                }
+                ]
+            },
+        {
+            "f": "plus",
+            "a": "more",
+            "definitions": [
+                {
+                "title": "example",
+                "descriptions": [ "je suis plus gros que vos.", "i am taller than you."  ]
+                }
+                ]
+        },
+        {
+            "f": "tr&#244;p",
+            "a": "too",
+            "definitions": [
+                {
+                "title": "example",
+                "descriptions": [ "ma soupe est tr&#244;p chaud.", "my soup is too hot."  ]
+                }
+                ]
+            },
+        {
+            "f": "moins",
+            "a": "less",
+            "definitions": [
+                {
+                "title": "example",
+                "descriptions": [ "il est moins gros que vos.", "he is shorter than you."  ]
+                }
+                ]
+            },
+        {
+            "f": "puis",
+            "a": "then"
+        },
+            {
+            "f": "enfin",
+            "a": "finally"
+        },
+        {
+            "f": "apres",
+            "a": "after"
+        },
+        {
+            "f": "avant",
+            "a": "before/ previously"
+        },
+        {
+            "f": "plus t&#244;t",
+            "a": "earlier"
+        },
+        {
+            "f": "en peu",
+            "a": "a little/ pretty much"
+        },
+        {
+            "f": "partout",
+            "a": "everywhere/ all over"
+        },
+        {
+            "f": "d&#233;j&#224;",
+            "a": "already"
+        },
+        {
+            "f": "pr&#232;s",
+            "a": "near"
+        },
+        {
+            "f": "tr&#232;s",
+            "a": "very"
+        },
+        {
+            "f": "souvent",
+            "a": "often/ frequently"
+        },
+        {
+            "f": "rarement",
+            "a": "rarely/ infrequently"
+        },
+        {
+            "f": "assez",
+            "a": "enough"
+        },
+        {
+            "f": "vite",
+            "a": "quickly"
+        },
+        {
+            "f": "lentement",
+            "a": "slowly"
+        },
+        {
+            "f": "peu &#224; peu",
+            "a": "gradually/ little by little"
+        },
+        {
+            "f": "beaucoup",
+            "a": "a lot"
+        },
+        {
+            "f": "un peu",
+            "a": "a little"
+        },
+         {
+            "f": "ici",
+            "a": "here"
+        },
+        {
+            "f": "aussi",
+            "a": "also/ too/ as well"
+        },
+        {
+            "f": "maintentant",
+            "a": "currently/ now"
+        },
+        {
+            "f": "t&#244;t",
+            "a": "early"
+        },
+        {
+            "f": "tard",
+            "a": "late"
+        },
+        {
+            "f": "voici",
+            "a": "here is"
+        },
+        {
+            "f": "voil&#224;",
+            "a": "here are"
+        }
+    ]
 };
 
-// const adverbs = {
-//     "type": "adverbs",
-//     "vocabArray": [
-//         {
-//             "f": "ensuite",
-//             "a": "next"
-//         },
-//         {
-//             "f": "aussi",
-//             "a": "also",
-//             "definitions": [
-//                 {
-//                 "title": "alternates",
-//                 "descriptions": [ "en plus"  ]
-//                 }
-//                 ]
-//             },
-//         {
-//             "f": "plus",
-//             "a": "more",
-//             "definitions": [
-//                 {
-//                 "title": "example",
-//                 "descriptions": [ "je suis plus gros que vos.", "i am taller than you."  ]
-//                 }
-//                 ]
-//         },
-//         {
-//             "f": "tr&#244;p",
-//             "a": "too",
-//             "definitions": [
-//                 {
-//                 "title": "example",
-//                 "descriptions": [ "ma soupe est tr&#244;p chaud.", "my soup is too hot."  ]
-//                 }
-//                 ]
-//             },
-//         {
-//             "f": "moins",
-//             "a": "less",
-//             "definitions": [
-//                 {
-//                 "title": "example",
-//                 "descriptions": [ "il est moins gros que vos.", "he is shorter than you."  ]
-//                 }
-//                 ]
-//             },
-//         {
-//             "f": "puis",
-//             "a": "then"
-//         },
-//         {
-//             "f": "enfin",
-//             "a": "finally"
-//         },
-//         {
-//             "f": "apres",
-//             "a": "after"
-//         },
-//         {
-//             "f": "avant",
-//             "a": "before/ previously"
-//         },
-//         {
-//             "f": "plus t&#244;t",
-//             "a": "earlier"
-//         },
-//         {
-//             "f": "en peu",
-//             "a": "a little/ pretty much"
-//         },
-//         {
-//             "f": "partout",
-//             "a": "everywhere/ all over"
-//         },
-//         {
-//             "f": "d&#233;j&#224;",
-//             "a": "already"
-//         },
-//         {
-//             "f": "pr&#232;s",
-//             "a": "near"
-//         },
-//         {
-//             "f": "tr&#232;s",
-//             "a": "very"
-//         },
-//         {
-//             "f": "souvent",
-//             "a": "often/ frequently"
-//         },
-//         {
-//             "f": "rarement",
-//             "a": "rarely/ infrequently"
-//         },
-//         {
-//             "f": "assez",
-//             "a": "enough"
-//         },
-//         {
-//             "f": "vite",
-//             "a": "quickly"
-//         },
-//         {
-//             "f": "lentement",
-//             "a": "slowly"
-//         },
-//         {
-//             "f": "peu &#224; peu",
-//             "a": "gradually/ little by little"
-//         },
-//         {
-//             "f": "beaucoup",
-//             "a": "a lot"
-//         },
-//         {
-//             "f": "un peu",
-//             "a": "a little"
-//         },
-//         {
-//             "f": "ici",
-//             "a": "here"
-//         },
-//         {
-//             "f": "aussi",
-//             "a": "also/ too/ as well"
-//         },
-//         {
-//             "f": "maintentant",
-//             "a": "currently/ now"
-//         },
-//         {
-//             "f": "t&#244;t",
-//             "a": "early"
-//         },
-//         {
-//             "f": "tard",
-//             "a": "late"
-//         },
-//         {
-//             "f": "voici",
-//             "a": "here is"
-//         },
-//         {
-//             "f": "voil&#224;",
-//             "a": "here are"
-//         }
-//     ]
-// };
 
 
 const time = {
@@ -2381,8 +2372,8 @@ const pronouns = {
         //initial values- populated when section clicked  
         $scope.section;   
         $scope.thisSection = {
-            "source": transitionals,
-            "vocab": transitionals.vocabArray
+            "source": adverbs,
+            "vocab": adverbs.vocabArray
             };
           
                   
