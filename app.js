@@ -1827,6 +1827,90 @@ const transitionals = {
             "a": "so that",
             
             },
+                        {
+            "f": "tant que",
+            "a": "as long as/ while/ until",
+            },
+            {
+            "f": "comme",
+            "a": "since",
+            },
+            {
+            "f": "donc",
+            "a": "so",
+            },
+            {
+            "f": "en fait",
+            "a": "in fact",
+            },
+            {
+            "f": "cependant",
+            "a": "however/ nonetheless",
+            },
+            {
+            "f": "&#224; mon avis",
+            "a": "in my opinion",
+            },
+            {
+            "f": "alors que",
+            "a": "while",
+            "definitions": [
+                {
+                "title": "alternates",
+                "descriptions": [ "tandis que", "pendant" ]
+                }
+                ]
+            },
+                        {
+            "f": "sur le chemin",
+            "a": "on the road/ on the way",
+            "definitions": [
+                {
+                "title": "alternates",
+                "descriptions": [ "sur le chemin", "en route"  ]
+                }
+                ]
+            },
+            {
+            "f": "pendant",
+            "a": "during",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "lorsque", "durant"]
+                }
+            ]
+            },
+            {
+            "f": "devant",
+            "a": "in front of",
+            },
+            {
+            "f": "mais",
+            "a": "but",
+            },
+            {
+            "f": "plusiers",
+            "a": "several",
+            },
+            {
+            "f": "o&#249;",
+            "a": "or",
+            },
+            {
+            "f": "entre",
+            "a": "between",
+            },
+            {
+            "f": "d&#8217;o&#249;",
+            "a": "from where",
+            },
+            {
+            "f": "a c&#244;te",
+            "a": "next to/ beside"
+            }
+
+
 
     ]
 };
@@ -1834,88 +1918,6 @@ const transitionals = {
 // const transitionals = {
 //         "type": "transitionals",
 //         "vocabArray" : [
-//             {
-//             "f": "tant que",
-//             "a": "as long as/ while/ until",
-//             },
-//             {
-//             "f": "comme",
-//             "a": "since",
-//             },
-//             {
-//             "f": "donc",
-//             "a": "so",
-//             },
-//             {
-//             "f": "en fait",
-//             "a": "in fact",
-//             },
-//             {
-//             "f": "cependant",
-//             "a": "however/ nonetheless",
-//             },
-//             {
-//             "f": "&#224; mon avis",
-//             "a": "in my opinion",
-//             },
-//             {
-//             "f": "alors que",
-//             "a": "while",
-//             "definitions": [
-//                 {
-//                 "title": "alternates",
-//                 "descriptions": [ "tandis que", "pendant" ]
-//                 }
-//                 ]
-//             },
-//             {
-//             "f": "sur le chemin",
-//             "a": "on the road/ on the way",
-//             "definitions": [
-//                 {
-//                 "title": "alternates",
-//                 "descriptions": [ "sur le chemin", "en route"  ]
-//                 }
-//                 ]
-//             },
-//             {
-//             "f": "pendant",
-//             "a": "during",
-//             "definitions": [
-//                 {
-//                     "title": "alternates",
-//                     "descriptions": [ "lorsque", "durant"]
-//                 }
-//             ]
-//             },
-//             {
-//             "f": "devant",
-//             "a": "in front of",
-//             },
-//             {
-//             "f": "mais",
-//             "a": "but",
-//             },
-//             {
-//             "f": "plusiers",
-//             "a": "several",
-//             },
-//             {
-//             "f": "o&#249;",
-//             "a": "or",
-//             },
-//             {
-//             "f": "entre",
-//             "a": "between",
-//             },
-//             {
-//             "f": "d&#8217;o&#249;",
-//             "a": "from where",
-//             },
-//             {
-//             "f": "a c&#244;te",
-//             "a": "next to/ beside"
-//             }
 //             ]
 //     };
 
