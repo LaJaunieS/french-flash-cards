@@ -2257,89 +2257,85 @@ const time = {
 
 const pronouns = {
     "type": "pronouns",
-    "vocabArray": []
+    "vocabArray": [
+                    {
+            "f": "le mien/ la mienne",
+            "a": "mine"
+            },
+            {
+            "f": "le tien/ la tienne",
+            "a": "yours (inf.)"
+            },
+            {
+            "f": "la sien/ la sienne",
+            "a": "his/ hers/ its (pronoun)"
+            },
+            {
+            "f": "le/ la n&#244;tre/ les n&#244;tres",
+            "a": "ours"
+            },
+            {
+            "f": "le/ la v&#244;tre/ les v&#244;tres",
+            "a": "yours (form.)"
+            },
+             {
+            "f": "le/ la leur/ les leurs",
+            "a": "theirs"
+            },
+            {
+            "f": "mon/ ma",
+            "a": "my"
+            },
+            {
+            "f": "me",
+            "a": "me (dir./indir. obj.)"    
+            },
+            {
+            "f": "te",
+            "a": "you (dir./indir. obj.)"   
+            },
+            {
+            "f": "ton/ ta",
+            "a": "your (inf.)"
+            },
+            {
+            "f": "son/ sa",
+            "a": "his/ her"
+            },
+            {
+            "f": "le/ la",
+            "a": "him/it/her (dir. obj.)"
+            },
+            {
+            "f": "lui",
+            "a": "him/ her (indir. object)"
+            },
+            {
+            "f": "notre",
+            "a": "our"
+            },
+            {
+            "f": "nous",
+            "a": "us/ we (dir./indir. object)"  
+            },
+            {
+            "f": "vous",
+            "a": "you (formal- dir./indir. obj.)"   
+            },
+            {
+            "f": "votre",
+            "a": "your (formal)"
+            },
+            {
+            "f": "leur",
+            "a": "their/ them (indir. obj.)"
+            },
+            {
+            "f": "les",
+            "a": "them (dir. obj.)" 
+            }
+    ]
 };
-// const pronouns = {
-//     "type": "pronouns",
-//      "vocabArray" : [
-//             {
-//             "f": "le mien/ la mienne",
-//             "a": "mine"
-//             },
-//             {
-//             "f": "le tien/ la tienne",
-//             "a": "yours (inf.)"
-//             },
-//             {
-//             "f": "la sien/ la sienne",
-//             "a": "his/ hers/ its (pronoun)"
-//             },
-//             {
-//             "f": "le/ la n&#244;tre/ les n&#244;tres",
-//             "a": "ours"
-//             },
-//             {
-//             "f": "le/ la v&#244;tre/ les v&#244;tres",
-//             "a": "yours (form.)"
-//             },
-//             {
-//             "f": "le/ la leur/ les leurs",
-//             "a": "theirs"
-//             },
-//             {
-//             "f": "mon/ ma",
-//             "a": "my"
-//             },
-//             {
-//             "f": "me",
-//             "a": "me (dir./indir. obj.)"    
-//             },
-//             {
-//             "f": "te",
-//             "a": "you (dir./indir. obj.)"   
-//             },
-//             {
-//             "f": "ton/ ta",
-//             "a": "your (inf.)"
-//             },
-//             {
-//             "f": "son/ sa",
-//             "a": "his/ her"
-//             },
-//             {
-//             "f": "le/ la",
-//             "a": "him/it/her (dir. obj.)"
-//             }
-//             {
-//             "f": "lui",
-//             "a": "him/ her (indir. object)"
-//             },
-//             {
-//             "f": "notre",
-//             "a": "our"
-//             },
-//             {
-//             "f": "nous",
-//             "a": "us/ we (dir./indir. object)"  
-//             },
-//             {
-//             "f": "vous",
-//             "a": "you (formal- dir./indir. obj.)"   
-//             }
-//             {
-//             "f": "votre",
-//             "a": "your (formal)"
-//             },
-//             {
-//             "f": "leur",
-//             "a": "their/ them (indir. obj.)"
-//             },
-//             {
-//             "f": "les",
-//             "a": "them (dir. obj.)" 
-//             }
-//         ]           
-// };
 
 
 
@@ -2372,8 +2368,8 @@ const pronouns = {
         //initial values- populated when section clicked  
         $scope.section;   
         $scope.thisSection = {
-            "source": adverbs,
-            "vocab": adverbs.vocabArray
+            "source": verbs,
+            "vocab": verbs.vocabArray
             };
           
                   
