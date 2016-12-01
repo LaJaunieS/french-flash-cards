@@ -1597,6 +1597,213 @@ const adjectives = {
             }
             ]
         },
+                {
+        "f": "faible",
+        "a": "weak/ feeble",
+        "definitions": [
+            {
+            "title": "masculine/feminie",
+            "descriptions": [ "faible", "faibles"  ]
+            }
+            ]
+        },
+        {
+        "f": "dur",
+        "a": "hard/ lasts",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "dur", "durs"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "dure", "dures" ]
+            }
+            ]
+        },
+        {
+        "f": "pauvre",
+        "a": "poor",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "pauvre", "pauvres"  ]
+            }
+            ]
+        },
+        {
+        "f": "b&#234;te",
+        "a": "stupid",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "b&#234;te", "b&#234;tes"  ]
+            }
+            ]
+        },
+        {
+        "f": "&#233;norme",
+        "a": "huge",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "&#233;norme", "&#233;normes"  ]
+            }
+            ]
+        },
+        {
+        "f": "dr&#244;le",
+        "a": "funny",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "dr&#244;le", "dr&#244;les"  ]
+            }
+            ]
+        },
+        {
+        "f": "laid",
+        "a": "ugly",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "laid", "laids"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "laide", "laides" ]
+            }
+            ]
+        },
+        {
+        "f": "sombre",
+        "a": "dark",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "sombre", "sombres"  ]
+            }
+            ]
+        },
+        {
+        "f": "vicieux",
+        "a": "vicious",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "vicieux" ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "vicieuse, vicieuses" ]
+            }
+            ]
+        },
+        {
+        "f": "pr&#234;t",
+        "a": "ready",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "pr&#234;t", "pr&#234;tes"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "pr&#234;te", "pr&#234;te" ]
+            }
+            ]
+        },
+        {
+        "f": "m&#233;chant",
+        "a": "mean",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "m&#233;chant", "m&#233;chants"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "m&#233;chante", "m&#233;chantes" ]
+            }
+            ]
+        },
+        {
+        "f": "sympa",
+        "a": "nice",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "sympa", "sympas"  ]
+            }
+            ]
+        },
+        {
+        "f": "s&#233;rieux",
+        "a": "serious",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "s&#233;rieux" ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "s&#233;rieuse", "s&#233;rieuses" ]
+            }
+            ]
+        },
+        {
+        "f": "sec",
+        "a": "dry",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "sec", "secs"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "s&#232;che", "s&#232;ches" ]
+            }
+            ]
+        },
+        {
+        "f": "seul",
+        "a": "alone",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "seul", "seuls"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "seule", "seules" ]
+            }
+            ]
+        },
+        {
+        "f": "l&#233;ger",
+        "a": "light",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "l&#233;ger", "l&#233;gers"  ]
+            },
+            {
+            "title" : "feminine",
+            "descriptions": [ "l&#233;g&#232;re", "l&#233;g&#232;res" ]
+            }
+            ]
+        },
+        {
+        "f": "propre",
+        "a": "clean",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "propre", "propres"  ]
+            }
+            ]
+        }
+
 
 
 
@@ -1607,230 +1814,11 @@ const adjectives = {
     ]
 };
 
-// const adjectives =  {
-//     "type": "adjectives",
-//     "vocabArray": [
-
-
-
-
-
-
-
-
-//         {
-//         "f": "faible",
-//         "a": "weak/ feeble",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminie",
-//             "descriptions": [ "faible", "faibles"  ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "dur",
-//         "a": "hard/ lasts",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "dur", "durs"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "dure", "dures" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "pauvre",
-//         "a": "poor",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminine",
-//             "descriptions": [ "pauvre", "pauvres"  ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "b&#234;te",
-//         "a": "stupid",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminine",
-//             "descriptions": [ "b&#234;te", "b&#234;tes"  ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "&#233;norme",
-//         "a": "huge",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminine",
-//             "descriptions": [ "&#233;norme", "&#233;normes"  ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "dr&#244;le",
-//         "a": "funny",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminine",
-//             "descriptions": [ "dr&#244;le", "dr&#244;les"  ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "laid",
-//         "a": "ugly",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "laid", "laids"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "laide", "laides" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "sombre",
-//         "a": "dark",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminine",
-//             "descriptions": [ "sombre", "sombres"  ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "vicieux",
-//         "a": "vicious",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "vicieux" ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "vicieuse, vicieuses" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "pr&#234;t",
-//         "a": "ready",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "pr&#234;t", "pr&#234;tes"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "pr&#234;te", "pr&#234;te" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "m&#233;chant",
-//         "a": "mean",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "m&#233;chant", "m&#233;chants"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "m&#233;chante", "m&#233;chantes" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "sympa",
-//         "a": "nice",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminine",
-//             "descriptions": [ "sympa", "sympas"  ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "s&#233;rieux",
-//         "a": "serious",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "s&#233;rieux" ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "s&#233;rieuse", "s&#233;rieuses" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "sec",
-//         "a": "dry",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "sec", "secs"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "s&#232;che", "s&#232;ches" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "seul",
-//         "a": "alone",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "seul", "seuls"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "seule", "seules" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "l&#233;ger",
-//         "a": "light",
-//         "definitions": [
-//             {
-//             "title": "masculine",
-//             "descriptions": [ "l&#233;ger", "l&#233;gers"  ]
-//             },
-//             {
-//             "title" : "feminine",
-//             "descriptions": [ "l&#233;g&#232;re", "l&#233;g&#232;res" ]
-//             }
-//             ]
-//         },
-//         {
-//         "f": "propre",
-//         "a": "clean",
-//         "definitions": [
-//             {
-//             "title": "masculine/feminine",
-//             "descriptions": [ "propre", "propres"  ]
-//             }
-//             ]
-//         }
-    
-//         ]
-// };
-
 const transitionals = {
     "type": "transitonals",
-    "vocabArray": []
+    "vocabArray": [
+
+    ]
 };
 
 // const transitionals = {
@@ -2391,8 +2379,8 @@ const pronouns = {
         //initial values- populated when section clicked  
         $scope.section;   
         $scope.thisSection = {
-            "source": adjectives,
-            "vocab": adjectives.vocabArray
+            "source": transitionals,
+            "vocab": transitionals.vocabArray
             };
           
                   
