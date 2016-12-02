@@ -155,6 +155,12 @@ body {
     cursor: pointer;
     padding: 15px 0;
     transition: border-bottom .4s ease-in-out, color .4s ease-in-out; }
+    #app-wrapper #main-menu-wrapper li .vocab-count {
+      font-size: .6rem;
+      padding-left: .8rem; }
+      @media screen and (min-width: 750px) {
+        #app-wrapper #main-menu-wrapper li .vocab-count {
+          font-size: 1rem; } }
     @media screen and (min-width: 750px) {
       #app-wrapper #main-menu-wrapper li {
         border: none;

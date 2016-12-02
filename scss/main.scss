@@ -215,6 +215,13 @@ h1 {
 			cursor: pointer;
 			padding: 15px 0;
 			transition: border-bottom .4s ease-in-out, color .4s ease-in-out; 
+			.vocab-count {
+				font-size: .6rem;
+				padding-left: .8rem;
+				@media screen and (min-width: 750px) {
+					font-size: 1rem;
+					}
+				}
 			@media screen and (min-width: 750px) {
 				border: none;
 				border-bottom: 1px solid rgba(51,51,51,0.0);
@@ -244,6 +251,7 @@ li, p, button, .word, h6 {
 li, button {
 	font-size: 1rem;
 }
+
 
 p {
 	font-size: 2rem;
