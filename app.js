@@ -2017,7 +2017,7 @@ const adverbs = {
         },
         {
             "f": "parfois",
-            "a": "somtimes"
+            "a": "sometimes"
         },
         {
             "f": "quand m&#234;me",
