@@ -2438,7 +2438,7 @@ const pronouns = {
 };
 
 const directions = {
-    "type": "pronouns",
+    "type": "directions",
     "vocabArray": [
             {
             "f": "le nord",
@@ -2538,6 +2538,188 @@ const directions = {
 };
 
 
+const weather = {
+    "type": "weather",
+    "vocabArray": [
+        {
+            "f": "m&#233;t&#233;o",
+            "a": "weather",
+            "definitions": [
+            {
+            "title": "alternates",
+            "descriptions": [ "les temps"]
+            }
+            ]
+            },
+            {
+            "f": "la pluie",
+            "a": "rain (n)"    
+            },
+            {
+            "f": "la neige",
+            "a": "snow (n)"    
+            },
+            {
+            "f": "la chaleur",
+            "a": "heat (n)"    
+            },
+            {
+            "f": "le froid",
+            "a": "cold (n)"    
+            },
+            {
+            "f": "le nuege",
+            "a": "cloud(n)"    
+            },
+            {
+            "f": "nuageux",
+            "a": "cloudy"    
+            },
+            {
+            "f": "le soleil",
+            "a": "sun (n)"    
+            },
+            {
+            "f": "le ciel",
+            "a": "sky"    
+            },
+            {
+            "f": "les pr&#233;visions",
+            "a": "forecast"    
+            },
+            {
+            "f": "orage",
+            "a": "storm",
+            "definitions": [
+                {
+                "title": "alternates",
+                "descriptions": [ "la temp&#234;te" ]
+                 }
+                 ]    
+            },
+            {
+            "f": "le tonnerre",
+            "a": "thunder"    
+            },
+            {
+            "f": "las parapluie",
+            "a": "umbrella"    
+            },
+            {
+            "f": "l&#8217;&#233;charpe",
+            "a": "scarf"    
+            },
+            {
+            "f": "le manteau",
+            "a": "coat"    
+            },
+            {
+            "f": "le vent",
+            "a": "wind"    
+            },
+            {
+            "f": "venteux",
+            "a": "windy"    
+            },
+            {
+            "f": "quel temps fait-il?",
+            "a": "what is the weather like?"    
+            },
+            {
+            "f": "il fait &#8214;",
+            "a": "the weather is &#8214;",
+            "definitions": [
+                {
+                "title": "alternates",
+                "descriptions": [ "c'est &8214;", "Example: c'est nuageux" ]
+                }
+                ]    
+            },
+            {
+            "f": "le brouillard",
+            "a": "fog"    
+            },
+            {
+            "f": "brumeux",
+            "a": "foggy"    
+            },
+            {
+            "f": "humidit&#233;",
+            "a": "humidity"    
+            },
+            {
+            "f": "humid",
+            "a": "humide"    
+            },
+            {
+            "f": "le foudre",
+            "a": "lightning"    
+            },
+            {
+            "f": "to rain (v)",
+            "a": "pleuvoir",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "il pleut" ]
+                }
+                ]    
+            },
+            {
+            "f": "neiger",
+            "a": "to snow",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "il neige" ]
+                }
+                ]    
+            },
+            {
+            "f": "le inondation",
+            "a": "flood"    
+            },
+            {
+            "f": "inonder",
+            "a": "to flood",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "il inond&#233;" ]
+                }
+                ]    
+            },
+            {
+            "f": "le degr&#233;",
+            "a": "degree"    
+            },
+            {
+            "f": "arc-en-ciel",
+            "a": "rainbow"    
+            },
+            {
+            "f": "le gel",
+            "a": "frost",
+            "definitions": [
+                {
+                "title": "alternates",
+                "descriptions": [ "le givre" ]    
+                }
+                ]    
+            },
+            {
+            "f": "givrer",
+            "a": "to frost",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "il givr&#233;" ]
+                }
+                ]    
+            }
+    ]
+};
+
 
    let randomInt = function(min, max) {
                       min = Math.ceil(min);
@@ -2562,6 +2744,7 @@ const directions = {
         "pronouns": pronouns,
         "adverbs": adverbs,
         "directions": directions,
+        "weather": weather,
         "menuArray": [
             { 
                 "title": "verbs",
@@ -2594,6 +2777,11 @@ const directions = {
              { 
                 "title": "directions",
                 "count": directions.vocabArray.length
+             },
+             {
+                "title": "weather",
+                "count": weather.vocabArray.length
+
              }
             ]
      };
