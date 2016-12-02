@@ -85,6 +85,34 @@ const verbs = {
             }
             ]
         },
+        {
+        "f": "survenir",
+        "a": "to happen/occur",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je surviens", "tu surviens", "il/elle/on survient", "nous survenons", "vous survenez", "ils/elles surviennent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "laisser",
+        "a": "to let/ leave/ allow",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je laisse", "tu laisses", "il/elle/on laisse", "nous laissons", "vous laissez", "ils/elles laissent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
                 {
         "f": "avoir",
         "a": "to have",
@@ -1247,7 +1275,45 @@ const adjectives = {
             }
             ]
         },
-                {
+        {
+        "f": "parfait",
+        "a": "perfect",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "parfait", "parfaits"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "parfaite", "parfaites" ]    
+            }
+            ]
+        },
+        {
+        "f": "plein",
+        "a": "full",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "plein", "pleins"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "pleine", "pleines" ]    
+            }
+            ]
+        },
+        {
+        "f": "vide",
+        "a": "empty",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "vide", "vides"  ]
+            }
+            ]
+        },
+         {
         "f": "erron&#233;",
         "a": "wrong/ incorrect",
         "definitions": [
@@ -1823,6 +1889,16 @@ const transitionals = {
             
             },
             {
+            "f": "non plus",
+            "a": "neither",
+            
+            },
+            {
+            "f": "ni",
+            "a": "neither/ nor",
+            
+            },
+            {
             "f": "pour que",
             "a": "so that",
             
@@ -1922,6 +1998,30 @@ const adverbs = {
                 {
             "f": "ensuite",
             "a": "next"
+        },
+        {
+            "f": "bient&#234;t",
+            "a": "soon"
+        },
+        {
+            "f": "encore",
+            "a": "again/ still"
+        },
+        {
+            "f": "toujours",
+            "a": "always"
+        },
+        {
+            "f": "jamais",
+            "a": "never"
+        },
+        {
+            "f": "parfois",
+            "a": "somtimes"
+        },
+        {
+            "f": "quand m&#234;me",
+            "a": "anyway/ still"
         },
         {
             "f": "aussi",
