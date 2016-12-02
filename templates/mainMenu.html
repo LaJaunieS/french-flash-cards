@@ -1,8 +1,8 @@
         <div id="main-menu-content-fade">
             <h1>sections</h1> 
             <div id="mainMenu">
-                <ul ng-repeat="section in sectionsObject.sectionsArray">
-                    <li ng-click="startSection(section)">{{section}}</li>
+                <ul ng-repeat="section in sectionsObject.menuArray">
+                    <li ng-click="startSection(section.title)">{{section.title}} <span class="vocab-count">{{section.count}} words</span></li>
                 </ul>
             </div>
         		<div id="footer"><h6 ng-click="about=!about"><a>about</a></h6> 

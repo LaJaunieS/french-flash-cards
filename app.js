@@ -2453,17 +2453,47 @@ const pronouns = {
 
       .controller("flashCardCtrl", [ "$scope", "$timeout", function($scope, $timeout) {
           
-     
-        $scope.sectionsObject = {
-            "sectionsArray": [ "verbs", "adjectives", "transitionals", "time", "family", "pronouns", "adverbs" ],
-            "verbs": verbs,
-            "adjectives": adjectives,
-            "transitionals": transitionals,
-            "time": time,
-            "family": family,
-            "pronouns": pronouns,
-            "adverbs": adverbs
-        };
+     $scope.sectionsObject  = {
+        "verbs": verbs,
+        "adjectives": adjectives,
+        "transitionals": transitionals,
+        "time": time,
+        "family": family,
+        "pronouns": pronouns,
+        "adverbs": adverbs,
+        "menuArray": [
+            { 
+                "title": "verbs",
+                "count": verbs.vocabArray.length
+             },
+            { 
+                "title": "adjectives",
+                "count": adjectives.vocabArray.length
+             },
+            { 
+                "title": "transitionals",
+                "count": transitionals.vocabArray.length
+             },
+            { 
+                "title": "time",
+                "count": time.vocabArray.length
+            },
+            { 
+                "title": "family",
+                "count": family.vocabArray.length    
+                 },
+            { 
+                "title": "pronouns",
+                "count": pronouns.vocabArray.length
+            },
+            { 
+                "title": "adverbs",
+                "count": adverbs.vocabArray.length
+             }
+            ]
+     };
+
+
 
         //initial values- populated when section clicked  
         $scope.section;   
