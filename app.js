@@ -2531,7 +2531,7 @@ const directions = {
             "a": "map"    
             },
             {
-            "f": "la directions",
+            "f": "la direction",
             "a": "direction"    
             }
             ]
@@ -2569,7 +2569,7 @@ const weather = {
             },
             {
             "f": "le nuege",
-            "a": "cloud(n)"    
+            "a": "cloud (n)"    
             },
             {
             "f": "nuageux",
@@ -2626,12 +2626,12 @@ const weather = {
             "a": "what is the weather like?"    
             },
             {
-            "f": "il fait &#8214;",
-            "a": "the weather is &#8214;",
+            "f": "il fait &#8212;",
+            "a": "the weather is &#8212;",
             "definitions": [
                 {
                 "title": "alternates",
-                "descriptions": [ "c'est &8214;", "Example: c'est nuageux" ]
+                "descriptions": [ "c'est &8212;", "Example: c'est nuageux" ]
                 }
                 ]    
             },
@@ -2641,15 +2641,15 @@ const weather = {
             },
             {
             "f": "brumeux",
-            "a": "foggy"    
+            "a": "foggy/ misty/ hazy"    
             },
             {
             "f": "humidit&#233;",
             "a": "humidity"    
             },
             {
-            "f": "humid",
-            "a": "humide"    
+            "f": "humide",
+            "a": "humid"    
             },
             {
             "f": "le foudre",
@@ -2709,7 +2709,7 @@ const weather = {
             },
             {
             "f": "givrer",
-            "a": "to frost",
+            "a": "to frost (v)",
             "definitions": [
                 {
                 "title": "present tense",
