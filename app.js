@@ -2656,8 +2656,8 @@ const weather = {
             "a": "lightning"    
             },
             {
-            "f": "to rain (v)",
-            "a": "pleuvoir",
+            "f": "pleuvoir",
+            "a": "to rain (v)",
             "definitions": [
                 {
                 "title": "present tense",
