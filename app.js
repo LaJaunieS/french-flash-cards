@@ -2602,7 +2602,7 @@ const weather = {
             "a": "thunder"    
             },
             {
-            "f": "las parapluie",
+            "f": "le parapluie",
             "a": "umbrella"    
             },
             {
