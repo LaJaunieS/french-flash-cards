@@ -73,6 +73,24 @@ body {
   #app-wrapper #flash-card-content-wrapper {
     opacity: 0;
     width: 100%; }
+    #app-wrapper #flash-card-content-wrapper #backButton {
+      cursor: pointer;
+      padding: 0;
+      position: absolute;
+      left: 0;
+      border-bottom: none;
+      z-index: 10000; }
+      #app-wrapper #flash-card-content-wrapper #backButton img {
+        height: 1rem;
+        width: 2rem; }
+      #app-wrapper #flash-card-content-wrapper #backButton:hover {
+        animation: hoverButton .4s ease-in-out; }
+      @media screen and (min-width: 750px) {
+        #app-wrapper #flash-card-content-wrapper #backButton {
+          padding-left: 1rem; }
+          #app-wrapper #flash-card-content-wrapper #backButton img {
+            height: 1rem;
+            width: 3rem; } }
   @media screen and (min-width: 750px) {
     #app-wrapper #main-menu-content-fade,
     #app-wrapper #card-section,
@@ -116,31 +134,11 @@ body {
     @media screen and (min-width: 750px) {
       #app-wrapper #button-wrapper {
         height: 23vh; } }
-    #app-wrapper #button-wrapper button:not(#backButton) {
+    #app-wrapper #button-wrapper button {
       cursor: pointer;
       padding: 15px 0;
       width: 66%;
       margin: 0 0 5px; }
-    #app-wrapper #button-wrapper #backButton {
-      cursor: pointer;
-      padding: 0;
-      position: absolute;
-      bottom: 92vh;
-      left: 0;
-      border-bottom: none;
-      z-index: 10000; }
-      #app-wrapper #button-wrapper #backButton img {
-        height: 1rem;
-        width: 2rem; }
-      #app-wrapper #button-wrapper #backButton:hover {
-        animation: hoverButton .4s ease-in-out; }
-      @media screen and (min-width: 750px) {
-        #app-wrapper #button-wrapper #backButton {
-          padding-left: 1rem;
-          bottom: 90vh; }
-          #app-wrapper #button-wrapper #backButton img {
-            height: 1rem;
-            width: 3rem; } }
   #app-wrapper h1 {
     color: #333;
     font-family: 'gilroylight', sans-serif; }
@@ -202,6 +200,10 @@ h3 {
   font-size: 1.1rem;
   margin: 1rem 0 .2rem; }
 
+button {
+  background-color: #fff;
+  border: none; }
+
 #button-wrapper {
   border-top: 1px solid #333;
   background-color: #fff; }
@@ -209,8 +211,6 @@ h3 {
     #button-wrapper {
       border-top: none; } }
   #button-wrapper button {
-    background-color: #fff;
-    border: none;
     border-bottom: 1px solid #333; }
     @media screen and (min-width: 750px) {
       #button-wrapper button {

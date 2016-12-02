@@ -101,6 +101,28 @@ body {
 #flash-card-content-wrapper {
     opacity: 0;
     width: 100%;
+    #backButton {
+    	cursor: pointer;
+    	padding: 0;
+		position: absolute;
+		left: 0;
+		border-bottom: none;
+		z-index: 10000;
+		img {
+			height: 1rem;
+			width: 2rem;
+			}
+			&:hover {
+				animation: hoverButton .4s ease-in-out;
+			}
+			@media screen and (min-width: 750px) {
+				padding-left: 1rem;
+				img {
+				height: 1rem;
+				width: 	3rem;
+				}
+			}
+		}
 }
 
 #main-menu-content-fade,
@@ -162,37 +184,13 @@ body {
     @media screen and (min-width: 750px) {
     	height: 23vh;
     }
-    button:not(#backButton) {
+    button {
     	cursor: pointer;
     	padding: 15px 0;
     	width: 66%;
     	margin: 0 0 5px;
     	 }
-    #backButton {
-    	cursor: pointer;
-    	padding: 0;
-		position: absolute;
-		bottom: 92vh;
-		left: 0;
-		border-bottom: none;
-		z-index: 10000;
-		img {
-			height: 1rem;
-			width: 2rem;
-			}
-			&:hover {
-				animation: hoverButton .4s ease-in-out;
-			}
-			@media screen and (min-width: 750px) {
-				padding-left: 1rem;
-				bottom: 90vh;
-				img {
-				height: 1rem;
-				width: 	3rem;
-				}
-			}
-		}
-   }
+    }
 
 /*styling design-y stuff*/
 
@@ -277,6 +275,11 @@ h3 {
 	margin: 1rem 0 .2rem;
 }
 
+button {
+	background-color: $background-color;
+    border: none;
+    }
+
 #button-wrapper {
 	border-top: 1px solid $text-color;
 	background-color: $background-color;
@@ -284,8 +287,6 @@ h3 {
 		border-top: none;
 		}
     button {
-    background-color: $background-color;
-    border: none;
     border-bottom: 1px solid $text-color;
 	@media screen and (min-width: 750px) {
 		background-color: $background-color;
