@@ -2437,6 +2437,106 @@ const pronouns = {
     ]
 };
 
+const directions = {
+    "type": "pronouns",
+    "vocabArray": [
+            {
+            "f": "le nord",
+            "a": "north"
+            },
+            {
+            "f": "le sud",
+            "a": "south"
+            },
+            {
+            "f": "l&#8217;est",
+            "a": "east"
+            },
+            {
+            "f": "l&#8217;ouest",
+            "a": "west"
+            },
+            {
+            "f": "en haut",
+            "a": "up"
+            },
+            {
+            "f": "en bas",
+            "a": "down"
+            },
+            {
+            "f": "dans",
+            "a": "in"
+            },
+            {
+            "f": "dehors",
+            "a": "out"
+            },
+            {
+            "f": "le nord-est",
+            "a": "northeast"
+            },
+            {
+            "f": "le nord-ouest",
+            "a": "northwest"
+            },
+            {
+            "f": "le sud-est",
+            "a": "southeast"
+            },
+            {
+            "f": "le sud-ouest",
+            "a": "southwest"
+            },
+            {
+            "f": "&#224; droite",
+            "a": "right"
+            },
+            {
+            "f": "&#224; gauche",
+            "a": "left"
+            },
+            {
+            "f": "tout droit",
+            "a": "straight"
+            },
+            {
+            "f": "autour de",
+            "a": "around"
+            },
+            {
+            "f": "vers",
+            "a": "towards"
+            },
+            {
+            "f": "la rue",
+            "a": "street"
+            },
+            {
+            "f": "le tour",
+            "a": "turn"
+            },
+            {
+            "f": "road",
+            "a": "la route",
+            "definitions": [
+            {
+            "title": "alternates",
+            "descriptions": [ "le chemin"]
+            }
+            ]
+            },
+            {
+            "f": "la carte",
+            "a": "map"    
+            },
+            {
+            "f": "la directions",
+            "a": "direction"    
+            }
+            ]
+};
+
 
 
    let randomInt = function(min, max) {
@@ -2461,6 +2561,7 @@ const pronouns = {
         "family": family,
         "pronouns": pronouns,
         "adverbs": adverbs,
+        "directions": directions,
         "menuArray": [
             { 
                 "title": "verbs",
@@ -2489,6 +2590,10 @@ const pronouns = {
             { 
                 "title": "adverbs",
                 "count": adverbs.vocabArray.length
+             },
+             { 
+                "title": "directions",
+                "count": directions.vocabArray.length
              }
             ]
      };
