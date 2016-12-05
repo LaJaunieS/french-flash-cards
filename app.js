@@ -144,7 +144,7 @@ const verbs = {
 
         {
         "f": "compl&#233;ter",
-        "a": "to have",
+        "a": "to complete",
         "definitions": [
             {
             "title": "present tense",
@@ -706,7 +706,7 @@ const verbs = {
         },
         {
         "f": "marcher",
-        "p": "to walk",
+        "a": "to walk",
         "definitions": [ 
             {
             "title": "present tense",
