@@ -1886,10 +1886,10 @@ const transitionals = {
                     {
             "f": "car",
             "a": "because",
-            "descriptions": [
+            "definitions": [
             	{
             		"title": "alternates",
-            		"definitions": [ "parce que" ]
+            		"descriptions": [ "parce que" ]
             	}
             ]
             },
