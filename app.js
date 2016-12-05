@@ -2360,11 +2360,11 @@ const pronouns = {
     "vocabArray": [
                     {
             "f": "le mien/ la mienne",
-            "a": "mine"
+            "a": "mine (pronoun)"
             },
             {
             "f": "le tien/ la tienne",
-            "a": "yours (inf.)"
+            "a": "yours (inf. pronoun)"
             },
             {
             "f": "la sien/ la sienne",
@@ -2372,19 +2372,19 @@ const pronouns = {
             },
             {
             "f": "le/ la n&#244;tre/ les n&#244;tres",
-            "a": "ours"
+            "a": "ours (pronoun)"
             },
             {
             "f": "le/ la v&#244;tre/ les v&#244;tres",
-            "a": "yours (form.)"
+            "a": "yours (form. pronoun)"
             },
              {
             "f": "le/ la leur/ les leurs",
-            "a": "theirs"
+            "a": "theirs (pronoun)"
             },
             {
             "f": "mon/ ma",
-            "a": "my"
+            "a": "my (possessive)"
             },
             {
             "f": "me",
@@ -2392,15 +2392,19 @@ const pronouns = {
             },
             {
             "f": "te",
-            "a": "you (dir./indir. obj.)"   
+            "a": "you (inf.- dir./indir. obj.)"   
             },
             {
             "f": "ton/ ta",
-            "a": "your (inf.)"
+            "a": "your (inf. possessive)"
             },
             {
             "f": "son/ sa",
-            "a": "his/ her"
+            "a": "his/ her (possessive)"
+            },
+            {
+            "f": "leur",
+            "a": "their (possessive)"	
             },
             {
             "f": "le/ la",
@@ -2412,19 +2416,19 @@ const pronouns = {
             },
             {
             "f": "notre",
-            "a": "our"
+            "a": "our (possessive)"
             },
             {
             "f": "nous",
-            "a": "us/ we (dir./indir. object)"  
+            "a": "us/ we"  
             },
             {
             "f": "vous",
-            "a": "you (formal- dir./indir. obj.)"   
+            "a": "you (formal)"   
             },
             {
             "f": "votre",
-            "a": "your (formal)"
+            "a": "your (formal possessive)"
             },
             {
             "f": "leur",
@@ -2433,7 +2437,93 @@ const pronouns = {
             {
             "f": "les",
             "a": "them (dir. obj.)" 
-            }
+            },
+            {
+            "f": "it (impersonal)",
+            "a": "ce"	
+            },
+            {
+            "f": "que",
+            "a": "that"
+        	},
+        	{
+        	"f": "qui",
+        	"a": "who"	
+        	},
+        	{
+        	"f": "lequel",
+        	"a": "which",
+        	"descriptions": [
+        		{
+        		"title": "masculine",
+        		"definitions": [ "lequel", "lequels" ]
+        		},
+        		{
+        		"title": "feminine",	
+        		"definitions": [ "lequelle", "lequelles"]	
+        		}
+        	]
+        	},
+        	{
+        	"f": "o&#249;",
+        	"a": "where"	
+        	},
+        	{
+        	"f": "en",
+        	"a": "of it/ of them/ some"	
+        	},
+        	{
+        	"f": "d&#8217;autres",
+        	"a": "others"	
+        	},
+        	{
+        	"f": "chacun",
+        	"a": "each/ each one",
+        	"descriptions": [
+        		{
+        		"title": "masculine",	
+        		"definitions": ["chacun"]
+        		},
+        		{
+        		"title": "feminine",	
+        		"definitions": ["chacune"]
+        		}
+        	]	
+        	},
+        	{
+        	"f": "certains",
+        	"a": "certain ones",
+        	"descriptions": [
+        		{
+        		"title": "masculine",	
+        		"definitions": [ "certains" ]
+        		},
+        		{
+        		"title": "feminine",
+        		"definitions":  [ "certaines" ]	
+        		}
+        	]
+        	},
+        	{
+        	"f": "plusiers",
+        	"a": "several"
+        	},
+        	{
+        	"f": "quelque chose",
+        	"a": "something"	
+        	},
+        	{
+        	"f": "quelqu&#8217;un",
+        	"a": "someone"	
+        	},
+        	{
+        	"f": "tout",
+        	"a": "everything"	
+        	},
+        	{
+        	"f": "tout le monde",
+        	"a": "everyone"	
+        	}
     ]
 };
 
