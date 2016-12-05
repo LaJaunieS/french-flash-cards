@@ -1886,7 +1886,28 @@ const transitionals = {
                     {
             "f": "car",
             "a": "because",
-            
+            "descriptions": [
+            	{
+            		"title": "alternates",
+            		"definitions": [ "parce que" ]
+            	}
+            ]
+            },
+            {
+            "f": "sans",
+            "a": "without"	
+            },
+            {
+            "f": "si",
+            "a": "if"	
+            },
+            {
+            "f": "des que",
+            "a": "as soon as"	
+            },
+            {
+            "f": "autant que",
+            "a": "may as well"	
             },
             {
             "f": "non plus",
