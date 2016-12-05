@@ -2474,14 +2474,14 @@ const pronouns = {
         	{
         	"f": "lequel",
         	"a": "which",
-        	"descriptions": [
+        	"definitions": [
         		{
         		"title": "masculine",
-        		"definitions": [ "lequel", "lequels" ]
+        		"descriptions": [ "lequel", "lequels" ]
         		},
         		{
         		"title": "feminine",	
-        		"definitions": [ "lequelle", "lequelles"]	
+        		"descriptions": [ "lequelle", "lequelles"]	
         		}
         	]
         	},
@@ -2742,7 +2742,7 @@ const weather = {
             "definitions": [
                 {
                 "title": "alternates",
-                "descriptions": [ "c'est &8212;", "Example: c'est nuageux" ]
+                "descriptions": [ "c'est &#8212;", "Example: c'est nuageux" ]
                 }
                 ]    
             },
