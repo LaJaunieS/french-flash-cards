@@ -2021,7 +2021,7 @@ const adverbs = {
             "a": "next"
         },
         {
-            "f": "bient&#234;t",
+            "f": "bient&#244;t",
             "a": "soon"
         },
         {
@@ -2460,8 +2460,8 @@ const pronouns = {
             "a": "them (dir. obj.)" 
             },
             {
-            "f": "it (impersonal)",
-            "a": "ce"	
+            "f": "ce",
+            "a": "it (impersonal)"	
             },
             {
             "f": "que",
