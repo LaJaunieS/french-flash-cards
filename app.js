@@ -1328,7 +1328,7 @@ const adjectives = {
         "a": "quiet",
         "definitions": [
             {
-            "title": "masculine/feminie",
+            "title": "masculine/feminine",
             "descriptions": [ "tranquille", "tranquilles"  ]
             }
             ]
@@ -1799,7 +1799,7 @@ const adjectives = {
         "definitions": [
             {
             "title": "masculine/feminine",
-            "descriptions": [ "sympa", "sympas"  ]
+            "descriptions": [ "sympa", "sympas" ]
             }
             ]
         },
@@ -1924,7 +1924,7 @@ const transitionals = {
             "a": "so that",
             
             },
-                        {
+            {
             "f": "tant que",
             "a": "as long as/ while/ until",
             },
@@ -1954,7 +1954,7 @@ const transitionals = {
             "definitions": [
                 {
                 "title": "alternates",
-                "descriptions": [ "tandis que", "pendant" ]
+                "descriptions": [ "lorsque", "pendant" ]
                 }
                 ]
             },
@@ -2046,7 +2046,7 @@ const adverbs = {
         },
         {
             "f": "aussi",
-            "a": "also",
+            "a": "also/ too/ as well",
             "definitions": [
                 {
                 "title": "alternates",
@@ -2159,10 +2159,6 @@ const adverbs = {
          {
             "f": "ici",
             "a": "here"
-        },
-        {
-            "f": "aussi",
-            "a": "also/ too/ as well"
         },
         {
             "f": "maintentant",
@@ -2371,6 +2367,18 @@ const time = {
             {
             "f": "printemps",
             "a": "spring"
+            },
+            {
+            "f": "aujourd&#8217;hui",
+            "a": "today"    
+            },
+            {
+            "f": "demain",
+            "a": "tomorrow"    
+            },
+            {
+            "f": "hier",
+            "a": "yesterday"    
             }  
         ]
 };
