@@ -71,6 +71,48 @@ const family = {
 const verbs = {
     "type": "verbs",
     "vocabArray": [
+        {
+        "f": "para&#238;tre",
+        "a": "to appear/ turn up",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je para&#238;ts", "tu para&#238;ts", "il/elle/on para&#238;t", "nous para&#238;tons", "vous para&#238;tez", "ils/elles para&#238;tent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "sembler",
+        "a": "to seem/ to sound/ to appear",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je semble", "tu sembles", "il/elle/on semble", "nous semblons", "vous semblez", "ils/elles semblent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "sortir",
+        "a": "to leave/ exit/ take out",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je sors", "tu sors", "il/elle/on sort", "nous sortons", "vous sortez", "ils/elles sortent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
                 {
         "f": "parler",
         "a": "to speak",
@@ -1868,6 +1910,20 @@ const adjectives = {
             "descriptions": [ "propre", "propres"  ]
             }
             ]
+        },
+        {
+        "f": "clair",
+        "a": "clear",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "clair", "clairs"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "claire", "claire" ]    
+            }
+            ]    
         }
 
 
@@ -1892,6 +1948,64 @@ const transitionals = {
             		"descriptions": [ "parce que" ]
             	}
             ]
+            },
+            {
+            "f": "selon",
+            "a": "according to"    
+            },
+            {
+            "f": "eh bien!",
+            "a": "well!"    
+            },
+            {
+            "f": "peut-&#234;tre",
+            "a": "perhaps"    
+            },
+            {
+            "f": "s&#251;rement",
+            "a": "surely"    
+            },
+            {
+            "f": "suffisament",
+            "a": "enough/ sufficiently",
+            "definitions": [
+                {
+                 "title": "example",
+                 "descriptions": ["il fait suffisament froid", "it is cold enough"]   
+                }
+            ]    
+            },
+            {
+            "f": "tout &#224; fait",
+            "a": "absolutely"    
+            },
+            {
+            "f": "il y a",
+            "a": "there is"    
+            },
+            {
+            "f": "il n&#8217;y a pas",
+            "a": "there is no/ there is not"    
+            }
+            {
+            "f": "ensemble",
+            "a": "together"    
+            },
+            {
+            "f": "au moins",
+            "a": "at least"    
+            },
+            {
+            "f": "presque",
+            "a": "almost"    
+            },
+            {
+            "f": "pourtant",
+            "a": "yet/ however"
+            },
+            {
+            "f": "&#224; peu pr&#232;s",
+            "a": "nearly/ about/ more or less" 
             },
             {
             "f": "sans",
@@ -1981,6 +2095,10 @@ const transitionals = {
             {
             "f": "devant",
             "a": "in front of",
+            },
+            {
+            "f": "est-ce que",
+            "a": "do/ is it that"    
             },
             {
             "f": "mais",
@@ -2552,7 +2670,11 @@ const pronouns = {
         	{
         	"f": "tout le monde",
         	"a": "everyone"	
-        	}
+        	},
+            {
+            "f": "tout ce que",
+            "a": "whatever"    
+            }
     ]
 };
 
@@ -2636,8 +2758,8 @@ const directions = {
             "a": "turn"
             },
             {
-            "f": "road",
-            "a": "la route",
+            "f": "la route",
+            "a": "road",
             "definitions": [
             {
             "title": "alternates",
