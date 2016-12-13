@@ -1986,7 +1986,7 @@ const transitionals = {
             {
             "f": "il n&#8217;y a pas",
             "a": "there is no/ there is not"    
-            }
+            },
             {
             "f": "ensemble",
             "a": "together"    
