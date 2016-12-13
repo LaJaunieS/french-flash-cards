@@ -2961,6 +2961,53 @@ const weather = {
     ]
 };
 
+const household = {
+    "type": "weather",
+    "vocabArray": [
+        {
+        "f": "la maison",
+        "a": "house"    
+        },
+        {
+        "f": "le lit",
+        "a": "bed"    
+        },
+        {
+        "f": "la table",
+        "a": "table"    
+        },
+        {
+            "f": "la tasse",
+            "a": "cup"
+        },
+        {
+            "f": "la chaise",
+            "a": "chair"
+        },
+        {
+            "f": "le couteau",
+            "a": "knife"
+        },
+        {
+            "f": "la assiette",
+            "a": "plate"
+        },
+        {
+            "f": "le bol",
+            "a": "bowl"
+        },
+        {
+            "f": "la cuilli&#232;re",
+            "a": "spoon"
+        },
+        {
+            "f": "la fourchette",
+            "a": "fork"
+        }
+
+    ]
+}
+
 
    let randomInt = function(min, max) {
                       min = Math.ceil(min);
@@ -2986,6 +3033,7 @@ const weather = {
         "adverbs": adverbs,
         "directions": directions,
         "weather": weather,
+        "household": household,
         "menuArray": [
             { 
                 "title": "verbs",
@@ -3023,6 +3071,10 @@ const weather = {
                 "title": "weather",
                 "count": weather.vocabArray.length
 
+             },
+             {
+                "title": "household",
+                "count": household.vocabArray.length
              }
             ]
      };
