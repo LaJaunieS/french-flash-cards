@@ -86,6 +86,48 @@ const verbs = {
             ]
         },
         {
+        "f": "fermer",
+        "a": "to close/ shut",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je ferme", "tu fermes", "il/elle/on ferme", "nous fermons", "vous fermez", "ils/elles ferment"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "nettoyer",
+        "a": "to clean",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je nettoie", "tu nettoies", "il/elle/on nettoie", "nous nettoyons", "vous nettoyez", "ils/elles nettoient"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "descendre",
+        "a": "to bring down/ come down",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je descends", "tu descends", "il/elle/on descend", "nous descendons", "vous descendez", "ils/elles descendent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
         "f": "sembler",
         "a": "to seem/ to sound/ to appear",
         "definitions": [
@@ -2986,10 +3028,14 @@ const household = {
         },
         {
             "f": "le couteau",
-            "a": "knife"
+            "a": "knife",
+            "definitions": {
+                "title": "plural",
+                "descriptions": "couteaux"
+            }
         },
         {
-            "f": "la assiette",
+            "f": "l&#8217;assiette",
             "a": "plate"
         },
         {
@@ -3003,8 +3049,175 @@ const household = {
         {
             "f": "la fourchette",
             "a": "fork"
+        },
+        {
+            "f": "le verre",
+            "a": "glass/drinking glass"
+        },
+        {
+            "f": "les couverts",
+            "a": "cutlery/ flatware"
+        },
+        {
+            "f": "la bouteille",
+            "a": "bottle"
+        },
+        {
+            "f": "la lampe",
+            "a": "lamp"
+        },
+        {
+            "f": "l&#8217;&#232;ponge",
+            "a": "sponge"
+        },
+        {
+            "f": "la fen&#234;tre",
+            "a": "window"
+        },
+        {
+            "f": "le miroir",
+            "a": "mirror"
+        },
+        {
+            "f": "le canap&#233;",
+            "a": "couch/ sofa"
+        },
+        {
+            "f": "le berceau",
+            "a": "crib/ cot"
+        },
+        {
+            "f": "le tepis",
+            "a": "rug"
+        },
+        {
+            "f": "le bureau",
+            "a": "desk/ study/ office"
+        },
+        {
+            "f": "la porte",
+            "a": "door"
+        },
+        {
+            "f": "le toit",
+            "a": "roof"
+        },
+        {
+            "f": "le mur",
+            "a": "wall"
+        },
+        {
+            "f": "le four",
+            "a": "oven"
+        },
+        {
+            "f": "les meubles",
+            "a": "furniture"
+        },
+        {
+            "f": "les escaliers",
+            "a": "stairs"
+        },
+        {
+            "f": "la piscine",
+            "a": "swimming pool"
+        },
+        {
+            "f": "la douche",
+            "a": "shower"
+        },
+        {
+            "f": "le r&#233;frig&#233;rateur",
+            "a": "refrigerator"
+        },
+        {
+            "f": "les outils",
+            "a": "tools"
+        },
+        {
+            "f": "le baignoire",
+            "a": "bathtub"
+        },
+        {
+            "f": "le horloge",
+            "a": "clock"
+        },
+        {
+            "f": "la serviette",
+            "a": "napkin"
+        },
+        {
+            "f": "le rideau",
+            "a": "curtain"
+        },
+        {
+            "f": "la couverture",
+            "a": "blanket/ cover"
+        },
+        {
+            "f": "la prise",
+            "a": "plug/ socket/ outlet"
+        },
+        {
+            "f": "le recette",
+            "a": "recipe"
+        },
+        {
+            "f": "le savon",
+            "a": "soap"
+        },
+        {
+            "f": "le plafond",
+            "a": "ceiling"
+        },
+        {
+            "f": "le chauffage",
+            "a": "heating"
+        },
+        {
+            "f": "le jouet",
+            "a": "toy"
+        },
+        {
+            "f": "le drap",
+            "a": "sheet/ bedsheet"
+        },
+        {
+            "f": "la poubelle",
+            "a": "bin/ trash bin"
+        },
+        {
+            "f": "le balcon",
+            "a": "balcony"
+        },
+        {
+            "f": "le meuble",
+            "a": "cabinet"
+        },
+        {
+            "f": "l&#8217;&#233;tage",
+            "a": "floor"
+        },
+        {
+            "f": "la brosse",
+            "a": "brush"
+        },
+        {
+            "f": "le cadre",
+            "a": "frame"
+        },
+        {
+            "f": "la caisse",
+            "a": "case/ crate/ box"
+        },
+        {
+            "f": "la bo&#238;te",
+            "a": "box"
+        },
+        {
+            "f": "la pi&#232;ce",
+            "a": "room/ piece"
         }
-
     ]
 }
 
