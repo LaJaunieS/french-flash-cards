@@ -3221,6 +3221,17 @@ const household = {
     ]
 }
 
+const body = {
+    "type": "parts of the body ",
+    "vocabArray": [
+        {
+            "f": "la t&#234;te",
+            "a": "head"
+        }
+    ]
+};
+
+
 
    let randomInt = function(min, max) {
                       min = Math.ceil(min);
@@ -3247,6 +3258,7 @@ const household = {
         "directions": directions,
         "weather": weather,
         "household": household,
+        "parts of the body": body,
         "menuArray": [
             { 
                 "title": "verbs",
@@ -3288,6 +3300,10 @@ const household = {
              {
                 "title": "household",
                 "count": household.vocabArray.length
+             },
+             {
+                "title": "parts of the body",
+                "count": body.vocabArray.length
              }
             ]
      };
