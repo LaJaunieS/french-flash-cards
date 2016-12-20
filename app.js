@@ -3325,13 +3325,16 @@ const body = {
                     $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(
                         function successCallback(data) {
                             //$scope.testData.addElem(data.data);
-                            console.log('request successful');
+                            console.log('data request successful');
                             $scope.testData[$scope.sectionsArray[i]] = data.data;
                             $scope.sectionsObject[$scope.sectionsArray[i]] = data.data;
                             $scope.sectionsObject.menuArray.push( {"title": data.data.type, "count": data.data.vocabArray.length});
                             
                         }, function errorCallback() {
-                            console.log('failed to get data');
+                            document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
+                            i = $scope.sectionsArray.length;
+                            console.log(i);
+                            
                         });
                     
                     };
