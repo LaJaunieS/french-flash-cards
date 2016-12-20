@@ -3268,51 +3268,51 @@ const body = {
         // "household": household,
         // "parts of the body": body,
         "menuArray": [
-            { 
-                "title": "verbs",
-                "count": verbs.vocabArray.length
-             },
-            { 
-                "title": "adjectives",
-                "count": adjectives.vocabArray.length
-             },
-            { 
-                "title": "transitionals",
-                "count": transitionals.vocabArray.length
-             },
-            { 
-                "title": "time",
-                "count": time.vocabArray.length
-            },
-            { 
-                "title": "family",
-                "count": family.vocabArray.length    
-                 },
-            { 
-                "title": "pronouns",
-                "count": pronouns.vocabArray.length
-            },
-            { 
-                "title": "adverbs",
-                "count": adverbs.vocabArray.length
-             },
-             { 
-                "title": "directions",
-                "count": directions.vocabArray.length
-             },
-             {
-                "title": "weather",
-                "count": weather.vocabArray.length
+            // { 
+            //     "title": "verbs",
+            //     "count": verbs.vocabArray.length
+            //  },
+            // { 
+            //     "title": "adjectives",
+            //     "count": adjectives.vocabArray.length
+            //  },
+            // { 
+            //     "title": "transitionals",
+            //     "count": transitionals.vocabArray.length
+            //  },
+            // { 
+            //     "title": "time",
+            //     "count": time.vocabArray.length
+            // },
+            // { 
+            //     "title": "family",
+            //     "count": family.vocabArray.length    
+            //      },
+            // { 
+            //     "title": "pronouns",
+            //     "count": pronouns.vocabArray.length
+            // },
+            // { 
+            //     "title": "adverbs",
+            //     "count": adverbs.vocabArray.length
+            //  },
+            //  { 
+            //     "title": "directions",
+            //     "count": directions.vocabArray.length
+            //  },
+            //  {
+            //     "title": "weather",
+            //     "count": weather.vocabArray.length
 
-             },
-             {
-                "title": "household",
-                "count": household.vocabArray.length
-             },
-             {
-                "title": "parts of the body",
-                "count": body.vocabArray.length
-             }
+            //  },
+            //  {
+            //     "title": "household",
+            //     "count": household.vocabArray.length
+            //  },
+            //  {
+            //     "title": "parts of the body",
+            //     "count": body.vocabArray.length
+            //  }
             ]
      };
 
@@ -3328,8 +3328,7 @@ const body = {
                             console.log('request successful');
                             $scope.testData[$scope.sectionsArray[i]] = data.data;
                             $scope.sectionsObject[$scope.sectionsArray[i]] = data.data;
-                            $scope.sectionsObject.menuArray[i].title = data.data.type;
-                            $scope.sectionsObject.menuArray[i].count = data.data.vocabArray.length;
+                            $scope.sectionsObject.menuArray.push( {"title": data.data.type, "count": data.data.vocabArray.length});
                             console.log($scope.sectionsObject.menuArray[i].count);        
                         }, function errorCallback() {
                             console.log('failed to get data');
@@ -3342,12 +3341,7 @@ const body = {
 
                     $scope.getJson();
 
-        $timeout(function() {
-            
-                    }, 500);
-                             
-
-     
+          
 
 
         //initial values- populated when section clicked  
