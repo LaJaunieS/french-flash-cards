@@ -1,0 +1,1272 @@
+{
+    "type": "verbs",
+    "vocabArray": [
+        {
+        "f": "para&#238;tre",
+        "a": "to appear/ turn up",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je para&#238;ts", "tu para&#238;ts", "il/elle/on para&#238;t", "nous para&#238;tons", "vous para&#238;tez", "ils/elles para&#238;tent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "fermer",
+        "a": "to close/ shut",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je ferme", "tu fermes", "il/elle/on ferme", "nous fermons", "vous fermez", "ils/elles ferment"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "nettoyer",
+        "a": "to clean",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je nettoie", "tu nettoies", "il/elle/on nettoie", "nous nettoyons", "vous nettoyez", "ils/elles nettoient"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "descendre",
+        "a": "to bring down/ come down",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je descends", "tu descends", "il/elle/on descend", "nous descendons", "vous descendez", "ils/elles descendent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "sembler",
+        "a": "to seem/ to sound/ to appear",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je semble", "tu sembles", "il/elle/on semble", "nous semblons", "vous semblez", "ils/elles semblent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "sortir",
+        "a": "to leave/ exit/ take out",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je sors", "tu sors", "il/elle/on sort", "nous sortons", "vous sortez", "ils/elles sortent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+                {
+        "f": "parler",
+        "a": "to speak",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je parle", "tu parles", "il/elle/on parle;", "nous parlons", "vous parlez", "ils/elles parlent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "survenir",
+        "a": "to happen/occur",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je surviens", "tu surviens", "il/elle/on survient", "nous survenons", "vous survenez", "ils/elles surviennent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "laisser",
+        "a": "to let/ leave/ allow",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je laisse", "tu laisses", "il/elle/on laisse", "nous laissons", "vous laissez", "ils/elles laissent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+                {
+        "f": "avoir",
+        "a": "to have",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;ai", "tu as", "il/elle/on a", "nous avons", "vous avez", "ils/elles ont" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "commencer",
+        "a": "to begin",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je commence", "tu commences", "il/elle/on commence", "nous commen&#231;ons", "vous commencez", "ils/elles commencent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+
+        {
+        "f": "compl&#233;ter",
+        "a": "to complete",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je compl&#232;te", "tu compl&#232;tes", "il/elle/on compl&#232;te", "nous compl&#233;tons", "vous compl&#233;tez", "ils/elles compl&#233;tent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+
+        {
+        "f": "&#234;tre",
+        "a": "to be",
+        "definitions": [
+            {
+            "title": "present tense",    
+            "descriptions": [ "je suis", "tu es", "il/elle/on est", "nous sommes", "vous &#234;tes", "ils/elles sont"]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+            "f": "conna&#238;tre",
+            "a": "to know (someone)",
+            "definitions": [
+                {
+                "title": "present tense",    
+                "descriptions": [ "je connais", "tu connais", "il/elle/on conna&#238;t", "nous connaissons", "vous connaissez", "ils/elles connaissent" ]
+                },
+                {
+                "title": "past tense",
+                "descriptions": []
+                }
+            ]
+        },
+    
+        {
+        "f": "boire",
+        "a": "to drink",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": ["je bois", "tu bois", "il/elle/on boit", "nous buvons", "vous buvez", "ils boivent"]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },
+        {
+        "f": "&#233;crire",
+        "a": "to write",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": ["j&#8217;&#233;cris", "tu &#233;cris", "il/elle/on &#233;rit", "nous ecrivons", "vous &#233;crivez", "ils/elles &#233;crivent"]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+
+        {
+        "f": "chercher",
+        "a": "to look for",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": ["je cherche", "tu cherches", "il/elle/on cherche", "nous cherchons", "vous cherchez", "ils/elles cherchent"]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+
+        {
+        "f": "acheter",
+        "a": "to buy",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": ["j&#8217;ach&#232;te", "tu ach&#232;tes", "il/elle/on ach&#232;te", "nous achetons", "vous achetez", "ils/elles ach&#232;tent"]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+
+        {
+        "f": "comprendre",
+        "a": "to understand",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": ["je comprends", "tu comprends", "il/elle/on comprend", "nous comprenons", "vous comprenez", "ils/elles comprennent"]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "adore",
+        "a": "to adore",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": ["j&#8217;adore", "tu adores", "il/elle/on adore", "nous adorons", "vous adorez", "ils/elles adorent"]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+
+        {
+        "f": "apprendre",
+        "a": "to learn",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;apprends", "tu apprends", "il/elle/on apprend", "nous apprenons", "vous apprenez", "ils/elles apprennent"]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "attendre",
+        "a": "to wait",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;attends", "tu attends", "il/elle/on attend", "nous attendons", "vous attendez", "ils/elles attendent"]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+   
+        {
+        "f": "appeler",
+        "a": "to call",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;appelle", "tu appelles", "il/elle/on appelle", "nous appelons", "vous appelez", "ils/elles appellent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "avoir besoin",
+        "a": "to need/ to require",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;ai besoin", "tu as besoin", "il/elle/on a besoin", "nous avons besoin", "vous avez besoin", "ils/elles ont besoin" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+    
+        {
+        "f": "donner",
+        "a": "to give",
+        "definitions": [
+            {
+            "title": "present tense",    
+            "descriptions": [ "je donne", "tu donnes", "il/elle/on donne", "nous donnons", "vous donnez", "ils/elles donnent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+        
+        {
+        "f": "aller",
+        "a": "to go",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je vais", "tu vas", "il/elle/on va", "nous allons", "vous allez", "ils/elles vont" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+
+                {
+        "f": "pouvoir",
+        "a": "to be able",
+        "definitions": [
+            {
+            "title": "present tense",    
+            "descriptions": [ "je peux", "tu peux", "il/elle/on peut", "nous pouvons", "vous pouvez", "ils/elles peuvent" ] 
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+    
+        {
+        "f": "apporter",
+        "a": "to bring",
+        "definitions": [
+            {
+            "title": "present tense",    
+            "descriptions": [ "j&#8217;appporte", "tu apportes", "il/elle/on apporte", "nous apportons", "vous apportez", "ils/elle apportent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },
+    
+    
+        {
+        "f": "savoir",
+        "a": "to know (how to)",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je sais", "tu sais", "il/elle/on sait", "nous savons", "vous savez", "ils/elles savent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+   
+    
+        {
+        "f": "vouloir",
+        "a": "to want",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je veux", "tu veux", "il/elle/on veut", "nous voulons", "vous voulez", "ils/elles veulent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },
+    
+    
+        {
+        "f": "vivre",
+        "a": "to live",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je vis", "tu vis", "il/elle/on vit", "nous vivons", "vous vivez", "ils/elles vivent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },
+
+    
+        {
+        "f": "lever",
+        "a": "to raise/ lift/ stand",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je l&#232;ve", "tu l&#232;ves", "il/elle/on l&#232;ve", "nous levons", "vous levez", "ils/elles l&#232;vent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },
+
+    
+        {
+        "f": "devenir",
+        "a": "to become",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je deviens", "tu deviens", "il/elle/on devient", "nous devenons", "vous devenez", "ils/elles deviennent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },
+
+    
+        {
+        "f": "partir",
+        "a": "to leave/go out",
+        "definitions": [ 
+            {
+            "title": "present tense",
+            "descriptions": [ "je pars", "tu pars", "il/elle/on part", "nous partons", "vous partez", "ils/elles partent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+
+    
+        {
+        "f": "couper",
+        "a": "to cut/ to take away",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je coupe", "tu coupe", "il/elle/on coupe", "nous coupons", "vous coupez", "ils/elles coupent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },
+    
+    
+        {
+        "f": "agir",
+        "a": "to act/ behave",
+        "definitions": [
+            {
+            "title": "present tense",    
+            "descriptions": [ "j&#8217;agis", "tu agis", "il/elle/on agit", "nous agissons", "vous agissez", "ils/elles agissent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },
+    
+    
+        {
+        "f": "courir",
+        "a": "to run",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je cours", "tu cours", "il/elle/on court", "nous courons", "vous courez", "ils/elles courent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },    
+    
+        {
+        "f": "cuisiner",
+        "a": "to cook",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je cuisine", "tu cuisines", "il/elle/on cuisine", "nous cuisinons", "vous cuisinez", "ils/elles cuisinent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "contenir",
+        "a": "to contain",
+        "definitions": [
+            {
+            "title": "present tense",    
+            "descriptions": [ "je contiens", "tu contiens", "il/elle/on contient", "nous contenons", "vous contenez", "ils/elles contiennent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+                {
+        "f": "gagner",
+        "a": "to win",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je gagne", "tu ganges", "il/elle/on gange", "nous gagnons", "vous gagnez", "ils/elles gagnent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "entrer",
+        "a": "to enter",
+        "definitions": [         
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;entre", "tu entres", "il/elle/on entre", "nous entrons", "vous entrez", "ils/elles entrent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "finir",
+        "a": "to finish",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je finis", "tu finis", "il/elle/on finit", "nous finissons", "vous finissez", "ils/elles finissent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+        {
+        "f": "lancer",
+        "a": "to throw",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je lance", "tu lance", "il/elle/on lance", "nous lan&#231;ons", "vous lancez", "ils/elles lancent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+        {
+        "f": "dire",
+        "a": "to talk",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je dis", "tu dis", "il/elle/on dit", "nous disons", "vous ditez", "ils/elles disent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "inter&#233;sser",
+        "a": "to interest",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;int&#233;resse", "tu inter&#233;sses", "il/elle/on inter&#233;sse", "nous inter&#233;ssons", "vous inter&#233;ssez", "ils/elles inter&#233;ssent" ]
+            },
+            {
+            "title": "past tense",    
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "ouvrir",
+        "a": "to open",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;ouvre", "tu ouvres", "il/elle/on ouvre", "nous ouvrons", "vous ouvrez", "ils/elles ouvrent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "perdre",
+        "a": "to lose",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je perds", "tu perds", "il/elle/on perd", "nous perdons", "vous perdez", "ils/elles perdent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "cacher",
+        "a": "to hide",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je cache", "tu cache", "il/elle/on cache", "nous cachons", "vous cachez", "ils/elles cachent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+        {
+        "f": "marcher",
+        "a": "to walk",
+        "definitions": [ 
+            {
+            "title": "present tense",
+            "descriptions": [ "je marche", "tu marches", "il/elle/on marche", "nous marchons", "vous marchez", "ils/elles marchent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "montrer",
+        "a": "to watch/point out/show",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je montre", "tu montres", "il/elle/on montre", "nous montrons", "vous montrez", "ils/elles montrent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "mettre",
+        "a": "to put/ place/ wear",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je mets", "tu mets", "il/elle/on met", "nous mettons", "vous mettez", "ils/elles mettent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "laver",
+        "a": "to wash",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je lave", "tu laves", "il/elle/on lave", "nous lavons", "vous lavez", "ils/elles lavent" ]
+            },
+            {
+            "title": "present tense",
+            "descriptions": []
+            }
+            ]
+        },
+        
+        {
+        "f": "proposer",
+        "a": "to propose",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je propose", "tu proposes", "il/elle/on propose", "nous proposons", "vous proposez", "ils/elles proposent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "poss&#233;der",
+        "a": "to own/ possess",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je poss&#232;de", "tu poss&#232;des", "il/elle/on poss&#232;de", "nous poss&#233;dons", "vous poss&#233;dez", "ils/elles poss&#232;dent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "prendre",
+        "a": "to take",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je prends", "tu prends", "il/elle/on prends", "nous prenons", "vous prenez", "ils/elles prennent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "porter",
+        "a": "to wear/ carry",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je porte", "tu portes", "il/elle/on porte", "nous portons", "vous portez", "ils/elles portent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "saisir",
+        "a": "to grab/ seize",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je saisis", "tu saisis", "il/elle/on saisit", "nous saisissons", "vous saisissez", "ils/elles saisissent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+        
+        {
+        "f": "souhaiter",
+        "a": "to wish",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je souhaite", "tu souhaites", "il/elle/on souhaite", "nous souhaitons", "vous souhaitez", "ils/elles souhaitent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "voir",
+        "a": "to see",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je vois", "tu vois", "il/elle/on voit", "nous voyons", "vous voyez", "ils/elles voient" ]
+            },
+            {
+            "title": "past tense",
+            "descrptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "vendre",
+        "a": "to sell",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je vends", "tu vends", "il/elle/on vend", "nous vendons", "vous vendez", "ils/elles vendent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },    
+            
+        {
+        "f": "tenir",
+        "a": "to hold",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je tiens", "tu tiens", "il/elle/on tient", "nous tenons", "vous tenez", "ils/elles tiennent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "trouver",
+        "a": "to find",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je trouve", "tu trouves", "il/elle/on trouve", "nous trouvons", "vous trouvez", "ils/elles trouvent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "suivre",
+        "a": "to follow",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je suis", "tu suit", "il/elle/on suit", "nous suivons", "vous suivez", "ils/elles suivent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "casser",
+        "a": "to break",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je casse", "tu casses", "il/elle/on casse", "nous cassons", "vous cassez", "ils/elles cassent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "ameliorer",
+        "a": "to improve",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;ameliore", "tu ameliores", "il/elle/on ameliore", "nous ameliorons", "vous ameliorez", "ils/elles ameliorent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+                {
+        "f": "concerner",
+        "a": "to be about",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je concerne", "tu concernes", "il/elle/on concerne", "nous concernons", "vous concernez", "ils/elles concernent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "ajouter",
+        "a": "to add",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;ajoute", "tu ajoutes", "il/elle/on ajoute", "nous ajoutons", "vous ajoutez", "ils/elles ajoutent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "dormir",
+        "a": "to sleep",
+        "definitions": [
+            {
+            "title": "present tense",    
+            "descriptions": [ "je dors", "tu dors", "il/elle/on dort", "nous dormons", "vous dormez", "ils/elles dorment" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "regarder",
+        "a": "to watch",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je regarde", "tu regardes", "il/elle/on regarde", "nous regardons", "vous regardez", "ils/elles regardent"]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "entendre",
+        "a": "to hear",
+        "definitions": [
+            {
+            "title": "present tense",    
+            "descriptions": [ "j&#8217;entends", "tu entends", "il/elle/on entend", "nous entendons", "vous entendez", "ils/elles entendent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "poser",
+        "a": "to put",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je pose", "tu poses", "il/elle/on pose", "nous posons", "vous posez", "ils/elles posent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "secourir",
+        "a": "to rescue/ help",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je secours", "tu secours", "il/elle/on secourt", "nous secourons", "vous secourez", "ils/elles secourent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "venir",
+        "a": "to come",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je viens", "tu viens", "il/elle/on vient", "nous venons", "vous venez", "ils/elles viennent" ]
+            },
+            {
+            "title": "present tense",
+            "descriptions": []
+            }
+            ]
+        },   
+    
+        {
+        "f": "devoir",
+        "a": "to have to",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je dois", "tu dois", "il/elle/on doit", "nous devons", "vous devez", "ils/elles doivent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+            
+        {
+        "f": "recevoir",
+        "a": "to get/receive",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je re&#231;ois", "tu re&#231;ois", "il/elle/on re&#231;oit", "nous recevons", "vous recevez", "ils/elles re&#231;oivent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+        "f": "croire",
+        "a": "to believe",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je crois", "tu crois", "il/elle/on croit", "nous croyons", "vous croyez", "ils/elles croient" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {  
+        "f": "penser",
+        "a": "to think/ conceive",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je pense", "tu penses", "il/elle/on pense", "nous pensons", "vous pensez", "ils/elles pensent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+       "f": "tenter",
+        "a": "to try",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je tente", "tu tentes", "il/elle/on tente", "nous tentons", "vous tentez", "ils/elles tentent" ]
+            },
+            {
+            "title": "past tense",
+            "descriptions": []
+            }
+            ]
+        },
+    
+        {
+            "f": "oublier",
+            "a": "to forget",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "j&#8217;oublie", "tu oublies", "il/elle/on oublie", "nous oublions", "vous oubliez", "ils/elles oublient" ]
+                },
+                {
+                "title": "past tense",
+                "descriptions": []
+                }
+                ]
+        },
+        {
+            "f": "emmener",
+            "a": "to drive/ take (with)/ take (along)",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "j&#8217;emm&#232;ne", "tu emm&#232;nes", "il/elle/on emm&#232;ne", "nous emmenons", "vous emmenez", "ils/elles emm&#232;nent" ]
+                },
+                {
+                "title": "past tense",
+                "descriptions": []
+                }
+                ]
+        },
+        {
+            "f": "choisir",
+            "a": "to choose",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "je choisis", "tu choisis", "il/elle/on choisit", "nous choisissons", "vous choisissez", "ils/elles choisissent" ]
+                },
+                {
+                "title": "past tense",
+                "descriptions": []
+                }
+                ]
+        },
+        {
+            "f": "go&#251;ter",
+            "a": "to taste",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "je go&#251;te", "tu go&#251;tes", "il/elle/on go&#251;te", "nous go&#251;tons", "vous go&#251;tez", "ils/elles go&#251;tent" ]
+                },
+                {
+                "title": "past tense",
+                "descriptions": []
+                }
+                ]
+        },
+        {
+            "f": "bouillir",
+            "a": "to boil",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "je bous", "tu bous", "il/elle/on bout", "nous bouillons", "vous bouillez", "ils/elles bouillent" ]
+                },
+                {
+                "title": "pasttense",
+                "descriptions": []
+                }
+                ]
+        },
+        {
+            "f": "vider",
+            "a": "to empty",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "je vide", "tu vides", "il/elle/on vide", "nous vidons", "vous videz", "ils/elles vident" ]
+                },
+                {
+                "title": "past tense",
+                "descriptions": []
+                }
+                ]
+        },
+        {
+            "f": "griller",
+            "a": "to grill",
+            "definitions": [
+                {
+                "title": "present tense",
+                "descriptions": [ "je grille", "tu grilles", "il/elle/on grille", "nous grillons", "vous grillez", "ils/elles grillent" ]
+                },
+                {
+                "title": "past tense",
+                "descriptions": []
+                }
+                ]
+        }        
+
+
+
+    ]
+}

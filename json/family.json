@@ -1,0 +1,87 @@
+ {
+    "type": "family",
+        "vocabArray" : [
+            {
+            "f": "m&#232;re",
+            "a": "mother"
+            },
+            {
+            "f": "p&#232;re",
+            "a": "father"
+            },
+            {
+            "f": "fr&#232;re",
+            "a": "brother"
+            },
+            {
+            "f": "s&#156;ur",
+            "a": "sister"
+            },
+            {
+            "f": "mari",
+            "a": "husband"
+            },
+            {
+            "f": "femme",
+            "a": "wife"
+            },
+            {
+            "f": "grand-m&#232;re",
+            "a": "grandmother"
+            },
+            {
+            "f": "grand-p&#232;re",
+            "a": "grandfather"
+            },
+            {
+            "f": "petit fils",
+            "a": "grandson"
+            },
+            {
+            "f": "petite fille",
+            "a": "granddaughter"
+            },
+            {
+            "f": "tante",
+            "a": "aunt"
+            },
+            {
+            "f": "oncle",
+            "a": "uncle"
+            },
+            {
+            "f": "neveu/neveux",
+            "a": "nephew"
+            },
+            {
+            "f": "ni&#232;ce",
+            "a": "niece"
+            },
+            {
+            "f": "fils",
+            "a": "son"
+            },
+            {
+            "f": "fille/filles",
+            "a": "daughter"
+            }
+        ]
+    }
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

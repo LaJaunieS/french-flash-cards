@@ -3245,7 +3245,37 @@ const body = {
     
   var app = angular.module("francaisApp", ['ngSanitize', 'ngAnimate', 'ngAria'])
 
-      .controller("flashCardCtrl", [ "$scope", "$timeout", function($scope, $timeout) {
+      .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", function($scope, $timeout, $http) {
+
+
+        $scope.testData = {
+            length: 0,
+            addElem: function(elem){
+                [].push.call(this,elem);
+            }
+        };
+        $scope.getJson = function() {
+            
+            $scope.sectionsArray = [ 'verbs', 'adjectives', 'transitionals', 'time', 'family', 'pronouns','adverbs', 'directions', 'weather', 'household', 'body'];
+
+                for (let i = 0; i < $scope.sectionsArray.length; i++) {
+                
+                    $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(
+                        function successCallback(data) {
+                            $scope.testData.addElem(data.data);
+                            console.log('request successful');
+                            //console.log($scope.testData[i].type);        
+                        }, function errorCallback() {
+                            console.log('failed to get data');
+                        });
+                    
+                    };
+                    
+                    
+        };
+            console.log($scope.testData);
+
+          $scope.getJson();   
           
      $scope.sectionsObject  = {
         "verbs": verbs,
@@ -3422,8 +3452,7 @@ const body = {
                     };                    
                 }, 500);
         };
-          
-          
+         
        
     
     }])
