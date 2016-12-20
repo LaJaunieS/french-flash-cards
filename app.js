@@ -3254,46 +3254,19 @@ const body = {
                 [].push.call(this,elem);
             }
         };
-        $scope.getJson = function() {
-            
-            $scope.sectionsArray = [ 'verbs', 'adjectives', 'transitionals', 'time', 'family', 'pronouns','adverbs', 'directions', 'weather', 'household', 'body'];
 
-                for (let i = 0; i < $scope.sectionsArray.length; i++) {
-                
-                    $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(
-                        function successCallback(data) {
-                            //$scope.testData.addElem(data.data);
-                            console.log('request successful');
-                            $scope.testData[$scope.sectionsArray[i]] = data.data;
-                            //console.log($scope.testData[$scope.sectionsArray[i]]);        
-                        }, function errorCallback() {
-                            console.log('failed to get data');
-                        });
-                    
-                    };
-                    
-                    
-        };
-
-                    $scope.getJson();
-
-        $timeout(function() {
-            console.log($scope.testData.verbs);
-                    }, 500);
-                             
-
-     $scope.sectionsObject  = {
-        "verbs": verbs,
-        "adjectives": adjectives,
-        "transitionals": transitionals,
-        "time": time,
-        "family": family,
-        "pronouns": pronouns,
-        "adverbs": adverbs,
-        "directions": directions,
-        "weather": weather,
-        "household": household,
-        "parts of the body": body,
+        $scope.sectionsObject  = {
+        // "verbs": verbs,
+        // "adjectives": adjectives,
+        // "transitionals": transitionals,
+        // "time": time,
+        // "family": family,
+        // "pronouns": pronouns,
+        // "adverbs": adverbs,
+        // "directions": directions,
+        // "weather": weather,
+        // "household": household,
+        // "parts of the body": body,
         "menuArray": [
             { 
                 "title": "verbs",
@@ -3343,6 +3316,38 @@ const body = {
             ]
      };
 
+        $scope.getJson = function() {
+            
+            $scope.sectionsArray = [ 'verbs', 'adjectives', 'transitionals', 'time', 'family', 'pronouns','adverbs', 'directions', 'weather', 'household', 'body'];
+
+                for (let i = 0; i < $scope.sectionsArray.length; i++) {
+                
+                    $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(
+                        function successCallback(data) {
+                            //$scope.testData.addElem(data.data);
+                            console.log('request successful');
+                            $scope.testData[$scope.sectionsArray[i]] = data.data;
+                            $scope.sectionsObject[$scope.sectionsArray[i]] = data.data;
+                            $scope.sectionsObject.menuArray[i].title = data.data.type;
+                            $scope.sectionsObject.menuArray[i].count = data.data.vocabArray.length;
+                            console.log($scope.sectionsObject.menuArray[i].count);        
+                        }, function errorCallback() {
+                            console.log('failed to get data');
+                        });
+                    
+                    };
+                    
+                    
+        };
+
+                    $scope.getJson();
+
+        $timeout(function() {
+            
+                    }, 500);
+                             
+
+     
 
 
         //initial values- populated when section clicked  
