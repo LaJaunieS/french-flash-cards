@@ -3004,7 +3004,7 @@ const weather = {
 };
 
 const household = {
-    "type": "weather",
+    "type": "household",
     "vocabArray": [
         {
         "f": "la maison",
