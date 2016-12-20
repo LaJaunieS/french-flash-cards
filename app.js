@@ -3255,65 +3255,9 @@ const body = {
             }
         };
 
+        //this object will hold all of the data contained in the separate json files- populated completely on page load
         $scope.sectionsObject  = {
-        // "verbs": verbs,
-        // "adjectives": adjectives,
-        // "transitionals": transitionals,
-        // "time": time,
-        // "family": family,
-        // "pronouns": pronouns,
-        // "adverbs": adverbs,
-        // "directions": directions,
-        // "weather": weather,
-        // "household": household,
-        // "parts of the body": body,
-        "menuArray": [
-            // { 
-            //     "title": "verbs",
-            //     "count": verbs.vocabArray.length
-            //  },
-            // { 
-            //     "title": "adjectives",
-            //     "count": adjectives.vocabArray.length
-            //  },
-            // { 
-            //     "title": "transitionals",
-            //     "count": transitionals.vocabArray.length
-            //  },
-            // { 
-            //     "title": "time",
-            //     "count": time.vocabArray.length
-            // },
-            // { 
-            //     "title": "family",
-            //     "count": family.vocabArray.length    
-            //      },
-            // { 
-            //     "title": "pronouns",
-            //     "count": pronouns.vocabArray.length
-            // },
-            // { 
-            //     "title": "adverbs",
-            //     "count": adverbs.vocabArray.length
-            //  },
-            //  { 
-            //     "title": "directions",
-            //     "count": directions.vocabArray.length
-            //  },
-            //  {
-            //     "title": "weather",
-            //     "count": weather.vocabArray.length
-
-            //  },
-            //  {
-            //     "title": "household",
-            //     "count": household.vocabArray.length
-            //  },
-            //  {
-            //     "title": "parts of the body",
-            //     "count": body.vocabArray.length
-            //  }
-            ]
+        "menuArray": []  //used to display length of section on main menu view
      };
 
         $scope.getJson = function() {
@@ -3342,11 +3286,13 @@ const body = {
                     
         };
 
-                    $scope.getJson();
+        
+        //pull the data from json files
+        $scope.getJson();
 
           
 
-
+        //now that json data loaded, use it to show list of section items and populate a local variable when item clicked
         //initial values- populated when section clicked  
         $scope.section;   
         $scope.thisSection = {
