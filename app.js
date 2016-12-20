@@ -3262,9 +3262,10 @@ const body = {
                 
                     $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(
                         function successCallback(data) {
-                            $scope.testData.addElem(data.data);
+                            //$scope.testData.addElem(data.data);
                             console.log('request successful');
-                            //console.log($scope.testData[i].type);        
+                            $scope.testData[$scope.sectionsArray[i]] = data.data;
+                            //console.log($scope.testData[$scope.sectionsArray[i]]);        
                         }, function errorCallback() {
                             console.log('failed to get data');
                         });
@@ -3273,10 +3274,14 @@ const body = {
                     
                     
         };
-            console.log($scope.testData);
 
-          $scope.getJson();   
-          
+                    $scope.getJson();
+
+        $timeout(function() {
+            console.log($scope.testData.verbs);
+                    }, 500);
+                             
+
      $scope.sectionsObject  = {
         "verbs": verbs,
         "adjectives": adjectives,
