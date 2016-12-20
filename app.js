@@ -3329,7 +3329,7 @@ const body = {
                             $scope.testData[$scope.sectionsArray[i]] = data.data;
                             $scope.sectionsObject[$scope.sectionsArray[i]] = data.data;
                             $scope.sectionsObject.menuArray.push( {"title": data.data.type, "count": data.data.vocabArray.length});
-                            console.log($scope.sectionsObject.menuArray[i].count);        
+                            
                         }, function errorCallback() {
                             console.log('failed to get data');
                         });
