@@ -77,7 +77,7 @@
             };   
           
         $scope.setTitle = function(db) {
-            $scope.section = db.type;  //eg $scope.{verbs}
+            $scope.section = db.type;  //eg $scope.{verbs} - see templates flashCard.html for where this is interpolated- used as "title" of flash card section
             };
           
         $scope.startSection = function(section) {
@@ -102,7 +102,7 @@
             $scope.switchToEnglish();
             $timeout(function() {
                     $scope.getNewWord($scope.thisSection.vocab);
-                    $scope.setTitle($scope.thisSection.source);
+                    $scope.setTitle($scope.thisSection.source); //now section you are currently in displayed in flashCard template
                     $scope.language = 0;
                     $scope.switchLanguage();
                     $scope.showElement('flash-card-content-wrapper');
