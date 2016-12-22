@@ -16,6 +16,20 @@
             ]
         },
         {
+        "f": "pr&#233;f&#233;r&#233;",
+        "a": "perfect",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "pr&#233;f&#233;r&#233;", "pr&#233;f&#233;r&#233;s"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "pr&#233;f&#233;r&#233;e", "pr&#233;f&#233;r&#233;es" ]    
+            }
+            ]
+        },
+        {
         "f": "parfait",
         "a": "perfect",
         "definitions": [

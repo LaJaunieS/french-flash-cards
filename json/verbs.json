@@ -1,6 +1,104 @@
 {
     "type": "verbs",
     "vocabArray": [
+    	{
+        "f": "allumer",
+        "a": "to turn on",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;allume'", "tu allumes", "il/elle/on allume", "nous allumons", "vous allumez", "ils/elles allument"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "charger",
+        "a": "to load/ charge",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je charge", "tu charges", "il/elle/on charge", "nous chargeons", "vous chargez", "ils/elles chargent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "&#233;teindre",
+        "a": "to turn off/extinguish/blow out",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;&#233;teins", "tu &#233;teins", "il/elle/on &#233;teint", "nous &#233;teignons", "vous &#233;teingez", "ils/elles &#233;teingent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "brancher",
+        "a": "to plug in",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je branche", "tu branches", "il/elle/on branche", "nous branchons", "vous branchez", "ils/elles branchent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "jouer",
+        "a": "to play",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je joue", "tu joues", "il/elle/on joue", "nous jouons", "vous jouez", "ils/elles jouent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "surprendre",
+        "a": "to surprise",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je surprends", "tu surprends", "il/elle/on surprend", "nous surprenons", "vous surprenez", "ils/elles surprennent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "arr&#234;ter",
+        "a": "to stop",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;arr&#234;te", "tu arr&#234;tes", "il/elle/on arr&#234;te", "nous arr&#234;tons", "vous arr&#234;tez", "ils/elles arr&#234;tent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
         {
         "f": "para&#238;tre",
         "a": "to appear/ turn up",
