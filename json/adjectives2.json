@@ -1,5 +1,5 @@
 {
-      "type": "adjectives_2",
+      "type": "adjectives2",
       "vocabArray": [
             {
                   "f": "pire",
@@ -12,6 +12,171 @@
             {
                   "f": "r&#233;el",
                   "a": "real"
-            }
+            },
+            {
+                  "f": "pareils",
+                  "a": "alike/ the same"
+            },
+            {
+                  "f": "logique",
+                  "a": "sensible/logical"
+            },
+            {
+                  "f": "plat",
+                  "a": "flat"
+            },
+            {
+                  "f": "ordinaire",
+                  "a": "ordinary/ regular"
+            },
+            {
+                  "f": "profonde",
+                  "a": "deep/ profound"
+            },
+            {
+                  "f": "indispensable",
+                  "a": "necessary"
+            },
+            {
+                  "f": "inutile",
+                  "a": "useless"
+            },
+            {
+                  "f": "pr&#233;cis",
+                  "a": "precise/ specific"
+            },
+            {
+                  "f": "fixe",
+                  "a": "steady/ fixed"
+            },
+            {
+                  "f": "pr&#232;s",
+                  "a": "near"
+            },
+            {
+                  "f": "loin",
+                  "a": "far"
+            },
+            {
+                  "f": "vrai",
+                  "a": "true"
+            },
+            {
+                  "f": "libre",
+                  "a": "free"
+            },
+            {
+                  "f": "vivant",
+                  "a": "alive/ living"
+            },
+            {
+                  "f": "pratique",
+                  "a": "practical/ convenient"
+            },
+            {
+                  "f": "solide",
+                  "a": "solid"
+            },
+            {
+                  "f": "c&#233;l&#232;bre",
+                  "a": "famous"
+            },
+            {
+                  "f": "complet",
+                  "a": "complete/ full"
+            },
+            {
+                  "f": "responsable",
+                  "a": "responsible"
+            },
+            {
+                  "f": "interessant",
+                  "a": "interesting"
+            },
+            {
+                  "f": "efficace",
+                  "a": "efficient"
+            },
+            {
+                  "f": "fin",
+                  "a": "thin/ fine/ top-quality"
+            },
+            {
+                  "f": "haut",
+                  "a": "high/ tall/ top"
+            },
+            {
+                  "f": "puissant",
+                  "a": "strong/ powerful"
+            },
+            {
+                  "f": "&#226;g&#233;",
+                  "a": "old"
+            },
+            {
+                  "f": "cru",
+                  "a": "raw"
+            },
+            {
+                  "f": "sage",
+                  "a": "wise"
+            },
+            {
+                  "f": "tel",
+                  "a": "such"
+            },
+            {
+                  "f": "gras",
+                  "a": "fatty/ oily"
+            },
+            {
+                  "f": "incroyable",
+                  "a": "incredible/ amazing"
+            },
+            {
+                  "f": "c&#233;libataire",
+                  "a": "single/ unmarried"
+            },
+            {
+                  "f": "bruyant",
+                  "a": "noisy/ loud"
+            },
+            {
+                  "f": "lourd",
+                  "a": "slow/ heavy/ cumbersome"
+            },
+            {
+                  "f": "prudente",
+                  "a": "careful"
+            },
+            {
+                  "f": "ancien",
+                  "a": "old/ antique"
+            },
+            {
+                  "f": "facile",
+                  "a": "easy"
+            },
+            {
+                  "f": "rond",
+                  "a": "round"
+            },
+            {
+                  "f": "enti&#232;re",
+                  "a": "entire"
+            },
+            {
+                  "f": "chaque",
+                  "a": "each/ every"
+            },
+            {
+                  "f": "aucun",
+                  "a": "no one/ not one"
+            },
+            {
+                  "f": "plusieurs",
+                  "a": "various/ several"
+            },
+      
     ]
 }

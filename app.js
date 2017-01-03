@@ -45,10 +45,12 @@
                             document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
                             i = $scope.sectionsArray.length;
                         });
+
                     };
+
+                            console.log($scope.sectionsObject);
             };
 
-        
         //pull the data from json files
         $scope.getJson();
 
@@ -97,7 +99,7 @@
                 "vocab": $scope.sectionsObject[section].vocabArray
             };
           	
-        	//console.log($scope.thisSection.vocab);
+        	console.log($scope.thisSection.source);
             
             $scope.switchToEnglish();
             $timeout(function() {
@@ -168,6 +170,7 @@
                 }, 500);
         };
          
+    
        
     
     }])
