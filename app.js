@@ -48,7 +48,7 @@
 
                     };
 
-                            console.log($scope.sectionsObject);
+                            //console.log($scope.sectionsObject);
             };
 
         //pull the data from json files
@@ -99,7 +99,7 @@
                 "vocab": $scope.sectionsObject[section].vocabArray
             };
           	
-        	console.log($scope.thisSection.source);
+        	//console.log($scope.thisSection.source);
             
             $scope.switchToEnglish();
             $timeout(function() {
