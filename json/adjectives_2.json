@@ -1,5 +1,5 @@
 {
-      "type": "adjectives pt. 2",
+      "type": "adjectives_2",
       "vocabArray": [
             {
                   "f": "pire",
@@ -8,6 +8,10 @@
             {
                   "f": "meilleur",
                   "a": "better/best"
+            },
+            {
+                  "f": "r&#233;el",
+                  "a": "real"
             }
     ]
 }
