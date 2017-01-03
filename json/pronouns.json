@@ -168,6 +168,10 @@
         	"a": "everyone"	
         	},
             {
+            "f": "quiconque",
+            "a": "whoever" 
+            },
+            {
             "f": "tout ce que",
             "a": "whatever"    
             }

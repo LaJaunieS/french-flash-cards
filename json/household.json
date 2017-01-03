@@ -6,6 +6,46 @@
         "a": "house"    
         },
         {
+        "f": "le billet",
+        "a": "ticket/bill"    
+        },
+        {
+        "f": "les lunettes",
+        "a": "eyeglasses"    
+        },
+        {
+        "f": "la valise",
+        "a": "suitcase"    
+        },
+        {
+        "f": "la ordinateur",
+        "a": "computer"    
+        },
+        {
+        "f": "le clavier",
+        "a": "keyboard"    
+        },
+        {
+        "f": "le plateau",
+        "a": "tray"    
+        },
+        {
+        "f": "l&#8217;&#233;cran",
+        "a": "screen"    
+        },
+        {
+        "f": "l&#8217;allumette",
+        "a": "match"    
+        },
+        {
+        "f": "la bougie",
+        "a": "candle"    
+        },
+        {
+        "f": "la voiture",
+        "a": "car"    
+        },
+        {
         "f": "le lit",
         "a": "bed"    
         },
