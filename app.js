@@ -35,11 +35,9 @@
                 
                     $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(
                         function successCallback(data) {
-                            //$scope.testData.addElem(data.data);
                             console.log('data request successful');
-                            $scope.testData[$scope.sectionsArray[i]] = data.data;
                             $scope.sectionsObject[$scope.sectionsArray[i]] = data.data;
-                            $scope.sectionsObject.menuArray.push( {"title": data.data.type, "count": data.data.vocabArray.length});
+                            $scope.sectionsObject.menuArray.push( { "source": data.data, "type": data.data.type, "count": data.data.vocabArray.length});
                             
                         }, function errorCallback() {
                             document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
@@ -48,7 +46,6 @@
 
                     };
 
-                            //console.log($scope.sectionsObject);
             };
 
         //pull the data from json files
@@ -79,7 +76,7 @@
             };   
           
         $scope.setTitle = function(db) {
-            $scope.section = db.type;  //eg $scope.{verbs} - see templates flashCard.html for where this is interpolated- used as "title" of flash card section
+            $scope.section = db.title;  //eg $scope.sectionsObject.verbs - see templates flashCard.html for where this is interpolated- used as "title" of flash card section
             };
           
         $scope.startSection = function(section) {
@@ -96,15 +93,15 @@
             
             $scope.thisSection = {
                 "source": $scope.sectionsObject[section],
-                "vocab": $scope.sectionsObject[section].vocabArray
+                "vocab": $scope.sectionsObject[section].vocabArray,
+                "title": $scope.sectionsObject[section].type
             };
           	
-        	//console.log($scope.thisSection.source);
-            
+        	
             $scope.switchToEnglish();
             $timeout(function() {
                     $scope.getNewWord($scope.thisSection.vocab);
-                    $scope.setTitle($scope.thisSection.source); //now section you are currently in displayed in flashCard template
+                    $scope.setTitle($scope.thisSection); //now section you are currently in displayed in flashCard template
                     $scope.language = 0;
                     $scope.switchLanguage();
                     $scope.showElement('flash-card-content-wrapper');
