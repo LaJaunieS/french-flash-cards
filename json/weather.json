@@ -1,5 +1,6 @@
 {
     "type": "weather",
+    "fullTitle": "weather",
     "vocabArray": [
         {
             "f": "m&#233;t&#233;o",

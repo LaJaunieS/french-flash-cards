@@ -75,9 +75,9 @@
             $scope.definitions = $scope.randomWord.definitions;
             };   
           
-        $scope.setTitle = function(db) {
-            $scope.section = db.title;  //eg $scope.sectionsObject.verbs - see templates flashCard.html for where this is interpolated- used as "title" of flash card section
-            };
+        // $scope.setTitle = function(db) {
+        //     $scope.section = db.type;  //eg $scope.sectionsObject.verbs - see templates flashCard.html for where this is interpolated- used as "title" of flash card section
+        //     };
           
         $scope.startSection = function(section) {
             //hide all elements for ui effect
@@ -94,7 +94,7 @@
             $scope.thisSection = {
                 "source": $scope.sectionsObject[section],
                 "vocab": $scope.sectionsObject[section].vocabArray,
-                "title": $scope.sectionsObject[section].type
+                "title": $scope.sectionsObject[section].fullTitle
             };
           	
         	
