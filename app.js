@@ -101,7 +101,7 @@
             $scope.switchToEnglish();
             $timeout(function() {
                     $scope.getNewWord($scope.thisSection.vocab);
-                    $scope.setTitle($scope.thisSection); //now section you are currently in displayed in flashCard template
+                    //$scope.setTitle($scope.thisSection); //now section you are currently in displayed in flashCard template
                     $scope.language = 0;
                     $scope.switchLanguage();
                     $scope.showElement('flash-card-content-wrapper');
