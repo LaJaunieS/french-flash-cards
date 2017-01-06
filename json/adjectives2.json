@@ -1,58 +1,146 @@
-{
+      {
       "type": "adjectives2",
       "fullTitle": "adjectives pt. 2",
       "vocabArray": [
             {
                   "f": "pire",
-                  "a": "worse"    
+                  "a": "worse",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "pire", "pires"  ]
+                        }
+                  ]    
             },
             {
                   "f": "meilleur",
-                  "a": "better/best"
+                  "a": "better/best",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "meilleur", "meilleurs"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "meilleure", "meilleures"]
+                        }
+                  ]    
             },
             {
                   "f": "r&#233;el",
                   "a": "real"
             },
             {
-                  "f": "pareils",
-                  "a": "alike/ the same"
+                  "f": "pareil",
+                  "a": "alike/ the same",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "pareil", "pareils"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "pareille", "pareilles"]
+                        }
+                  ]
             },
             {
                   "f": "logique",
-                  "a": "sensible/logical"
+                  "a": "sensible/logical",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "logique", "logiques"  ]
+                        }
+                  ]
             },
             {
                   "f": "plat",
-                  "a": "flat"
+                  "a": "flat",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "plat", "plats"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "plate", "plates"]
+                        }
+                  ]
             },
             {
                   "f": "ordinaire",
-                  "a": "ordinary/ regular"
+                  "a": "ordinary/ regular",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "ordinaire", "ordinaires"  ]
+                        }
+                  ]
             },
             {
                   "f": "profonde",
-                  "a": "deep/ profound"
+                  "a": "deep/ profound",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "profond", "profonds"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "profonde", "profondes" ]
+                        }
+                  ]
             },
             {
                   "f": "indispensable",
-                  "a": "necessary"
+                  "a": "necessary",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "indispensable", "indispensables"  ]
+                        }
+                  ]
             },
             {
                   "f": "inutile",
-                  "a": "useless"
+                  "a": "useless",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "inutile", "inutiles"  ]
+                        }
+                  ]
             },
             {
                   "f": "pr&#233;cis",
-                  "a": "precise/ specific"
+                  "a": "precise/ specific",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine (singular and plural)",
+                              "descriptions": [ "pr&#233;cis"  ]
+                        }
+                  ]
             },
             {
                   "f": "fixe",
-                  "a": "steady/ fixed"
+                  "a": "steady/ fixed",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "fixe", "fixes"  ]
+                        }
+                  ]
             },
             {
                   "f": "pr&#232;s",
-                  "a": "near"
+                  "a": "near",
+                  "definitions": [
+                        {
+                              "title": "alternates",
+                              "descriptions": [ "proche", "proches"  ]
+                        }
+                  ]
             },
             {
                   "f": "loin",
@@ -60,111 +148,338 @@
             },
             {
                   "f": "vrai",
-                  "a": "true"
+                  "a": "true",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "vrai", "vrais"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "vraie", "vraies" ]
+                        }
+                  ]
             },
             {
                   "f": "libre",
-                  "a": "free"
+                  "a": "free",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "libre", "libres"  ]
+                        }
+                  ]
             },
             {
                   "f": "vivant",
-                  "a": "alive/ living"
+                  "a": "alive/ living",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "vivant", "vivants"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "vivante", "vivantes" ]
+                        }
+                  ]
             },
             {
                   "f": "pratique",
-                  "a": "practical/ convenient"
+                  "a": "practical/ convenient",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "pratique", "pratiques"  ]
+                        }
+                  ]
             },
             {
                   "f": "solide",
-                  "a": "solid"
+                  "a": "solid",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "solide", "solides"  ]
+                        }
+                  ]
             },
             {
                   "f": "c&#233;l&#232;bre",
-                  "a": "famous"
+                  "a": "famous",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "c&#233;l&#232;bre", "c&#233;l&#232;bres"  ]
+                        }
+                  ]
             },
             {
                   "f": "complet",
-                  "a": "complete/ full"
+                  "a": "complete/ full",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "complet", "complets"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "compl&#232;te", "compl&#232;tes" ]
+                        }
+                  ]
             },
             {
                   "f": "responsable",
-                  "a": "responsible"
+                  "a": "responsible",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "responsable", "responsables"  ]
+                        }
+                  ]
             },
             {
                   "f": "interessant",
-                  "a": "interesting"
+                  "a": "interesting",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "interessant", "interessants"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "interessante", "interessantes" ]
+                        }
+                  ]
             },
             {
                   "f": "efficace",
-                  "a": "efficient"
+                  "a": "efficient",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "efficace", "efficaces"  ]
+                        }
+                  ]
             },
             {
                   "f": "fin",
-                  "a": "thin/ fine/ top-quality"
+                  "a": "thin/ fine/ top-quality",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "fin", "fins"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "fine", "fines" ]
+                        }
+                  ]
             },
             {
                   "f": "haut",
-                  "a": "high/ tall/ top"
+                  "a": "high/ tall/ top",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "haut", "hauts"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "haute", "hautes" ]
+                        }
+                  ]
             },
             {
                   "f": "puissant",
-                  "a": "strong/ powerful"
+                  "a": "strong/ powerful",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "puissant", "puissants"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "puissante", "puissantes" ]
+                        }
+                  ]
             },
             {
                   "f": "&#226;g&#233;",
-                  "a": "old"
+                  "a": "old",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "&#226;g&#233;", "&#226;g&#233;"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "&#226;g&#233;e", "&#226;g&#233;es" ]
+                        }
+                  ]
             },
             {
                   "f": "cru",
-                  "a": "raw"
+                  "a": "raw",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "cru", "crus"  ]
+                        }
+                  ]
             },
             {
                   "f": "sage",
-                  "a": "wise"
+                  "a": "wise",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "sage", "sages"  ]
+                        }
+                  ]
             },
             {
                   "f": "tel",
-                  "a": "such"
+                  "a": "such",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "tel", "tels"  ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "telle", "telles" ]
+                        }
+                  ]
             },
             {
                   "f": "gras",
-                  "a": "fatty/ oily"
+                  "a": "fatty/ oily",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "gras" ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "grasse", "grasses" ]
+                        }
+                  ]
+
             },
             {
                   "f": "incroyable",
-                  "a": "incredible/ amazing"
+                  "a": "incredible/ amazing",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "incroyable", "incroyables"  ]
+                        }
+                  ]
             },
             {
                   "f": "c&#233;libataire",
-                  "a": "single/ unmarried"
+                  "a": "single/ unmarried",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "c&#233;libataire", "c&#233;libataires"  ]
+                        }
+                  ]
             },
             {
                   "f": "bruyant",
-                  "a": "noisy/ loud"
+                  "a": "noisy/ loud",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "bruyant", "bruyants" ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "bruyante", "bruyantes" ]
+                        }
+                  ]
             },
             {
                   "f": "lourd",
-                  "a": "slow/ heavy/ cumbersome"
+                  "a": "slow/ heavy/ cumbersome",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "lourd", "lourds" ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "lourde", "lourdes" ]
+                        }
+                  ]
             },
             {
                   "f": "prudente",
-                  "a": "careful"
+                  "a": "careful",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "prudent", "prudents" ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "prudente", "prudentes" ]
+                        }
+                  ]
             },
             {
                   "f": "ancien",
-                  "a": "old/ antique"
+                  "a": "old/ antique",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "ancien", "anciens" ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "ancienne", "anciennes" ]
+                        }
+                  ]
             },
             {
                   "f": "facile",
-                  "a": "easy"
+                  "a": "easy",
+                  "definitions": [
+                        {
+                              "title": "masculine/feminine",
+                              "descriptions": [ "facile", "faciles" ]
+                        }
+                  ]
             },
             {
                   "f": "rond",
-                  "a": "round"
+                  "a": "round",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "rond", "ronds" ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "ronde", "rondes" ]
+                        }
+                  ]
             },
             {
                   "f": "enti&#232;re",
-                  "a": "entire"
+                  "a": "entire",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "entier", "entiers" ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "enti&#232;re", "enti&#232;res" ]
+                        }
+                  ]
             },
             {
                   "f": "chaque",
@@ -172,7 +487,17 @@
             },
             {
                   "f": "aucun",
-                  "a": "no one/ not one"
+                  "a": "no one/ not one",
+                  "definitions": [
+                        {
+                              "title": "masculine",
+                              "descriptions": [ "aucun" ]
+                        },
+                        {
+                              "title": "feminine",
+                              "descriptions": [ "aucunne" ]
+                        }
+                  ]
             },
             {
                   "f": "plusieurs",
