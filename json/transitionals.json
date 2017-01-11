@@ -13,16 +13,50 @@
             ]
             },
             {
+            "f": "sous",
+            "a": "under"    
+            },
+            {
+            "f": "contre",
+            "a": "against/ to"    
+            },
+            {
+            "f": "saut",
+            "a": "except"    
+            },
+            {
+            "f": "malgr&#233;",
+            "a": "according to"    
+            },
+            {
             "f": "selon",
             "a": "according to"    
             },
             {
-            "f": "malgre",
+            "f": "ah bon?",
+            "a": "oh really?"    
+            },
+            {
+            "f": "bien sur",
+            "a": "of course"    
+            },
+            {
+            "f": "jusqu&#8217;a",
+            "a": "until"    
+            },
+            {
+            "f": "malgr&#233;",
             "a": "despite"    
             },
             {
             "f": "parmi",
-            "a": "among"    
+            "a": "among",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "depuis", "entre" ]
+                }
+            ]    
             },
             {
             "f": "eh bien!",

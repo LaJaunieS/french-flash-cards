@@ -3,12 +3,40 @@
     "fullTitle": "verbs",
     "vocabArray": [
     	{
+        "f": "asseoir",
+        "a": "to sit down",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je assieds'", "tu assieds", "il/elle/on assied", "nous asseyons", "vous asseyez", "ils/elles asseyent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "creuser",
+        "a": "to dig",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je creuse'", "tu creuses", "il/elle/on creuse", "nous creusons", "vous creusez", "ils/elles creusent"  ]
+            },
+            {
+            "title" : "past tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+    	{
         "f": "allumer",
         "a": "to turn on",
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j&#8217;allume'", "tu allumes", "il/elle/on allume", "nous allumons", "vous allumez", "ils/elles allument"  ]
+            "descriptions": [ "j&#8217;allume", "tu allumes", "il/elle/on allume", "nous allumons", "vous allumez", "ils/elles allument"  ]
             },
             {
             "title" : "past tense",

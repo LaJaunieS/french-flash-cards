@@ -124,6 +124,15 @@
             document.getElementById('showButton').innerHTML = "en";
                 $scope.language = 0;
         };
+        $scope.toggleTitle = function() {
+            if ($scope.titleCondition=== true) {
+                document.getElementById('main-menu-content-fade').firstElementChild.innerHTML = 'french flash cards';
+                $scope.titleCondition = false;
+                } else {
+                    document.getElementById('main-menu-content-fade').firstElementChild.innerHTML = 'cartes flash fran&#231;ais';
+                    $scope.titleCondition = true;
+                };
+        };
                  
         $scope.backToMenu = function() {
             $scope.hideElement('flash-card-content-wrapper');
