@@ -98,8 +98,11 @@ body {
     #app-wrapper #card-back {
       padding-left: 1rem; } }
   #app-wrapper #card-section {
+    background: white;
     position: absolute;
-    top: 10px; }
+    top: 10px;
+    width: 90%;
+    z-index: 100; }
   #app-wrapper #card-front,
   #app-wrapper #card-back {
     position: absolute;
