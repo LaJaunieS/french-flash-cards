@@ -252,7 +252,45 @@
         },
         {
             "f": "la pi&#232;ce",
-            "a": "room/ piece"
+            "a": "room/ piece",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "la chambre", "la salle" ]
+                }
+            ]
+        },
+        {
+            "f": "la chambre",
+            "a": "bedroom"
+        },
+        {
+            "f": "le salon",
+            "a": "living room" 
+        },
+        {
+            "f": "salle de bains",
+            "a": "bathroom",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "les toilettes" ]
+                }
+            ]
+        },
+        {
+            "f": "la cave",
+            "a": "cellar/ basement",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "sous-sol" ]
+                }
+            ]
+        },
+        {
+            "f": "la couloir",
+            "a": "hallway/ corridor"
         }
     ]
 }

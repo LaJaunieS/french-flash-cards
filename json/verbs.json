@@ -2,16 +2,100 @@
     "type": "verbs",
     "fullTitle": "verbs",
     "vocabArray": [
+        {
+        "f": "retrouver",
+        "a": "to retrieve/ recover/ find",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je retrouve", "tu retrouves", "il/elle/on retrouve", "nous retrouvons", "vous retrouvez", "ils/elles retrouvent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "visiter",
+        "a": "to visit",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je visite", "tu visites", "il/elle/on visite", "nous visitons", "vous visitez", "ils/elles visitent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "quitter",
+        "a": "to sit down",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je quitte", "tu quittes", "il/elle/on quitte", "nous quittons", "vous quittez", "ils/elles quittent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "tomber",
+        "a": "to sit down",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je tombe", "tu tombes", "il/elle/on tombe", "nous tombons", "vous tombez", "ils/elles tombent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "supporter",
+        "a": "to stand",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je supporte", "tu supportes", "il/elle/on supporte", "nous supportons", "vous supportez", "ils/elles supportent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
     	{
         "f": "asseoir",
         "a": "to sit down",
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "je assieds'", "tu assieds", "il/elle/on assied", "nous asseyons", "vous asseyez", "ils/elles asseyent"  ]
+            "descriptions": [ "je assieds", "tu assieds", "il/elle/on assied", "nous asseyons", "vous asseyez", "ils/elles asseyent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "baisser",
+        "a": "to lower/drop",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je baisse", "tu baisses", "il/elle/on baisse", "nous baissons", "vous baissez", "ils/elles baissent"  ]
+            },
+            {
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -22,10 +106,10 @@
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "je creuse'", "tu creuses", "il/elle/on creuse", "nous creusons", "vous creusez", "ils/elles creusent"  ]
+            "descriptions": [ "je creuse", "tu creuses", "il/elle/on creuse", "nous creusons", "vous creusez", "ils/elles creusent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -39,7 +123,7 @@
             "descriptions": [ "j&#8217;allume", "tu allumes", "il/elle/on allume", "nous allumons", "vous allumez", "ils/elles allument"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -53,7 +137,7 @@
             "descriptions": [ "je charge", "tu charges", "il/elle/on charge", "nous chargeons", "vous chargez", "ils/elles chargent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -67,7 +151,7 @@
             "descriptions": [ "j&#8217;&#233;teins", "tu &#233;teins", "il/elle/on &#233;teint", "nous &#233;teignons", "vous &#233;teingez", "ils/elles &#233;teingent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -81,7 +165,7 @@
             "descriptions": [ "je branche", "tu branches", "il/elle/on branche", "nous branchons", "vous branchez", "ils/elles branchent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -95,7 +179,7 @@
             "descriptions": [ "je joue", "tu joues", "il/elle/on joue", "nous jouons", "vous jouez", "ils/elles jouent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -109,7 +193,7 @@
             "descriptions": [ "je surprends", "tu surprends", "il/elle/on surprend", "nous surprenons", "vous surprenez", "ils/elles surprennent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -123,7 +207,7 @@
             "descriptions": [ "j&#8217;arr&#234;te", "tu arr&#234;tes", "il/elle/on arr&#234;te", "nous arr&#234;tons", "vous arr&#234;tez", "ils/elles arr&#234;tent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -137,7 +221,7 @@
             "descriptions": [ "je para&#238;ts", "tu para&#238;ts", "il/elle/on para&#238;t", "nous para&#238;tons", "vous para&#238;tez", "ils/elles para&#238;tent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -151,7 +235,7 @@
             "descriptions": [ "je ferme", "tu fermes", "il/elle/on ferme", "nous fermons", "vous fermez", "ils/elles ferment"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -165,7 +249,7 @@
             "descriptions": [ "je nettoie", "tu nettoies", "il/elle/on nettoie", "nous nettoyons", "vous nettoyez", "ils/elles nettoient"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -179,7 +263,7 @@
             "descriptions": [ "je descends", "tu descends", "il/elle/on descend", "nous descendons", "vous descendez", "ils/elles descendent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -193,7 +277,7 @@
             "descriptions": [ "je semble", "tu sembles", "il/elle/on semble", "nous semblons", "vous semblez", "ils/elles semblent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -207,7 +291,7 @@
             "descriptions": [ "je sors", "tu sors", "il/elle/on sort", "nous sortons", "vous sortez", "ils/elles sortent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -221,7 +305,7 @@
             "descriptions": [ "je parle", "tu parles", "il/elle/on parle;", "nous parlons", "vous parlez", "ils/elles parlent"  ]
             },
             {
-            "title" : "past tense",
+            "title" : "perfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -235,7 +319,7 @@
             "descriptions": [ "je surviens", "tu surviens", "il/elle/on survient", "nous survenons", "vous survenez", "ils/elles surviennent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": [ "tbd" ]
             }
             ]
@@ -249,7 +333,7 @@
             "descriptions": [ "je laisse", "tu laisses", "il/elle/on laisse", "nous laissons", "vous laissez", "ils/elles laissent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": [ "tbd" ]
             }
             ]
@@ -263,8 +347,8 @@
             "descriptions": [ "j&#8217;ai", "tu as", "il/elle/on a", "nous avons", "vous avez", "ils/elles ont" ]
             },
             {
-            "title": "past tense",    
-            "descriptions": [ "tbd" ]
+            "title": "imperfect tense",    
+            "descriptions": [ "j&#8217;avais", "tu avais", "il/elle/on avait", "nous avions", "vous aviez", "ils/elles avaient" ]
             }
             ]
         },
@@ -277,7 +361,7 @@
             "descriptions": [ "je commence", "tu commences", "il/elle/on commence", "nous commen&#231;ons", "vous commencez", "ils/elles commencent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": [ "tbd" ]
             }
             ]
@@ -292,7 +376,7 @@
             "descriptions": [ "je compl&#232;te", "tu compl&#232;tes", "il/elle/on compl&#232;te", "nous compl&#233;tons", "vous compl&#233;tez", "ils/elles compl&#233;tent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": [ "tbd" ]
             }
             ]
@@ -307,8 +391,8 @@
             "descriptions": [ "je suis", "tu es", "il/elle/on est", "nous sommes", "vous &#234;tes", "ils/elles sont"]
             },
             {
-            "title": "past tense",
-            "descriptions": []
+            "title": "perfect tense",
+            "descriptions": [ "j&#8217;&#233;tais", "tu &#233;tais", "il/elle/on &#233;tait", "nous &#233;tions", "vous &#233;tiez", "ils/elles &#233;taient"  ]
             }
             ]
         },
@@ -322,7 +406,7 @@
                 "descriptions": [ "je connais", "tu connais", "il/elle/on conna&#238;t", "nous connaissons", "vous connaissez", "ils/elles connaissent" ]
                 },
                 {
-                "title": "past tense",
+                "title": "perfect tense",
                 "descriptions": []
                 }
             ]
@@ -337,7 +421,7 @@
             "descriptions": ["je bois", "tu bois", "il/elle/on boit", "nous buvons", "vous buvez", "ils boivent"]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -351,7 +435,7 @@
             "descriptions": ["j&#8217;&#233;cris", "tu &#233;cris", "il/elle/on &#233;rit", "nous ecrivons", "vous &#233;crivez", "ils/elles &#233;crivent"]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -366,7 +450,7 @@
             "descriptions": ["je cherche", "tu cherches", "il/elle/on cherche", "nous cherchons", "vous cherchez", "ils/elles cherchent"]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -381,7 +465,7 @@
             "descriptions": ["j&#8217;ach&#232;te", "tu ach&#232;tes", "il/elle/on ach&#232;te", "nous achetons", "vous achetez", "ils/elles ach&#232;tent"]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -396,7 +480,7 @@
             "descriptions": ["je comprends", "tu comprends", "il/elle/on comprend", "nous comprenons", "vous comprenez", "ils/elles comprennent"]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -411,7 +495,7 @@
             "descriptions": ["j&#8217;adore", "tu adores", "il/elle/on adore", "nous adorons", "vous adorez", "ils/elles adorent"]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -426,7 +510,7 @@
             "descriptions": [ "j&#8217;apprends", "tu apprends", "il/elle/on apprend", "nous apprenons", "vous apprenez", "ils/elles apprennent"]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -441,7 +525,7 @@
             "descriptions": [ "j&#8217;attends", "tu attends", "il/elle/on attend", "nous attendons", "vous attendez", "ils/elles attendent"]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -457,7 +541,7 @@
             "descriptions": [ "j&#8217;appelle", "tu appelles", "il/elle/on appelle", "nous appelons", "vous appelez", "ils/elles appellent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -472,7 +556,7 @@
             "descriptions": [ "j&#8217;ai besoin", "tu as besoin", "il/elle/on a besoin", "nous avons besoin", "vous avez besoin", "ils/elles ont besoin" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -488,7 +572,7 @@
             "descriptions": [ "je donne", "tu donnes", "il/elle/on donne", "nous donnons", "vous donnez", "ils/elles donnent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -503,7 +587,7 @@
             "descriptions": [ "je vais", "tu vas", "il/elle/on va", "nous allons", "vous allez", "ils/elles vont" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -518,7 +602,7 @@
             "descriptions": [ "je peux", "tu peux", "il/elle/on peut", "nous pouvons", "vous pouvez", "ils/elles peuvent" ] 
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -534,7 +618,7 @@
             "descriptions": [ "j&#8217;appporte", "tu apportes", "il/elle/on apporte", "nous apportons", "vous apportez", "ils/elle apportent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -550,7 +634,7 @@
             "descriptions": [ "je sais", "tu sais", "il/elle/on sait", "nous savons", "vous savez", "ils/elles savent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -566,7 +650,7 @@
             "descriptions": [ "je veux", "tu veux", "il/elle/on veut", "nous voulons", "vous voulez", "ils/elles veulent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -582,7 +666,7 @@
             "descriptions": [ "je vis", "tu vis", "il/elle/on vit", "nous vivons", "vous vivez", "ils/elles vivent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -598,7 +682,7 @@
             "descriptions": [ "je l&#232;ve", "tu l&#232;ves", "il/elle/on l&#232;ve", "nous levons", "vous levez", "ils/elles l&#232;vent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -614,7 +698,7 @@
             "descriptions": [ "je deviens", "tu deviens", "il/elle/on devient", "nous devenons", "vous devenez", "ils/elles deviennent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -630,7 +714,7 @@
             "descriptions": [ "je pars", "tu pars", "il/elle/on part", "nous partons", "vous partez", "ils/elles partent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -646,7 +730,7 @@
             "descriptions": [ "je coupe", "tu coupe", "il/elle/on coupe", "nous coupons", "vous coupez", "ils/elles coupent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -662,7 +746,7 @@
             "descriptions": [ "j&#8217;agis", "tu agis", "il/elle/on agit", "nous agissons", "vous agissez", "ils/elles agissent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -678,7 +762,7 @@
             "descriptions": [ "je cours", "tu cours", "il/elle/on court", "nous courons", "vous courez", "ils/elles courent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -693,7 +777,7 @@
             "descriptions": [ "je cuisine", "tu cuisines", "il/elle/on cuisine", "nous cuisinons", "vous cuisinez", "ils/elles cuisinent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -708,7 +792,7 @@
             "descriptions": [ "je contiens", "tu contiens", "il/elle/on contient", "nous contenons", "vous contenez", "ils/elles contiennent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -722,7 +806,7 @@
             "descriptions": [ "je gagne", "tu ganges", "il/elle/on gange", "nous gagnons", "vous gagnez", "ils/elles gagnent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -737,7 +821,7 @@
             "descriptions": [ "j&#8217;entre", "tu entres", "il/elle/on entre", "nous entrons", "vous entrez", "ils/elles entrent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -752,7 +836,7 @@
             "descriptions": [ "je finis", "tu finis", "il/elle/on finit", "nous finissons", "vous finissez", "ils/elles finissent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -766,7 +850,7 @@
             "descriptions": [ "je lance", "tu lance", "il/elle/on lance", "nous lan&#231;ons", "vous lancez", "ils/elles lancent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -780,7 +864,7 @@
             "descriptions": [ "je dis", "tu dis", "il/elle/on dit", "nous disons", "vous ditez", "ils/elles disent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -795,7 +879,7 @@
             "descriptions": [ "j&#8217;int&#233;resse", "tu inter&#233;sses", "il/elle/on inter&#233;sse", "nous inter&#233;ssons", "vous inter&#233;ssez", "ils/elles inter&#233;ssent" ]
             },
             {
-            "title": "past tense",    
+            "title": "perfect tense",    
             "descriptions": []
             }
             ]
@@ -810,7 +894,7 @@
             "descriptions": [ "j&#8217;ouvre", "tu ouvres", "il/elle/on ouvre", "nous ouvrons", "vous ouvrez", "ils/elles ouvrent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -825,7 +909,7 @@
             "descriptions": [ "je perds", "tu perds", "il/elle/on perd", "nous perdons", "vous perdez", "ils/elles perdent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -840,7 +924,7 @@
             "descriptions": [ "je cache", "tu cache", "il/elle/on cache", "nous cachons", "vous cachez", "ils/elles cachent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -854,7 +938,7 @@
             "descriptions": [ "je marche", "tu marches", "il/elle/on marche", "nous marchons", "vous marchez", "ils/elles marchent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -869,7 +953,7 @@
             "descriptions": [ "je montre", "tu montres", "il/elle/on montre", "nous montrons", "vous montrez", "ils/elles montrent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -884,7 +968,7 @@
             "descriptions": [ "je mets", "tu mets", "il/elle/on met", "nous mettons", "vous mettez", "ils/elles mettent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -914,7 +998,7 @@
             "descriptions": [ "je propose", "tu proposes", "il/elle/on propose", "nous proposons", "vous proposez", "ils/elles proposent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -929,7 +1013,7 @@
             "descriptions": [ "je poss&#232;de", "tu poss&#232;des", "il/elle/on poss&#232;de", "nous poss&#233;dons", "vous poss&#233;dez", "ils/elles poss&#232;dent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -944,7 +1028,7 @@
             "descriptions": [ "je prends", "tu prends", "il/elle/on prends", "nous prenons", "vous prenez", "ils/elles prennent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -959,7 +1043,7 @@
             "descriptions": [ "je porte", "tu portes", "il/elle/on porte", "nous portons", "vous portez", "ils/elles portent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -974,7 +1058,7 @@
             "descriptions": [ "je saisis", "tu saisis", "il/elle/on saisit", "nous saisissons", "vous saisissez", "ils/elles saisissent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -989,7 +1073,7 @@
             "descriptions": [ "je souhaite", "tu souhaites", "il/elle/on souhaite", "nous souhaitons", "vous souhaitez", "ils/elles souhaitent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1004,7 +1088,7 @@
             "descriptions": [ "je vois", "tu vois", "il/elle/on voit", "nous voyons", "vous voyez", "ils/elles voient" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descrptions": []
             }
             ]
@@ -1019,7 +1103,7 @@
             "descriptions": [ "je vends", "tu vends", "il/elle/on vend", "nous vendons", "vous vendez", "ils/elles vendent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1034,7 +1118,7 @@
             "descriptions": [ "je tiens", "tu tiens", "il/elle/on tient", "nous tenons", "vous tenez", "ils/elles tiennent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1049,7 +1133,7 @@
             "descriptions": [ "je trouve", "tu trouves", "il/elle/on trouve", "nous trouvons", "vous trouvez", "ils/elles trouvent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1064,7 +1148,7 @@
             "descriptions": [ "je suis", "tu suit", "il/elle/on suit", "nous suivons", "vous suivez", "ils/elles suivent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1079,7 +1163,7 @@
             "descriptions": [ "je casse", "tu casses", "il/elle/on casse", "nous cassons", "vous cassez", "ils/elles cassent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1094,7 +1178,7 @@
             "descriptions": [ "j&#8217;ameliore", "tu ameliores", "il/elle/on ameliore", "nous ameliorons", "vous ameliorez", "ils/elles ameliorent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1108,7 +1192,7 @@
             "descriptions": [ "je concerne", "tu concernes", "il/elle/on concerne", "nous concernons", "vous concernez", "ils/elles concernent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1123,7 +1207,7 @@
             "descriptions": [ "j&#8217;ajoute", "tu ajoutes", "il/elle/on ajoute", "nous ajoutons", "vous ajoutez", "ils/elles ajoutent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1138,7 +1222,7 @@
             "descriptions": [ "je dors", "tu dors", "il/elle/on dort", "nous dormons", "vous dormez", "ils/elles dorment" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1153,7 +1237,7 @@
             "descriptions": [ "je regarde", "tu regardes", "il/elle/on regarde", "nous regardons", "vous regardez", "ils/elles regardent"]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1168,7 +1252,7 @@
             "descriptions": [ "j&#8217;entends", "tu entends", "il/elle/on entend", "nous entendons", "vous entendez", "ils/elles entendent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1183,7 +1267,7 @@
             "descriptions": [ "je pose", "tu poses", "il/elle/on pose", "nous posons", "vous posez", "ils/elles posent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1198,7 +1282,7 @@
             "descriptions": [ "je secours", "tu secours", "il/elle/on secourt", "nous secourons", "vous secourez", "ils/elles secourent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1228,7 +1312,7 @@
             "descriptions": [ "je dois", "tu dois", "il/elle/on doit", "nous devons", "vous devez", "ils/elles doivent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1243,7 +1327,7 @@
             "descriptions": [ "je re&#231;ois", "tu re&#231;ois", "il/elle/on re&#231;oit", "nous recevons", "vous recevez", "ils/elles re&#231;oivent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1258,7 +1342,7 @@
             "descriptions": [ "je crois", "tu crois", "il/elle/on croit", "nous croyons", "vous croyez", "ils/elles croient" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1273,7 +1357,7 @@
             "descriptions": [ "je pense", "tu penses", "il/elle/on pense", "nous pensons", "vous pensez", "ils/elles pensent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1288,7 +1372,7 @@
             "descriptions": [ "je tente", "tu tentes", "il/elle/on tente", "nous tentons", "vous tentez", "ils/elles tentent" ]
             },
             {
-            "title": "past tense",
+            "title": "perfect tense",
             "descriptions": []
             }
             ]
@@ -1303,7 +1387,7 @@
                 "descriptions": [ "j&#8217;oublie", "tu oublies", "il/elle/on oublie", "nous oublions", "vous oubliez", "ils/elles oublient" ]
                 },
                 {
-                "title": "past tense",
+                "title": "perfect tense",
                 "descriptions": []
                 }
                 ]
@@ -1317,7 +1401,7 @@
                 "descriptions": [ "j&#8217;emm&#232;ne", "tu emm&#232;nes", "il/elle/on emm&#232;ne", "nous emmenons", "vous emmenez", "ils/elles emm&#232;nent" ]
                 },
                 {
-                "title": "past tense",
+                "title": "perfect tense",
                 "descriptions": []
                 }
                 ]
@@ -1331,7 +1415,7 @@
                 "descriptions": [ "je choisis", "tu choisis", "il/elle/on choisit", "nous choisissons", "vous choisissez", "ils/elles choisissent" ]
                 },
                 {
-                "title": "past tense",
+                "title": "perfect tense",
                 "descriptions": []
                 }
                 ]
@@ -1345,7 +1429,7 @@
                 "descriptions": [ "je go&#251;te", "tu go&#251;tes", "il/elle/on go&#251;te", "nous go&#251;tons", "vous go&#251;tez", "ils/elles go&#251;tent" ]
                 },
                 {
-                "title": "past tense",
+                "title": "perfect tense",
                 "descriptions": []
                 }
                 ]
@@ -1373,7 +1457,7 @@
                 "descriptions": [ "je vide", "tu vides", "il/elle/on vide", "nous vidons", "vous videz", "ils/elles vident" ]
                 },
                 {
-                "title": "past tense",
+                "title": "perfect tense",
                 "descriptions": []
                 }
                 ]
@@ -1387,7 +1471,7 @@
                 "descriptions": [ "je grille", "tu grilles", "il/elle/on grille", "nous grillons", "vous grillez", "ils/elles grillent" ]
                 },
                 {
-                "title": "past tense",
+                "title": "perfect tense",
                 "descriptions": []
                 }
                 ]
