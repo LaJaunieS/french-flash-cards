@@ -1,0 +1,161 @@
+{
+    "type": "verbs2",
+    "fullTitle": "verbs pt. 2",
+    "vocabArray": [
+        
+        {
+        "f": "retrouver",
+        "a": "to retrieve/ recover/ find",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je retrouve", "tu retrouves", "il/elle/on retrouve", "nous retrouvons", "vous retrouvez", "ils/elles retrouvent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "demander",
+        "a": "to request/ ask for",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je demande", "tu demandes", "il/elle/on demande", "nous demandons", "vous demandez", "ils/elles demandent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "arriver",
+        "a": "to arrive",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;arrive", "tu arrives", "il/elle/on arrive", "nous arrivons", "vous arrivez", "ils/elles arrivent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "continuer",
+        "a": "to continue/ continue to",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je continue", "tu continues", "il/elle/on continue", "nous continuons", "vous continuez", "ils/elles continuent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "appartenir",
+        "a": "to belong",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;appartiens", "tu appartiens", "il/elle/on appartient", "nous appartenons", "vous appartenez", "ils/elles appartiennent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "servir",
+        "a": "to serve",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je sers", "tu sers", "il/elle/on sert", "nous servons", "vous servez", "ils/elles servent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "douter",
+        "a": "to doubt",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je doute", "tu doutes", "il/elle/on doute", "nous doutons", "vous doutez", "ils/elles doutent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "d&#233;pendre",
+        "a": "to depend",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je d&#233;pends", "tu d&#233;pends", "il/elle/on d&#233;pend", "nous d&#233;pendons", "vous d&#233;pendez", "ils/elles d&#233;pendent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "habiter",
+        "a": "to live (in)",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;habite", "tu habites", "il/elle/on habite", "nous habitons", "vous habitez", "ils/elles habitent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "essayer",
+        "a": "to try/ attempt",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;essaye", "tu essayes", "il/elle/on essaye", "nous essayons", "vous essayez", "ils/elles essayent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "exister",
+        "a": "to exist/ dwell",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;existe", "tu existes", "il/elle/on existe", "nous existons", "vous existez", "ils/elles existent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        }
+    ]
+}

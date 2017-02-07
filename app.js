@@ -14,12 +14,12 @@
       .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", function($scope, $timeout, $http) {
 
 
-        $scope.testData = {
-            length: 0,
-            addElem: function(elem){
-                [].push.call(this,elem);
-            }
-        };
+        // $scope.testData = {
+        //     length: 0,
+        //     addElem: function(elem){
+        //         [].push.call(this,elem);
+        //     }
+        // };
 
         //this object will hold all of the data contained in the separate json files- populated completely on page load
         $scope.sectionsObject  = {
@@ -30,7 +30,7 @@
 
 
         $scope.getJson = function() {
-            $scope.sectionsArray = [ 'verbs', 'adjectives', 'adjectives2' ,'transitionals', 'time', 'family', 'pronouns','adverbs', 'directions', 'weather', 'household', 'body', 'places'];
+            $scope.sectionsArray = [ 'verbs', 'verbs2', 'adjectives', 'adjectives2' ,'transitionals', 'time', 'family', 'pronouns','adverbs', 'directions', 'weather', 'household', 'body', 'places'];
                 for (let i = 0; i < $scope.sectionsArray.length; i++) {
                 
                     $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(

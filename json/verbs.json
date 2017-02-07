@@ -3,20 +3,6 @@
     "fullTitle": "verbs",
     "vocabArray": [
         {
-        "f": "retrouver",
-        "a": "to retrieve/ recover/ find",
-        "definitions": [
-            {
-            "title": "present tense",
-            "descriptions": [ "je retrouve", "tu retrouves", "il/elle/on retrouve", "nous retrouvons", "vous retrouvez", "ils/elles retrouvent"  ]
-            },
-            {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
-            }
-            ]
-        },
-        {
         "f": "visiter",
         "a": "to visit",
         "definitions": [
@@ -32,7 +18,7 @@
         },
         {
         "f": "quitter",
-        "a": "to sit down",
+        "a": "to leave",
         "definitions": [
             {
             "title": "present tense",
@@ -46,7 +32,7 @@
         },
         {
         "f": "tomber",
-        "a": "to sit down",
+        "a": "to fall",
         "definitions": [
             {
             "title": "present tense",
