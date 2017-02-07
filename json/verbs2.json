@@ -493,5 +493,47 @@
             }
             ]
         },
+        {
+        "f": "affirmer",
+        "a": "to assert/ affirm",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;affirme", "tu affirmes", "il/elle/on affirme", "nous affirmons", "vous affirmez", "ils/elles affirment"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "&#233;couter",
+        "a": "to listen to",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;&#233;coute", "tu &#233;coutes", "il/elle/on &#233;coute", "nous &#233;coutons", "vous &#233;coutez", "ils/elles &#233;coutent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        },
+        {
+        "f": "repr&#233;senter",
+        "a": "to assert/ affirm",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je repr&#233;sente", "tu repr&#233;sentes", "il/elle/on repr&#233;sente", "nous repr&#233;sentons", "vous repr&#233;sentez", "ils/elles repr&#233;sentent"  ]
+            },
+            {
+            "title" : "perfect tense",
+            "descriptions": [ "tbd" ]
+            }
+            ]
+        }
     ]
 }
