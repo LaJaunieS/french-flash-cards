@@ -233,7 +233,7 @@
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j#8217;offre", "tu offres", "il/elle/on offrons", "nous offrons", "vous offrez", "ils/elles offrent"  ]
+            "descriptions": [ "j&#8217;offre", "tu offres", "il/elle/on offrons", "nous offrons", "vous offrez", "ils/elles offrent"  ]
             },
             {
             "title" : "perfect tense",
