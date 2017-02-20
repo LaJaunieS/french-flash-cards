@@ -12,8 +12,8 @@
             "descriptions": [ "je retrouve", "tu retrouves", "il/elle/on retrouve", "nous retrouvons", "vous retrouvez", "ils/elles retrouvent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je retrouvais", "tu retrouvais", "il/elle/on retrouvait", "nous retrouvions", "vous retrouviez", "ils/elles retrouvaient" ]
             }
             ]
         },
@@ -26,8 +26,8 @@
             "descriptions": [ "je demande", "tu demandes", "il/elle/on demande", "nous demandons", "vous demandez", "ils/elles demandent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je demandais", "tu demandais", "il/elle/on demandait", "nous demandions", "vous demandiez", "ils/elles demandaient" ]
             }
             ]
         },
@@ -40,8 +40,8 @@
             "descriptions": [ "j&#8217;arrive", "tu arrives", "il/elle/on arrive", "nous arrivons", "vous arrivez", "ils/elles arrivent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "j&#8217;arrivais", "tu arrivais", "il/elle/on arrivait", "nous arrivions", "vous arriviez", "ils/elles arrivaient" ]
             }
             ]
         },
@@ -54,8 +54,8 @@
             "descriptions": [ "je continue", "tu continues", "il/elle/on continue", "nous continuons", "vous continuez", "ils/elles continuent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je continuais", "tu continuais", "il/elle/on continuait", "nous continuions", "vous continuiez", "ils/elles continuaient" ]
             }
             ]
         },
@@ -68,8 +68,8 @@
             "descriptions": [ "j&#8217;appartiens", "tu appartiens", "il/elle/on appartient", "nous appartenons", "vous appartenez", "ils/elles appartiennent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "j&#8217;appartenais", "tu appartenais", "il/elle/on appartenait", "nous appartenions", "vous apparteniez", "ils/elles appartenaient" ]
             }
             ]
         },
@@ -82,8 +82,8 @@
             "descriptions": [ "je sers", "tu sers", "il/elle/on sert", "nous servons", "vous servez", "ils/elles servent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je servais", "tu servais", "il/elle/on servait", "nous servions", "vous serviez", "ils/elles servaient" ]
             }
             ]
         },
@@ -96,8 +96,8 @@
             "descriptions": [ "je doute", "tu doutes", "il/elle/on doute", "nous doutons", "vous doutez", "ils/elles doutent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je doutais", "tu doutais", "il/elle/on doutait", "nous doutions", "vous doutiez", "ils/elles doutaient" ]
             }
             ]
         },
@@ -110,8 +110,8 @@
             "descriptions": [ "je d&#233;pends", "tu d&#233;pends", "il/elle/on d&#233;pend", "nous d&#233;pendons", "vous d&#233;pendez", "ils/elles d&#233;pendent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je d&#233;pendais", "tu d&#233;pendais", "il/elle/on d&#233;pendait", "nous d&#233;pendions", "vous d&#233;pendiez", "ils/elles d&#233;pendaient" ]
             }
             ]
         },
@@ -124,8 +124,8 @@
             "descriptions": [ "j&#8217;habite", "tu habites", "il/elle/on habite", "nous habitons", "vous habitez", "ils/elles habitent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "j&#8217;habitais", "tu habitais", "il/elle/on habitait", "nous habitions", "vous habitiez", "ils/elles habitaient" ]
             }
             ]
         },
@@ -138,8 +138,8 @@
             "descriptions": [ "j&#8217;essaye", "tu essayes", "il/elle/on essaye", "nous essayons", "vous essayez", "ils/elles essayent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "j&#8217;essayais", "tu essayais", "il/elle/on essayait", "nous essayions", "vous essayiez", "ils/elles essayaient" ]
             }
             ]
         },
@@ -152,8 +152,8 @@
             "descriptions": [ "j&#8217;existe", "tu existes", "il/elle/on existe", "nous existons", "vous existez", "ils/elles existent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "j&#8217;existais", "tu existais", "il/elle/on existait", "nous existions", "vous existiez", "ils/elles existaient" ]
             }
             ]
         },
@@ -166,8 +166,8 @@
             "descriptions": [ "j&#8217;explique", "tu expliques", "il/elle/on explique", "nous expliquons", "vous expliquez", "ils/elles expliquent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "j&#8217;expliquais", "tu expliquais", "il/elle/on expliquait", "nous expliquions", "vous expliquiez", "ils/elles expliquaient" ]
             }
             ]
         },
@@ -180,8 +180,8 @@
             "descriptions": [ "je mens", "tu mens", "il/elle/on ment", "nous mentons", "vous mentez", "ils/elles mentent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je mentais", "tu mentais", "il/elle/on mentait", "nous mentions", "vous mentiez", "ils/elles mentaient" ]
             }
             ]
         },
@@ -194,8 +194,8 @@
             "descriptions": [ "je manque", "tu manques", "il/elle/on manque", "nous manquons", "vous manquez", "ils/elles manquent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je manquais", "tu manquais", "il/elle/on manquait", "nous manquions", "vous manquiez", "ils/elles manquaient" ]
             }
             ]
         },
@@ -208,8 +208,8 @@
             "descriptions": [ "je p&#232;se", "tu p&#232;ses", "il/elle/on p&#232;se", "nous pesons", "vous pesez", "ils/elles p&#232;sent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je pesais", "tu pesais", "il/elle/on pesait", "nous pesions", "vous pesiez", "ils/elles pesaient" ]
             }
             ]
         },
@@ -222,8 +222,8 @@
             "descriptions": [ "je passe", "tu passes", "il/elle/on passe", "nous passons", "vous passez", "ils/elles passent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je passais", "tu passais", "il/elle/on passait", "nous passions", "vous passiez", "ils/elles passaient" ]
             }
             ]
         },
@@ -233,11 +233,11 @@
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j&#8217;offre", "tu offres", "il/elle/on offrons", "nous offrons", "vous offrez", "ils/elles offrent"  ]
+            "descriptions": [ "j&#8217;offre", "tu offres", "il/elle/on offre", "nous offrons", "vous offrez", "ils/elles offrent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "j&#8217;offrais", "tu offrais", "il/elle/on offrait", "nous offrions", "vous offriez", "ils/elles offraient" ]
             }
             ]
         },
@@ -250,8 +250,8 @@
             "descriptions": [ "je plante", "tu plantes", "il/elle/on plante", "nous plantons", "vous plantez", "ils/elles plantent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je plantais", "tu plantais", "il/elle/on plantait", "nous plantions", "vous plantiez", "ils/elles plantaient" ]
             }
             ]
         },
@@ -264,8 +264,8 @@
             "descriptions": [ "je prom&#232;ne", "tu prom&#232;nes", "il/elle/on prom&#232;ne", "nous promenons", "vous promenez", "ils/elles prom&#232;nent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je promenais", "tu promenais", "il/elle/on promenait", "nous promenions", "vous promeniez", "ils/elles promenaient" ]
             }
             ]
         },
@@ -278,8 +278,8 @@
             "descriptions": [ "je plais", "tu plais", "il/elle/on plait", "nous plaisons", "vous plaisez", "ils/elles plaisent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je plaisais", "tu plaisais", "il/elle/on plaisait", "nous plaisions", "vous plaisiez", "ils/elles plaisaient" ]
             }
             ]
         },
@@ -292,8 +292,8 @@
             "descriptions": [ "je rentre", "tu rentres", "il/elle/on rentre", "nous rentrons", "vous rentrez", "ils/elles rentrent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je rentrais", "tu rentrais", "il/elle/on rentrait", "nous rentrions", "vous rentriez", "ils/elles rentraient" ]
             }
             ]
         },
@@ -306,8 +306,8 @@
             "descriptions": [ "je r&#233;ponds", "tu r&#233;ponds", "il/elle/on r&#233;pond", "nous r&#233;pondons", "vous r&#233;pondez", "ils/elles r&#233;pondent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je r&#233;pondais", "tu r&#233;pondais", "il/elle/on r&#233;pondait", "nous r&#233;pondions", "vous r&#233;pondiez", "ils/elles r&#233;pondaient" ]
             }
             ]
         },
@@ -320,8 +320,8 @@
             "descriptions": [ "je remarque", "tu remarques", "il/elle/on remarque", "nous remarquons", "vous remarquez", "ils/elles remarquent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je remarquais", "tu remarquais", "il/elle/on remarquait", "nous remarquions", "vous remarquiez", "ils/elles remarquaient" ]
             }
             ]
         },
@@ -334,8 +334,8 @@
             "descriptions": [ "je repose", "tu resposes", "il/elle/on respose", "nous resposons", "vous reposez", "ils/elles reposent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je reposais", "tu resposais", "il/elle/on resposait", "nous resposions", "vous reposiez", "ils/elles reposaient" ]
             }
             ]
         },
@@ -348,8 +348,8 @@
             "descriptions": [ "je refuse", "tu refuses", "il/elle/on refuse", "nous refusons", "vous refusez", "ils/elles refusent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je refusais", "tu refusais", "il/elle/on refusait", "nous refusions", "vous refusiez", "ils/elles refusaient" ]
             }
             ]
         },
@@ -362,8 +362,8 @@
             "descriptions": [ "je reste", "tu restes", "il/elle/on reste", "nous restons", "vous restez", "ils/elles restent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "je restais", "tu restais", "il/elle/on restait", "nous restions", "vous restiez", "ils/elles restaient" ]
             }
             ]
         },
@@ -376,8 +376,8 @@
             "descriptions": [ "j&#8217;utilise", "tu utilises", "il/elle/on utilise", "nous utilisons", "vous utilisez", "ils/elles utilisent"  ]
             },
             {
-            "title" : "perfect tense",
-            "descriptions": [ "tbd" ]
+            "title" : "imperfect tense",
+            "descriptions": [ "j&#8217;utilisais", "tu utilisais", "il/elle/on utilisait", "nous utilisions", "vous utilisiez", "ils/elles utilisaient" ]
             }
             ]
         },
@@ -390,7 +390,7 @@
             "descriptions": [ "je reviens", "tu reviens", "il/elle/on revient", "nous revenons", "vous revenez", "ils/elles reviennent"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -404,7 +404,7 @@
             "descriptions": [ "je ressemble", "tu ressembles", "il/elle/on ressemble", "nous ressemblons", "vous ressemblez", "ils/elles ressemblent"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -418,7 +418,7 @@
             "descriptions": [ "je retourne", "tu retournes", "il/elle/on retourne", "nous retournons", "vous retournez", "ils/elles retournent"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -432,7 +432,7 @@
             "descriptions": [ "je rase", "tu rases", "il/elle/on rase", "nous rasons", "vous rasez", "ils/elles rasent"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -446,7 +446,7 @@
             "descriptions": [ "j&#8217;enfuis", "tu enfuis", "il/elle/on enfuit", "nous enfuyons", "vous enfuyez", "ils/elles enfuient"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -460,7 +460,7 @@
             "descriptions": [ "je sens", "tu sens", "il/elle/on sent", "nous sentons", "vous sentez", "ils/elles sentent"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -474,7 +474,7 @@
             "descriptions": [ "je suppose", "tu supposes", "il/elle/on suppose", "nous supposons", "vous supposez", "ils/elles supposent"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -488,7 +488,7 @@
             "descriptions": [ "je signifie", "tu signifies", "il/elle/on signifie", "nous signifions", "vous signifiez", "ils/elles signifient"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -502,7 +502,7 @@
             "descriptions": [ "j&#8217;affirme", "tu affirmes", "il/elle/on affirme", "nous affirmons", "vous affirmez", "ils/elles affirment"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -516,7 +516,7 @@
             "descriptions": [ "j&#8217;&#233;coute", "tu &#233;coutes", "il/elle/on &#233;coute", "nous &#233;coutons", "vous &#233;coutez", "ils/elles &#233;coutent"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
@@ -530,7 +530,7 @@
             "descriptions": [ "je repr&#233;sente", "tu repr&#233;sentes", "il/elle/on repr&#233;sente", "nous repr&#233;sentons", "vous repr&#233;sentez", "ils/elles repr&#233;sentent"  ]
             },
             {
-            "title" : "perfect tense",
+            "title" : "imperfect tense",
             "descriptions": [ "tbd" ]
             }
             ]
