@@ -534,6 +534,34 @@
             "descriptions": [ "je repr&#233;sentais", "tu repr&#233;sentais", "il/elle/on repr&#233;sentait", "nous repr&#233;sentions", "vous repr&#233;sentiez", "ils/elles repr&#233;sentaient" ]
             }
             ]
+        },
+        {
+        "f": "recontrer",
+        "a": "to meet/ come across",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je recontre", "tu recontres", "il/elle/on recontre", "nous recontrons", "vous recontrez", "ils/elles recontrent"  ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je recontrais", "tu recontrais", "il/elle/on recontrait", "nous recontrions", "vous recontriez", "ils/elles recontraient" ]
+            }
+            ]
+        },
+        {
+        "f": "raconter",
+        "a": "to tell/ relate/ narrate",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je raconte", "tu racontes", "il/elle/on raconte", "nous racontons", "vous racontez", "ils/elles racontent"  ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je racontais", "tu racontais", "il/elle/on racontait", "nous racontions", "vous racontiez", "ils/elles racontaient" ]
+            }
+            ]
         }
     ]
 }
