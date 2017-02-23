@@ -13,6 +13,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je visitais", "tu visitais", "il/elle/on visitait", "nous visitions", "vous visitiez", "ils/elles visitaient"  ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "visit&#233;" ]   
             }
             ]
         },
@@ -27,6 +31,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je quittais", "tu quittais", "il/elle/on quittait", "nous quittions", "vous quittiez", "ils/elles quittaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "quitte&#233;" ]   
             }
             ]
         },
@@ -41,6 +49,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je tombais", "tu tombais", "il/elle/on tombait", "nous tombions", "vous tombiez", "ils/elles tombaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> or <span class='italic'>&#234;tre</span> +", "retrouv&#233;" ]   
             }
             ]
         },
@@ -55,6 +67,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je supportais", "tu supportais", "il/elle/on supportait", "nous supportions", "vous supportiez", "ils/elles supportaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "support&#233;" ]   
             }
             ]
         },
@@ -69,6 +85,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je asseyais", "tu asseyais", "il/elle/on asseyait", "nous asseyions", "vous asseyiez", "ils/elles asseyaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "assis" ]   
             }
             ]
         },
@@ -83,6 +103,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je baissais", "tu baissais", "il/elle/on baissait", "nous baissions", "vous baissiez", "ils/elles baissaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "baiss&#233;" ]   
             }
             ]
         },
@@ -97,6 +121,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je creusais", "tu creusais", "il/elle/on creusait", "nous creusions", "vous creusiez", "ils/elles creusaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "creus&#233;" ]   
             }
             ]
         },
@@ -111,6 +139,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je allumais", "tu allumais", "il/elle/on allumait", "nous allumions", "vous allumiez", "ils/elles allumaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "allum&#233;" ]   
             }
             ]
         },
@@ -125,6 +157,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je chargeais", "tu chargeais", "il/elle/on chargeait", "nous chargions", "vous chargiez", "ils/elles chargiaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "charg&#233;" ]   
             }
             ]
         },
@@ -139,6 +175,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "j&#8217;&#233;teignais", "tu &#233;teignais", "il/elle/on &#233;teignait", "nous &#233;teignions", "vous &#233;teingiez", "ils/elles &#233;teingaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "&#233;teint" ]   
             }
             ]
         },
@@ -153,6 +193,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je branchais", "tu branchais", "il/elle/on branchait", "nous branchions", "vous branchiez", "ils/elles branchaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "branch&#233;" ]   
             }
             ]
         },
@@ -167,6 +211,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je jouais", "tu jouais", "il/elle/on jouait", "nous jouions", "vous jouiez", "ils/elles jouaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "jou&#233;" ]   
             }
             ]
         },
@@ -181,6 +229,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je surprenais", "tu surprenais", "il/elle/on surprenait", "nous surprenions", "vous surpeniez", "ils/elles surpenaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "surpris" ]   
             }
             ]
         },
@@ -195,6 +247,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "j&#8217;arr&#234;tais", "tu arr&#234;tais", "il/elle/on arr&#234;tait", "nous arr&#234;tions", "vous arr&#234;tiez", "ils/elles arr&#234;taient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "arr&#234;t&#233;" ]   
             }
             ]
         },
@@ -209,6 +265,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je para&#238;tais", "tu para&#238;tais", "il/elle/on para&#238;tait", "nous para&#238;tions", "vous para&#238;tiez", "ils/elles para&#238;taient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "paru" ]   
             }
             ]
         },
@@ -223,6 +283,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je fermais", "tu fermais", "il/elle/on fermait", "nous fermions", "vous fermiez", "ils/elles fermaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "ferm&#233;" ]   
             }
             ]
         },
@@ -237,6 +301,10 @@
             {
             "title" : "imperfect tense",
             "descriptions": [ "je nettoyais", "tu nettoyais", "il/elle/on nettoyait", "nous nettoyions", "vous nettoyiez", "ils/elles nettoyaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "nettoy&#233;" ]   
             }
             ]
         },
