@@ -3,6 +3,8 @@ $text-color: #333;
 $background-color: #fff;
 $path-font: '../gilroy';
 
+
+
 @mixin font-face($family, $file, $font-weight) {
 	@font-face {
   font-family: $family;
@@ -14,7 +16,7 @@ $path-font: '../gilroy';
 
 @include font-face('gilroylight', gilroy-light, 300);
 @include font-face('gilroymedium', gilroy-medium, 500);
-
+@include font-face('gilroymedium-italic', gilroy-MediumItalic, 500);
 
 
 @keyframes hoverButton {
@@ -197,6 +199,11 @@ body {
 
 /*styling design-y stuff*/
 
+
+
+.italic {
+	font-family: 'gilroymedium-italic';
+	}
 
 h1 {
 	color: $text-color;

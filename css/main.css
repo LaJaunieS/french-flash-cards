@@ -8,6 +8,11 @@
   src: url("../gilroy/gilroy-medium-webfont.eot");
   src: url("../gilroy/gilroy-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-medium-webfont.woff2") format("woff2"), url("../gilroy/gilroy-medium-webfont.woff") format("woff"), url("../gilroy/gilroy-medium-webfont.svg#gilroylight") format("svg");
   font-weight: 500; }
+@font-face {
+  font-family: "gilroymedium-italic";
+  src: url("../gilroy/gilroy-MediumItalic-webfont.eot");
+  src: url("../gilroy/gilroy-MediumItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../gilroy/gilroy-MediumItalic-webfont.woff2") format("woff2"), url("../gilroy/gilroy-MediumItalic-webfont.woff") format("woff"), url("../gilroy/gilroy-MediumItalic-webfont.svg#gilroylight") format("svg");
+  font-weight: 500; }
 @keyframes hoverButton {
   50% {
     left: -5px; }
@@ -142,6 +147,8 @@ body {
       padding: 15px 0;
       width: 66%;
       margin: 0 0 5px; }
+  #app-wrapper .italic {
+    font-family: 'gilroymedium-italic'; }
   #app-wrapper h1 {
     color: #333;
     font-family: 'gilroylight', sans-serif; }
