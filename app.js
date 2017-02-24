@@ -30,7 +30,7 @@
 
 
         $scope.getJson = function() {
-            $scope.sectionsArray = [ 'verbs', 'verbs2', 'verbstest','adjectives', 'adjectives2' ,'transitionals', 'time', 'family', 'pronouns','adverbs', 'directions', 'weather', 'household', 'body', 'places'];
+            $scope.sectionsArray = [ 'verbs', 'verbs2', 'adjectives', 'adjectives2' ,'transitionals', 'time', 'family', 'pronouns','adverbs', 'directions', 'weather', 'household', 'body', 'places'];
                 for (let i = 0; i < $scope.sectionsArray.length; i++) {
                 
                     $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(
