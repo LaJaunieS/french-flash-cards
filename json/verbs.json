@@ -1118,6 +1118,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "j&#8217;ouvrais", "tu ouvrais", "il/elle/on ouvrait", "nous ouvrions", "vous ouvriez", "ils/elles ouvraient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "ouvert" ]   
             }
             ]
         },
@@ -1133,6 +1137,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je perdais", "tu perdais", "il/elle/on perdait", "nous perdions", "vous perdiez", "ils/elles perdaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "perdu" ]   
             }
             ]
         },
@@ -1148,6 +1156,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je cachais", "tu cachais", "il/elle/on cachait", "nous cachions", "vous cachiez", "ils/elles cachaient"]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "cache&#233;" ]   
             }
             ]
         },
@@ -1162,6 +1174,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je marchais", "tu marchais", "il/elle/on marchait", "nous marchions", "vous marchiez", "ils/elles marchaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "march&#233;" ]   
             }
             ]
         },
@@ -1177,6 +1193,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je montrais", "tu montrais", "il/elle/on montrait", "nous montrions", "vous montriez", "ils/elles montraient"]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "montr&#233;" ]   
             }
             ]
         },
@@ -1192,6 +1212,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je mettais", "tu mettais", "il/elle/on mettait", "nous mettions", "vous mettiez", "ils/elles mettaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "mis" ]   
             }
             ]
         },
@@ -1207,6 +1231,10 @@
             {
             "title": "present tense",
             "descriptions": [ "je lavais", "tu lavais", "il/elle/on lavait", "nous lavions", "vous laviez", "ils/elles lavaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "lav&#233;" ]   
             }
             ]
         },
@@ -1222,6 +1250,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je proposais", "tu proposais", "il/elle/on proposait", "nous proposions", "vous proposiez", "ils/elles proposaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "propos&#233;" ]   
             }
             ]
         },
@@ -1237,6 +1269,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je poss&#232;dais", "tu poss&#232;dais", "il/elle/on poss&#232;dait", "nous poss&#233;dions", "vous poss&#233;diez", "ils/elles poss&#232;daient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "possed&#233;" ]   
             }
             ]
         },
@@ -1252,6 +1288,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je prenais", "tu prenais", "il/elle/on prenait", "nous prenions", "vous preniez", "ils/elles prenaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "pris" ]   
             }
             ]
         },
@@ -1267,6 +1307,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je portais", "tu portais", "il/elle/on portait", "nous portions", "vous portiez", "ils/elles portaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "port&#233;" ]   
             }
             ]
         },
@@ -1282,6 +1326,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je saisissais", "tu saissisais", "il/elle/on saissisait", "nous saisissions", "vous saisissiez", "ils/elles saisissaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "saisi" ]   
             }
             ]
         },
@@ -1297,6 +1345,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je souhaitais", "tu souhaitais", "il/elle/on souhaitait", "nous souhaitions", "vous souhaitiez", "ils/elles souhaitaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "souhait&#233;" ]   
             }
             ]
         },
@@ -1312,6 +1364,10 @@
             {
             "title": "imperfect tense",
             "descrptions": [ "je voyais", "tu voyais", "il/elle/on voyait", "nous voyions", "vous voyiez", "ils/elles voyaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "vu" ]   
             }
             ]
         },
@@ -1327,6 +1383,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je vendais", "tu vendais", "il/elle/on vendait", "nous vendions", "vous vendiez", "ils/elles vendaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "vendu" ]   
             }
             ]
         },    
@@ -1342,6 +1402,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je tenais", "tu tenais", "il/elle/on tenait", "nous tenions", "vous teniez", "ils/elles tenaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "tenu" ]   
             }
             ]
         },
@@ -1357,6 +1421,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je trouvais", "tu trouvais", "il/elle/on trouvait", "nous trouvions", "vous trouviez", "ils/elles trouvaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "trouv&#233;" ]   
             }
             ]
         },
@@ -1372,6 +1440,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je suivais", "tu suivais", "il/elle/on suivait", "nous suivions", "vous suiviez", "ils/elles suivaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "suivi" ]   
             }
             ]
         },
@@ -1387,6 +1459,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je cassais", "tu cassais", "il/elle/on cassait", "nous cassions", "vous cassiez", "ils/elles cassaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "cass&#233;" ]   
             }
             ]
         },
@@ -1402,6 +1478,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "j&#8217;ameliorais", "tu ameliorais", "il/elle/on ameliorait", "nous ameliorions", "vous amelioriez", "ils/elles amelioraient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "amelior&#233;" ]   
             }
             ]
         },
@@ -1416,6 +1496,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je concernais", "tu concernais", "il/elle/on concernait", "nous concernions", "vous concerniez", "ils/elles concernaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "concern&#233;" ]   
             }
             ]
         },
@@ -1431,6 +1515,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "j&#8217;ajoutais", "tu ajoutais", "il/elle/on ajoutait", "nous ajoutions", "vous ajoutiez", "ils/elles ajoutaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "ajout&#233;" ]   
             }
             ]
         },
@@ -1446,6 +1534,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je dormais", "tu dormais", "il/elle/on dormait", "nous dormions", "vous dormiez", "ils/elles dormaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "dormi" ]   
             }
             ]
         },
@@ -1461,6 +1553,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je regardais", "tu regardais", "il/elle/on regardait", "nous regardions", "vous regardiez", "ils/elles regardaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "regard&#233;" ]   
             }
             ]
         },
@@ -1476,6 +1572,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "j&#8217;entendais", "tu entendais", "il/elle/on entendait", "nous entendions", "vous entendiez", "ils/elles entendaient"  ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "entendu" ]   
             }
             ]
         },
@@ -1491,6 +1591,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je posais", "tu posais", "il/elle/on posait", "nous posions", "vous posiez", "ils/elles posaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "pos&#233;" ]   
             }
             ]
         },
@@ -1506,6 +1610,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je secourais", "tu secourais", "il/elle/on secourait", "nous secourions", "vous secouriez", "ils/elles secouraient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "secouru" ]   
             }
             ]
         },
@@ -1521,6 +1629,10 @@
             {
             "title": "present tense",
             "descriptions": [ "je venais", "tu venais", "il/elle/on venait", "nous venions", "vous veniez", "ils/elles venaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>&#234;tre</span> +", "venu" ]   
             }
             ]
         },   
@@ -1536,6 +1648,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je devais", "tu devais", "il/elle/on devait", "nous devions", "vous deviez", "ils/elles devaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "d&#251;" ]   
             }
             ]
         },
@@ -1551,6 +1667,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je recevais", "tu recevais", "il/elle/on recevait", "nous recevions", "vous receviez", "ils/elles recevaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "re&#231;u" ]   
             }
             ]
         },
@@ -1566,6 +1686,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je croyais", "tu croyais", "il/elle/on croyait", "nous croyions", "vous croyiez", "ils/elles croaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "cru" ]   
             }
             ]
         },
@@ -1581,6 +1705,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je pensais", "tu pensais", "il/elle/on pensait", "nous pensions", "vous pensiez", "ils/elles pensaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "pens&#233;" ]   
             }
             ]
         },
@@ -1596,6 +1724,10 @@
             {
             "title": "imperfect tense",
             "descriptions": [ "je tentais", "tu tentais", "il/elle/on tentait", "nous tentions", "vous tentiez", "ils/elles tentaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "tent&#233;" ]   
             }
             ]
         },
@@ -1611,7 +1743,11 @@
                 {
                 "title": "imperfect tense",
                 "descriptions": [ "j&#8217;oubliais", "tu oubliais", "il/elle/on oubliait", "nous oubliions", "vous oubliiez", "ils/elles oubliaient" ]
-                }
+                },
+                {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "oubli&#233;" ]   
+            }
                 ]
         },
         {
@@ -1625,7 +1761,11 @@
                 {
                 "title": "imperfect tense",
                 "descriptions": [ "j&#8217;emmenais", "tu emmenais", "il/elle/on emmenait", "nous emmenions", "vous emmeniez", "ils/elles emmenaient" ]
-                }
+                },
+                {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "emmen&#233;" ]   
+            }
                 ]
         },
         {
@@ -1639,7 +1779,11 @@
                 {
                 "title": "imperfect tense",
                 "descriptions": [ "je choisissais", "tu choisissais", "il/elle/on choisissaiit", "nous choisissions", "vous choisissiez", "ils/elles choisissaient" ]
-                }
+                },
+                {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "choisi" ]   
+            }
                 ]
         },
         {
@@ -1653,7 +1797,11 @@
                 {
                 "title": "imperfect tense",
                 "descriptions": [ "je go&#251;tais", "tu go&#251;tais", "il/elle/on go&#251;tait", "nous go&#251;tions", "vous go&#251;tiez", "ils/elles go&#251;taient" ]
-                }
+                },
+                {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "go&#251;t&#233;" ]   
+            }
                 ]
         },
         {
@@ -1667,7 +1815,11 @@
                 {
                 "title": "imperfect tense",
                 "descriptions": [ "je bouillais", "tu bouillais", "il/elle/on bouillait", "nous bouillions", "vous bouilliez", "ils/elles bouillaient" ]
-                }
+                },
+                {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "bouilli" ]   
+            }
                 ]
         },
         {
@@ -1681,7 +1833,11 @@
                 {
                 "title": "imperfect tense",
                 "descriptions": [ "je vidais", "tu vidais", "il/elle/on vidait", "nous vidions", "vous vidiez", "ils/elles vidaient" ]
-                }
+                },
+                {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "vid&#233;" ]   
+            }
                 ]
         },
         {
@@ -1695,7 +1851,11 @@
                 {
                 "title": "imperfect tense",
                 "descriptions": [ "je grillais", "tu grillais", "il/elle/on grillait", "nous grillions", "vous grilliez", "ils/elles grillaient" ]
-                }
+                },
+                {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "grill&#233;" ]   
+            }
                 ]
         }        
 
