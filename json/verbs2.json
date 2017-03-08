@@ -2,7 +2,153 @@
     "type": "verbs2",
     "fullTitle": "verbs pt. 2",
     "vocabArray": [
-        
+        {
+        "f": "r&#233;duire",
+        "a": "to reduce/ cut down",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je r&#233;duis", "tu r&#233;duis", "il r&#233;duit", "nous r&#233;duisons", "vous r&#233;duisez", "ils r&#233;duisent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je r&#233;duisais", "tu r&#233;duisais", "il/elle/on r&#233;duisait", "nous r&#233;duisions", "vous r&#233;duisiez", "ils/elles r&#233;duisaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "r&#233;dui" ]   
+            }
+            ]
+        },
+        {
+        "f": "se souvenir",
+        "a": "to remember",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je me souviens", "tu te souviens", "il se souvient", "nous nous souvenons", "vous vous souvenez", "ils se souviennent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je me souvenais", "tu te souvenais", "il/elle/on se souvenait", "nous nous souvenions", "vous vous souveniez", "ils/elles se souvenaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "souvenu" ]   
+            }
+            ]
+        },
+        {
+        "f": "pr&#233;venir",
+        "a": "to plan/ prevent",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je pr&#233;viens", "tu pr&#233;viens", "il pr&#233;vient", "nous pr&#233;venons", "vous pr&#233;venez", "ils pr&#233;viennent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je pr&#233;venais", "tu pr&#233;venais", "il/elle/on pr&#233;venait", "nous pr&#233;venions", "vous pr&#233;veniez", "ils/elles pr&#233;venaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "pr&#233;venu" ]   
+            }
+            ]
+        },
+        {
+        "f": "d&#233;cider",
+        "a": "to decide",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je d&#233;cide", "tu d&#233;cides", "il d&#233;cide", "nous d&#233;cidons", "vous d&#233;cidez", "ils d&#233;cident" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je d&#233;cidais", "tu d&#233;cidsais", "il/elle/on d&#233;cidait", "nous d&#233;cidions", "vous d&#233;cidiez", "ils/elles decidaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "d&#233;cid&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "monter",
+        "a": "to ascend/ go up",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je monte", "tu montes", "il monte", "nous montons", "vous montez", "ils montent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je montais", "tu montais", "il/elle/on montait", "nous montions", "vous montiez", "ils/elles montaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "mont&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "r&#233;ussir",
+        "a": "to succeed/ pass",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je r&#233;ussis", "tu r&#233;ussis", "il r&#233;ussit", "nous r&#233;ussissons", "vous r&#233;ussissez", "ils r&#233;ussisent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je r&#233;ussisais", "tu r&#233;ussisais", "il/elle/on r&#233;ussisait", "nous r&#233;ussissions", "vous r&#233;ussissiez", "ils/elles r&#233;ussissaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "r&#233ussi" ]   
+            }
+            ]
+        },
+        {
+        "f": "permettre",
+        "a": "to permit/ allow",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je permets", "tu permets", "il permet", "nous permettons", "vous permettez", "ils permettent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je permettais", "tu permettais", "il/elle/on permettait", "nous permettions", "vous permettiez", "ils/elles permettaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "permis" ]   
+            }
+            ]
+        },
+
+        {
+        "f": "s&#233;journer",
+        "a": "to stay/sojourn",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je s&#233;journe", "tu s&#233;journes", "il s&#233;journe", "nous s&#233;journons", "vous s&#233;journez", "ils s&#233;journent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je s&#233;journais", "tu s&#233;journais", "il/elle/on s&#233;journait", "nous s&#233;journions", "vous s&#233;journiez", "ils/elles s&#233;journaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "s&#233;journ&#233;" ]   
+            }
+            ]
+        },
+
+
         {
         "f": "retrouver",
         "a": "to retrieve/ recover/ find",
