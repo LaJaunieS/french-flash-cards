@@ -88,7 +88,7 @@
             },
             {
             "title": "present perfect tense",
-            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "mont&#233;" ]   
+            "descriptions": [ "present tense of <span class='italic'>&#234;tre</span> +", "mont&#233;" ]   
             }
             ]
         },
@@ -709,7 +709,7 @@
         },
         {
         "f": "s&#8217;enfuir",
-        "a": "to run away/ flee (reflexive)",
+        "a": "to run away/ flee",
         "definitions": [
             {
             "title": "present tense",
