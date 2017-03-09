@@ -3,6 +3,42 @@
     "fullTitle": "verbs pt. 2",
     "vocabArray": [
         {
+        "f": "mourir",
+        "a": "to die",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je meurs", "tu meurs", "il meurt", "nous mourons", "vous mourez", "ils meurent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je mourais", "tu mourais", "il/elle/on mourait", "nous mourions", "vous mouriez", "ils/elles mouraient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>&#234;tre</span> +", "mort" ]   
+            }
+            ]
+        },
+        {
+        "f": "na&#238;tre",
+        "a": "to reduce/ cut down",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je nais", "tu nais", "il na&#238;t", "nous naissons", "vous naissez", "ils naissent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je naissais", "tu naissais", "il/elle/on naissait", "nous naissions", "vous naissiez", "ils/elles naissaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>&#234;tre</span> +", "n&#233;" ]   
+            }
+            ]
+        },
+        {
         "f": "r&#233;duire",
         "a": "to reduce/ cut down",
         "definitions": [
@@ -241,7 +277,7 @@
         },
         {
         "f": "servir",
-        "a": "to serve",
+        "a": "to serve/ serve as",
         "definitions": [
             {
             "title": "present tense",
@@ -559,7 +595,7 @@
             },
             {
             "title": "present perfect tense",
-            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "remarq&#233;" ]   
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "remarqu&#233;" ]   
             }
             ]
         },
@@ -713,11 +749,11 @@
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j&#8217;enfuis", "tu enfuis", "il/elle/on enfuit", "nous enfuyons", "vous enfuyez", "ils/elles enfuient"  ]
+            "descriptions": [ "je m&#8217;enfuis", "tu t&#8217;enfuis", "il/elle/on s&#8217;enfuit", "nous nous enfuyons", "vous vous enfuyez", "ils/elles s&#8217;enfuient"  ]
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "j&#8217;enfuyais", "tu enfuyais", "il/elle/on enfuyait", "nous enfuyions", "vous enfuyiez", "ils/elles enfuyaient" ]
+            "descriptions": [ "je m&#8217;enfuyais", "tu t&#8217;enfuyais", "il/elle/on s&#8217;enfuyait", "nous nous enfuyions", "vous vous enfuyiez", "ils/elles s&#8217;enfuyaient" ]
             },
             {
             "title": "present perfect tense",
