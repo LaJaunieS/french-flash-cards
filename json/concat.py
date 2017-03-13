@@ -18,6 +18,7 @@ for json in my_jsons:
 	aggregate += ","
 
 
+
 aggregate += "]"
 agg_file.write(aggregate)
 agg_file.close()
