@@ -1,0 +1,27 @@
+{
+    "type": "verbstest",
+    "fullTitle": "verbs test",
+    "vocabArray": [
+        
+        {
+        "f": "retrouver",
+        "a": "to retrieve/ recover/ find",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je retrouve", "tu retrouves", "il/elle/on retrouve", "nous retrouvons", "vous retrouvez", "ils/elles retrouvent"  ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je retrouvais", "tu retrouvais", "il/elle/on retrouvait", "nous retrouvions", "vous retrouviez", "ils/elles retrouvaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> or <span class='italic'>&#234;tre</span> +", "retrouv&#233;" ]   
+            }
+            ]
+        }
+        
+    ]
+}
+        

@@ -14,37 +14,49 @@
       .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", function($scope, $timeout, $http) {
 
 
-        // $scope.testData = {
-        //     length: 0,
-        //     addElem: function(elem){
-        //         [].push.call(this,elem);
-        //     }
-        // };
-
         //this object will hold all of the data contained in the separate json files- populated completely on page load
         $scope.sectionsObject  = {
         "menuArray": []  //used to display length of section on main menu view
+        };
+
+        $scope.aggSectionsObject = {
+            "menuArray": []
+
         };
 
         $scope.thisSection = {};
 
 
         $scope.getJson = function() {
-            $scope.sectionsArray = [ 'verbs', 'verbs2', 'adjectives', 'adjectives2' ,'transitionals', 'time', 'family', 'pronouns','adverbs', 'directions', 'weather', 'household', 'body', 'places'];
-                for (let i = 0; i < $scope.sectionsArray.length; i++) {
+            // $scope.sectionsArray = [ 'verbs', 'verbs2', 'adjectives', 'adjectives2' ,'transitionals', 'time', 'family', 'pronouns','adverbs', 'directions', 'weather', 'household', 'body', 'places'];
+            //     for (let i = 0; i < $scope.sectionsArray.length; i++) {
                 
-                    $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(
-                        function successCallback(data) {
-                            console.log('data request successful');
-                            $scope.sectionsObject[$scope.sectionsArray[i]] = data.data;
-                            $scope.sectionsObject.menuArray.push( { "source": data.data, "type": data.data.type, "count": data.data.vocabArray.length});
+            //         $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(
+            //             function successCallback(data) {
+            //                 console.log('data request successful');
+            //                 $scope.sectionsObject[$scope.sectionsArray[i]] = data.data;
+            //                 $scope.sectionsObject.menuArray.push( { "source": data.data, "type": data.data.type, "count": data.data.vocabArray.length});
                             
-                        }, function errorCallback() {
-                            document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
-                            i = $scope.sectionsArray.length;
-                        });
+            //             }, function errorCallback() {
+            //                 document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
+            //                 i = $scope.sectionsArray.length;
+            //             });
 
-                    };
+            //         };
+
+                $http.get('./json/vocab_agg.json').then(
+                    function successCallback(data) {
+                        //console.log(data.data);
+                        for (let z = 0; z < data.data.length; z++ ) {
+                            //console.log(data.data.agg_array[z]);
+                            $scope.sectionsObject[data.data[z].type] = data.data[z];
+                            $scope.sectionsObject.menuArray.push( { "source": data.data[z], "type": data.data[z].type, "count": data.data[z].vocabArray.length} )
+                        };
+                            console.log('json data request successful');
+                            //console.log($scope.sectionsObject);
+                    }, function errorCallback() {
+                        document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
+                    }); 
 
             };
 
