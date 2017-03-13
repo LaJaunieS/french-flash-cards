@@ -14,9 +14,11 @@ print("file mode",agg_file.mode)
 
 aggregate = "["
 for json in my_jsons:
-	aggregate += open(json).read()
-	aggregate += ","
-
+	f = open(json)
+	with open(json) as f:
+		aggregate += f.read()
+		aggregate += ","
+	f.close()
 
 
 aggregate += "]"
