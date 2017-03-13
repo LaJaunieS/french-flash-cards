@@ -19,32 +19,11 @@
         "menuArray": []  //used to display length of section on main menu view
         };
 
-        $scope.aggSectionsObject = {
-            "menuArray": []
-
-        };
-
         $scope.thisSection = {};
 
 
         $scope.getJson = function() {
-            // $scope.sectionsArray = [ 'verbs', 'verbs2', 'adjectives', 'adjectives2' ,'transitionals', 'time', 'family', 'pronouns','adverbs', 'directions', 'weather', 'household', 'body', 'places'];
-            //     for (let i = 0; i < $scope.sectionsArray.length; i++) {
-                
-            //         $http.get('./json/' + $scope.sectionsArray[i] + '.json').then(
-            //             function successCallback(data) {
-            //                 console.log('data request successful');
-            //                 $scope.sectionsObject[$scope.sectionsArray[i]] = data.data;
-            //                 $scope.sectionsObject.menuArray.push( { "source": data.data, "type": data.data.type, "count": data.data.vocabArray.length});
-                            
-            //             }, function errorCallback() {
-            //                 document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
-            //                 i = $scope.sectionsArray.length;
-            //             });
-
-            //         };
-
-                $http.get('./json/vocab_agg.json').then(
+            $http.get('./json/vocab_agg.json').then(
                     function successCallback(data) {
                         //console.log(data.data);
                         for (let z = 0; z < data.data.length; z++ ) {
@@ -60,7 +39,7 @@
 
             };
 
-        //pull the data from json files
+        //pull the data from json file
         $scope.getJson();
 
           
