@@ -51,11 +51,11 @@
             "a": "southwest"
             },
             {
-            "f": "&#224; droite",
+            "f": "a &#224; droite",
             "a": "right"
             },
             {
-            "f": "&#224; gauche",
+            "f": "a &#224; gauche",
             "a": "left"
             },
             {
@@ -99,6 +99,38 @@
             {
             "f": "l&#224; bas",
             "a": "over there"
+            },
+            {
+                 "f": "le panneau",
+                 "a": "sign/ road sign" 
+            },
+            {
+                  "f": "le pas",
+                  "a": "step"
+            },
+            {
+                  "f": "la sortie",
+                  "a": "exit"
+            },
+            {
+                  "f": "la fin",
+                  "a": "end"
+            },
+            {
+                  "f": "le d&#233;part",
+                  "a": "plans/blueptins"
+            },
+            {
+                  "f": "le fond",
+                  "a": "bottom/ back"
+            },
+            {
+                  "f": "inverse",
+                  "a": "opposite/ reverse"
+            },
+            {
+                  "f": "l&#8217;entre&#233;",
+                  "a": "entrance"
             }
             ]
 }
