@@ -18,7 +18,7 @@
         },
         {
         "f": "pr&#233;f&#233;r&#233;",
-        "a": "perfect",
+        "a": "preferred/ favorite",
         "definitions": [
             {
             "title": "masculine",
@@ -79,7 +79,7 @@
             ]
         },
                 {
-        "f": "tranquille;",
+        "f": "tranquille",
         "a": "quiet",
         "definitions": [
             {
@@ -98,7 +98,7 @@
             },
             {
             "title": "feminine",
-            "descriptions": [ "fausse, fausses" ]
+            "descriptions": [ "fausse", "fausses" ]
             }
             ]
         },
@@ -362,7 +362,7 @@
             },
             {
             "title" : "feminine",
-            "descriptions": [ "seconde", "seconde" ]
+            "descriptions": [ "seconde", "secondes" ]
             }
             ]
         },
@@ -516,7 +516,7 @@
             },
             {
             "title" : "feminine",
-            "descriptions": [ "vicieuse, vicieuses" ]
+            "descriptions": [ "vicieuse" , "vicieuses" ]
             }
             ]
         },
@@ -526,11 +526,11 @@
         "definitions": [
             {
             "title": "masculine",
-            "descriptions": [ "pr&#234;t", "pr&#234;tes"  ]
+            "descriptions": [ "pr&#234;t", "pr&#234;ts"  ]
             },
             {
             "title" : "feminine",
-            "descriptions": [ "pr&#234;te", "pr&#234;te" ]
+            "descriptions": [ "pr&#234;te", "pr&#234;tes" ]
             }
             ]
         },
@@ -634,7 +634,7 @@
             },
             {
             "title": "feminine",
-            "descriptions": [ "claire", "claire" ]    
+            "descriptions": [ "claire", "claires" ]    
             }
             ]    
         }

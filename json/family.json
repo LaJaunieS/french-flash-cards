@@ -3,67 +3,67 @@
     "fullTitle": "family",
         "vocabArray" : [
             {
-            "f": "m&#232;re",
+            "f": "la m&#232;re",
             "a": "mother"
             },
             {
-            "f": "p&#232;re",
+            "f": "le p&#232;re",
             "a": "father"
             },
             {
-            "f": "fr&#232;re",
+            "f": "le fr&#232;re",
             "a": "brother"
             },
             {
-            "f": "s&#156;ur",
+            "f": "la s&#156;ur",
             "a": "sister"
             },
             {
-            "f": "mari",
+            "f": "le mari",
             "a": "husband"
             },
             {
-            "f": "femme",
+            "f": "la femme",
             "a": "wife"
             },
             {
-            "f": "grand-m&#232;re",
+            "f": "la grand-m&#232;re",
             "a": "grandmother"
             },
             {
-            "f": "grand-p&#232;re",
+            "f": "le grand-p&#232;re",
             "a": "grandfather"
             },
             {
-            "f": "petit fils",
+            "f": "le petit fils",
             "a": "grandson"
             },
             {
-            "f": "petite fille",
+            "f": "la petite fille",
             "a": "granddaughter"
             },
             {
-            "f": "tante",
+            "f": "la tante",
             "a": "aunt"
             },
             {
-            "f": "oncle",
+            "f": "l&#8217;oncle",
             "a": "uncle"
             },
             {
-            "f": "neveu/neveux",
+            "f": "le neveu",
             "a": "nephew"
             },
             {
-            "f": "ni&#232;ce",
+            "f": "la ni&#232;ce",
             "a": "niece"
             },
             {
-            "f": "fils",
+            "f": "le fils",
             "a": "son"
             },
             {
-            "f": "fille/filles",
+            "f": "le fille",
             "a": "daughter"
             }
         ]

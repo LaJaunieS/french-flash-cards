@@ -73,7 +73,7 @@
                   "a": "ordinary/ regular",
                   "definitions": [
                         {
-                              "title": "masculine",
+                              "title": "masculine/feminine",
                               "descriptions": [ "ordinaire", "ordinaires"  ]
                         }
                   ]
@@ -310,7 +310,7 @@
                   "definitions": [
                         {
                               "title": "masculine",
-                              "descriptions": [ "&#226;g&#233;", "&#226;g&#233;"  ]
+                              "descriptions": [ "&#226;g&#233;", "&#226;g&#233;s"  ]
                         },
                         {
                               "title": "feminine",

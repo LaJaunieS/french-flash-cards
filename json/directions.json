@@ -51,11 +51,11 @@
             "a": "southwest"
             },
             {
-            "f": "a &#224; droite",
+            "f": "&#224; droite",
             "a": "right"
             },
             {
-            "f": "a &#224; gauche",
+            "f": "&#224; gauche",
             "a": "left"
             },
             {
@@ -118,7 +118,7 @@
             },
             {
                   "f": "le d&#233;part",
-                  "a": "plans/blueptins"
+                  "a": "departure"
             },
             {
                   "f": "le fond",
