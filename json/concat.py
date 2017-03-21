@@ -1,5 +1,3 @@
-import json
-import pprint
 import glob
 
 #grab all jsons with glob
@@ -8,7 +6,6 @@ import glob
 #print to a new file
 
 my_jsons = glob.glob("*.json")
-pp = pprint.PrettyPrinter(depth=6)
 agg_file = open("vocab_agg.json", 'w')
 print("file mode",agg_file.mode)
 
