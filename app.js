@@ -25,9 +25,9 @@
         $scope.getJson = function() {
             $http.get('./json/vocab_agg.json').then(
                     function successCallback(data) {
-                        //console.log(data.data);
+                        console.log(data.data);
                         for (let z = 0; z < data.data.length; z++ ) {
-                            //console.log(data.data.agg_array[z]);
+                            //console.log(data.data[z]);
                             $scope.sectionsObject[data.data[z].type] = data.data[z];
                             $scope.sectionsObject.menuArray.push( { "source": data.data[z], "type": data.data[z].type, "count": data.data[z].vocabArray.length} )
                         };

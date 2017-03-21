@@ -22,6 +22,7 @@ for json in my_jsons:
 
 
 aggregate += "]"
+aggregate = "".join(aggregate.split("\n"))
 agg_file.write(aggregate)
 agg_file.close()
 print("aggregate json file printed")
