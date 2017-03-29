@@ -5,9 +5,10 @@ import glob
 #concat
 #print to a new file
 
-my_jsons = glob.glob("*.json")
-agg_file = open("vocab_agg.json", 'w')
+my_jsons = glob.glob("src/*.json")
+agg_file = open("master/vocab_agg.json", 'w')
 print("file mode",agg_file.mode)
+
 
 aggregate = "["
 for json in my_jsons:
@@ -19,7 +20,11 @@ for json in my_jsons:
 
 
 aggregate += "]"
+
+
+# minifies output
 aggregate = "".join(aggregate.split("\n"))
+
 agg_file.write(aggregate)
 agg_file.close()
 print("aggregate json file printed")

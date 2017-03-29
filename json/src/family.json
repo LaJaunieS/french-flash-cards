@@ -1,0 +1,70 @@
+ {
+    "type": "family",
+    "fullTitle": "family",
+        "vocabArray" : [
+            {
+            "f": "la m&#232;re",
+            "a": "mother"
+            },
+            {
+            "f": "le p&#232;re",
+            "a": "father"
+            },
+            {
+            "f": "le fr&#232;re",
+            "a": "brother"
+            },
+            {
+            "f": "la s&#156;ur",
+            "a": "sister"
+            },
+            {
+            "f": "le mari",
+            "a": "husband"
+            },
+            {
+            "f": "la femme",
+            "a": "wife"
+            },
+            {
+            "f": "la grand-m&#232;re",
+            "a": "grandmother"
+            },
+            {
+            "f": "le grand-p&#232;re",
+            "a": "grandfather"
+            },
+            {
+            "f": "le petit fils",
+            "a": "grandson"
+            },
+            {
+            "f": "la petite fille",
+            "a": "granddaughter"
+            },
+            {
+            "f": "la tante",
+            "a": "aunt"
+            },
+            {
+            "f": "l&#8217;oncle",
+            "a": "uncle"
+            },
+            {
+            "f": "le neveu",
+            "a": "nephew"
+            },
+            {
+            "f": "la ni&#232;ce",
+            "a": "niece"
+            },
+            {
+            "f": "le fils",
+            "a": "son"
+            },
+            {
+            "f": "le fille",
+            "a": "daughter"
+            }
+        ]
+    }

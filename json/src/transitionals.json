@@ -1,0 +1,232 @@
+{
+    "type": "transitionals",
+    "fullTitle": "transitionals",
+    "vocabArray": [
+                    {
+            "f": "car",
+            "a": "because",
+            "definitions": [
+            	{
+            		"title": "alternates",
+            		"descriptions": [ "parce que" ]
+            	}
+            ]
+            },
+            {
+            "f": "sous",
+            "a": "under"    
+            },
+            {
+            "f": "contre",
+            "a": "against/ to"    
+            },
+            {
+            "f": "saut",
+            "a": "except"    
+            },
+            {
+            "f": "selon",
+            "a": "according to"    
+            },
+            {
+            "f": "ah bon?",
+            "a": "oh really?"    
+            },
+            {
+            "f": "bien sur",
+            "a": "of course"    
+            },
+            {
+            "f": "jusqu&#8217;a",
+            "a": "until"    
+            },
+            {
+            "f": "malgr&#233;",
+            "a": "despite"    
+            },
+            {
+            "f": "parmi",
+            "a": "among",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "depuis", "entre" ]
+                }
+            ]    
+            },
+            {
+            "f": "eh bien!",
+            "a": "well!"    
+            },
+            {
+            "f": "peut-&#234;tre",
+            "a": "perhaps"    
+            },
+            {
+            "f": "s&#251;rement",
+            "a": "surely"    
+            },
+            {
+            "f": "suffisament",
+            "a": "enough/ sufficiently",
+            "definitions": [
+                {
+                 "title": "example",
+                 "descriptions": ["il fait suffisament froid", "it is cold enough"]   
+                }
+            ]    
+            },
+            {
+            "f": "tout &#224; fait",
+            "a": "absolutely"    
+            },
+            {
+            "f": "il y a",
+            "a": "there is"    
+            },
+            {
+            "f": "il n&#8217;y a pas",
+            "a": "there is no/ there is not"    
+            },
+            {
+            "f": "ensemble",
+            "a": "together"    
+            },
+            {
+            "f": "au moins",
+            "a": "at least"    
+            },
+            {
+            "f": "presque",
+            "a": "almost"    
+            },
+            {
+            "f": "pourtant",
+            "a": "yet/ however"
+            },
+            {
+            "f": "&#224; peu pr&#232;s",
+            "a": "nearly/ about/ more or less" 
+            },
+            {
+            "f": "sans",
+            "a": "without"	
+            },
+            {
+            "f": "si",
+            "a": "if"	
+            },
+            {
+            "f": "des que",
+            "a": "as soon as"	
+            },
+            {
+            "f": "autant que",
+            "a": "may as well"	
+            },
+            {
+            "f": "non plus",
+            "a": "neither"
+            
+            },
+            {
+            "f": "ni",
+            "a": "neither/ nor"
+            
+            },
+            {
+            "f": "pour que",
+            "a": "so that"
+            
+            },
+            {
+            "f": "tant que",
+            "a": "as long as/ while/ until"
+            },
+            {
+            "f": "comme",
+            "a": "since"
+            },
+            {
+            "f": "donc",
+            "a": "so"
+            },
+            {
+            "f": "en fait",
+            "a": "in fact"
+            },
+            {
+            "f": "cependant",
+            "a": "however/ nonetheless"
+            },
+            {
+            "f": "&#224; mon avis",
+            "a": "in my opinion"
+            },
+            {
+            "f": "alors que",
+            "a": "while",
+            "definitions": [
+                {
+                "title": "alternates",
+                "descriptions": [ "lorsque", "pendant" ]
+                }
+                ]
+            },
+                        {
+            "f": "sur le chemin",
+            "a": "on the road/ on the way",
+            "definitions": [
+                {
+                "title": "alternates",
+                "descriptions": [ "sur le chemin", "en route"  ]
+                }
+                ]
+            },
+            {
+            "f": "pendant",
+            "a": "during",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "lorsque", "durant"]
+                }
+            ]
+            },
+            {
+            "f": "devant",
+            "a": "in front of"
+            },
+            {
+            "f": "est-ce que",
+            "a": "do/ is it that"    
+            },
+            {
+            "f": "mais",
+            "a": "but"
+            },
+            {
+            "f": "plusieurs",
+            "a": "several"
+            },
+            {
+            "f": "o&#249;",
+            "a": "or"
+            },
+            {
+            "f": "entre",
+            "a": "between"
+            },
+            {
+            "f": "d&#8217;o&#249;",
+            "a": "from where"
+            },
+            {
+            "f": "a c&#244;te",
+            "a": "next to/ beside"
+            }
+
+
+
+    ]
+}

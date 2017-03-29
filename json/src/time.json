@@ -1,0 +1,198 @@
+{
+    "type": "time",
+    "fullTitle": "time",
+        "vocabArray" : [
+            {
+            "f": "lundi",
+            "a": "monday"
+            },
+            {
+            "f": "mardi",
+            "a": "tuesday"
+            },
+            {
+            "f": "mercredi",
+            "a": "wednesday"
+            },
+            {
+            "f": "jeudi",
+            "a": "thursday"
+            },
+            {
+            "f": "vendredi",
+            "a": "friday"
+            },
+            {
+            "f": "samedi",
+            "a": "saturday"
+            },
+            {
+            "f": "dimanche",
+            "a": "sunday"
+            },
+            {
+            "f": "temps",
+            "a": "time"
+            },
+            {
+            "f": "jour",
+            "a": "day"
+            },
+            {
+            "f": "janvier", 
+            "a": "january"                
+            },
+            {
+            "f": "f&#233;vrier",
+            "a": "february"
+            },
+            {
+            "f": "mars",
+            "a": "march"
+            },
+            {
+            "f": "avril",
+            "a": "april"
+            },
+            {
+            "f": "mai",
+            "a": "may"
+            },
+            {
+            "f": "juin",
+            "a": "june"
+            },
+            {
+            "f": "juillet",
+            "a": "july"
+            },
+            {
+            "f": "ao&#251;t",
+            "a": "august"
+            },
+            {
+            "f": "septembre",
+            "a": "september"
+            },
+            {
+            "f": "octobre",
+            "a": "october"
+            },
+            {
+            "f": "novembre",
+            "a": "november"
+            },
+            {
+            "f": "d&#233;cembre",
+            "a": "d&#233;cember"    
+            },
+            {
+            "f": "seconde",
+            "a": "second"
+            },
+            {
+            "f": "minute",
+            "a": "minute"
+            },
+            {
+            "f": "heure",
+            "a": "hour"
+            },
+            {
+            "f": "semaine",
+            "a": "week"
+            },
+            {
+            "f": "mois",
+            "a": "month"
+            },
+            {
+            "f": "an",
+            "a": "year"
+            },
+            {
+            "f": "d&#233;cennie",
+            "a": "decade"
+            },
+            {
+            "f": "mill&#233;naire",
+            "a": "millenium"
+            },
+            {
+            "f": "matin",
+            "a": "morning"
+            },
+            {
+            "f": "le midi",
+            "a": "noon"
+            },
+            {
+            "f": "apres-midi",
+            "a": "afternoon"
+            },
+            {
+            "f": "soir",
+            "a": "evening"
+            },
+            {
+            "f": "nuit",
+            "a": "night"
+            },
+            {
+            "f": "minuit",
+            "a": "midnight"
+            },
+            {
+            "f": "demi",
+            "a": "half"
+            },
+            {
+            "f": "moins le quart",
+            "a": "quarter to"
+            },
+            {
+            "f": "et demi",
+            "a": "half past"
+            },
+            {
+            "f": "si&#232;cle",
+            "a": "century"
+            },
+            {
+            "f": "montre",
+            "a": "watch"
+            },
+            {
+            "f": "calendrier",
+            "a": "calendar"
+            },
+            {
+            "f": "&#233;t&#233;",
+            "a": "summer"
+            },
+            {
+            "f": "l&#8217;automne",
+            "a": "fall/ autumn"
+            },
+            {
+            "f": "hiver",
+            "a": "winter"
+            },
+            {
+            "f": "printemps",
+            "a": "spring"
+            },
+            {
+            "f": "aujourd&#8217;hui",
+            "a": "today"    
+            },
+            {
+            "f": "demain",
+            "a": "tomorrow"    
+            },
+            {
+            "f": "hier",
+            "a": "yesterday"    
+            }  
+        ]
+}

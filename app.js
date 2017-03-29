@@ -23,7 +23,7 @@
 
 
         $scope.getJson = function() {
-            $http.get('./json/vocab_agg.json').then(
+            $http.get('./json/master/vocab_agg.json').then(
                     function successCallback(data) {
                         console.log(data.data);
                         for (let z = 0; z < data.data.length; z++ ) {

@@ -1,0 +1,175 @@
+{
+    "type": "places",
+    "fullTitle": "places & geography",
+    "vocabArray": [
+        {
+        "f": "la ville",
+        "a": "town/ city"
+        },
+        {
+            "f": "le lieu",
+            "a": "place"
+        },
+        {
+            "f": "le pays",
+            "a": "country"
+        },
+        {
+            "f": "la terre",
+            "a": "land/soil"
+        },
+        {
+            "f": "la rue",
+            "a": "street"
+        },
+        {
+            "f": "la route",
+            "a": "road",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "chemin" ]
+                }
+            ]
+        },
+        {
+            "f": "le jardin",
+            "a": "garden"
+        },
+        {
+            "f": "le bord",
+            "a": "edge"
+        },
+        {
+            "f": "le tour",
+            "a": "around"
+        },
+        {
+            "f": "le coin",
+            "a": "corner"
+        },
+        {
+            "f": "le milieu",
+            "a": "middle"
+        },
+        {
+            "f": "l&#8217;&#238;le",
+            "a": "island"
+        },
+        {
+            "f": "le port",
+            "a": "port"
+        },
+        {
+            "f": "l&#8217;h&#244;tel",
+            "a": "hotel"
+        },
+        {
+            "f": "le village",
+            "a": "village"
+        },
+        {
+            "f": "l&#8217;entreprise",
+            "a": "company"
+        },
+        {
+            "f": "la c&#244;te",
+            "a": "coast"
+        },
+        {
+            "f": "la region",
+            "a": "region"
+        },
+        {
+            "f": "l&#8217;entrep&#244;t",
+            "a": "warehouse"
+        },
+        {
+            "f": "le ch&#226;teau",
+            "a": "castle"
+        },
+        {
+            "f": "le territoire",
+            "a": "territory"
+        },
+        {
+            "f": "le quartier",
+            "a": "neighborhood/ district"
+        },
+        {
+            "f": "le trou",
+            "a": "hole/ gap/ space"
+        },
+        {
+            "f": "la propriet&#233;",
+            "a": "property"
+        },
+        {
+            "f": "la plage",
+            "a": "beach"
+        },
+        {
+            "f": "le magasin",
+            "a": "store"
+        },
+        {
+            "f": "l&#8217;adresse",
+            "a": "address"
+        },
+        {
+            "f": "le parc",
+            "a": "park"
+        },
+        {
+            "f": "la boutique",
+            "a": "shop"
+        },
+        {
+            "f": "la fronti&#233;re",
+            "a": "border/ frontier"
+        },
+        {
+            "f": "le b&#226;timent",
+            "a": "building",
+            "definitions": [
+                {
+                    "title": "alternates",
+                    "descriptions": [ "l&#8217immeuble" ]
+                }
+            ]
+        },
+        {
+            "f": "le tribunal",
+            "a": "court"
+        },
+        {
+            "f": "la banileue",
+            "a": "suburb"
+        },
+        {
+            "f": "le pont",
+            "a": "bridge"
+        },
+        {
+            "f": "la banque",
+            "a": "the bank"
+        },
+        {
+            "f": "la boulangerie",
+            "a": "bakery"
+        },
+        {
+            "f": "la compagne",
+            "a": "countryside"
+        },
+        {
+            "f": "la montagne",
+            "a": "mountain"
+        },
+        {
+            "f": "le champ",
+            "a": "field"
+        }
+
+    ]
+}
