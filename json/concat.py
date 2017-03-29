@@ -1,12 +1,13 @@
 import glob
 
-# grab all jsons with glob
-# loop over and open all jsons with json
-# concat
-# print to a new file
+class Concatenate():
+	'''grabs all jsons in src directory with glob
+	loop over and open all jsons with json
+	concat to a variable
+	 print variable to a new file in master dir
+	 script must be located in parent directory of src and master
+	'''
 
-
-class Aggregate:
 	my_jsons = glob.glob("src/*.json")
 	agg_file = open("master/vocab_agg.json", 'w')
 
@@ -34,4 +35,4 @@ class Aggregate:
 		print("aggregate json file printed")
 
 
-Aggregate()
+Concatenate()
