@@ -1,7 +1,7 @@
         <div id="main-menu-content-fade">
             <h1 ng-click="toggleTitle()">cartes flash fran&#231;ais</h1> 
             <div id="mainMenu">
-                <ul ng-repeat="section in sectionsObject.menuArray | orderBy: 'title' ">
+                <ul ng-repeat="section in sectionsObject.menuArray">
                     <li ng-click="startSection(section.type)">{{section.source.fullTitle}} <span class="vocab-count">{{section.count}}</span></li>
                 </ul>
             </div>
