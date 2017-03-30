@@ -1,4 +1,6 @@
 import glob
+import os
+
 
 class Concatenate():
 	'''grabs all jsons in src directory with glob
@@ -27,12 +29,13 @@ class Concatenate():
 	def handle_file(self):
 		self.agg_file.write(self.aggregate)
 		self.agg_file.close()
+		self.new_file_size = os.stat("master/vocab_agg.json").st_size
 
 	def __init__(self):
 		self.create_aggregate()
 		self.handle_file()
-		print("file mode", self.agg_file.mode)
 		print("aggregate json file printed")
+		print("new file size:", self.new_file_size/1000, "KB")
 
 
 Concatenate()
