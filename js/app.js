@@ -9,9 +9,10 @@
 
 (function(angular) {
     
-  var app = angular.module("francaisApp", ['ngSanitize', 'ngAnimate', 'ngAria'])
+  var app = angular.module("francaisApp", ['ngSanitize', 'ngAnimate', 'ngAria', 'ngRoute'])
 
-      .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", function($scope, $timeout, $http) {
+
+    .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", function($scope, $timeout, $http) {
 
 
         //this object will hold all of the data contained in the separate json files- populated completely on page load
@@ -171,6 +172,31 @@
        
     
     }])
+
+
+    
+    .controller("wordIndexCtrl", [ "$scope", "$http", function($scope, $http)  { 
+            console.log("word index controller loaded");
+            $scope.wordIndexController = "!Word Index Controller!";
+    } ])
+
+    .config(function($routeProvider) {
+        $routeProvider
+            .when('/', {
+                templateUrl: 'index.html'
+        })
+            .when('/wordIndex', {
+                controller: 'wordIndexCtrl',
+                templateUrl: 'templates/wordIndex.html'
+            })
+            .otherwise( {
+                redirectTo: '/'
+        });
+            
+        console.log('route provider loaded');
+        } )
+
+
     .directive('mainMenu', function() {
         return {
             restrict: 'E',
@@ -203,6 +229,8 @@
             templateUrl: "templates/about.html"
         };
     });
+
+   
     
     
 })(window.angular);

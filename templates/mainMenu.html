@@ -1,12 +1,17 @@
         <div id="main-menu-content-fade">
+             
             <h1 ng-click="toggleTitle()">cartes flash fran&#231;ais</h1> 
+            
             <div id="mainMenu">
                 <ul ng-repeat="section in sectionsObject.menuArray">
-                    <li ng-click="startSection(section.type)">{{section.source.fullTitle}} <span class="vocab-count">{{section.count}}</span></li>
+                    <li> <span ng-click="startSection(section.type)">{{section.source.fullTitle}} <span class="vocab-count">{{section.count}}</span></span> <span><a href="#/wordIndex">Word Index</a></span> </li>
                 </ul>
             </div>
         		<div id="footer"><h6 ng-click="about=!about"><a>about</a></h6> 
         		<about class="aboutHook" ng-show="about"></about>
         		</div>
         </div>
+
+
+
 
