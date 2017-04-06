@@ -25,6 +25,8 @@ class Concatenate():
 		self.aggregate += "]"
 		# minifies output
 		self.aggregate = "".join(self.aggregate.split("\n"))
+		self.aggregate = "".join(self.aggregate.split("  "))
+
 
 	def handle_file(self):
 		self.agg_file.write(self.aggregate)
