@@ -1,13 +1,13 @@
  <div id="word-index-content-wrapper">
 
- 	<div>
-		<p>{{thisSection.title}}</p>
-		<ul ng-repeat="word in thisSection.source.vocabArray">
-			<li><span>{{word.a}}</span></li>
-			<li><span ng-bind-html="word.f">{{word.f}}</span></li>
+ 	<h1 id="card-section">{{thisSection.title}}</h1>
+	
+		<ul ng-repeat="word in thisSection.source.vocabArray | orderBy: 'a'">
+			<li><p>{{word.a}}</p></li>
+			<li><h1 ng-bind-html="word.f">{{word.f}}</h1></li>
 		</ul>
 
- 	</div>
+ 	
         
 
    </div>    

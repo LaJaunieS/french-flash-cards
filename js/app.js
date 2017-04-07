@@ -58,7 +58,7 @@
             //remove menu wrapper from DOM (sub-wrapper as well since absolute positioned)
             document.getElementById('main-menu-content-fade').style.display= 'none';
             document.getElementById('main-menu-wrapper').style.display="none";
-            
+            document.getElementById("word-index-wrapper").style.display = 'none';
             $scope.thisSection = {
                 "source": $scope.sectionsObject[section],
                 "vocab": $scope.sectionsObject[section].vocabArray,
@@ -78,14 +78,18 @@
             };
 
         $scope.startIndex = function(section) {
-
+            $scope.hideElement('main-menu-content-fade');
+            $scope.hideElement('flash-card-content-wrapper');
+            $scope.hideElement('card-front-content-fade');
+            $scope.hideElement('card-back-content-fade');
+            
             $scope.thisSection = {
                 "source": $scope.sectionsObject[section],
                 "vocab": $scope.sectionsObject[section].vocabArray,
                 "title": $scope.sectionsObject[section].fullTitle
             };
             $scope.hideElement('main-menu-content-fade');
-
+            document.getElementById("word-index-wrapper").style.display = 'initial';
                 console.log($scope.thisSection.source);
                             };         
 
