@@ -14,22 +14,16 @@
 
     .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", "getData", function($scope, $timeout, $http, getData) {
 
-
         //this object will hold all of the data contained in the separate json files- populated completely on page load
         $scope.sectionsObject  = getData;
-
-        $scope.thisSection = {};
                
-         $scope.test = 'this is a variable on the parent controller';
-        //now that json data loaded, use it to show list of section items and populate a local variable when item clicked
         //initial values- populated when section clicked  
         $scope.section;   
         $scope.thisSection = {
                                 "source": {},
                                 "vocab": [{ }]
                                 };
-          
-                  
+             
         $scope.randomNum = randomInt(0, $scope.thisSection.vocab.length-1 );
         $scope.randomWord = $scope.thisSection.vocab[$scope.randomNum];
         $scope.language = 1;  //1=anglais, 0=francais
@@ -46,13 +40,17 @@
         // $scope.setTitle = function(db) {
         //     $scope.section = db.type;  //eg $scope.sectionsObject.verbs - see templates flashCard.html for where this is interpolated- used as "title" of flash card section
         //     };
-          
-        $scope.startSection = function(section) {
-            //hide all elements for ui effect
+        
+        $scope.startUI = function() {
             $scope.hideElement('main-menu-content-fade');
             $scope.hideElement('flash-card-content-wrapper');
             $scope.hideElement('card-front-content-fade');
             $scope.hideElement('card-back-content-fade');
+            };
+
+        $scope.startSection = function(section) {
+            //hide all elements for ui effect
+            $scope.startUI();
             //re-add flash card wrapper to DOM
             document.getElementById('flash-card-content-wrapper').style.display= 'block';
             //remove menu wrapper from DOM (sub-wrapper as well since absolute positioned)
@@ -78,22 +76,16 @@
             };
 
         $scope.startIndex = function(section) {
-            $scope.hideElement('main-menu-content-fade');
-            $scope.hideElement('flash-card-content-wrapper');
-            $scope.hideElement('card-front-content-fade');
-            $scope.hideElement('card-back-content-fade');
+            $scope.startUI();
             
             $scope.thisSection = {
                 "source": $scope.sectionsObject[section],
                 "vocab": $scope.sectionsObject[section].vocabArray,
                 "title": $scope.sectionsObject[section].fullTitle
             };
-            $scope.hideElement('main-menu-content-fade');
             document.getElementById("word-index-wrapper").style.display = 'initial';
-                console.log($scope.thisSection.source);
-                            };         
-
-            $scope.wordIndexController = "word index controller!";
+            //console.log($scope.thisSection.source);
+            };         
           
         $scope.showElement = function(element) {
             document.getElementById(element).style.opacity='1.0';
