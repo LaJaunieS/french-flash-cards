@@ -12,38 +12,14 @@
   var app = angular.module("francaisApp", ['ngSanitize', 'ngAnimate', 'ngAria', 'ngRoute'])
 
 
-    .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", function($scope, $timeout, $http) {
+    .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", "getData", function($scope, $timeout, $http, getData) {
 
 
         //this object will hold all of the data contained in the separate json files- populated completely on page load
-        $scope.sectionsObject  = {
-        "menuArray": []  //used to display length of section on main menu view
-        };
+        $scope.sectionsObject  = getData;
 
         $scope.thisSection = {};
-
-
-        $scope.getJson = function() {
-            $http.get('./json/master/vocab_agg.json').then(
-                    function successCallback(data) {
-                        console.log(data.data);
-                        for (let z = 0; z < data.data.length; z++ ) {
-                            //console.log(data.data[z]);
-                            $scope.sectionsObject[data.data[z].type] = data.data[z];
-                            $scope.sectionsObject.menuArray.push( { "source": data.data[z], "type": data.data[z].type, "count": data.data[z].vocabArray.length} )
-                        };
-                            console.log('json data request successful');
-                            //console.log($scope.sectionsObject);
-                    }, function errorCallback() {
-                        document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
-                    }); 
-
-            };
-
-        //pull the data from json file
-        $scope.getJson();
-
-          
+               
          
         //now that json data loaded, use it to show list of section items and populate a local variable when item clicked
         //initial values- populated when section clicked  
@@ -175,10 +151,43 @@
 
 
     
-    .controller("wordIndexCtrl", [ "$scope", "$http", function($scope, $http)  { 
+    .controller("wordIndexCtrl", [ "$scope", "$http", "getData", function($scope, $http, getData)  { 
             console.log("word index controller loaded");
             $scope.wordIndexController = "!Word Index Controller!";
-    } ])
+        //     $scope.sectionsObject  = {
+        // "menuArray": []  //used to display length of section on main menu view
+        // };
+            $scope.sectionsObject = getData;
+        console.log($scope.sectionsObject);
+        } ])
+
+    .factory('getData', ['$http', function($http){
+
+        let sectionsObject  = {
+            "menuArray": []  //used to display length of section on main menu view
+            };
+
+        $http.get('./json/master/vocab_agg.json').then(
+                    function successCallback(data) {
+                        //console.log(data.data);
+                        for (let z = 0; z < data.data.length; z++ ) {
+                            //console.log(data.data[z]);
+                            sectionsObject[data.data[z].type] = data.data[z];
+                            sectionsObject.menuArray.push( { "source": data.data[z], "type": data.data[z].type, "count": data.data[z].vocabArray.length} )
+                        };
+                            console.log('json data request for index successful');
+                            //console.log($scope.sectionsObject);
+                    }, function errorCallback() {
+                        document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
+                    }); 
+
+            
+        //pull the data from json file
+        
+        return sectionsObject;
+
+
+    }])
 
     .config(function($routeProvider) {
         $routeProvider
