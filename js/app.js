@@ -9,7 +9,7 @@
 
 (function(angular) {
     
-  var app = angular.module("francaisApp", ['ngSanitize', 'ngAnimate', 'ngAria', 'ngRoute'])
+  var app = angular.module("francaisApp", ['ngSanitize', 'ngAnimate', 'ngAria' ])
 
 
     .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", "getData", function($scope, $timeout, $http, getData) {
@@ -20,7 +20,7 @@
 
         $scope.thisSection = {};
                
-         
+         $scope.test = 'this is a variable on the parent controller';
         //now that json data loaded, use it to show list of section items and populate a local variable when item clicked
         //initial values- populated when section clicked  
         $scope.section;   
@@ -76,6 +76,20 @@
                     $scope.showElement('card-front-content-fade');
                     }, 500);
             };
+
+        $scope.startIndex = function(section) {
+
+            $scope.thisSection = {
+                "source": $scope.sectionsObject[section],
+                "vocab": $scope.sectionsObject[section].vocabArray,
+                "title": $scope.sectionsObject[section].fullTitle
+            };
+            $scope.hideElement('main-menu-content-fade');
+
+                console.log($scope.thisSection.source);
+                            };         
+
+            $scope.wordIndexController = "word index controller!";
           
         $scope.showElement = function(element) {
             document.getElementById(element).style.opacity='1.0';
@@ -144,22 +158,26 @@
                 }, 500);
         };
          
-    
+
        
     
     }])
 
 
     
-    .controller("wordIndexCtrl", [ "$scope", "$http", "getData", function($scope, $http, getData)  { 
-            console.log("word index controller loaded");
-            $scope.wordIndexController = "!Word Index Controller!";
-        //     $scope.sectionsObject  = {
-        // "menuArray": []  //used to display length of section on main menu view
-        // };
-            $scope.sectionsObject = getData;
-        console.log($scope.sectionsObject);
-        } ])
+    // .controller("wordIndexCtrl", [ "$scope", "$http", "getData", function($scope, $http, getData)  { 
+    //         console.log("word index controller loaded");
+    //         $scope.wordIndexController = "!Word Index Controller!";
+    //     //     $scope.sectionsObject  = {
+    //     // "menuArray": []  //used to display length of section on main menu view
+    //     // };
+    //         $scope.sectionsObject = getData;
+    //         $scope.thisSection = $scope.startIndex;
+    //         console.log($scope.sectionsObject);
+
+             
+                        
+    //     } ])
 
     .factory('getData', ['$http', function($http){
 
@@ -189,22 +207,12 @@
 
     }])
 
-    .config(function($routeProvider) {
-        $routeProvider
-            .when('/', {
-                templateUrl: 'index.html'
-        })
-            .when('/wordIndex', {
-                controller: 'wordIndexCtrl',
-                templateUrl: 'templates/wordIndex.html'
-            })
-            .otherwise( {
-                redirectTo: '/'
-        });
-            
-        console.log('route provider loaded');
-        } )
-
+    .directive('wordIndex', function() {
+        return {
+            restrict: 'E',
+            templateUrl: "templates/wordIndex.html"
+        };
+    })
 
     .directive('mainMenu', function() {
         return {

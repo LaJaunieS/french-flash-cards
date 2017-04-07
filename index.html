@@ -11,31 +11,33 @@
     
     </head>
     
-    <body ng-app="francaisApp" ng-view >
+    <body ng-app="francaisApp">
     
-    <div id="app-wrapper">
-    <div ng-controller="flashCardCtrl">
+        <div id="app-wrapper">
+            <div ng-controller="flashCardCtrl">
+                <div id="main-menu-wrapper">
+                    <main-menu></main-menu>  
+                </div>
+        
+                <div id="flash-card-wrapper">
+                    <flash-card id="flash-card"></flash-card>
+                </div>
        
-        
-             
-        <div id="main-menu-wrapper">
-        <main-menu></main-menu>  
-        </div>
-        
-       <div id="flash-card-wrapper">
-        <flash-card id="flash-card"></flash-card>
+            <div id="word-index=wrapper">
+                <word-index></word-index>
+            </div>
+
+            </div>
+
+            
        </div>
-       
-       
-        </div>
-        
-       </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.min.js"></script>
+
+       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-sanitize.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-animate.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-aria.min.js"></script>
-    <script src="js/app.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-animate.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-aria.min.js"></script>
+        <script src="js/app.js" type="text/javascript"></script>
     </body>
     
 </html>

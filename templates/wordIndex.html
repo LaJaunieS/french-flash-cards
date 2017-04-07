@@ -1,14 +1,14 @@
- <word-index id="word-index-content-wrapper">
+ <div id="word-index-content-wrapper">
+
+ 	<div>
+		<p>{{thisSection.title}}</p>
+		<ul ng-repeat="word in thisSection.source.vocabArray">
+			<li><span>{{word.a}}</span></li>
+			<li><span ng-bind-html="word.f">{{word.f}}</span></li>
+		</ul>
+
+ 	</div>
         
 
- {{wordIndexController}}
- <div >
- 		<ul ng-repeat="section in sectionsObject">
- 			<li>{{section.fullTitle}}</li>
- 		</ul>
-
- </div>
-        
-
-   </word-index>    
+   </div>    
         
