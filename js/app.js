@@ -43,7 +43,6 @@
         
         $scope.startUI = function() {
             $scope.hideElement('main-menu-content-fade');
-            $scope.hideElement('flash-card-content-wrapper');
             $scope.hideElement('card-front-content-fade');
             $scope.hideElement('card-back-content-fade');
             };
@@ -77,15 +76,26 @@
 
         $scope.startIndex = function(section) {
             $scope.startUI();
+            document.getElementById("word-index-wrapper").style.display = 'initial';
+
+            $scope.hideElement('main-menu-content-fade');
+            document.getElementById('main-menu-wrapper').style.display="none";
+            //document.getElementById('flash-card-content-wrapper').style.display = "none";
+
             
             $scope.thisSection = {
                 "source": $scope.sectionsObject[section],
                 "vocab": $scope.sectionsObject[section].vocabArray,
                 "title": $scope.sectionsObject[section].fullTitle
             };
-            document.getElementById("word-index-wrapper").style.display = 'initial';
+
+            $timeout(function() {
+                    $scope.showElement('word-index-content-fade');
+                    }, 500);
+            };
+
             //console.log($scope.thisSection.source);
-            };         
+                     
           
         $scope.showElement = function(element) {
             document.getElementById(element).style.opacity='1.0';
@@ -114,6 +124,7 @@
                  
         $scope.backToMenu = function() {
             $scope.hideElement('flash-card-content-wrapper');
+            $scope.hideElement('word-index-content-fade');
             $scope.showElement('main-menu-content-fade');
             $scope.about = false;
             $timeout(function() {
@@ -122,6 +133,7 @@
                     }, 400);
             $timeout(function() {
                     document.getElementById('flash-card-content-wrapper').style.display= 'none';
+                    document.getElementById('word-index-wrapper').style.display='none';
                     }, 400);
                }  
           

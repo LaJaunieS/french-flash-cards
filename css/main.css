@@ -19,6 +19,9 @@
   100% {
     left: +5px; } }
 /*initial element positioning*/
+* {
+  border: 1px solid blue; }
+
 body {
   font-size: 14px;
   margin: 0;
@@ -72,30 +75,31 @@ body {
   #app-wrapper #flash-card-content-wrapper,
   #app-wrapper #main-menu-content-fade,
   #app-wrapper #card-front-content-fade,
-  #app-wrapper #card-back-content-fade {
+  #app-wrapper #card-back-content-fade,
+  #app-wrapper #word-index-content-fade {
     -webkit-transition: display 0.4s linear, opacity 0.3s linear;
     transition: display 0.4s linear, opacity 0.3s linear; }
+  #app-wrapper #backButton {
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    border-bottom: none;
+    z-index: 10000; }
+    #app-wrapper #backButton img {
+      height: 1rem;
+      width: 2rem; }
+    #app-wrapper #backButton:hover {
+      animation: hoverButton .4s ease-in-out; }
+    @media screen and (min-width: 750px) {
+      #app-wrapper #backButton {
+        padding-left: 1rem; }
+        #app-wrapper #backButton img {
+          height: 1rem;
+          width: 3rem; } }
   #app-wrapper #flash-card-content-wrapper {
     opacity: 0;
     width: 100%; }
-    #app-wrapper #flash-card-content-wrapper #backButton {
-      cursor: pointer;
-      padding: 0;
-      position: absolute;
-      left: 0;
-      border-bottom: none;
-      z-index: 10000; }
-      #app-wrapper #flash-card-content-wrapper #backButton img {
-        height: 1rem;
-        width: 2rem; }
-      #app-wrapper #flash-card-content-wrapper #backButton:hover {
-        animation: hoverButton .4s ease-in-out; }
-      @media screen and (min-width: 750px) {
-        #app-wrapper #flash-card-content-wrapper #backButton {
-          padding-left: 1rem; }
-          #app-wrapper #flash-card-content-wrapper #backButton img {
-            height: 1rem;
-            width: 3rem; } }
   @media screen and (min-width: 750px) {
     #app-wrapper #main-menu-content-fade,
     #app-wrapper #card-section,
@@ -147,6 +151,35 @@ body {
       padding: 15px 0;
       width: 66%;
       margin: 0 0 5px; }
+  #app-wrapper #word-index-wrapper {
+    display: none;
+    height: 95vh;
+    padding-left: 2px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 98%; }
+  #app-wrapper #word-index-content-wrapper {
+    margin-top: 1rem; }
+    #app-wrapper #word-index-content-wrapper #word-index-content-fade {
+      opacity: 0;
+      position: relative; }
+      #app-wrapper #word-index-content-wrapper #word-index-content-fade #index-search {
+        position: absolute;
+        top: 65px; }
+      #app-wrapper #word-index-content-wrapper #word-index-content-fade h1 {
+        font-size: 1.4rem;
+        margin: 1rem 0 0; }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade h1 {
+            margin: 2rem 0 0; } }
+      #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
+        position: absolute;
+        top: 100px; }
+        #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul {
+          padding-left: 2px; }
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul li {
+            list-style: none outside; }
   #app-wrapper .italic {
     font-family: 'gilroymedium-italic'; }
   #app-wrapper h1 {
