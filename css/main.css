@@ -163,9 +163,9 @@ body {
       opacity: 0;
       position: relative; }
       #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper {
-        padding: 5px 0; }
+        padding: 5px 0 2rem; }
         #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper #index-search {
-          margin: 3rem 0 0;
+          margin: 2rem 0 0;
           height: 2rem;
           width: 90%; }
         @media screen and (min-width: 750px) {
@@ -220,13 +220,18 @@ body {
       @media screen and (min-width: 750px) {
         #app-wrapper #main-menu-wrapper li .vocab-count {
           font-size: 1rem; } }
+    #app-wrapper #main-menu-wrapper li .index-link {
+      font-size: 1.2rem;
+      border-bottom: 1px solid silver; }
+      #app-wrapper #main-menu-wrapper li .index-link:hover {
+        border-bottom: 1px solid #0d0d0d; }
     @media screen and (min-width: 750px) {
       #app-wrapper #main-menu-wrapper li {
         border: none;
-        border-bottom: 1px solid rgba(51, 51, 51, 0);
+        border-bottom: 1px solid white;
         font-size: 2rem; }
         #app-wrapper #main-menu-wrapper li:hover {
-          border-bottom: 1px solid #333333; } }
+          border-bottom: 1px solid #a6a6a6; } }
 
 #flash-card-wrapper h1 {
   font-size: 1.4rem;
@@ -284,18 +289,22 @@ button {
       #button-wrapper button {
         background-color: #fff;
         border: none;
-        border-bottom: 1px solid rgba(51, 51, 51, 0);
+        border-bottom: 1px solid white;
         font-size: 2rem;
         transition: border-bottom .4s ease-in-out; }
         #button-wrapper button:hover {
-          border-bottom: 1px solid #333333; } }
+          border-bottom: 1px solid #a6a6a6; } }
 
-#word-index-list-wrapper ul,
+#word-index-list-wrapper ul:nth-child(even) {
+  background: #f3f3f3; }
+
+#word-index-list-wrapper ul:nth-child(even),
 #search-input-wrapper {
   border: 1px solid #a6a6a6; }
 
 #search-input-wrapper {
-  background: rgba(51, 51, 51, 0.2); }
+  background: #b3b3b3;
+  border: none; }
 
 .definitions ul {
   list-style-type: none;
