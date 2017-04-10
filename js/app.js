@@ -42,6 +42,7 @@
         //     };
         
         $scope.startUI = function() {
+        	window.scrollTo(0,0);
             $scope.hideElement('main-menu-content-fade');
             $scope.hideElement('card-front-content-fade');
             $scope.hideElement('card-back-content-fade');
@@ -75,7 +76,7 @@
             };
 
         $scope.startIndex = function(section) {
-            $scope.startUI();
+        	$scope.startUI();
             document.getElementById("word-index-wrapper").style.display = 'initial';
 
             $scope.hideElement('main-menu-content-fade');

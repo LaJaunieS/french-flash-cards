@@ -26,7 +26,7 @@ body {
 
 #app-wrapper {
   position: relative;
-  /*styling design-y stuff*/ }
+  /*styling & design*/ }
   #app-wrapper #main-menu-wrapper,
   #app-wrapper #flash-card-wrapper {
     padding-left: 2px;
@@ -162,11 +162,14 @@ body {
     #app-wrapper #word-index-content-wrapper #word-index-content-fade {
       opacity: 0;
       position: relative; }
-      #app-wrapper #word-index-content-wrapper #word-index-content-fade #index-search {
-        position: absolute;
-        top: 65px; }
+      #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper {
+        padding: 5px 0; }
+        #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper #index-search {
+          margin: 3rem 0 0;
+          height: 2rem;
+          width: 90%; }
         @media screen and (min-width: 750px) {
-          #app-wrapper #word-index-content-wrapper #word-index-content-fade #index-search {
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper {
             margin: 2rem 0 0 1rem; } }
       #app-wrapper #word-index-content-wrapper #word-index-content-fade h1 {
         font-size: 1.4rem;
@@ -176,7 +179,7 @@ body {
             margin: 2rem 0 0; } }
       #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
         position: absolute;
-        top: 100px;
+        top: 75px;
         width: 98%; }
         #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul {
           padding-left: 2px;
@@ -232,7 +235,7 @@ body {
     #flash-card-wrapper h1 {
       margin: 2rem 0 0; } }
 
-li, p, button, .word, h6 {
+li, p, button, .word, h6, input {
   color: #333;
   font-family: 'gilroymedium', 'gilroylight', sans-serif; }
 
@@ -262,6 +265,9 @@ h3 {
   font-size: 1.1rem;
   margin: 1rem 0 .2rem; }
 
+input {
+  font-size: 1.4rem; }
+
 button {
   background-color: #fff;
   border: none; }
@@ -284,8 +290,12 @@ button {
         #button-wrapper button:hover {
           border-bottom: 1px solid #333333; } }
 
-#word-index-list-wrapper ul {
+#word-index-list-wrapper ul,
+#search-input-wrapper {
   border: 1px solid #a6a6a6; }
+
+#search-input-wrapper {
+  background: rgba(51, 51, 51, 0.2); }
 
 .definitions ul {
   list-style-type: none;

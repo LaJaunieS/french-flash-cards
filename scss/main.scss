@@ -220,13 +220,17 @@ body {
 		#word-index-content-fade {	
 	   		opacity: 0;
 	   		position: relative;
-	   		#index-search {
-	   			position: absolute;
-	   			top: 65px;
+	   		#search-input-wrapper {
+	   			padding: 5px 0;
+	   			#index-search {
+	   				margin: 3rem 0 0;
+	   				height: 2rem;
+	   				width: 90%;
+	   			}
 	   			@media screen and (min-width: 750px) {
 	   				margin: 2rem 0 0 1rem;
-	   			}
-	   		} 
+	   				}
+	   			} 
 	   		h1 {
 				font-size: 1.4rem;
 				margin: 1rem 0 0;
@@ -236,7 +240,7 @@ body {
 				}
 		    #word-index-list-wrapper {
 		   		position: absolute;
-		  		top: 100px; 
+		  		top: 75px; 
 		  		width: 98%;	
 		  		ul {
 		  			padding-left: 2px;
@@ -262,7 +266,7 @@ body {
 }
 
 
-/*styling design-y stuff*/
+/*styling & design*/
 
 
 
@@ -318,7 +322,7 @@ h1 {
 	}
 
 
-li, p, button, .word, h6 {
+li, p, button, .word, h6, input {
 	color: $text-color;
 	font-family: 'gilroymedium', 'gilroylight', sans-serif;
 	}
@@ -358,6 +362,10 @@ h3 {
 	margin: 1rem 0 .2rem;
 }
 
+input {
+	font-size: 1.4rem;
+}
+
 button {
 	background-color: $background-color;
     border: none;
@@ -384,10 +392,15 @@ button {
 	}
 }
 
-#word-index-list-wrapper ul {
+#word-index-list-wrapper ul,
+#search-input-wrapper {
 	border: 1px solid $border-color;
+
 }
 
+#search-input-wrapper {
+	background: rgba(51,51,51,.2);
+	   }
 
 .definitions {
 	ul {
