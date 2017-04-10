@@ -4,35 +4,43 @@
     "vocabArray": [
                 {
             "f": "ensuite",
-            "a": "next"
+            "a": "next",
+            "keyword": "ensuite"
         },
         {
             "f": "bient&#244;t",
-            "a": "soon"
+            "a": "soon",
+            "keyword": "bientot"
         },
         {
             "f": "encore",
-            "a": "again/ still"
+            "a": "again/ still",
+            "keyword": "encore"
         },
         {
             "f": "toujours",
-            "a": "always"
+            "a": "always",
+            "keyword": "toujours"
         },
         {
             "f": "jamais",
-            "a": "never"
+            "a": "never",
+            "keyword": "jamais"
         },
         {
             "f": "parfois",
-            "a": "sometimes"
+            "a": "sometimes",
+            "keyword": "parfois"
         },
         {
             "f": "quand m&#234;me",
-            "a": "anyway/ still"
+            "a": "anyway/ still",
+            "keyword": "quand meme"
         },
         {
             "f": "aussi",
             "a": "also/ too/ as well",
+            "keyword": "aussi",
             "definitions": [
                 {
                 "title": "alternates",
@@ -43,6 +51,7 @@
         {
             "f": "plus",
             "a": "more",
+            "keyword": "plus",
             "definitions": [
                 {
                 "title": "example",
@@ -53,6 +62,7 @@
         {
             "f": "tr&#244;p",
             "a": "too",
+            "keyword": "trop",
             "definitions": [
                 {
                 "title": "example",
@@ -63,6 +73,7 @@
         {
             "f": "moins",
             "a": "less",
+            "keyword": "moins",
             "definitions": [
                 {
                 "title": "example",
@@ -72,99 +83,123 @@
             },
         {
             "f": "puis",
-            "a": "then"
+            "a": "then",
+            "keyword": "puis"
         },
             {
             "f": "enfin",
-            "a": "finally"
+            "a": "finally",
+            "keyword": "enfin"
         },
         {
             "f": "apres",
-            "a": "after"
+            "a": "after",
+            "keyword": "apres"
         },
         {
             "f": "avant",
-            "a": "before/ previously"
+            "a": "before/ previously",
+            "keyword": "avant"
         },
         {
             "f": "plus t&#244;t",
-            "a": "earlier"
+            "a": "earlier",
+            "keyword": "plus tot"
         },
         {
             "f": "en peu",
-            "a": "a little/ pretty much"
+            "a": "a little/ pretty much",
+            "keyword": "en peu"
         },
         {
             "f": "partout",
-            "a": "everywhere/ all over"
+            "a": "everywhere/ all over",
+            "keyword": "partout"
         },
         {
             "f": "d&#233;j&#224;",
-            "a": "already"
+            "a": "already",
+            "keyword": "deja"
         },
         {
             "f": "pr&#232;s",
-            "a": "near"
+            "a": "near",
+            "keyword": "pres"
         },
         {
             "f": "tr&#232;s",
-            "a": "very"
+            "a": "very",
+            "keyword": "tres"
         },
         {
             "f": "souvent",
-            "a": "often/ frequently"
+            "a": "often/ frequently",
+            "keyword": "souvent"
         },
         {
             "f": "rarement",
-            "a": "rarely/ infrequently"
+            "a": "rarely/ infrequently",
+            "keyword": "rarement"
         },
         {
             "f": "assez",
-            "a": "enough"
+            "a": "enough",
+            "keyword": "assez"
         },
         {
             "f": "vite",
-            "a": "quickly"
+            "a": "quickly",
+            "keyword": "vite"
         },
         {
             "f": "lentement",
-            "a": "slowly"
+            "a": "slowly",
+            "keyword": "lentement"
         },
         {
             "f": "peu &#224; peu",
-            "a": "gradually/ little by little"
+            "a": "gradually/ little by little",
+            "keyword": "peu a peu"
         },
         {
             "f": "beaucoup",
-            "a": "a lot"
+            "a": "a lot",
+            "keyword": "beaucoup"
         },
         {
             "f": "un peu",
-            "a": "a little"
+            "a": "a little",
+            "keyword": "un peu"
         },
          {
             "f": "ici",
-            "a": "here"
+            "a": "here",
+            "keyword": "ici"
         },
         {
             "f": "maintentant",
-            "a": "currently/ now"
+            "a": "currently/ now",
+            "keyword": "maintenant"
         },
         {
             "f": "t&#244;t",
-            "a": "early"
+            "a": "early",
+            "keyword": "tot"
         },
         {
             "f": "tard",
-            "a": "late"
+            "a": "late",
+            "keyword": "tard"
         },
         {
             "f": "voici",
-            "a": "here is"
+            "a": "here is",
+            "keyword": "voici"
         },
         {
             "f": "voil&#224;",
-            "a": "here are"
+            "a": "here are",
+            "keyword": "voila"
         }
     ]
 }

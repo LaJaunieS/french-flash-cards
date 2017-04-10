@@ -5,6 +5,7 @@
             {
                   "f": "pire",
                   "a": "worse",
+                  "keyword": "pire",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -15,6 +16,7 @@
             {
                   "f": "meilleur",
                   "a": "better/best",
+                  "keyword": "meilleur",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -28,11 +30,13 @@
             },
             {
                   "f": "r&#233;el",
-                  "a": "real"
+                  "a": "real",
+                  "keyword": "reel"
             },
             {
                   "f": "pareil",
                   "a": "alike/ the same",
+                  "keyword": "pareil",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -47,6 +51,7 @@
             {
                   "f": "logique",
                   "a": "sensible/logical",
+                  "keyword": "logique",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -57,6 +62,7 @@
             {
                   "f": "plat",
                   "a": "flat",
+                  "keyword": "plat",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -71,6 +77,7 @@
             {
                   "f": "ordinaire",
                   "a": "ordinary/ regular",
+                  "keyword": "ordinaire",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -81,6 +88,7 @@
             {
                   "f": "profonde",
                   "a": "deep/ profound",
+                  "keyword": "profonde",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -95,6 +103,7 @@
             {
                   "f": "indispensable",
                   "a": "necessary",
+                  "keyword": "indispensable",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -105,6 +114,7 @@
             {
                   "f": "inutile",
                   "a": "useless",
+                  "keyword": "inutile",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -115,6 +125,7 @@
             {
                   "f": "pr&#233;cis",
                   "a": "precise/ specific",
+                  "keyword": "precis",
                   "definitions": [
                         {
                               "title": "masculine/feminine (singular and plural)",
@@ -125,6 +136,7 @@
             {
                   "f": "fixe",
                   "a": "steady/ fixed",
+                  "keyword": "fixe",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -135,6 +147,7 @@
             {
                   "f": "pr&#232;s",
                   "a": "near",
+                  "keyword": "pres",
                   "definitions": [
                         {
                               "title": "alternates",
@@ -144,11 +157,13 @@
             },
             {
                   "f": "loin",
-                  "a": "far"
+                  "a": "far",
+                  "keyword":"loin"
             },
             {
                   "f": "vrai",
                   "a": "true",
+                  "keyword": "vrai",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -163,6 +178,7 @@
             {
                   "f": "libre",
                   "a": "free",
+                  "keyword": "libre",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -173,6 +189,7 @@
             {
                   "f": "vivant",
                   "a": "alive/ living",
+                  "keyword": "vivant",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -187,6 +204,7 @@
             {
                   "f": "pratique",
                   "a": "practical/ convenient",
+                  "keyword": "pratique",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -197,6 +215,7 @@
             {
                   "f": "solide",
                   "a": "solid",
+                  "keyword": "solide",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -207,6 +226,7 @@
             {
                   "f": "c&#233;l&#232;bre",
                   "a": "famous",
+                  "keyword": "celebre",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -217,6 +237,7 @@
             {
                   "f": "complet",
                   "a": "complete/ full",
+                  "keyword": "complet",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -231,6 +252,7 @@
             {
                   "f": "responsable",
                   "a": "responsible",
+                  "keyword": "responsable",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -241,6 +263,7 @@
             {
                   "f": "interessant",
                   "a": "interesting",
+                  "keyword": "interessant",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -255,6 +278,7 @@
             {
                   "f": "efficace",
                   "a": "efficient",
+                  "keyword": "efficace",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -265,6 +289,7 @@
             {
                   "f": "fin",
                   "a": "thin/ fine/ top-quality",
+                  "keyword": "fin",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -279,6 +304,7 @@
             {
                   "f": "haut",
                   "a": "high/ tall/ top",
+                  "keyword": "haut",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -293,6 +319,7 @@
             {
                   "f": "puissant",
                   "a": "strong/ powerful",
+                  "keyword": "puissant",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -307,6 +334,7 @@
             {
                   "f": "&#226;g&#233;",
                   "a": "old",
+                  "keyword": "age",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -321,6 +349,7 @@
             {
                   "f": "cru",
                   "a": "raw",
+                  "keyword": "cru",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -331,6 +360,7 @@
             {
                   "f": "sage",
                   "a": "wise",
+                  "keyword": "sage",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -341,6 +371,7 @@
             {
                   "f": "tel",
                   "a": "such",
+                  "keyword": "tel",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -355,6 +386,7 @@
             {
                   "f": "gras",
                   "a": "fatty/ oily",
+                  "keyword": "gras",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -370,6 +402,7 @@
             {
                   "f": "incroyable",
                   "a": "incredible/ amazing",
+                  "keyword": "incroyable",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -380,6 +413,7 @@
             {
                   "f": "c&#233;libataire",
                   "a": "single/ unmarried",
+                  "keyword": "celibataire",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -390,6 +424,7 @@
             {
                   "f": "bruyant",
                   "a": "noisy/ loud",
+                  "keyword": "bruyant",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -404,6 +439,7 @@
             {
                   "f": "lourd",
                   "a": "slow/ heavy/ cumbersome",
+                  "keyword": "lourd",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -416,8 +452,9 @@
                   ]
             },
             {
-                  "f": "prudente",
+                  "f": "prudent",
                   "a": "careful",
+                  "keyword": "prudent",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -432,6 +469,7 @@
             {
                   "f": "ancien",
                   "a": "old/ antique",
+                  "keyword": "ancien",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -446,6 +484,7 @@
             {
                   "f": "facile",
                   "a": "easy",
+                  "keyword": "facile",
                   "definitions": [
                         {
                               "title": "masculine/feminine",
@@ -456,6 +495,7 @@
             {
                   "f": "rond",
                   "a": "round",
+                  "keyword": "rond",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -470,6 +510,7 @@
             {
                   "f": "enti&#232;re",
                   "a": "entire",
+                  "keyword": "entiere",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -483,11 +524,13 @@
             },
             {
                   "f": "chaque",
-                  "a": "each/ every"
+                  "a": "each/ every",
+                  "keyword": "chaque"
             },
             {
                   "f": "aucun",
                   "a": "no one/ not one",
+                  "keyword": "aucun",
                   "definitions": [
                         {
                               "title": "masculine",
@@ -501,7 +544,8 @@
             },
             {
                   "f": "plusieurs",
-                  "a": "various/ several"
+                  "a": "various/ several",
+                  "keyword": "plusieurs"
             }
 
     ]

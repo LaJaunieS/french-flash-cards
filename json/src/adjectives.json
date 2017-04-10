@@ -5,6 +5,7 @@
         {
         "f": "pr&#234;c&#234;dent",
         "a": "previous",
+        "keyword": "precedent",
         "definitions": [
             {
             "title": "masculine",
@@ -19,6 +20,7 @@
         {
         "f": "pr&#233;f&#233;r&#233;",
         "a": "preferred/ favorite",
+        "keyword": "prefere",
         "definitions": [
             {
             "title": "masculine",
@@ -33,6 +35,7 @@
         {
         "f": "parfait",
         "a": "perfect",
+        "keyword": "parfait",
         "definitions": [
             {
             "title": "masculine",
@@ -47,6 +50,7 @@
         {
         "f": "plein",
         "a": "full",
+        "keyword": "plein",
         "definitions": [
             {
             "title": "masculine",
@@ -61,6 +65,7 @@
         {
         "f": "vide",
         "a": "empty",
+        "keyword": "vide",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -71,6 +76,7 @@
          {
         "f": "erron&#233;",
         "a": "wrong/ incorrect",
+        "keyword": "errone",
         "definitions": [
             {
             "title": "masculine/feminie",
@@ -81,6 +87,7 @@
                 {
         "f": "tranquille",
         "a": "quiet",
+        "keyword": "tranquille",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -91,6 +98,7 @@
                 {
         "f": "faux",
         "a": "fake",
+        "keyword": "faux",
         "definitions": [
             {
             "title": "masculine",
@@ -105,6 +113,7 @@
                 {
         "f": "gentil",
         "a": "brillant/ gentle/ nice",
+        "keyword": "gentil",
         "definitions": [
             {
             "title": "masculine",
@@ -119,6 +128,7 @@
                 {
         "f": "jeune",
         "a": "young",
+        "keyword": "jeune",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -130,6 +140,7 @@
         {
         "f": "vieux",
         "a": "old",
+        "keyword": "vieux",
         "definitions": [
             {
             "title": "masculine",
@@ -141,10 +152,10 @@
             }
             ]
         },
-
         {
         "f": "chaud",
         "a": "hot",
+        "keyword": "chaud",
         "definitions": [
             {
             "title": "masculine",
@@ -159,6 +170,7 @@
         {
         "f": "froid",
         "a": "cold",
+        "keyword": "froid",
         "definitions": [
             {
             "title": "masculine",
@@ -173,6 +185,7 @@
         {
         "f": "gros",
         "a": "big",
+        "keyword": "gros",
         "definitions": [
             {
             "title": "masculine",
@@ -187,6 +200,7 @@
         {
         "f": "petit",
         "a": "small",
+        "keyword": "petit",
         "definitions": [
             {
             "title": "masculine",
@@ -198,10 +212,10 @@
             }
             ]
         },
-
         {
         "f": "sal",
         "a": "dirty",
+        "keyword": "sal",
         "definitions": [
             {
             "title": "masculine",
@@ -213,11 +227,10 @@
             }
             ]
         },
-
-        
-        {
+       {
         "f": "bon",
         "a": "good",
+        "keyword": "bon",
         "definitions": [
             {
             "title": "masculine",
@@ -229,10 +242,10 @@
             }
             ]
         },
-
         {
         "f": "grand",
         "a": "tall",
+        "keyword": "grand",
         "definitions": [
             {
             "title": "masculine",
@@ -247,6 +260,7 @@
                 {
         "f": "court",
         "a": "brief/ short",
+        "keyword": "court",
         "definitions": [
             {
             "title": "masculine",
@@ -258,10 +272,10 @@
             }
             ]
         },
-
         {
         "f": "premier",
         "a": "first",
+        "keyword": "premier",
         "definitions": [
             {
             "title": "masculine",
@@ -273,10 +287,10 @@
             }   
             ]
         },
-
         {
         "f": "m&#234;me",
         "a": "same",
+        "keyword": "meme",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -287,6 +301,7 @@
         {
         "f": "dernier",
         "a": "last",
+        "keyword": "dernier",
         "definitions": [
             {
             "title": "masculine",
@@ -301,6 +316,7 @@
         {
             "f": "prochain",
             "a": "next",
+            "keyword": "prochain",
             "definitions": [
                 {
                     "title": "alternates",
@@ -311,6 +327,7 @@
         {
         "f": "long",
         "a": "long",
+        "keyword": "long",
         "definitions": [
             {
             "title": "masculine",
@@ -325,6 +342,7 @@
         {
         "f": "beau",
         "a": "beautiful",
+        "keyword": "beau",
         "definitions": [
             {
             "title": "masculine",
@@ -336,11 +354,10 @@
             }
             ]
         },
-
-
         {
         "f": "mauvais",
         "a": "bad",
+        "keyword": "mauvais",
         "definitions": [
             {
             "title": "masculine",
@@ -355,6 +372,7 @@
         {
         "f": "second",
         "a": "second",
+        "keyword": "second",
         "definitions": [
             {
             "title": "masculine",
@@ -369,6 +387,7 @@
         {
         "f": "troisi&#232;me",
         "a": "third",
+        "keyword": "troisieme",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -379,6 +398,7 @@
         {
         "f": "nombreau",
         "a": "numerous",
+        "keyword": "nombreau",
         "definitions": [
             {
             "title": "masculine",
@@ -393,6 +413,7 @@
         {
         "f": "fort",
         "a": "strong/ loud",
+        "keyword": "fort",
         "definitions": [
             {
             "title": "masculine",
@@ -407,6 +428,7 @@
         {
         "f": "doux",
         "a": "soft",
+        "keyword": "doux",
         "definitions": [
             {
             "title": "masculine",
@@ -421,6 +443,7 @@
                 {
         "f": "faible",
         "a": "weak/ feeble",
+        "keyword": "faible",
         "definitions": [
             {
             "title": "masculine/feminie",
@@ -431,6 +454,7 @@
         {
         "f": "dur",
         "a": "hard/ lasts",
+        "keyword": "dur",
         "definitions": [
             {
             "title": "masculine",
@@ -445,6 +469,7 @@
         {
         "f": "pauvre",
         "a": "poor",
+        "keyword": "pauvre",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -455,6 +480,7 @@
         {
         "f": "b&#234;te",
         "a": "stupid",
+        "keyword": "bete",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -465,6 +491,7 @@
         {
         "f": "&#233;norme",
         "a": "huge",
+        "keyword": "enorme",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -475,6 +502,7 @@
         {
         "f": "dr&#244;le",
         "a": "funny",
+        "keyword": "drole",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -485,6 +513,7 @@
         {
         "f": "laid",
         "a": "ugly",
+        "keyword": "laid",
         "definitions": [
             {
             "title": "masculine",
@@ -499,6 +528,7 @@
         {
         "f": "sombre",
         "a": "dark",
+        "keyword": "sombre",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -509,6 +539,7 @@
         {
         "f": "vicieux",
         "a": "vicious",
+        "keyword": "vicieux",
         "definitions": [
             {
             "title": "masculine",
@@ -523,6 +554,7 @@
         {
         "f": "pr&#234;t",
         "a": "ready",
+        "keyword": "pret",
         "definitions": [
             {
             "title": "masculine",
@@ -537,6 +569,7 @@
         {
         "f": "m&#233;chant",
         "a": "mean",
+        "keyword": "mechant",
         "definitions": [
             {
             "title": "masculine",
@@ -551,6 +584,7 @@
         {
         "f": "sympa",
         "a": "nice",
+        "keyword": "sympa",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -561,6 +595,7 @@
         {
         "f": "s&#233;rieux",
         "a": "serious",
+        "keyword": "serieux",
         "definitions": [
             {
             "title": "masculine",
@@ -575,6 +610,7 @@
         {
         "f": "sec",
         "a": "dry",
+        "keyword": "sec",
         "definitions": [
             {
             "title": "masculine",
@@ -589,6 +625,7 @@
         {
         "f": "seul",
         "a": "alone",
+        "keyword": "seul",
         "definitions": [
             {
             "title": "masculine",
@@ -603,6 +640,7 @@
         {
         "f": "l&#233;ger",
         "a": "light",
+        "keyword": "leger",
         "definitions": [
             {
             "title": "masculine",
@@ -617,6 +655,7 @@
         {
         "f": "propre",
         "a": "clean",
+        "keyword": "propre",
         "definitions": [
             {
             "title": "masculine/feminine",
@@ -627,6 +666,7 @@
         {
         "f": "clair",
         "a": "clear",
+        "keyword": "clair",
         "definitions": [
             {
             "title": "masculine",
