@@ -2,6 +2,7 @@
 $text-color: #333;
 $background-color: #fff;
 $path-font: '../gilroy';
+$border-color: #a6a6a6;
 
 
 
@@ -27,9 +28,9 @@ $path-font: '../gilroy';
 
 /*initial element positioning*/
 
-* {
-	border: 1px solid blue;
-}
+// * {
+// 	border: 1px solid blue;
+// }
 
 
 body {
@@ -67,6 +68,7 @@ body {
 		ul {
 		list-style-type: none;
 		margin: 1px 0 0;
+		max-width: 1175px;
 		padding-left: 0;
 		width: 66%;
 			}
@@ -221,6 +223,9 @@ body {
 	   		#index-search {
 	   			position: absolute;
 	   			top: 65px;
+	   			@media screen and (min-width: 750px) {
+	   				margin: 2rem 0 0 1rem;
+	   			}
 	   		} 
 	   		h1 {
 				font-size: 1.4rem;
@@ -232,13 +237,27 @@ body {
 		    #word-index-list-wrapper {
 		   		position: absolute;
 		  		top: 100px; 
+		  		width: 98%;	
 		  		ul {
 		  			padding-left: 2px;
+		  			margin: .2rem 0;
 		  			li {
 		  				list-style: none outside;
 		  			}
+		  			p {
+		  				margin: 3rem 0 0;
+		  			}
+		  			h1 {
+		  				margin: 0;
+		  			}
+		  		}
+		  		@media screen and (min-width: 750px) {
+		  			padding-left: 1rem;
+		  			margin: 2rem 0 0;
+		  			max-width: 1175px;
+		  			width: 66%;
 		  		}		
-		   }
+		   	}
 	   }
 }
 
@@ -363,6 +382,10 @@ button {
 			}
 		}
 	}
+}
+
+#word-index-list-wrapper ul {
+	border: 1px solid $border-color;
 }
 
 

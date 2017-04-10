@@ -5,12 +5,12 @@
 	 	<button id="backButton" ng-click="backToMenu()"><img src="img/arrow-left.png" alt="back to menu"></img></button>
 		
 		<h1 id="card-section">{{thisSection.title}}</h1>
-		<input id="index-search" type="text" placeholder="search"/>
+		<input ng-model="searchText" id="index-search" type="text" placeholder="search"/>
 		
 		<div id="word-index-list-wrapper">
-			<ul ng-repeat="word in thisSection.source.vocabArray | orderBy: 'a'">
-					<li><h1 ng-bind-html="word.f">{{word.f}}</h1></li>
-					<li><p>{{word.a}}</p></li>
+			<ul ng-repeat="word in thisSection.source.vocabArray | orderBy: 'f'| filter:searchText">
+					<li><p ng-bind-html="word.f">{{word.f}}</p></li>
+					<li><h1>{{word.a}}</h1></li>
 			</ul>
 		</div>
 	</div>

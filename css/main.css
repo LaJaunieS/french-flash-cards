@@ -19,9 +19,6 @@
   100% {
     left: +5px; } }
 /*initial element positioning*/
-* {
-  border: 1px solid blue; }
-
 body {
   font-size: 14px;
   margin: 0;
@@ -55,6 +52,7 @@ body {
     #app-wrapper #main-menu-wrapper ul {
       list-style-type: none;
       margin: 1px 0 0;
+      max-width: 1175px;
       padding-left: 0;
       width: 66%; }
     #app-wrapper #main-menu-wrapper #main-menu-content-fade {
@@ -167,6 +165,9 @@ body {
       #app-wrapper #word-index-content-wrapper #word-index-content-fade #index-search {
         position: absolute;
         top: 65px; }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #index-search {
+            margin: 2rem 0 0 1rem; } }
       #app-wrapper #word-index-content-wrapper #word-index-content-fade h1 {
         font-size: 1.4rem;
         margin: 1rem 0 0; }
@@ -175,11 +176,23 @@ body {
             margin: 2rem 0 0; } }
       #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
         position: absolute;
-        top: 100px; }
+        top: 100px;
+        width: 98%; }
         #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul {
-          padding-left: 2px; }
+          padding-left: 2px;
+          margin: .2rem 0; }
           #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul li {
             list-style: none outside; }
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
+            margin: 3rem 0 0; }
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul h1 {
+            margin: 0; }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
+            padding-left: 1rem;
+            margin: 2rem 0 0;
+            max-width: 1175px;
+            width: 66%; } }
   #app-wrapper .italic {
     font-family: 'gilroymedium-italic'; }
   #app-wrapper h1 {
@@ -270,6 +283,9 @@ button {
         transition: border-bottom .4s ease-in-out; }
         #button-wrapper button:hover {
           border-bottom: 1px solid #333333; } }
+
+#word-index-list-wrapper ul {
+  border: 1px solid #a6a6a6; }
 
 .definitions ul {
   list-style-type: none;
