@@ -77,10 +77,10 @@
 
         $scope.startIndex = function(section) {
         	$scope.startUI();
-            document.getElementById("word-index-wrapper").style.display = 'initial';
-
+            $scope.searchText = '';
             $scope.hideElement('main-menu-content-fade');
             document.getElementById('main-menu-wrapper').style.display="none";
+            document.getElementById("word-index-wrapper").style.display = 'initial';
             //document.getElementById('flash-card-content-wrapper').style.display = "none";
 
             
