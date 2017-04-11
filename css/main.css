@@ -187,9 +187,14 @@ body {
           #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul li {
             list-style: none outside; }
           #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
-            margin: 3rem 0 0; }
-          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul h1 {
-            margin: 0; }
+            font-size: 1.4rem;
+            margin: 1rem 0 0; }
+            @media screen and (min-width: 750px) {
+              #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
+                font-size: 2.6rem; } }
+          @media screen and (min-width: 750px) {
+            #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul h3 {
+              font-size: 1.4rem; } }
         @media screen and (min-width: 750px) {
           #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
             padding-left: 1rem;
@@ -212,6 +217,7 @@ body {
     border-bottom: 1px solid #333;
     border-radius: 3px;
     cursor: pointer;
+    min-width: 225px;
     padding: 15px 0;
     transition: border-bottom .4s ease-in-out, color .4s ease-in-out; }
     #app-wrapper #main-menu-wrapper li .vocab-count {
@@ -221,10 +227,13 @@ body {
         #app-wrapper #main-menu-wrapper li .vocab-count {
           font-size: 1rem; } }
     #app-wrapper #main-menu-wrapper li .index-link {
-      font-size: 1.2rem;
+      font-size: 1rem;
       border-bottom: 1px solid silver; }
       #app-wrapper #main-menu-wrapper li .index-link:hover {
         border-bottom: 1px solid #0d0d0d; }
+      @media screen and (min-width: 750px) {
+        #app-wrapper #main-menu-wrapper li .index-link {
+          font-size: 1.2rem; } }
     @media screen and (min-width: 750px) {
       #app-wrapper #main-menu-wrapper li {
         border: none;
