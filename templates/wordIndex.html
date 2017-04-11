@@ -10,7 +10,7 @@
 			<ul id="search-input-wrapper">
 				<input ng-model="searchText" id="index-search" type="text" placeholder="search"/>
 			</ul>
-			<ul ng-repeat="word in thisSection.source.vocabArray | orderBy: 'f'| filter:searchText">
+			<ul ng-repeat="word in thisSection.source.vocabArray | orderBy: 'keyword'| filter:searchText">
 					<li><p ng-bind-html="word.f">{{word.f}}</p></li>
 					<li><h1>{{word.a}}</h1></li>
 			</ul>
