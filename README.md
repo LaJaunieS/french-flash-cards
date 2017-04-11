@@ -3,7 +3,7 @@ A flash card app from English-French organized by section
 
 
 A great way to help learn any language’s vocabulary/conjugations, etc. is by using flash cards, 
-but I didn’t want to have stacks of paper index cards all over the place. A lot of the free flash-card sites were overloaded with 
+but no one wants to have stacks of paper index cards all over the place. A lot of the free flash-card sites were overloaded with 
 unnecessary javascript and distracting ads, and were also not responsive, so I wanted something cleaner and more efficient. 
 I also wanted to be able to add additional sections modularly as I continued learning. The goal was to imitate the front/back UI 
 of paper flash cards, with minimal Javascript, and a minimal, readable design (just like a white index card). 
