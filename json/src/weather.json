@@ -3,8 +3,9 @@
     "fullTitle": "weather",
     "vocabArray": [
         {
-            "f": "m&#233;t&#233;o",
+            "f": "le m&#233;t&#233;o",
             "a": "weather",
+            "keyword": "meteo",
             "definitions": [
             {
             "title": "alternates",
@@ -14,43 +15,53 @@
             },
             {
             "f": "la pluie",
-            "a": "rain (n)"    
+            "a": "rain (n)",
+            "keyword": "pluie"    
             },
             {
             "f": "la neige",
-            "a": "snow (n)"    
+            "a": "snow (n)",
+            "keyword": "neige"  
             },
             {
             "f": "la chaleur",
-            "a": "heat (n)"    
+            "a": "heat (n)",
+            "keyword": "chaleur"    
             },
             {
             "f": "le froid",
-            "a": "cold (n)"    
+            "a": "cold (n)",
+            "keyword": "froid"    
             },
             {
             "f": "le nuege",
-            "a": "cloud (n)"    
+            "a": "cloud (n)",
+            "keyword": "neuge"    
             },
             {
             "f": "nuageux",
-            "a": "cloudy"    
+            "a": "cloudy",
+            "keyword": "nuageux"    
             },
             {
             "f": "le soleil",
-            "a": "sun (n)"    
+            "a": "sun (n)",
+            "keyword": "soleil"    
             },
             {
             "f": "le ciel",
-            "a": "sky"    
+            "a": "sky",
+            "keyword": "ciel"    
             },
             {
             "f": "les pr&#233;visions",
-            "a": "forecast"    
+            "a": "forecast",
+            "keyword": "previsions"    
             },
             {
             "f": "orage",
             "a": "storm",
+            "keyword": "orage",
             "definitions": [
                 {
                 "title": "alternates",
@@ -60,35 +71,43 @@
             },
             {
             "f": "le tonnerre",
-            "a": "thunder"    
+            "a": "thunder",
+            "keyword": "tonnerre"    
             },
             {
             "f": "le parapluie",
-            "a": "umbrella"    
+            "a": "umbrella",
+            "keyword": "parapluie"    
             },
             {
             "f": "l&#8217;&#233;charpe",
-            "a": "scarf"    
+            "a": "scarf",
+            "keyword": "echarpe"    
             },
             {
             "f": "le manteau",
-            "a": "coat"    
+            "a": "coat",
+            "keyword": "manteau"    
             },
             {
             "f": "le vent",
-            "a": "wind"    
+            "a": "wind",
+            "keyword": "vent"    
             },
             {
             "f": "venteux",
-            "a": "windy"    
+            "a": "windy",
+            "keyword": "venteux"    
             },
             {
             "f": "quel temps fait-il?",
-            "a": "what is the weather like?"    
+            "a": "what is the weather like?",
+            "keyword": "quel temps fait-il"    
             },
             {
             "f": "il fait &#8212;",
-            "a": "the weather is &#8212;",
+            "a": "the weather is --",
+            "keyword": "il fait",
             "definitions": [
                 {
                 "title": "alternates",
@@ -98,27 +117,33 @@
             },
             {
             "f": "le brouillard",
-            "a": "fog"    
+            "a": "fog",
+            "keyword": "brouillard"    
             },
             {
             "f": "brumeux",
-            "a": "foggy/ misty/ hazy"    
+            "a": "foggy/ misty/ hazy",
+            "keyword": "brumeux"    
             },
             {
             "f": "humidit&#233;",
-            "a": "humidity"    
+            "a": "humidity",
+            "keyword": "humidite"    
             },
             {
             "f": "humide",
-            "a": "humid"    
+            "a": "humid",
+            "keyword": "humide"    
             },
             {
             "f": "le foudre",
-            "a": "lightning"    
+            "a": "lightning",
+            "keyword": "le foudre"    
             },
             {
             "f": "pleuvoir",
             "a": "to rain (v)",
+            "keyword": "pleuvoir",
             "definitions": [
                 {
                 "title": "present tense",
@@ -129,6 +154,7 @@
             {
             "f": "neiger",
             "a": "to snow",
+            "keyword": "neiger",
             "definitions": [
                 {
                 "title": "present tense",
@@ -138,11 +164,13 @@
             },
             {
             "f": "le inondation",
-            "a": "flood"    
+            "a": "flood",
+            "keyword": "inondation"
             },
             {
             "f": "inonder",
             "a": "to flood",
+            "keyword": "inonder",
             "definitions": [
                 {
                 "title": "present tense",
@@ -152,15 +180,18 @@
             },
             {
             "f": "le degr&#233;",
-            "a": "degree"    
+            "a": "degree",
+            "keyword": "degre"    
             },
             {
             "f": "arc-en-ciel",
-            "a": "rainbow"    
+            "a": "rainbow",
+            "keyword": "arc-en-ciel"    
             },
             {
             "f": "le gel",
             "a": "frost",
+            "keyword": "le gel",
             "definitions": [
                 {
                 "title": "alternates",
@@ -171,6 +202,7 @@
             {
             "f": "givrer",
             "a": "to frost (v)",
+            "keyword": "givrer",
             "definitions": [
                 {
                 "title": "present tense",

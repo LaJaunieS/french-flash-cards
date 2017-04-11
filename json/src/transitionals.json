@@ -5,6 +5,7 @@
                     {
             "f": "car",
             "a": "because",
+            "keyword": "car",
             "definitions": [
             	{
             		"title": "alternates",
@@ -14,39 +15,48 @@
             },
             {
             "f": "sous",
-            "a": "under"    
+            "a": "under",
+            "keyword": "sous"    
             },
             {
             "f": "contre",
-            "a": "against/ to"    
+            "a": "against/ to",
+            "keyword": "contre"    
             },
             {
             "f": "saut",
-            "a": "except"    
+            "a": "except",
+            "keyword": "saut"    
             },
             {
             "f": "selon",
-            "a": "according to"    
+            "a": "according to",
+            "keyword": "selon"    
             },
             {
             "f": "ah bon?",
-            "a": "oh really?"    
+            "a": "oh really?",
+            "keyword": "ah bon?"    
             },
             {
             "f": "bien sur",
-            "a": "of course"    
+            "a": "of course",
+            "keyword": "bien sur"    
             },
             {
             "f": "jusqu&#8217;a",
-            "a": "until"    
+            "a": "until",
+            "keyword": "jusqu'a"    
             },
             {
             "f": "malgr&#233;",
-            "a": "despite"    
+            "a": "despite",
+            "keyword": "malgre"    
             },
             {
             "f": "parmi",
             "a": "among",
+            "keyword": "parmi depuis entre",
             "definitions": [
                 {
                     "title": "alternates",
@@ -56,19 +66,23 @@
             },
             {
             "f": "eh bien!",
-            "a": "well!"    
+            "a": "well!",
+            "keyword": "eh bien"    
             },
             {
             "f": "peut-&#234;tre",
-            "a": "perhaps"    
+            "a": "perhaps",
+            "keyword": "peut-etre"    
             },
             {
             "f": "s&#251;rement",
-            "a": "surely"    
+            "a": "surely",
+            "keyword": "surement"    
             },
             {
             "f": "suffisament",
             "a": "enough/ sufficiently",
+            "keyword": "suffisament",
             "definitions": [
                 {
                  "title": "example",
@@ -78,94 +92,113 @@
             },
             {
             "f": "tout &#224; fait",
-            "a": "absolutely"    
+            "a": "absolutely",
+            "keyword": "tout a fait"    
             },
             {
             "f": "il y a",
-            "a": "there is"    
+            "a": "there is",
+            "keyword": "il y a"    
             },
             {
             "f": "il n&#8217;y a pas",
-            "a": "there is no/ there is not"    
+            "a": "there is no/ there is not",    
+            "keyword": "il n'y a pas"
             },
             {
             "f": "ensemble",
-            "a": "together"    
+            "a": "together",
+            "keyword": "ensemble"    
             },
             {
             "f": "au moins",
-            "a": "at least"    
+            "a": "at least",
+            "keyword": "au moins"    
             },
             {
             "f": "presque",
-            "a": "almost"    
+            "a": "almost",
+            "keyword": "presque"    
             },
             {
             "f": "pourtant",
-            "a": "yet/ however"
+            "a": "yet/ however",
+            "keyword": "pourtant"
             },
             {
             "f": "&#224; peu pr&#232;s",
-            "a": "nearly/ about/ more or less" 
+            "a": "nearly/ about/ more or less",
+            "keyword": "a peu pres"
             },
             {
             "f": "sans",
-            "a": "without"	
+            "a": "without",
+            "keyword": "sans"	
             },
             {
             "f": "si",
-            "a": "if"	
+            "a": "if",
+            "keyword": "si"	
             },
             {
             "f": "des que",
-            "a": "as soon as"	
+            "a": "as soon as",
+            "keyword": "des que"	
             },
             {
             "f": "autant que",
-            "a": "may as well"	
+            "a": "may as well",
+            "keyword": "autant que"	
             },
             {
             "f": "non plus",
-            "a": "neither"
-            
+            "a": "neither",
+            "keyword": "non plus"
             },
             {
             "f": "ni",
-            "a": "neither/ nor"
-            
+            "a": "neither/ nor",
+            "keyword": "ni"
             },
             {
             "f": "pour que",
-            "a": "so that"
-            
+            "a": "so that",
+            "keyword": "pour que"            
             },
             {
             "f": "tant que",
-            "a": "as long as/ while/ until"
+            "a": "as long as/ while/ until",
+            "keyword": "tant que"
             },
             {
             "f": "comme",
-            "a": "since"
+            "a": "since",
+            "keyword": "comme"
             },
             {
             "f": "donc",
-            "a": "so"
+            "a": "so",
+            "keyword": "donc"
             },
             {
             "f": "en fait",
-            "a": "in fact"
+            "a": "in fact",
+            "keyword": "en fait"
             },
             {
             "f": "cependant",
-            "a": "however/ nonetheless"
+            "a": "however/ nonetheless",
+            "keyword": "cependant"
             },
             {
             "f": "&#224; mon avis",
-            "a": "in my opinion"
+            "a": "in my opinion",
+            "keyword": "a mon avis"
             },
             {
             "f": "alors que",
             "a": "while",
+            "keyword": "alors que lorsque pendant",
             "definitions": [
                 {
                 "title": "alternates",
@@ -176,16 +209,18 @@
                         {
             "f": "sur le chemin",
             "a": "on the road/ on the way",
+            "keyword": "sur le chemin en route",
             "definitions": [
                 {
                 "title": "alternates",
-                "descriptions": [ "sur le chemin", "en route"  ]
+                "descriptions": [ "en route"  ]
                 }
                 ]
             },
             {
             "f": "pendant",
             "a": "during",
+            "keyword": "pendant lorsque durant",
             "definitions": [
                 {
                     "title": "alternates",
@@ -195,35 +230,43 @@
             },
             {
             "f": "devant",
-            "a": "in front of"
+            "a": "in front of",
+            "keyword": "devant"
             },
             {
             "f": "est-ce que",
-            "a": "do/ is it that"    
+            "a": "do/ is it that",
+            "keyword": "est-ce que"    
             },
             {
             "f": "mais",
-            "a": "but"
+            "a": "but",
+            "keyword": "mais"
             },
             {
             "f": "plusieurs",
-            "a": "several"
+            "a": "several",
+            "keyword": "plusieurs"
             },
             {
             "f": "o&#249;",
-            "a": "or"
+            "a": "or",
+            "keyword": "ou"
             },
             {
             "f": "entre",
-            "a": "between"
+            "a": "between",
+            "keyword": "entre"
             },
             {
             "f": "d&#8217;o&#249;",
-            "a": "from where"
+            "a": "from where",
+            "keyword": "d'ou"
             },
             {
             "f": "a c&#244;te",
-            "a": "next to/ beside"
+            "a": "next to/ beside",
+            "keyword": "a cote"
             }
 
 

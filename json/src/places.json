@@ -4,27 +4,33 @@
     "vocabArray": [
         {
         "f": "la ville",
-        "a": "town/ city"
+        "a": "town/ city",
+        "keyword": "ville"
         },
         {
             "f": "le lieu",
-            "a": "place"
+            "a": "place",
+            "keyword": "lieu"
         },
         {
             "f": "le pays",
-            "a": "country"
+            "a": "country",
+            "keyword": "pays"
         },
         {
             "f": "la terre",
-            "a": "land/soil"
+            "a": "land/soil",
+            "keyword": "terre"
         },
         {
             "f": "la rue",
-            "a": "street"
+            "a": "street",
+            "keyword": "rue"
         },
         {
             "f": "la route",
             "a": "road",
+            "keyword": "route",
             "definitions": [
                 {
                     "title": "alternates",
@@ -34,103 +40,128 @@
         },
         {
             "f": "le jardin",
-            "a": "garden"
+            "a": "garden",
+            "keyword": "jardin"
         },
         {
             "f": "le bord",
-            "a": "edge"
+            "a": "edge",
+            "keyword": "bord"
         },
         {
             "f": "le tour",
-            "a": "around"
+            "a": "around",
+            "keyword": "tour"
         },
         {
             "f": "le coin",
-            "a": "corner"
+            "a": "corner",
+            "keyword": "coin"
         },
         {
             "f": "le milieu",
-            "a": "middle"
+            "a": "middle",
+            "keyword": "milieu"
         },
         {
             "f": "l&#8217;&#238;le",
-            "a": "island"
+            "a": "island",
+            "keyword": "ile"
         },
         {
             "f": "le port",
-            "a": "port"
+            "a": "port",
+            "keyword": "port"
         },
         {
             "f": "l&#8217;h&#244;tel",
-            "a": "hotel"
+            "a": "hotel",
+            "keyword": "hotel"
         },
         {
             "f": "le village",
-            "a": "village"
+            "a": "village",
+            "keyword": "village"
         },
         {
             "f": "l&#8217;entreprise",
-            "a": "company"
+            "a": "company",
+            "keyword": "entreprise"
         },
         {
             "f": "la c&#244;te",
-            "a": "coast"
+            "a": "coast",
+            "keyword": "cote"
         },
         {
             "f": "la region",
-            "a": "region"
+            "a": "region",
+            "keyword": "region"
         },
         {
             "f": "l&#8217;entrep&#244;t",
-            "a": "warehouse"
+            "a": "warehouse",
+            "keyword": "entrepot"
         },
         {
             "f": "le ch&#226;teau",
-            "a": "castle"
+            "a": "castle",
+            "keyword": "chateau"
         },
         {
             "f": "le territoire",
-            "a": "territory"
+            "a": "territory",
+            "keyword": "territoire"
         },
         {
             "f": "le quartier",
-            "a": "neighborhood/ district"
+            "a": "neighborhood/ district",
+            "keyword": "quartier"
         },
         {
             "f": "le trou",
-            "a": "hole/ gap/ space"
+            "a": "hole/ gap/ space",
+            "keyword": "trou"
         },
         {
             "f": "la propriet&#233;",
-            "a": "property"
+            "a": "property",
+            "keyword": "propriete"
         },
         {
             "f": "la plage",
-            "a": "beach"
+            "a": "beach",
+            "keyword": "plage"
         },
         {
             "f": "le magasin",
-            "a": "store"
+            "a": "store",
+            "keyword": "magasin"
         },
         {
             "f": "l&#8217;adresse",
-            "a": "address"
+            "a": "address",
+            "keyword": "adresse"
         },
         {
             "f": "le parc",
-            "a": "park"
+            "a": "park",
+            "keyword": "parc"
         },
         {
             "f": "la boutique",
-            "a": "shop"
+            "a": "shop",
+            "keyword": "boutique"
         },
         {
             "f": "la fronti&#233;re",
-            "a": "border/ frontier"
+            "a": "border/ frontier",
+            "keyword": "frontiere"
         },
         {
             "f": "le b&#226;timent",
             "a": "building",
+            "keyword": "batiment",
             "definitions": [
                 {
                     "title": "alternates",
@@ -140,35 +171,43 @@
         },
         {
             "f": "le tribunal",
-            "a": "court"
+            "a": "court",
+            "keyword": "tribunal"
         },
         {
             "f": "la banileue",
-            "a": "suburb"
+            "a": "suburb",
+            "keyword": "banileue"
         },
         {
             "f": "le pont",
-            "a": "bridge"
+            "a": "bridge",
+            "keyword": "pont"
         },
         {
             "f": "la banque",
-            "a": "the bank"
+            "a": "the bank",
+            "keyword": "banque"
         },
         {
             "f": "la boulangerie",
-            "a": "bakery"
+            "a": "bakery",
+            "keyword": "boulangerie"
         },
         {
-            "f": "la compagne",
-            "a": "countryside"
+            "f": "la campagne",
+            "a": "countryside",
+            "keyword": "campagne"
         },
         {
             "f": "la montagne",
-            "a": "mountain"
+            "a": "mountain",
+            "keyword": "montagne"
         },
         {
             "f": "le champ",
-            "a": "field"
+            "a": "field",
+            "keyword": "champ"
         }
 
     ]

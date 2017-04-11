@@ -5,6 +5,7 @@
         {
         "f": "visiter",
         "a": "to visit",
+        "keyword": "visiter",
         "definitions": [
             {
             "title": "present tense",
@@ -23,6 +24,7 @@
         {
         "f": "quitter",
         "a": "to leave",
+        "keyword": "quitter",
         "definitions": [
             {
             "title": "present tense",
@@ -41,6 +43,7 @@
         {
         "f": "tomber",
         "a": "to fall",
+        "keyword": "tomber",
         "definitions": [
             {
             "title": "present tense",
@@ -59,6 +62,7 @@
         {
         "f": "supporter",
         "a": "to stand",
+        "keyword": "supporter",
         "definitions": [
             {
             "title": "present tense",
@@ -77,6 +81,7 @@
     	{
         "f": "asseoir",
         "a": "to sit down",
+        "keyword": "asseoir",
         "definitions": [
             {
             "title": "present tense",
@@ -95,6 +100,7 @@
         {
         "f": "baisser",
         "a": "to lower/drop",
+        "keyword": "baisser",
         "definitions": [
             {
             "title": "present tense",
@@ -113,6 +119,7 @@
         {
         "f": "creuser",
         "a": "to dig",
+        "keyword": "creuser",
         "definitions": [
             {
             "title": "present tense",
@@ -131,6 +138,7 @@
     	{
         "f": "allumer",
         "a": "to turn on",
+        "keyword": "allumer",
         "definitions": [
             {
             "title": "present tense",
@@ -149,6 +157,7 @@
         {
         "f": "charger",
         "a": "to load/ charge",
+        "keyword": "charger",
         "definitions": [
             {
             "title": "present tense",
@@ -167,6 +176,7 @@
         {
         "f": "&#233;teindre",
         "a": "to turn off/extinguish/blow out",
+        "keyword": "eteindre",
         "definitions": [
             {
             "title": "present tense",
@@ -185,6 +195,7 @@
         {
         "f": "brancher",
         "a": "to plug in",
+        "keyword": "brancher",
         "definitions": [
             {
             "title": "present tense",
@@ -203,6 +214,7 @@
         {
         "f": "jouer",
         "a": "to play",
+        "keyword": "jouer",
         "definitions": [
             {
             "title": "present tense",
@@ -221,6 +233,7 @@
         {
         "f": "surprendre",
         "a": "to surprise",
+        "keyword": "surprendre",
         "definitions": [
             {
             "title": "present tense",
@@ -239,6 +252,7 @@
         {
         "f": "arr&#234;ter",
         "a": "to stop",
+        "keyword": "arreter",
         "definitions": [
             {
             "title": "present tense",
@@ -257,6 +271,7 @@
         {
         "f": "para&#238;tre",
         "a": "to appear/ turn up",
+        "keyword": "paraitre",
         "definitions": [
             {
             "title": "present tense",
@@ -275,6 +290,7 @@
         {
         "f": "fermer",
         "a": "to close/ shut",
+        "keyword": "fermer",
         "definitions": [
             {
             "title": "present tense",
@@ -293,6 +309,7 @@
         {
         "f": "nettoyer",
         "a": "to clean",
+        "keyword": "nettoyer",
         "definitions": [
             {
             "title": "present tense",
@@ -311,6 +328,7 @@
         {
         "f": "descendre",
         "a": "to bring down/ come down",
+        "keyword": "descendre",
         "definitions": [
             {
             "title": "present tense",
@@ -329,6 +347,7 @@
         {
         "f": "sembler",
         "a": "to seem/ to sound/ to appear",
+        "keyword": "sembler",
         "definitions": [
             {
             "title": "present tense",
@@ -347,6 +366,7 @@
         {
         "f": "sortir",
         "a": "to leave/ exit/ take out",
+        "keyword": "sortir",
         "definitions": [
             {
             "title": "present tense",
@@ -365,6 +385,7 @@
                 {
         "f": "parler",
         "a": "to speak",
+        "keyword": "parler",
         "definitions": [
             {
             "title": "present tense",
@@ -383,6 +404,7 @@
         {
         "f": "survenir",
         "a": "to happen/occur",
+        "keyword": "survenir",
         "definitions": [
             {
             "title": "present tense",
@@ -401,6 +423,7 @@
         {
         "f": "laisser",
         "a": "to let/ leave/ allow",
+        "keyword": "laisser",
         "definitions": [
             {
             "title": "present tense",
@@ -419,6 +442,7 @@
                 {
         "f": "avoir",
         "a": "to have",
+        "keyword": "avoir",
         "definitions": [
             {
             "title": "present tense",
@@ -437,6 +461,7 @@
         {
         "f": "commencer",
         "a": "to begin",
+        "keyword": "commencer",
         "definitions": [
             {
             "title": "present tense",
@@ -456,6 +481,7 @@
         {
         "f": "compl&#233;ter",
         "a": "to complete",
+        "keyword": "completer",
         "definitions": [
             {
             "title": "present tense",
@@ -475,6 +501,7 @@
         {
         "f": "&#234;tre",
         "a": "to be",
+        "keyword": "etre",
         "definitions": [
             {
             "title": "present tense",    
@@ -494,6 +521,7 @@
         {
             "f": "conna&#238;tre",
             "a": "to know (someone)",
+            "keyword": "connaitre",
             "definitions": [
                 {
                 "title": "present tense",    
@@ -513,6 +541,7 @@
         {
         "f": "boire",
         "a": "to drink",
+        "keyword": "boire",
         "definitions": [
             {
             "title": "present tense",
@@ -531,6 +560,7 @@
         {
         "f": "&#233;crire",
         "a": "to write",
+        "keyword": "ecrire",
         "definitions": [
             {
             "title": "present tense",
@@ -550,6 +580,7 @@
         {
         "f": "chercher",
         "a": "to look for",
+        "keyword": "chercher",
         "definitions": [
             {
             "title": "present tense",
@@ -569,6 +600,7 @@
         {
         "f": "acheter",
         "a": "to buy",
+        "keyword": "acehter",
         "definitions": [
             {
             "title": "present tense",
@@ -588,6 +620,7 @@
         {
         "f": "comprendre",
         "a": "to understand",
+        "keyword": "comprendre",
         "definitions": [
             {
             "title": "present tense",
@@ -607,6 +640,7 @@
         {
         "f": "adorer",
         "a": "to adore",
+        "keyword": "adorer",
         "definitions": [
             {
             "title": "present tense",
@@ -626,6 +660,7 @@
         {
         "f": "apprendre",
         "a": "to learn",
+        "keyword": "apprendre",
         "definitions": [
             {
             "title": "present tense",
@@ -645,6 +680,7 @@
         {
         "f": "attendre",
         "a": "to wait",
+        "keyword": "attendre",
         "definitions": [
             {
             "title": "present tense",
@@ -665,6 +701,7 @@
         {
         "f": "appeler",
         "a": "to call",
+        "keyword": "appeler",
         "definitions": [
             {
             "title": "present tense",
@@ -684,6 +721,7 @@
         {
         "f": "avoir besoin",
         "a": "to need/ to require",
+        "keyword": "avoir besoin",
         "definitions": [
             {
             "title": "present tense",
@@ -704,6 +742,7 @@
         {
         "f": "donner",
         "a": "to give",
+        "keyword": "donner",
         "definitions": [
             {
             "title": "present tense",    
@@ -723,6 +762,7 @@
         {
         "f": "aller",
         "a": "to go",
+        "keyword": "aller",
         "definitions": [
             {
             "title": "present tense",
@@ -742,6 +782,7 @@
                 {
         "f": "pouvoir",
         "a": "to be able",
+        "keyword": "pouvoir",
         "definitions": [
             {
             "title": "present tense",    
@@ -762,6 +803,7 @@
         {
         "f": "apporter",
         "a": "to bring",
+        "keyword": "apporter",
         "definitions": [
             {
             "title": "present tense",    
@@ -782,6 +824,7 @@
         {
         "f": "savoir",
         "a": "to know (how to)",
+        "keyword": "savoir",
         "definitions": [
             {
             "title": "present tense",
@@ -802,6 +845,7 @@
         {
         "f": "vouloir",
         "a": "to want",
+        "keyword": "vouloir",
         "definitions": [
             {
             "title": "present tense",
@@ -822,6 +866,7 @@
         {
         "f": "vivre",
         "a": "to live",
+        "keyword": "vivre",
         "definitions": [
             {
             "title": "present tense",
@@ -842,6 +887,7 @@
         {
         "f": "lever",
         "a": "to raise/ lift/ stand",
+        "keyword": "lever",
         "definitions": [
             {
             "title": "present tense",
@@ -862,6 +908,7 @@
         {
         "f": "devenir",
         "a": "to become",
+        "keyword": "devenir",
         "definitions": [
             {
             "title": "present tense",
@@ -882,6 +929,7 @@
         {
         "f": "partir",
         "a": "to leave/ depart",
+        "keyword": "partir",
         "definitions": [ 
             {
             "title": "present tense",
@@ -902,6 +950,7 @@
         {
         "f": "couper",
         "a": "to cut/ to take away",
+        "keyword": "couper",
         "definitions": [
             {
             "title": "present tense",
@@ -922,6 +971,7 @@
         {
         "f": "agir",
         "a": "to act/ behave",
+        "keyword": "agir",
         "definitions": [
             {
             "title": "present tense",    
@@ -942,6 +992,7 @@
         {
         "f": "courir",
         "a": "to run",
+        "keyword": "courir",
         "definitions": [
             {
             "title": "present tense",
@@ -961,6 +1012,7 @@
         {
         "f": "cuisiner",
         "a": "to cook",
+        "keyword": "cuisiner",
         "definitions": [
             {
             "title": "present tense",
@@ -980,6 +1032,7 @@
         {
         "f": "contenir",
         "a": "to contain",
+        "keyword": "contenir",
         "definitions": [
             {
             "title": "present tense",    
@@ -998,6 +1051,7 @@
                 {
         "f": "gagner",
         "a": "to win",
+        "keyword": "ganger",
         "definitions": [
             {
             "title": "present tense",
@@ -1017,6 +1071,7 @@
         {
         "f": "entrer",
         "a": "to enter",
+        "keyword": "entrer",
         "definitions": [         
             {
             "title": "present tense",
@@ -1036,6 +1091,7 @@
         {
         "f": "finir",
         "a": "to finish",
+        "keyword": "finir",
         "definitions": [
             {
             "title": "present tense",
@@ -1054,6 +1110,7 @@
         {
         "f": "lancer",
         "a": "to throw",
+        "keyword": "lancer",
         "definitions": [
             {
             "title": "present tense",
@@ -1072,6 +1129,7 @@
         {
         "f": "dire",
         "a": "to talk",
+        "keyword": "dire",
         "definitions": [
             {
             "title": "present tense",
@@ -1091,6 +1149,7 @@
         {
         "f": "inter&#233;sser",
         "a": "to interest",
+        "keyword": "interesser",
         "definitions": [
             {
             "title": "present tense",
@@ -1110,6 +1169,7 @@
         {
         "f": "ouvrir",
         "a": "to open",
+        "keyword": "ouvrir",
         "definitions": [
             {
             "title": "present tense",
@@ -1129,6 +1189,7 @@
         {
         "f": "perdre",
         "a": "to lose",
+        "keyword": "perdre",
         "definitions": [
             {
             "title": "present tense",
@@ -1148,6 +1209,7 @@
         {
         "f": "cacher",
         "a": "to hide",
+        "keyword": "cacher",
         "definitions": [
             {
             "title": "present tense",
@@ -1166,6 +1228,7 @@
         {
         "f": "marcher",
         "a": "to walk",
+        "keyword": "marcher",
         "definitions": [ 
             {
             "title": "present tense",
@@ -1185,6 +1248,7 @@
         {
         "f": "montrer",
         "a": "to watch/point out/show",
+        "keyword": "montrer",
         "definitions": [
             {
             "title": "present tense",
@@ -1204,6 +1268,7 @@
         {
         "f": "mettre",
         "a": "to put/ place/ wear",
+        "keyword": "mettre",
         "definitions": [
             {
             "title": "present tense",
@@ -1223,6 +1288,7 @@
         {
         "f": "laver",
         "a": "to wash",
+        "keyword": "laver",
         "definitions": [
             {
             "title": "present tense",
@@ -1242,6 +1308,7 @@
         {
         "f": "proposer",
         "a": "to propose",
+        "keyword": "proposer",
         "definitions": [
             {
             "title": "present tense",
@@ -1261,6 +1328,7 @@
         {
         "f": "poss&#233;der",
         "a": "to own/ possess",
+        "keyword": "posseder",
         "definitions": [
             {
             "title": "present tense",
@@ -1280,6 +1348,7 @@
         {
         "f": "prendre",
         "a": "to take",
+        "keyword": "prendre",
         "definitions": [
             {
             "title": "present tense",
@@ -1299,6 +1368,7 @@
         {
         "f": "porter",
         "a": "to wear/ carry",
+        "keyword": "porter",
         "definitions": [
             {
             "title": "present tense",
@@ -1318,6 +1388,7 @@
         {
         "f": "saisir",
         "a": "to grab/ seize",
+        "keyword": "saisir",
         "definitions": [
             {
             "title": "present tense",
@@ -1337,6 +1408,7 @@
         {
         "f": "souhaiter",
         "a": "to wish",
+        "keyword": "souhaiter",
         "definitions": [
             {
             "title": "present tense",
@@ -1356,6 +1428,7 @@
         {
         "f": "voir",
         "a": "to see",
+        "keyword": "voir",
         "definitions": [
             {
             "title": "present tense",
@@ -1375,6 +1448,7 @@
         {
         "f": "vendre",
         "a": "to sell",
+        "keyword": "vendre",
         "definitions": [
             {
             "title": "present tense",
@@ -1394,6 +1468,7 @@
         {
         "f": "tenir",
         "a": "to hold",
+        "keyword": "tenir",
         "definitions": [
             {
             "title": "present tense",
@@ -1413,6 +1488,7 @@
         {
         "f": "trouver",
         "a": "to find",
+        "keyword": "trouver",
         "definitions": [
             {
             "title": "present tense",
@@ -1432,6 +1508,7 @@
         {
         "f": "suivre",
         "a": "to follow",
+        "keyword": "suivre",
         "definitions": [
             {
             "title": "present tense",
@@ -1451,6 +1528,7 @@
         {
         "f": "casser",
         "a": "to break",
+        "keyword": "casser",
         "definitions": [
             {
             "title": "present tense",
@@ -1470,6 +1548,7 @@
         {
         "f": "ameliorer",
         "a": "to improve",
+        "keyword": "ameliorer",
         "definitions": [
             {
             "title": "present tense",
@@ -1488,6 +1567,7 @@
                 {
         "f": "concerner",
         "a": "to be about",
+        "keyword": "concerner",
         "definitions": [
             {
             "title": "present tense",
@@ -1507,6 +1587,7 @@
         {
         "f": "ajouter",
         "a": "to add",
+        "keyword": "ajouter",
         "definitions": [
             {
             "title": "present tense",
@@ -1526,6 +1607,7 @@
         {
         "f": "dormir",
         "a": "to sleep",
+        "keyword": "dormir",
         "definitions": [
             {
             "title": "present tense",    
@@ -1545,6 +1627,7 @@
         {
         "f": "regarder",
         "a": "to watch",
+        "keyword": "regarder",
         "definitions": [
             {
             "title": "present tense",
@@ -1564,6 +1647,7 @@
         {
         "f": "entendre",
         "a": "to hear",
+        "keyword": "entendre",
         "definitions": [
             {
             "title": "present tense",    
@@ -1583,6 +1667,7 @@
         {
         "f": "poser",
         "a": "to put",
+        "keyword": "poser",
         "definitions": [
             {
             "title": "present tense",
@@ -1602,6 +1687,7 @@
         {
         "f": "secourir",
         "a": "to rescue/ help",
+        "keyword": "secourir",
         "definitions": [
             {
             "title": "present tense",
@@ -1621,6 +1707,7 @@
         {
         "f": "venir",
         "a": "to come",
+        "keyword": "venir",
         "definitions": [
             {
             "title": "present tense",
@@ -1640,6 +1727,7 @@
         {
         "f": "devoir",
         "a": "to have to",
+        "keyword": "devoir",
         "definitions": [
             {
             "title": "present tense",
@@ -1659,6 +1747,7 @@
         {
         "f": "recevoir",
         "a": "to get/receive",
+        "keyword": "recevoir",
         "definitions": [
             {
             "title": "present tense",
@@ -1678,6 +1767,7 @@
         {
         "f": "croire",
         "a": "to believe",
+        "keyword": "croire",
         "definitions": [
             {
             "title": "present tense",
@@ -1697,6 +1787,7 @@
         {  
         "f": "penser",
         "a": "to think/ conceive",
+        "keyword": "penser",
         "definitions": [
             {
             "title": "present tense",
@@ -1716,6 +1807,7 @@
         {
        "f": "tenter",
         "a": "to try",
+        "keyword": "tenter",
         "definitions": [
             {
             "title": "present tense",
@@ -1735,6 +1827,7 @@
         {
             "f": "oublier",
             "a": "to forget",
+            "keyword": "oublier",
             "definitions": [
                 {
                 "title": "present tense",
@@ -1753,6 +1846,7 @@
         {
             "f": "emmener",
             "a": "to drive/ take (with)/ take (along)",
+            "keyword": "emmener",
             "definitions": [
                 {
                 "title": "present tense",
@@ -1771,6 +1865,7 @@
         {
             "f": "choisir",
             "a": "to choose",
+            "keyword": "choisir",
             "definitions": [
                 {
                 "title": "present tense",
@@ -1789,6 +1884,7 @@
         {
             "f": "go&#251;ter",
             "a": "to taste",
+            "keyword": "gouter",
             "definitions": [
                 {
                 "title": "present tense",
@@ -1807,6 +1903,7 @@
         {
             "f": "bouillir",
             "a": "to boil",
+            "keyword": "bouillir",
             "definitions": [
                 {
                 "title": "present tense",
@@ -1825,6 +1922,7 @@
         {
             "f": "vider",
             "a": "to empty",
+            "keyword": "vider",
             "definitions": [
                 {
                 "title": "present tense",
@@ -1843,6 +1941,7 @@
         {
             "f": "griller",
             "a": "to grill",
+            "keyword":"griller",
             "definitions": [
                 {
                 "title": "present tense",

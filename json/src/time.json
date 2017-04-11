@@ -4,191 +4,238 @@
         "vocabArray" : [
             {
             "f": "lundi",
-            "a": "monday"
+            "a": "monday",
+            "keyword": "lundi"
             },
             {
             "f": "mardi",
-            "a": "tuesday"
+            "a": "tuesday",
+            "keyword": "mardi"
             },
             {
             "f": "mercredi",
-            "a": "wednesday"
+            "a": "wednesday",
+            "keyword": "mercredi"
             },
             {
             "f": "jeudi",
-            "a": "thursday"
+            "a": "thursday",
+            "keyword": "jeudi"
             },
             {
             "f": "vendredi",
-            "a": "friday"
+            "a": "friday",
+            "keyword": "vendredi"
             },
             {
             "f": "samedi",
-            "a": "saturday"
+            "a": "saturday",
+            "keyword": "samedi"
             },
             {
             "f": "dimanche",
-            "a": "sunday"
+            "a": "sunday",
+            "keyword": "dimanche"
             },
             {
-            "f": "temps",
-            "a": "time"
+            "f": "le temps",
+            "a": "time",
+            "keyword": "temps"
             },
             {
-            "f": "jour",
-            "a": "day"
+            "f": "le jour",
+            "a": "day",
+            "keyword": "jour"
             },
             {
             "f": "janvier", 
-            "a": "january"                
+            "a": "january",
+            "keyword": "janvier"                
             },
             {
             "f": "f&#233;vrier",
-            "a": "february"
+            "a": "february",
+            "keyword": "fevrier"
             },
             {
             "f": "mars",
-            "a": "march"
+            "a": "march",
+            "keyword": "mars"
             },
             {
             "f": "avril",
-            "a": "april"
+            "a": "april",
+            "keyword": "avril"
             },
             {
             "f": "mai",
-            "a": "may"
+            "a": "may",
+            "keyword": "mai"
             },
             {
             "f": "juin",
-            "a": "june"
+            "a": "june",
+            "keyword": "juin"
             },
             {
             "f": "juillet",
-            "a": "july"
+            "a": "july",
+            "keyword": "juillet"
             },
             {
             "f": "ao&#251;t",
-            "a": "august"
+            "a": "august",
+            "keyword": "aout"
             },
             {
             "f": "septembre",
-            "a": "september"
+            "a": "september",
+            "keyword": "septembre"
             },
             {
             "f": "octobre",
-            "a": "october"
+            "a": "october",
+            "keyword": "octobre"
             },
             {
             "f": "novembre",
-            "a": "november"
+            "a": "november",
+            "keyword": "novembre"
             },
             {
             "f": "d&#233;cembre",
-            "a": "d&#233;cember"    
+            "a": "d&#233;cember",
+            "keyword": "decembre"   
             },
             {
-            "f": "seconde",
-            "a": "second"
+            "f": "la seconde",
+            "a": "second",
+            "keyword": "seconde"
             },
             {
-            "f": "minute",
-            "a": "minute"
+            "f": "la minute",
+            "a": "minute",
+            "keyword": "minute"
             },
             {
-            "f": "heure",
-            "a": "hour"
+            "f": "l&#8217heure",
+            "a": "hour",
+            "keyword": "heure"
             },
             {
-            "f": "semaine",
-            "a": "week"
+            "f": "la semaine",
+            "a": "week",
+            "keyword": "semaine"
             },
             {
-            "f": "mois",
-            "a": "month"
+            "f": "le mois",
+            "a": "month",
+            "keyword": "mois"
             },
             {
-            "f": "an",
-            "a": "year"
+            "f": "l&#8217;an",
+            "a": "year",
+            "keyword": "an"
             },
             {
-            "f": "d&#233;cennie",
-            "a": "decade"
+            "f": "la d&#233;cennie",
+            "a": "decade",
+            "keyword": "decennie"
             },
             {
-            "f": "mill&#233;naire",
-            "a": "millenium"
+            "f": "la mill&#233;naire",
+            "a": "millenium",
+            "keyword": "millenaire"
             },
             {
-            "f": "matin",
-            "a": "morning"
+            "f": "le matin",
+            "a": "morning",
+            "keyword": "matin"
             },
             {
             "f": "le midi",
-            "a": "noon"
+            "a": "noon",
+            "keyword": "midi"
             },
             {
-            "f": "apres-midi",
-            "a": "afternoon"
+            "f": "l&8217;apres-midi",
+            "a": "afternoon",
+            "keyword": "apres-midi"
             },
             {
-            "f": "soir",
-            "a": "evening"
+            "f": "le soir",
+            "a": "evening",
+            "keyword": "soir"
             },
             {
-            "f": "nuit",
-            "a": "night"
+            "f": "la nuit",
+            "a": "night",
+            "keyword": "la nuit"
             },
             {
-            "f": "minuit",
-            "a": "midnight"
+            "f": "la minuit",
+            "a": "midnight",
+            "keyword": "minuit"
             },
             {
-            "f": "demi",
-            "a": "half"
+            "f": "la demi",
+            "a": "half",
+            "keyword": "demi"
             },
             {
             "f": "moins le quart",
-            "a": "quarter to"
+            "a": "quarter to",
+            "keyword": "moins le quart"
             },
             {
             "f": "et demi",
-            "a": "half past"
+            "a": "half past",
+            "keyword": "et demi"
             },
             {
-            "f": "si&#232;cle",
-            "a": "century"
+            "f": "la si&#232;cle",
+            "a": "century",
+            "keyword": "siecle"
             },
             {
-            "f": "montre",
-            "a": "watch"
+            "f": "la montre",
+            "a": "watch",
+            "keyword": "montre"
             },
             {
-            "f": "calendrier",
-            "a": "calendar"
+            "f": "le calendrier",
+            "a": "calendar",
+            "keyword": "calendrier"
             },
             {
-            "f": "&#233;t&#233;",
-            "a": "summer"
+            "f": "l&8217;&#233;t&#233;",
+            "a": "summer",
+            "keyword": "ete"
             },
             {
             "f": "l&#8217;automne",
-            "a": "fall/ autumn"
+            "a": "fall/ autumn",
+            "keyword": "automne"
             },
             {
-            "f": "hiver",
-            "a": "winter"
+            "f": "l&8217;hiver",
+            "a": "winter",
+            "keyword": "hiver"
             },
             {
-            "f": "printemps",
-            "a": "spring"
+            "f": "le printemps",
+            "a": "spring",
+            "keyword": "printemps"
             },
             {
             "f": "aujourd&#8217;hui",
-            "a": "today"    
+            "a": "today",
+            "keyword": "aujourd'hui"    
             },
             {
-            "f": "demain",
-            "a": "tomorrow"    
+            "f": "le demain",
+            "a": "tomorrow",
+            "keyword": "demain"    
             },
             {
             "f": "hier",
