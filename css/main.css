@@ -191,7 +191,7 @@ body {
             margin: 1rem 0 0; }
             @media screen and (min-width: 750px) {
               #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
-                font-size: 2.6rem; } }
+                font-size: 2rem; } }
           @media screen and (min-width: 750px) {
             #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul h3 {
               font-size: 1.4rem; } }
