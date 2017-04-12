@@ -170,8 +170,8 @@ body {
       #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper {
         padding: 5px 0 2rem; }
         #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper #index-search {
-          border-radius: 5px;
-          margin: 2rem 0 0;
+          display: block;
+          margin: 2rem auto 0;
           height: 2rem;
           width: 90%; }
         @media screen and (min-width: 750px) {
@@ -246,12 +246,13 @@ body {
       #app-wrapper #index-word-view-wrapper #index-word-view-content-fade #word-index-content {
         padding-left: 0;
         position: absolute;
-        margin: 7rem 0 0;
+        margin: 3.8rem 0 0;
         max-width: 1175px;
         width: 88vw; }
         @media screen and (min-width: 750px) {
           #app-wrapper #index-word-view-wrapper #index-word-view-content-fade #word-index-content {
-            padding-left: 1rem; } }
+            padding-left: 1rem;
+            margin: 7.5rem 0 0; } }
         @media screen and (min-width: 750px) {
           #app-wrapper #index-word-view-wrapper #index-word-view-content-fade #word-index-content h3 {
             font-size: 1.4rem; } }
@@ -363,12 +364,11 @@ button {
         #button-wrapper button:hover {
           border-bottom: 1px solid #a6a6a6; } }
 
-#word-index-list-wrapper ul:nth-child(even) {
-  background: #f3f3f3; }
+#word-index-list-wrapper ul {
+  border-bottom: 1px solid #a6a6a6; }
 
-#word-index-list-wrapper ul:nth-child(even),
 #search-input-wrapper {
-  border: 1px solid #a6a6a6; }
+  border-radius: 5px; }
 
 #search-input-wrapper {
   background: #b3b3b3;
