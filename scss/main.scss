@@ -227,12 +227,12 @@ body {
 	   		position: relative;
 	   		#search-input-wrapper {
 	   			padding: 5px 0 2rem;
-	   			#index-search {
-	   				border-radius: 5px;
-	   				margin: 2rem 0 0;
+	  			#index-search {
+	   				display: block;
+	   				margin: 2rem auto 0;
 	   				height: 2rem;
 	   				width: 90%;
-	   			}
+	   				}
 	   			@media screen and (min-width: 750px) {
 	   				margin: 2rem 0 0 1rem;
 	   				}
@@ -322,11 +322,12 @@ body {
 			#word-index-content {
 				padding-left: 0;
 				position: absolute;
-				margin: 7rem 0 0;
+				margin: 3.8rem 0 0;
 				max-width: 1175px;
 				width: 88vw;
 				@media screen and (min-width: 750px) {
 					padding-left: 1rem;
+					margin: 7.5rem 0 0;
 				}
 				h3 {
 		  			@media screen and (min-width: 750px) {
@@ -483,18 +484,12 @@ button {
 	}
 }
 
-#word-index-list-wrapper ul:nth-child(odd) {
-	///
+#word-index-list-wrapper ul {
+	border-bottom: 1px solid $border-color;
 }
 
-#word-index-list-wrapper ul:nth-child(even) {
-	background: lighten($border-color,30%);
-}
-
-#word-index-list-wrapper ul:nth-child(even),
 #search-input-wrapper {
-	border: 1px solid $border-color;
-
+	border-radius : 5px;
 }
 
 #search-input-wrapper {
