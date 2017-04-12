@@ -160,7 +160,7 @@
                     }, 400);
             $timeout(function() {
                     document.getElementById('index-word-view-wrapper').style.display= 'none';
-                    console.log($scope.thisSection);
+                    //console.log($scope.thisSection);
                     }, 400);
             }; 
 
