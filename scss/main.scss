@@ -2,6 +2,7 @@
 $text-color: #333;
 $background-color: #fff;
 $path-font: '../gilroy';
+$border-color: #a6a6a6;
 
 
 
@@ -24,8 +25,17 @@ $path-font: '../gilroy';
 	100% { left: +5px; }
 }
 
+@keyframes hoverButtonRev {
+	50% { margin-left: 2rem; }
+	100% { margin-left: 1.4rem; }	
+}
+
 
 /*initial element positioning*/
+
+// * {
+// 	border: 1px solid blue;
+// }
 
 
 body {
@@ -63,6 +73,7 @@ body {
 		ul {
 		list-style-type: none;
 		margin: 1px 0 0;
+		max-width: 1175px;
 		padding-left: 0;
 		width: 66%;
 			}
@@ -94,16 +105,15 @@ body {
 #flash-card-content-wrapper,
 #main-menu-content-fade,
 #card-front-content-fade,
-#card-back-content-fade {
+#card-back-content-fade,
+#word-index-content-fade,
+#index-word-view-content-fade {
     -webkit-transition: display 0.4s linear, opacity 0.3s linear;
     transition: display 0.4s linear, opacity 0.3s linear;
 }
 
 
-#flash-card-content-wrapper {
-    opacity: 0;
-    width: 100%;
-    #backButton {
+#backButton {
     	cursor: pointer;
     	padding: 0;
 		position: absolute;
@@ -120,12 +130,15 @@ body {
 			@media screen and (min-width: 750px) {
 				padding-left: 1rem;
 				img {
-				height: 1rem;
 				width: 	3rem;
 				}
 			}
 		}
-}
+
+#flash-card-content-wrapper {
+    opacity: 0;
+    width: 100%;
+    }
 
 #main-menu-content-fade,
 #card-section,
@@ -197,7 +210,143 @@ body {
     	 }
     }
 
-/*styling design-y stuff*/
+#word-index-wrapper {
+	display: none;
+	height: 95vh;
+    padding-left: 2px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 98%;	
+   }
+
+#word-index-content-wrapper {
+		margin-top: 1rem;
+		#word-index-content-fade {	
+	   		opacity: 0;
+	   		position: relative;
+	   		#search-input-wrapper {
+	   			padding: 5px 0 2rem;
+	   			#index-search {
+	   				border-radius: 5px;
+	   				margin: 2rem 0 0;
+	   				height: 2rem;
+	   				width: 90%;
+	   			}
+	   			@media screen and (min-width: 750px) {
+	   				margin: 2rem 0 0 1rem;
+	   				}
+	   			} 
+	   		h1 {
+				font-size: 1.4rem;
+				margin: 1rem 0 0;
+				@media screen and (min-width: 750px) {
+					margin: 2rem 0 0;
+					}
+				}
+		    #word-index-list-wrapper {
+		   		position: absolute;
+		  		top: 75px; 
+		  		width: 98%;	
+		  		ul {
+		  			padding-left: 2px;
+		  			margin: .2rem 0;
+		  			li {
+		  				list-style: none outside;
+		  				position: relative;
+		  			}
+		  			p {
+		  				display: inline-block;
+		  				font-size: 1.4rem;
+		  				margin: 1rem 0 0;
+		  				@media screen and (min-width: 750px) {
+		  					font-size: 2rem;
+		  				}
+		  			}
+		  			h3 {
+		  				@media screen and (min-width: 750px) {
+		  					font-size: 1.4rem;
+		  					}
+		  				}
+		  			button {
+		  				background: none;
+		  				cursor: pointer;
+		  				margin-left: 1.4rem;
+		  				position: absolute;
+		  				top: 22px;
+		  				&:hover {
+							animation: hoverButtonRev .4s ease-in-out;
+							}
+						@media screen and (min-width: 750px) {
+							top: 27px;
+							}
+			  			img {
+			  				cursor: pointer;
+							height: 1rem;
+							transform: rotate(180deg);
+							width: 2rem;
+							@media screen and (min-width:750px){
+								width: 3rem;
+								}
+							}
+		  				}
+					}
+		  		@media screen and (min-width: 750px) {
+		  			padding-left: 1rem;
+		  			margin: 2rem 0 0;
+		  			max-width: 1175px;
+		  			width: 66%;
+		  			}		
+		   	}
+	   }
+}
+
+
+#index-word-view-wrapper {
+	position: absolute;
+	display: none;		
+	#index-word-view-content-wrapper {
+		margin-top: 1.5rem;
+		}
+		#index-word-view-content-fade {
+			opacity: 0;
+			position: relative;
+			h1 {
+				font-size: 1.4rem;
+				margin: 1rem 0 0;
+				width: 88vw;
+				@media screen and (min-width: 750px) {
+					margin: 2rem 0 0;
+					}
+				}
+			#word-index-content {
+				padding-left: 0;
+				position: absolute;
+				margin: 7rem 0 0;
+				max-width: 1175px;
+				width: 88vw;
+				@media screen and (min-width: 750px) {
+					padding-left: 1rem;
+				}
+				h3 {
+		  			@media screen and (min-width: 750px) {
+		  				font-size: 1.4rem;
+		  					}
+		  				}
+				}
+				p {
+					margin: 1rem 0 0;
+					@media screen and (min-width: 750px) {
+						margin: 1.6rem 0 0;
+					}
+				}
+		}
+	}
+
+
+
+
+/*styling & design*/
 
 
 
@@ -223,6 +372,7 @@ h1 {
 			border-bottom: 1px solid $text-color;
 			border-radius: 3px;
 			cursor: pointer;
+			min-width: 225px;
 			padding: 15px 0;
 			transition: border-bottom .4s ease-in-out, color .4s ease-in-out; 
 			.vocab-count {
@@ -232,12 +382,22 @@ h1 {
 					font-size: 1rem;
 					}
 				}
+			.index-link {
+				font-size: 1rem;
+				border-bottom: 1px solid lighten($border-color,10%);
+				&:hover {
+					border-bottom: 1px solid darken($border-color, 60%);
+				}
+				@media screen and (min-width: 750px) {
+					font-size: 1.2rem;
+				}
+			}
 			@media screen and (min-width: 750px) {
 				border: none;
-				border-bottom: 1px solid rgba(51,51,51,0.0);
+				border-bottom: 1px solid lighten($border-color,100%);
 				font-size: 2rem;
 				&:hover {
-					border-bottom: 1px solid rgba(51,51,51,1.0);
+					border-bottom: 1px solid $border-color;
 					}
 				}
 			}
@@ -253,7 +413,7 @@ h1 {
 	}
 
 
-li, p, button, .word, h6 {
+li, p, button, .word, h6, input {
 	color: $text-color;
 	font-family: 'gilroymedium', 'gilroylight', sans-serif;
 	}
@@ -293,6 +453,10 @@ h3 {
 	margin: 1rem 0 .2rem;
 }
 
+input {
+	font-size: 1.4rem;
+}
+
 button {
 	background-color: $background-color;
     border: none;
@@ -309,16 +473,34 @@ button {
 	@media screen and (min-width: 750px) {
 		background-color: $background-color;
 		border: none;
-		border-bottom: 1px solid rgba(51,51,51,0.0);
+		border-bottom: 1px solid lighten($border-color, 100%);
 		font-size: 2rem;
 		transition: border-bottom .4s ease-in-out;
 		&:hover {
-			border-bottom: 1px solid rgba(51,51,51,1.0);
+			border-bottom: 1px solid $border-color;
 			}
 		}
 	}
 }
 
+#word-index-list-wrapper ul:nth-child(odd) {
+	///
+}
+
+#word-index-list-wrapper ul:nth-child(even) {
+	background: lighten($border-color,30%);
+}
+
+#word-index-list-wrapper ul:nth-child(even),
+#search-input-wrapper {
+	border: 1px solid $border-color;
+
+}
+
+#search-input-wrapper {
+	background: lighten($border-color, 5%);
+	border: none;
+	   }
 
 .definitions {
 	ul {

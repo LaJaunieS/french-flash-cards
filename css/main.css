@@ -18,6 +18,11 @@
     left: -5px; }
   100% {
     left: +5px; } }
+@keyframes hoverButtonRev {
+  50% {
+    margin-left: 2rem; }
+  100% {
+    margin-left: 1.4rem; } }
 /*initial element positioning*/
 body {
   font-size: 14px;
@@ -26,7 +31,7 @@ body {
 
 #app-wrapper {
   position: relative;
-  /*styling design-y stuff*/ }
+  /*styling & design*/ }
   #app-wrapper #main-menu-wrapper,
   #app-wrapper #flash-card-wrapper {
     padding-left: 2px;
@@ -52,6 +57,7 @@ body {
     #app-wrapper #main-menu-wrapper ul {
       list-style-type: none;
       margin: 1px 0 0;
+      max-width: 1175px;
       padding-left: 0;
       width: 66%; }
     #app-wrapper #main-menu-wrapper #main-menu-content-fade {
@@ -72,30 +78,31 @@ body {
   #app-wrapper #flash-card-content-wrapper,
   #app-wrapper #main-menu-content-fade,
   #app-wrapper #card-front-content-fade,
-  #app-wrapper #card-back-content-fade {
+  #app-wrapper #card-back-content-fade,
+  #app-wrapper #word-index-content-fade,
+  #app-wrapper #index-word-view-content-fade {
     -webkit-transition: display 0.4s linear, opacity 0.3s linear;
     transition: display 0.4s linear, opacity 0.3s linear; }
+  #app-wrapper #backButton {
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    border-bottom: none;
+    z-index: 10000; }
+    #app-wrapper #backButton img {
+      height: 1rem;
+      width: 2rem; }
+    #app-wrapper #backButton:hover {
+      animation: hoverButton .4s ease-in-out; }
+    @media screen and (min-width: 750px) {
+      #app-wrapper #backButton {
+        padding-left: 1rem; }
+        #app-wrapper #backButton img {
+          width: 3rem; } }
   #app-wrapper #flash-card-content-wrapper {
     opacity: 0;
     width: 100%; }
-    #app-wrapper #flash-card-content-wrapper #backButton {
-      cursor: pointer;
-      padding: 0;
-      position: absolute;
-      left: 0;
-      border-bottom: none;
-      z-index: 10000; }
-      #app-wrapper #flash-card-content-wrapper #backButton img {
-        height: 1rem;
-        width: 2rem; }
-      #app-wrapper #flash-card-content-wrapper #backButton:hover {
-        animation: hoverButton .4s ease-in-out; }
-      @media screen and (min-width: 750px) {
-        #app-wrapper #flash-card-content-wrapper #backButton {
-          padding-left: 1rem; }
-          #app-wrapper #flash-card-content-wrapper #backButton img {
-            height: 1rem;
-            width: 3rem; } }
   @media screen and (min-width: 750px) {
     #app-wrapper #main-menu-content-fade,
     #app-wrapper #card-section,
@@ -147,6 +154,112 @@ body {
       padding: 15px 0;
       width: 66%;
       margin: 0 0 5px; }
+  #app-wrapper #word-index-wrapper {
+    display: none;
+    height: 95vh;
+    padding-left: 2px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 98%; }
+  #app-wrapper #word-index-content-wrapper {
+    margin-top: 1rem; }
+    #app-wrapper #word-index-content-wrapper #word-index-content-fade {
+      opacity: 0;
+      position: relative; }
+      #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper {
+        padding: 5px 0 2rem; }
+        #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper #index-search {
+          border-radius: 5px;
+          margin: 2rem 0 0;
+          height: 2rem;
+          width: 90%; }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper {
+            margin: 2rem 0 0 1rem; } }
+      #app-wrapper #word-index-content-wrapper #word-index-content-fade h1 {
+        font-size: 1.4rem;
+        margin: 1rem 0 0; }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade h1 {
+            margin: 2rem 0 0; } }
+      #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
+        position: absolute;
+        top: 75px;
+        width: 98%; }
+        #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul {
+          padding-left: 2px;
+          margin: .2rem 0; }
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul li {
+            list-style: none outside;
+            position: relative; }
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
+            display: inline-block;
+            font-size: 1.4rem;
+            margin: 1rem 0 0; }
+            @media screen and (min-width: 750px) {
+              #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
+                font-size: 2rem; } }
+          @media screen and (min-width: 750px) {
+            #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul h3 {
+              font-size: 1.4rem; } }
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button {
+            background: none;
+            cursor: pointer;
+            margin-left: 1.4rem;
+            position: absolute;
+            top: 22px; }
+            #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button:hover {
+              animation: hoverButtonRev .4s ease-in-out; }
+            @media screen and (min-width: 750px) {
+              #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button {
+                top: 27px; } }
+            #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button img {
+              cursor: pointer;
+              height: 1rem;
+              transform: rotate(180deg);
+              width: 2rem; }
+              @media screen and (min-width: 750px) {
+                #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button img {
+                  width: 3rem; } }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
+            padding-left: 1rem;
+            margin: 2rem 0 0;
+            max-width: 1175px;
+            width: 66%; } }
+  #app-wrapper #index-word-view-wrapper {
+    position: absolute;
+    display: none; }
+    #app-wrapper #index-word-view-wrapper #index-word-view-content-wrapper {
+      margin-top: 1.5rem; }
+    #app-wrapper #index-word-view-wrapper #index-word-view-content-fade {
+      opacity: 0;
+      position: relative; }
+      #app-wrapper #index-word-view-wrapper #index-word-view-content-fade h1 {
+        font-size: 1.4rem;
+        margin: 1rem 0 0;
+        width: 88vw; }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #index-word-view-wrapper #index-word-view-content-fade h1 {
+            margin: 2rem 0 0; } }
+      #app-wrapper #index-word-view-wrapper #index-word-view-content-fade #word-index-content {
+        padding-left: 0;
+        position: absolute;
+        margin: 7rem 0 0;
+        max-width: 1175px;
+        width: 88vw; }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #index-word-view-wrapper #index-word-view-content-fade #word-index-content {
+            padding-left: 1rem; } }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #index-word-view-wrapper #index-word-view-content-fade #word-index-content h3 {
+            font-size: 1.4rem; } }
+      #app-wrapper #index-word-view-wrapper #index-word-view-content-fade p {
+        margin: 1rem 0 0; }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #index-word-view-wrapper #index-word-view-content-fade p {
+            margin: 1.6rem 0 0; } }
   #app-wrapper .italic {
     font-family: 'gilroymedium-italic'; }
   #app-wrapper h1 {
@@ -163,6 +276,7 @@ body {
     border-bottom: 1px solid #333;
     border-radius: 3px;
     cursor: pointer;
+    min-width: 225px;
     padding: 15px 0;
     transition: border-bottom .4s ease-in-out, color .4s ease-in-out; }
     #app-wrapper #main-menu-wrapper li .vocab-count {
@@ -171,13 +285,21 @@ body {
       @media screen and (min-width: 750px) {
         #app-wrapper #main-menu-wrapper li .vocab-count {
           font-size: 1rem; } }
+    #app-wrapper #main-menu-wrapper li .index-link {
+      font-size: 1rem;
+      border-bottom: 1px solid silver; }
+      #app-wrapper #main-menu-wrapper li .index-link:hover {
+        border-bottom: 1px solid #0d0d0d; }
+      @media screen and (min-width: 750px) {
+        #app-wrapper #main-menu-wrapper li .index-link {
+          font-size: 1.2rem; } }
     @media screen and (min-width: 750px) {
       #app-wrapper #main-menu-wrapper li {
         border: none;
-        border-bottom: 1px solid rgba(51, 51, 51, 0);
+        border-bottom: 1px solid white;
         font-size: 2rem; }
         #app-wrapper #main-menu-wrapper li:hover {
-          border-bottom: 1px solid #333333; } }
+          border-bottom: 1px solid #a6a6a6; } }
 
 #flash-card-wrapper h1 {
   font-size: 1.4rem;
@@ -186,7 +308,7 @@ body {
     #flash-card-wrapper h1 {
       margin: 2rem 0 0; } }
 
-li, p, button, .word, h6 {
+li, p, button, .word, h6, input {
   color: #333;
   font-family: 'gilroymedium', 'gilroylight', sans-serif; }
 
@@ -216,6 +338,9 @@ h3 {
   font-size: 1.1rem;
   margin: 1rem 0 .2rem; }
 
+input {
+  font-size: 1.4rem; }
+
 button {
   background-color: #fff;
   border: none; }
@@ -232,11 +357,22 @@ button {
       #button-wrapper button {
         background-color: #fff;
         border: none;
-        border-bottom: 1px solid rgba(51, 51, 51, 0);
+        border-bottom: 1px solid white;
         font-size: 2rem;
         transition: border-bottom .4s ease-in-out; }
         #button-wrapper button:hover {
-          border-bottom: 1px solid #333333; } }
+          border-bottom: 1px solid #a6a6a6; } }
+
+#word-index-list-wrapper ul:nth-child(even) {
+  background: #f3f3f3; }
+
+#word-index-list-wrapper ul:nth-child(even),
+#search-input-wrapper {
+  border: 1px solid #a6a6a6; }
+
+#search-input-wrapper {
+  background: #b3b3b3;
+  border: none; }
 
 .definitions ul {
   list-style-type: none;

@@ -1,8 +1,24 @@
- <word-index id="word-index-content-wrapper">
+ <div id="word-index-content-wrapper">
+
+    
+	<div id="word-index-content-fade">
+	 	<button id="backButton" ng-click="backToMenu()"><img src="img/arrow-left.png" alt="back to menu"></img></button>
+		
+		<h1 id="card-section">{{thisSection.title}}</h1>
+
+		<div id="word-index-list-wrapper">
+			<ul id="search-input-wrapper">
+				<input ng-model="searchText" id="index-search" type="text" placeholder="search"/>
+			</ul>
+			<ul ng-repeat="word in thisSection.source.vocabArray | orderBy: 'keyword'| filter:searchText">
+					<li><p ng-bind-html="word.f">{{word.f}}</p><button ng-click=startWordView(word)><img src="img/arrow-left.png" alt="view word details"></img></button></li>
+					<li><h3>{{word.a}}</h3></li>
+
+			</ul>
+		</div>
+	</div>
+	 	
         
 
- {{wordIndexController}}
-        
-
-   </word-index>    
+   </div>    
         

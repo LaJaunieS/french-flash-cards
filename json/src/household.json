@@ -4,67 +4,83 @@
     "vocabArray": [
         {
         "f": "la maison",
-        "a": "house"    
+        "a": "house" ,
+        "keyword": "maison"   
         },
         {
         "f": "le billet",
-        "a": "ticket/bill"    
+        "a": "ticket/bill",
+        "keyword": "billet"    
         },
         {
         "f": "les lunettes",
-        "a": "eyeglasses"    
+        "a": "eyeglasses",
+        "keyword": "lunettes"    
         },
         {
         "f": "la valise",
-        "a": "suitcase"    
+        "a": "suitcase",
+        "keyword": "la valise"    
         },
         {
         "f": "la ordinateur",
-        "a": "computer"    
+        "a": "computer",
+        "keyword": "ordinateur"    
         },
         {
         "f": "le clavier",
-        "a": "keyboard"    
+        "a": "keyboard",
+        "keyword": "clavier"    
         },
         {
         "f": "le plateau",
-        "a": "tray"    
+        "a": "tray",
+        "keyword": "plateau"    
         },
         {
         "f": "l&#8217;&#233;cran",
-        "a": "screen"    
+        "a": "screen",
+        "keyword": "ecran"    
         },
         {
         "f": "l&#8217;allumette",
-        "a": "match"    
+        "a": "match",
+        "keyword": "allumette"    
         },
         {
         "f": "la bougie",
-        "a": "candle"    
+        "a": "candle",
+        "keyword": "bougie"    
         },
         {
         "f": "la voiture",
-        "a": "car"    
+        "a": "car",
+        "keyword": "voiture"    
         },
         {
         "f": "le lit",
-        "a": "bed"    
+        "a": "bed",
+        "keyword": "lit"    
         },
         {
         "f": "la table",
-        "a": "table"    
+        "a": "table",
+        "keyword": "table"    
         },
         {
             "f": "la tasse",
-            "a": "cup"
+            "a": "cup",
+            "keyword": "tasse"
         },
         {
             "f": "la chaise",
-            "a": "chair"
+            "a": "chair",
+            "keyword": "chaise"
         },
         {
             "f": "le couteau",
             "a": "knife",
+            "keyword": "couteau",
             "definitions": {
                 "title": "plural",
                 "descriptions": "couteaux"
@@ -72,187 +88,233 @@
         },
         {
             "f": "l&#8217;assiette",
-            "a": "plate"
+            "a": "plate",
+            "keyword": "assiette"
         },
         {
             "f": "le bol",
-            "a": "bowl"
+            "a": "bowl",
+            "keyword": "bol"
         },
         {
             "f": "la cuilli&#232;re",
-            "a": "spoon"
+            "a": "spoon",
+            "keyword": "culliere"
         },
         {
             "f": "la fourchette",
-            "a": "fork"
+            "a": "fork",
+            "keyword": "fourchette"
         },
         {
             "f": "le verre",
-            "a": "glass/drinking glass"
+            "a": "glass/drinking glass",
+            "keyword": "verre"
         },
         {
             "f": "les couverts",
-            "a": "cutlery/ flatware"
+            "a": "cutlery/ flatware",
+            "keyword": "couverts"
         },
         {
             "f": "la bouteille",
-            "a": "bottle"
+            "a": "bottle",
+            "keyword": "bouteille"
         },
         {
             "f": "la lampe",
-            "a": "lamp"
+            "a": "lamp",
+            "keyword": "lampe"
         },
         {
             "f": "l&#8217;&#232;ponge",
-            "a": "sponge"
+            "a": "sponge",
+            "keyword": "eponge"
         },
         {
             "f": "la fen&#234;tre",
-            "a": "window"
+            "a": "window",
+            "keyword": "fenetre"
         },
         {
             "f": "le miroir",
-            "a": "mirror"
+            "a": "mirror",
+            "keyword": "miroir"
         },
         {
             "f": "le canap&#233;",
-            "a": "couch/ sofa"
+            "a": "couch/ sofa",
+            "keyword": "canape"
         },
         {
             "f": "le berceau",
-            "a": "crib/ cot"
+            "a": "crib/ cot",
+            "keyword": "berceau"
         },
         {
             "f": "le tepis",
-            "a": "rug"
+            "a": "rug",
+            "keyword": "tepis"
         },
         {
             "f": "le bureau",
-            "a": "desk/ study/ office"
+            "a": "desk/ study/ office",
+            "keyword": "bureau"
         },
         {
             "f": "la porte",
-            "a": "door"
+            "a": "door",
+            "keyword": "porte"
         },
         {
             "f": "le toit",
-            "a": "roof"
+            "a": "roof",
+            "keyword": "toit"
         },
         {
             "f": "le mur",
-            "a": "wall"
+            "a": "wall",
+            "keyword": "mur"
         },
         {
             "f": "le four",
-            "a": "oven"
+            "a": "oven",
+            "keyword": "four"
         },
         {
             "f": "les meubles",
-            "a": "furniture"
+            "a": "furniture",
+            "keyword": "meubles"
         },
         {
             "f": "les escaliers",
-            "a": "stairs"
+            "a": "stairs",
+            "keyword": "escaliers"
         },
         {
             "f": "la piscine",
-            "a": "swimming pool"
+            "a": "swimming pool",
+            "keyword": "piscine"
         },
         {
             "f": "la douche",
-            "a": "shower"
+            "a": "shower",
+            "keyword": "douche"
         },
         {
             "f": "le r&#233;frig&#233;rateur",
-            "a": "refrigerator"
+            "a": "refrigerator",
+            "keyword": "refrigerateur"
         },
         {
             "f": "les outils",
-            "a": "tools"
+            "a": "tools",
+            "keyword": "outils"
         },
         {
             "f": "le baignoire",
-            "a": "bathtub"
+            "a": "bathtub",
+            "keyword": "baignoire"
         },
         {
             "f": "le horloge",
-            "a": "clock"
+            "a": "clock",
+            "keyword": "horloge"
         },
         {
             "f": "la serviette",
-            "a": "napkin"
+            "a": "napkin",
+            "keyword": "serviette"
         },
         {
             "f": "le rideau",
-            "a": "curtain"
+            "a": "curtain",
+            "keyword": "rideau"
         },
         {
             "f": "la couverture",
-            "a": "blanket/ cover"
+            "a": "blanket/ cover",
+            "keyword": "couverture"
         },
         {
             "f": "la prise",
-            "a": "plug/ socket/ outlet"
+            "a": "plug/ socket/ outlet",
+            "keyword": "prise"
         },
         {
             "f": "le recette",
-            "a": "recipe"
+            "a": "recipe",
+            "keyword": "recette"
         },
         {
             "f": "le savon",
-            "a": "soap"
+            "a": "soap",
+            "keyword": "savon"
         },
         {
             "f": "le plafond",
-            "a": "ceiling"
+            "a": "ceiling",
+            "keyword": "plafond"
         },
         {
             "f": "le chauffage",
-            "a": "heating"
+            "a": "heating",
+            "keyword": "chauffage"
         },
         {
             "f": "le jouet",
-            "a": "toy"
+            "a": "toy",
+            "keyword": "jouet"
         },
         {
             "f": "le drap",
-            "a": "sheet/ bedsheet"
+            "a": "sheet/ bedsheet",
+            "keyword": "drap"
         },
         {
             "f": "la poubelle",
-            "a": "bin/ trash bin"
+            "a": "bin/ trash bin",
+            "keyword": "poubelle"
         },
         {
             "f": "le balcon",
-            "a": "balcony"
+            "a": "balcony",
+            "keyword": "balcon"
         },
         {
             "f": "le meuble",
-            "a": "cabinet"
+            "a": "cabinet",
+            "keyword": "meuble"
         },
         {
             "f": "l&#8217;&#233;tage",
-            "a": "floor"
+            "a": "floor",
+            "keyword": "etage"
         },
         {
             "f": "la brosse",
-            "a": "brush"
+            "a": "brush",
+            "keyword": "brosse"
         },
         {
             "f": "le cadre",
-            "a": "frame"
+            "a": "frame",
+            "keyword": "cadre"
         },
         {
             "f": "la caisse",
-            "a": "case/ crate/ box"
+            "a": "case/ crate/ box",
+            "keyword": "caisse"
         },
         {
             "f": "la bo&#238;te",
-            "a": "box"
+            "a": "box",
+            "keyword": "botte"
         },
         {
             "f": "la pi&#232;ce",
             "a": "room/ piece",
+            "keyword": "piscine",
             "definitions": [
                 {
                     "title": "alternates",
@@ -262,15 +324,18 @@
         },
         {
             "f": "la chambre",
-            "a": "bedroom"
+            "a": "bedroom",
+            "keyword": "chambre"
         },
         {
             "f": "le salon",
-            "a": "living room" 
+            "a": "living room",
+            "keyword": "salon"
         },
         {
             "f": "salle de bains",
             "a": "bathroom",
+            "keyword": "salle de bains",
             "definitions": [
                 {
                     "title": "alternates",
@@ -281,6 +346,7 @@
         {
             "f": "la cave",
             "a": "cellar/ basement",
+            "keyword": "cave",
             "definitions": [
                 {
                     "title": "alternates",
@@ -290,7 +356,8 @@
         },
         {
             "f": "la couloir",
-            "a": "hallway/ corridor"
+            "a": "hallway/ corridor",
+            "keyword": "couloir"
         }
     ]
 }

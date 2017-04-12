@@ -4,99 +4,123 @@
     "vocabArray": [
                     {
             "f": "le mien/ la mienne",
-            "a": "mine (pronoun)"
+            "a": "mine (pronoun)",
+            "keyword": "mienne"
             },
             {
             "f": "le tien/ la tienne",
-            "a": "yours (inf. pronoun)"
+            "a": "yours (inf. pronoun)",
+            "keyword": "tienne"
             },
             {
             "f": "la sien/ la sienne",
-            "a": "his/ hers/ its (pronoun)"
+            "a": "his/ hers/ its (pronoun)",
+            "keyword": "sienne"
             },
             {
             "f": "le/ la n&#244;tre/ les n&#244;tres",
-            "a": "ours (pronoun)"
+            "a": "ours (pronoun)",
+            "keyword": "notres"
             },
             {
             "f": "le/ la v&#244;tre/ les v&#244;tres",
-            "a": "yours (form. pronoun)"
+            "a": "yours (form. pronoun)",
+            "keyword": "votres"
             },
              {
             "f": "le/ la leur/ les leurs",
-            "a": "theirs (pronoun)"
+            "a": "theirs (pronoun)",
+            "keyword": "leurs"
             },
             {
             "f": "mon/ ma",
-            "a": "my (possessive)"
+            "a": "my (possessive)",
+            "keyword": "mon"
             },
             {
             "f": "me",
-            "a": "me (dir./indir. obj.)"    
+            "a": "me (dir./indir. obj.)",
+            "keyword": "me"
             },
             {
             "f": "te",
-            "a": "you (inf.- dir./indir. obj.)"   
+            "a": "you (inf.- dir./indir. obj.)",
+            "keyword": "te"   
             },
             {
             "f": "ton/ ta",
-            "a": "your (inf. possessive)"
+            "a": "your (inf. possessive)",
+            "keyword": "ton"
             },
             {
             "f": "son/ sa",
-            "a": "his/ her (possessive)"
+            "a": "his/ her (possessive)",
+            "keyword": "son"
             },
             {
             "f": "leur",
-            "a": "their (possessive)"	
+            "a": "their (possessive)",
+            "keyword": "leur"
             },
             {
             "f": "le/ la",
-            "a": "him/it/her (dir. obj.)"
+            "a": "him/it/her (dir. obj.)",
+            "keyword": "le"
             },
             {
             "f": "lui",
-            "a": "him/ her (indir. object)"
+            "a": "him/ her (indir. object)",
+            "keyword": "lui"
             },
             {
             "f": "notre",
-            "a": "our (possessive)"
+            "a": "our (possessive)",
+            "keyword": "notre"
             },
             {
             "f": "nous",
-            "a": "us/ we"  
+            "a": "us/ we",
+            "keyword": "nous"  
             },
             {
             "f": "vous",
-            "a": "you (formal)"   
+            "a": "you (formal)",
+            "keyword": "vous"   
             },
             {
             "f": "votre",
-            "a": "your (formal possessive)"
+            "a": "your (formal possessive)",
+            "keyword": "votre"
             },
             {
             "f": "leur",
-            "a": "their/ them (indir. obj.)"
+            "a": "their/ them (indir. obj.)",
+            "keyword": "leur"
             },
             {
             "f": "les",
-            "a": "them (dir. obj.)" 
+            "a": "them (dir. obj.)",
+            "keyword": "les" 
             },
             {
             "f": "ce",
-            "a": "it (impersonal)"	
+            "a": "it (impersonal)",
+            "keyword": "ce"	
             },
             {
             "f": "que",
-            "a": "that"
+            "a": "that",
+            "keyword": "que"
         	},
         	{
         	"f": "qui",
-        	"a": "who"	
+        	"a": "who",
+            "keyword": "qui"	
         	},
         	{
         	"f": "lequel",
         	"a": "which",
+            "keyword": "lequel",
         	"definitions": [
         		{
         		"title": "masculine",
@@ -110,19 +134,23 @@
         	},
         	{
         	"f": "o&#249;",
-        	"a": "where"	
+        	"a": "where",
+            "keyword": "ou"	
         	},
         	{
         	"f": "en",
-        	"a": "of it/ of them/ some"	
+        	"a": "of it/ of them/ some",
+            "keyword": "en"
         	},
         	{
         	"f": "d&#8217;autres",
-        	"a": "others"	
+        	"a": "others",
+            "keyword": "autres"	
         	},
         	{
         	"f": "chacun",
         	"a": "each/ each one",
+            "keyword": "chacun",
         	"descriptions": [
         		{
         		"title": "masculine",	
@@ -137,6 +165,7 @@
         	{
         	"f": "certains",
         	"a": "certain ones",
+            "keyword": "certains",
         	"descriptions": [
         		{
         		"title": "masculine",	
@@ -150,31 +179,38 @@
         	},
         	{
         	"f": "plusiers",
-        	"a": "several"
+        	"a": "several",
+            "keyword": "plusiers"
         	},
         	{
         	"f": "quelque chose",
-        	"a": "something"	
+        	"a": "something",
+            "keyword": "quelque chose"	
         	},
         	{
         	"f": "quelqu&#8217;un",
-        	"a": "someone"	
+        	"a": "someone",
+            "keyword": "quelqu'un"	
         	},
         	{
         	"f": "tout",
-        	"a": "everything"	
+        	"a": "everything",
+            "keyword": "tout"	
         	},
         	{
         	"f": "tout le monde",
-        	"a": "everyone"	
+        	"a": "everyone",
+            "keyword": "tout le monde"	
         	},
             {
             "f": "quiconque",
-            "a": "whoever" 
+            "a": "whoever",
+            "keyword": "quiconque" 
             },
             {
             "f": "tout ce que",
-            "a": "whatever"    
+            "a": "whatever",
+            "keyword": "tout ce que"    
             }
     ]
 }

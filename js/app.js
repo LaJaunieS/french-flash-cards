@@ -9,51 +9,21 @@
 
 (function(angular) {
     
-  var app = angular.module("francaisApp", ['ngSanitize', 'ngAnimate', 'ngAria', 'ngRoute'])
+  var app = angular.module("francaisApp", ['ngSanitize', 'ngAnimate', 'ngAria' ])
 
 
-    .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", function($scope, $timeout, $http) {
-
+    .controller("flashCardCtrl", [ "$scope", "$timeout", "$http", "getData", function($scope, $timeout, $http, getData) {
 
         //this object will hold all of the data contained in the separate json files- populated completely on page load
-        $scope.sectionsObject  = {
-        "menuArray": []  //used to display length of section on main menu view
-        };
-
-        $scope.thisSection = {};
-
-
-        $scope.getJson = function() {
-            $http.get('./json/master/vocab_agg.json').then(
-                    function successCallback(data) {
-                        console.log(data.data);
-                        for (let z = 0; z < data.data.length; z++ ) {
-                            //console.log(data.data[z]);
-                            $scope.sectionsObject[data.data[z].type] = data.data[z];
-                            $scope.sectionsObject.menuArray.push( { "source": data.data[z], "type": data.data[z].type, "count": data.data[z].vocabArray.length} )
-                        };
-                            console.log('json data request successful');
-                            //console.log($scope.sectionsObject);
-                    }, function errorCallback() {
-                        document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
-                    }); 
-
-            };
-
-        //pull the data from json file
-        $scope.getJson();
-
-          
-         
-        //now that json data loaded, use it to show list of section items and populate a local variable when item clicked
+        $scope.sectionsObject  = getData;
+               
         //initial values- populated when section clicked  
         $scope.section;   
         $scope.thisSection = {
                                 "source": {},
                                 "vocab": [{ }]
                                 };
-          
-                  
+             
         $scope.randomNum = randomInt(0, $scope.thisSection.vocab.length-1 );
         $scope.randomWord = $scope.thisSection.vocab[$scope.randomNum];
         $scope.language = 1;  //1=anglais, 0=francais
@@ -70,19 +40,23 @@
         // $scope.setTitle = function(db) {
         //     $scope.section = db.type;  //eg $scope.sectionsObject.verbs - see templates flashCard.html for where this is interpolated- used as "title" of flash card section
         //     };
-          
-        $scope.startSection = function(section) {
-            //hide all elements for ui effect
+        
+        $scope.startUI = function() {
+        	window.scrollTo(0,0);
             $scope.hideElement('main-menu-content-fade');
-            $scope.hideElement('flash-card-content-wrapper');
             $scope.hideElement('card-front-content-fade');
             $scope.hideElement('card-back-content-fade');
+            };
+
+        $scope.startSection = function(section) {
+            //hide all elements for ui effect
+            $scope.startUI();
             //re-add flash card wrapper to DOM
             document.getElementById('flash-card-content-wrapper').style.display= 'block';
             //remove menu wrapper from DOM (sub-wrapper as well since absolute positioned)
             document.getElementById('main-menu-content-fade').style.display= 'none';
             document.getElementById('main-menu-wrapper').style.display="none";
-            
+            document.getElementById("word-index-wrapper").style.display = 'none';
             $scope.thisSection = {
                 "source": $scope.sectionsObject[section],
                 "vocab": $scope.sectionsObject[section].vocabArray,
@@ -100,6 +74,42 @@
                     $scope.showElement('card-front-content-fade');
                     }, 500);
             };
+
+        $scope.startIndex = function(section) {
+        	$scope.startUI();
+            $scope.searchText = '';
+            $scope.hideElement('main-menu-content-fade');
+            document.getElementById('main-menu-wrapper').style.display="none";
+            document.getElementById("word-index-wrapper").style.display = 'initial';
+            //document.getElementById('flash-card-content-wrapper').style.display = "none";
+
+            
+            $scope.thisSection = {
+                "source": $scope.sectionsObject[section],
+                "vocab": $scope.sectionsObject[section].vocabArray,
+                "title": $scope.sectionsObject[section].fullTitle
+            };
+
+            $timeout(function() {
+                    $scope.showElement('word-index-content-fade');
+                    }, 500);
+            };
+
+                     
+        $scope.startWordView =function(word) {
+                $scope.startUI();   
+                $scope.searchText = '';
+                $scope.word = word;
+                //console.log($scope.thisSection);
+                $scope.hideElement('word-index-content-fade');
+                document.getElementById('flash-card-content-wrapper').style.display = "none";
+                document.getElementById('word-index-wrapper').style.display = "none";
+                document.getElementById('index-word-view-wrapper').style.display = "initial";
+                $timeout(function() {
+                    $scope.showElement('index-word-view-content-fade');
+                    }, 500);
+            };
+             
           
         $scope.showElement = function(element) {
             document.getElementById(element).style.opacity='1.0';
@@ -128,6 +138,7 @@
                  
         $scope.backToMenu = function() {
             $scope.hideElement('flash-card-content-wrapper');
+            $scope.hideElement('word-index-content-fade');
             $scope.showElement('main-menu-content-fade');
             $scope.about = false;
             $timeout(function() {
@@ -136,8 +147,25 @@
                     }, 400);
             $timeout(function() {
                     document.getElementById('flash-card-content-wrapper').style.display= 'none';
+                    document.getElementById('word-index-wrapper').style.display='none';
                     }, 400);
-               }  
+               } 
+
+        $scope.backToIndex = function() {
+            $scope.searchText = '';
+            $scope.hideElement('index-word-view-content-fade');
+                document.getElementById('word-index-wrapper').style.display= 'block';
+            $timeout(function() {
+                    $scope.showElement('word-index-content-fade');
+                    }, 400);
+            $timeout(function() {
+                    document.getElementById('index-word-view-wrapper').style.display= 'none';
+                    console.log($scope.thisSection);
+                    }, 400);
+            }; 
+
+
+        
           
         $scope.switchLanguage = function() {
             if ($scope.language === 1) {
@@ -168,34 +196,53 @@
                 }, 500);
         };
          
-    
+
        
     
     }])
 
-
     
-    .controller("wordIndexCtrl", [ "$scope", "$http", function($scope, $http)  { 
-            console.log("word index controller loaded");
-            $scope.wordIndexController = "!Word Index Controller!";
-    } ])
+    .factory('getData', ['$http', function($http){
 
-    .config(function($routeProvider) {
-        $routeProvider
-            .when('/', {
-                templateUrl: 'index.html'
-        })
-            .when('/wordIndex', {
-                controller: 'wordIndexCtrl',
-                templateUrl: 'templates/wordIndex.html'
-            })
-            .otherwise( {
-                redirectTo: '/'
-        });
+        let sectionsObject  = {
+            "menuArray": []  //used to display length of section on main menu view
+            };
+
+        $http.get('./json/master/vocab_agg.json').then(
+                    function successCallback(data) {
+                        //console.log(data.data);
+                        for (let z = 0; z < data.data.length; z++ ) {
+                            //console.log(data.data[z]);
+                            sectionsObject[data.data[z].type] = data.data[z];
+                            sectionsObject.menuArray.push( { "source": data.data[z], "type": data.data[z].type, "count": data.data[z].vocabArray.length} )
+                        };
+                            console.log('json data request for index successful');
+                            //console.log($scope.sectionsObject);
+                    }, function errorCallback() {
+                        document.getElementById('main-menu-wrapper').innerHTML = '<h2>error connecting to data. try reloading</h2>';
+                    }); 
+
             
-        console.log('route provider loaded');
-        } )
+        //pull the data from json file
+        
+        return sectionsObject;
 
+
+    }])
+
+    .directive('wordIndex', function() {
+        return {
+            restrict: 'E',
+            templateUrl: "templates/wordIndex.html"
+        };
+    })
+
+    .directive('indexWordView', function() {
+        return {
+            restrict: 'E',
+            templateUrl: "templates/indexWordView.html"
+        };
+    })
 
     .directive('mainMenu', function() {
         return {
@@ -234,23 +281,3 @@
     
     
 })(window.angular);
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

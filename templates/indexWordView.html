@@ -1,0 +1,36 @@
+  <div id="index-word-view-content-wrapper">
+
+        <div id="index-word-view-content-fade">
+                       
+            <button id="backButton" ng-click="backToIndex()"><img src="img/arrow-left.png" alt="back to menu"/></button>
+            
+            <h1 id="card-section">{{thisSection.title}}</h1>
+            
+                
+            <div id="word-index-content">
+                <h3 class="word">{{word.a}}</h3>
+                <p class="word" ng-bind-html="word.f">{{word.f}} </p>
+            
+                <div class="definitions">
+                    <ul ng-repeat="definition in word.definitions">
+                        <li>
+                        
+                            <h3 ng-bind-html="definition.title">{{word.definition.title}}                            </h3>
+                            <ul ng-bind-html="description" ng-repeat="description in definition.descriptions">
+                                <li>{{description}}</li></ul>
+
+                            </li>
+                    </ul>
+                        
+                </div>
+            
+            </div>
+        </div>
+
+
+
+               
+              
+        
+</div>    
+        

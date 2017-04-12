@@ -4,83 +4,103 @@
     "vocabArray": [
             {
             "f": "le nord",
-            "a": "north"
+            "a": "north",
+            "keyword": "nord"
             },
             {
             "f": "le sud",
-            "a": "south"
+            "a": "south",
+            "keyword": "sud"
             },
             {
             "f": "l&#8217;est",
-            "a": "east"
+            "a": "east",
+            "keyword": "est"
             },
             {
             "f": "l&#8217;ouest",
-            "a": "west"
+            "a": "west",
+            "keyword": "ouest"
             },
             {
             "f": "en haut",
-            "a": "up"
+            "a": "up",
+            "keyword": "en haut"
             },
             {
             "f": "en bas",
-            "a": "down"
+            "a": "down",
+            "keyword": "en bas"
             },
             {
             "f": "dans",
-            "a": "in"
+            "a": "in",
+            "keyword": "in"
             },
             {
             "f": "dehors",
-            "a": "out"
+            "a": "out",
+            "keyword": "dehors"
             },
             {
             "f": "le nord-est",
-            "a": "northeast"
+            "a": "northeast",
+            "keyword": "nord-est"
             },
             {
             "f": "le nord-ouest",
-            "a": "northwest"
+            "a": "northwest",
+            "keyword": "nord-ouest"
             },
             {
             "f": "le sud-est",
-            "a": "southeast"
+            "a": "southeast",
+            "keyword": "sud-est"
             },
             {
             "f": "le sud-ouest",
-            "a": "southwest"
+            "a": "southwest",
+            "keyword": "sud-ouest"
             },
             {
             "f": "&#224; droite",
-            "a": "right"
+            "a": "right",
+            "keyword": "droite"
             },
             {
             "f": "&#224; gauche",
-            "a": "left"
+            "a": "left",
+            "keyword": "gauche"
             },
             {
-            "f": "tout droit",
-            "a": "straight"
+            "f": "tout droite",
+            "a": "straight",
+            "keyword": "tout droite"
             },
             {
             "f": "autour de",
-            "a": "around"
+            "a": "around",
+            "keyword": "autour de"
             },
             {
             "f": "vers",
-            "a": "towards"
+            "a": "towards",
+            "keyword": "vers"
             },
             {
             "f": "la rue",
-            "a": "street"
+            "a": "street",
+            "keyword": "rue"
             },
             {
             "f": "le tour",
-            "a": "turn"
+            "a": "turn",
+            "keyword": "tour"
             },
             {
             "f": "la route",
             "a": "road",
+            "keyword": "route",
             "definitions": [
             {
             "title": "alternates",
@@ -90,47 +110,58 @@
             },
             {
             "f": "la carte",
-            "a": "map"    
+            "a": "map",
+            "keyword": "carte"    
             },
             {
             "f": "la direction",
-            "a": "direction"    
+            "a": "direction",
+            "keyword": "direction"    
             },
             {
             "f": "l&#224; bas",
-            "a": "over there"
+            "a": "over there",
+            "keyword": "bas"
             },
             {
                  "f": "le panneau",
-                 "a": "sign/ road sign" 
+                 "a": "sign/ road sign",
+                 "keyword": "panneau" 
             },
             {
                   "f": "le pas",
-                  "a": "step"
+                  "a": "step",
+                  "keyword": "pas"
             },
             {
                   "f": "la sortie",
-                  "a": "exit"
+                  "a": "exit",
+                  "keyword": "sortie"
             },
             {
                   "f": "la fin",
-                  "a": "end"
+                  "a": "end",
+                  "keyword": "fin"
             },
             {
                   "f": "le d&#233;part",
-                  "a": "departure"
+                  "a": "departure",
+                  "keyword": "depart"
             },
             {
                   "f": "le fond",
-                  "a": "bottom/ back"
+                  "a": "bottom/ back",
+                  "keyword": "fond"
             },
             {
                   "f": "inverse",
-                  "a": "opposite/ reverse"
+                  "a": "opposite/ reverse",
+                  "keyword": "inverse"
             },
             {
                   "f": "l&#8217;entre&#233;",
-                  "a": "entrance"
+                  "a": "entrance",
+                  "keyword": "entree"
             }
             ]
 }

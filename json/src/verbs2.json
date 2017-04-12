@@ -5,6 +5,7 @@
         {
         "f": "mourir",
         "a": "to die",
+        "keyword": "mourir",
         "definitions": [
             {
             "title": "present tense",
@@ -23,6 +24,7 @@
         {
         "f": "na&#238;tre",
         "a": "to be born",
+        "keyword": "naitre",
         "definitions": [
             {
             "title": "present tense",
@@ -41,6 +43,7 @@
         {
         "f": "r&#233;duire",
         "a": "to reduce/ cut down",
+        "keyword": "reduire",
         "definitions": [
             {
             "title": "present tense",
@@ -59,6 +62,7 @@
         {
         "f": "se souvenir",
         "a": "to remember",
+        "keyword": "se souvenir",
         "definitions": [
             {
             "title": "present tense",
@@ -77,6 +81,7 @@
         {
         "f": "pr&#233;venir",
         "a": "to plan/ prevent",
+        "keyword": "prevenir",
         "definitions": [
             {
             "title": "present tense",
@@ -95,6 +100,7 @@
         {
         "f": "d&#233;cider",
         "a": "to decide",
+        "keyword": "decider",
         "definitions": [
             {
             "title": "present tense",
@@ -113,6 +119,7 @@
         {
         "f": "monter",
         "a": "to ascend/ go up",
+        "keyword": "monter",
         "definitions": [
             {
             "title": "present tense",
@@ -131,6 +138,7 @@
         {
         "f": "r&#233;ussir",
         "a": "to succeed/ pass",
+        "keyword": "reussir",
         "definitions": [
             {
             "title": "present tense",
@@ -149,6 +157,7 @@
         {
         "f": "permettre",
         "a": "to permit/ allow",
+        "keyword": "permettre",
         "definitions": [
             {
             "title": "present tense",
@@ -168,6 +177,7 @@
         {
         "f": "s&#233;journer",
         "a": "to stay/sojourn",
+        "keyword": "sejourner",
         "definitions": [
             {
             "title": "present tense",
@@ -188,6 +198,7 @@
         {
         "f": "retrouver",
         "a": "to retrieve/ recover/ find",
+        "keyword": "retrouver",
         "definitions": [
             {
             "title": "present tense",
@@ -206,6 +217,7 @@
         {
         "f": "demander",
         "a": "to request/ ask for",
+        "keyword": "demander",
         "definitions": [
             {
             "title": "present tense",
@@ -224,6 +236,7 @@
         {
         "f": "arriver",
         "a": "to arrive",
+        "keyword": "arriver",
         "definitions": [
             {
             "title": "present tense",
@@ -242,6 +255,7 @@
         {
         "f": "continuer",
         "a": "to continue/ continue to",
+        "keyword": "continuer",
         "definitions": [
             {
             "title": "present tense",
@@ -260,6 +274,7 @@
         {
         "f": "appartenir",
         "a": "to belong",
+        "keyword": "appartenir",
         "definitions": [
             {
             "title": "present tense",
@@ -278,6 +293,7 @@
         {
         "f": "servir",
         "a": "to serve/ serve as",
+        "keyword": "servir",
         "definitions": [
             {
             "title": "present tense",
@@ -296,6 +312,7 @@
         {
         "f": "douter",
         "a": "to doubt",
+        "keyword": "douter",
         "definitions": [
             {
             "title": "present tense",
@@ -314,6 +331,7 @@
         {
         "f": "d&#233;pendre",
         "a": "to depend",
+        "keyword": "dependre",
         "definitions": [
             {
             "title": "present tense",
@@ -332,6 +350,7 @@
         {
         "f": "habiter",
         "a": "to live (in)",
+        "keyword": "habiter",
         "definitions": [
             {
             "title": "present tense",
@@ -350,6 +369,7 @@
         {
         "f": "essayer",
         "a": "to try/ attempt",
+        "keyword": "essayer",
         "definitions": [
             {
             "title": "present tense",
@@ -368,6 +388,7 @@
         {
         "f": "exister",
         "a": "to exist/ dwell",
+        "keyword": "exister",
         "definitions": [
             {
             "title": "present tense",
@@ -386,6 +407,7 @@
         {
         "f": "expliquer",
         "a": "to explain/ account for",
+        "keyword": "expliquer",
         "definitions": [
             {
             "title": "present tense",
@@ -404,6 +426,7 @@
         {
         "f": "mentir",
         "a": "to lie",
+        "keyword": "mentir",
         "definitions": [
             {
             "title": "present tense",
@@ -422,6 +445,7 @@
         {
         "f": "manquer",
         "a": "to be missed by",
+        "keyword": "manquer",
         "definitions": [
             {
             "title": "present tense",
@@ -440,6 +464,7 @@
         {
         "f": "peser",
         "a": "to weigh",
+        "keyword": "peser",
         "definitions": [
             {
             "title": "present tense",
@@ -458,6 +483,7 @@
         {
         "f": "passer",
         "a": "to to pass (time)/ to spend (time)",
+        "keyword": "passer",
         "definitions": [
             {
             "title": "present tense",
@@ -476,6 +502,7 @@
         {
         "f": "offrir",
         "a": "to offer",
+        "keyword": "offrir",
         "definitions": [
             {
             "title": "present tense",
@@ -494,6 +521,7 @@
         {
         "f": "planter",
         "a": "to plant/ crash",
+        "keyword": "planter",
         "definitions": [
             {
             "title": "present tense",
@@ -512,6 +540,7 @@
         {
         "f": "promener",
         "a": "to go for a walk",
+        "keyword": "promener",
         "definitions": [
             {
             "title": "present tense",
@@ -530,6 +559,7 @@
         {
         "f": "plaire",
         "a": "to please/ give pleasure",
+        "keyword": "plaire",
         "definitions": [
             {
             "title": "present tense",
@@ -548,6 +578,7 @@
         {
         "f": "rentrer",
         "a": "to return/ return home",
+        "keyword": "rentrer",
         "definitions": [
             {
             "title": "present tense",
@@ -566,6 +597,7 @@
         {
         "f": "r&#233;pondre",
         "a": "to respond/ answer",
+        "keyword": "repondre",
         "definitions": [
             {
             "title": "present tense",
@@ -584,6 +616,7 @@
         {
         "f": "remarquer",
         "a": "to notice/ note",
+        "keyword": "remarquer",
         "definitions": [
             {
             "title": "present tense",
@@ -602,6 +635,7 @@
         {
         "f": "resposer",
         "a": "to rest",
+        "keyword": "reposer",
         "definitions": [
             {
             "title": "present tense",
@@ -620,6 +654,7 @@
         {
         "f": "refuser",
         "a": "to refuse",
+        "keyword": "refuser",
         "definitions": [
             {
             "title": "present tense",
@@ -638,6 +673,7 @@
         {
         "f": "rester",
         "a": "to stay/ remain",
+        "keyword": "rester",
         "definitions": [
             {
             "title": "present tense",
@@ -656,6 +692,7 @@
         {
         "f": "utiliser",
         "a": "to use",
+        "keyword": "utiliser",
         "definitions": [
             {
             "title": "present tense",
@@ -674,6 +711,7 @@
         {
         "f": "revenir",
         "a": "to come back",
+        "keyword": "revenir",
         "definitions": [
             {
             "title": "present tense",
@@ -692,6 +730,7 @@
         {
         "f": "ressembler",
         "a": "to resemble/ look like",
+        "keyword": "ressembler",
         "definitions": [
             {
             "title": "present tense",
@@ -710,6 +749,7 @@
         {
         "f": "retourner",
         "a": "to return/ reverse/ turn back",
+        "keyword": "retourner",
         "definitions": [
             {
             "title": "present tense",
@@ -728,6 +768,7 @@
         {
         "f": "raser",
         "a": "to shave",
+        "keyword": "raser",
         "definitions": [
             {
             "title": "present tense",
@@ -746,6 +787,7 @@
         {
         "f": "s&#8217;enfuir",
         "a": "to run away/ flee",
+        "keyword": "s'enfuir",
         "definitions": [
             {
             "title": "present tense",
@@ -764,6 +806,7 @@
         {
         "f": "se sentir",
         "a": "to feel/ sense/ smell",
+        "keyword": "se sentir",
         "definitions": [
             {
             "title": "present tense",
@@ -782,6 +825,7 @@
         {
         "f": "supposer",
         "a": "to assume",
+        "keyword": "supposer",
         "definitions": [
             {
             "title": "present tense",
@@ -800,6 +844,7 @@
         {
         "f": "signifier",
         "a": "to mean/ signify",
+        "keyword": "signifier",
         "definitions": [
             {
             "title": "present tense",
@@ -818,6 +863,7 @@
         {
         "f": "affirmer",
         "a": "to assert/ affirm",
+        "keyword": "affirmer",
         "definitions": [
             {
             "title": "present tense",
@@ -836,6 +882,7 @@
         {
         "f": "&#233;couter",
         "a": "to listen to",
+        "keyword": "ecouter",
         "definitions": [
             {
             "title": "present tense",
@@ -854,6 +901,7 @@
         {
         "f": "repr&#233;senter",
         "a": "to represent/ account for",
+        "keyword": "representer",
         "definitions": [
             {
             "title": "present tense",
@@ -872,6 +920,7 @@
         {
         "f": "rencontrer",
         "a": "to meet/ come across",
+        "keyword": "rencontrer",
         "definitions": [
             {
             "title": "present tense",
@@ -890,6 +939,7 @@
         {
         "f": "raconter",
         "a": "to tell/ relate/ narrate",
+        "keyword": "raconter",
         "definitions": [
             {
             "title": "present tense",

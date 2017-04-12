@@ -4,67 +4,83 @@
         "vocabArray" : [
             {
             "f": "la m&#232;re",
-            "a": "mother"
+            "a": "mother",
+            "keyword": "mere"
             },
             {
             "f": "le p&#232;re",
-            "a": "father"
+            "a": "father",
+            "keyword": "pere"
             },
             {
             "f": "le fr&#232;re",
-            "a": "brother"
+            "a": "brother",
+            "keyword": "frere"
             },
             {
             "f": "la s&#156;ur",
-            "a": "sister"
+            "a": "sister",
+            "keyword": "soeur"
             },
             {
             "f": "le mari",
-            "a": "husband"
+            "a": "husband",
+            "keyword": "mari"
             },
             {
             "f": "la femme",
-            "a": "wife"
+            "a": "wife",
+            "keyword": "femme"
             },
             {
             "f": "la grand-m&#232;re",
-            "a": "grandmother"
+            "a": "grandmother",
+            "keyword": "grand-mere"
             },
             {
             "f": "le grand-p&#232;re",
-            "a": "grandfather"
+            "a": "grandfather",
+            "keyword": "grand-pere"
             },
             {
             "f": "le petit fils",
-            "a": "grandson"
+            "a": "grandson",
+            "keyword": "petit fils"
             },
             {
             "f": "la petite fille",
-            "a": "granddaughter"
+            "a": "granddaughter",
+            "keyword": "petite fille"
             },
             {
             "f": "la tante",
-            "a": "aunt"
+            "a": "aunt",
+            "keyword": "tante"
             },
             {
             "f": "l&#8217;oncle",
-            "a": "uncle"
+            "a": "uncle",
+            "keyword": "oncle"
             },
             {
             "f": "le neveu",
-            "a": "nephew"
+            "a": "nephew",
+            "keyword": "neveu"
             },
             {
             "f": "la ni&#232;ce",
-            "a": "niece"
+            "a": "niece",
+            "keyword": "niece"
             },
             {
             "f": "le fils",
-            "a": "son"
+            "a": "son",
+            "keyword": "fils"
             },
             {
             "f": "le fille",
-            "a": "daughter"
+            "a": "daughter",
+            "keyword": "fille"
             }
         ]
     }
