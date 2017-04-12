@@ -219,10 +219,27 @@ body {
             margin: 2rem 0 0;
             max-width: 1175px;
             width: 66%; } }
-  #app-wrapper #index-word-view-content-wrapper {
+  #app-wrapper #index-word-view-wrapper {
+    position: absolute;
     display: none; }
-    #app-wrapper #index-word-view-content-wrapper #index-word-view-content-fade {
-      opacity: 0; }
+    #app-wrapper #index-word-view-wrapper #index-word-view-content-wrapper {
+      margin-top: 1.5rem; }
+    #app-wrapper #index-word-view-wrapper #index-word-view-content-fade {
+      opacity: 0;
+      position: relative; }
+      #app-wrapper #index-word-view-wrapper #index-word-view-content-fade h1 {
+        font-size: 1.4rem;
+        margin: 1rem 0 0;
+        width: 100vw; }
+        @media screen and (min-width: 750px) {
+          #app-wrapper #index-word-view-wrapper #index-word-view-content-fade h1 {
+            margin: 2rem 0 0; } }
+    #app-wrapper #index-word-view-wrapper #word-index-content {
+      padding-left: 1rem;
+      position: absolute;
+      margin: 4rem 0 0;
+      max-width: 1175px;
+      width: 88vw; }
   #app-wrapper .italic {
     font-family: 'gilroymedium-italic'; }
   #app-wrapper h1 {

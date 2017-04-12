@@ -1,15 +1,13 @@
   <div id="index-word-view-content-wrapper">
 
         <div id="index-word-view-content-fade">
+                       
+            <button id="backButton" ng-click="backToIndex()"><img src="img/arrow-left.png" alt="back to menu"/></button>
             
-  <!-- //{{thisSection}} -->
+            <h1 id="card-section">{{thisSection.title}}</h1>
             
-        <button id="backButton" ng-click="backToIndex()"><img src="img/arrow-left.png" alt="back to menu"></img></button>
-        
-        <h1 id="card-section">{{word.title}}</h1>
-        
-            
-            <div>
+                
+            <div id="word-index-content">
                 <p class="word">{{word.a}}</p>
                 <p class="word" ng-bind-html="word.f">{{word.f}} </p>
             

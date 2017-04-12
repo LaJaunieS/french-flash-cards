@@ -105,7 +105,7 @@
                 $scope.hideElement('word-index-content-fade');
                 document.getElementById('flash-card-content-wrapper').style.display = "none";
                 document.getElementById('word-index-wrapper').style.display = "none";
-                document.getElementById('index-word-view-content-wrapper').style.display = "initial";
+                document.getElementById('index-word-view-wrapper').style.display = "initial";
                 $timeout(function() {
                     $scope.showElement('index-word-view-content-fade');
                     }, 500);
@@ -160,7 +160,7 @@
                     $scope.showElement('word-index-content-fade');
                     }, 400);
             $timeout(function() {
-                    document.getElementById('index-word-view-content-wrapper').style.display= 'none';
+                    document.getElementById('index-word-view-wrapper').style.display= 'none';
                     console.log($scope.thisSection);
                     }, 400);
             }; 
