@@ -204,6 +204,7 @@ body {
             #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul h3 {
               font-size: 1.4rem; } }
           #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button {
+            background: none;
             cursor: pointer;
             margin-left: 1.4rem;
             position: absolute;
