@@ -96,7 +96,21 @@
             };
 
             //console.log($scope.thisSection.source);
-                     
+          
+        $scope.startWordView =function(word) {
+                $scope.startUI();   
+                $scope.searchText = '';
+                $scope.word = word;
+                console.log($scope.thisSection);
+                $scope.hideElement('word-index-content-fade');
+                document.getElementById('flash-card-content-wrapper').style.display = "none";
+                document.getElementById('word-index-wrapper').style.display = "none";
+                document.getElementById('index-word-view-content-wrapper').style.display = "initial";
+                $timeout(function() {
+                    $scope.showElement('index-word-view-content-fade');
+                    }, 500);
+            };
+             
           
         $scope.showElement = function(element) {
             document.getElementById(element).style.opacity='1.0';
@@ -136,7 +150,23 @@
                     document.getElementById('flash-card-content-wrapper').style.display= 'none';
                     document.getElementById('word-index-wrapper').style.display='none';
                     }, 400);
-               }  
+               } 
+
+        $scope.backToIndex = function() {
+            $scope.searchText = '';
+            $scope.hideElement('index-word-view-content-fade');
+                document.getElementById('word-index-wrapper').style.display= 'block';
+            $timeout(function() {
+                    $scope.showElement('word-index-content-fade');
+                    }, 400);
+            $timeout(function() {
+                    document.getElementById('index-word-view-content-wrapper').style.display= 'none';
+                    console.log($scope.thisSection);
+                    }, 400);
+            }; 
+
+
+        
           
         $scope.switchLanguage = function() {
             if ($scope.language === 1) {
@@ -220,6 +250,13 @@
         return {
             restrict: 'E',
             templateUrl: "templates/wordIndex.html"
+        };
+    })
+
+    .directive('indexWordView', function() {
+        return {
+            restrict: 'E',
+            templateUrl: "templates/indexWordView.html"
         };
     })
 

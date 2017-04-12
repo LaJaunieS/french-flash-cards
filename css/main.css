@@ -18,6 +18,11 @@
     left: -5px; }
   100% {
     left: +5px; } }
+@keyframes hoverButtonRev {
+  50% {
+    margin-left: 2rem; }
+  100% {
+    margin-left: -1rem; } }
 /*initial element positioning*/
 body {
   font-size: 14px;
@@ -74,7 +79,8 @@ body {
   #app-wrapper #main-menu-content-fade,
   #app-wrapper #card-front-content-fade,
   #app-wrapper #card-back-content-fade,
-  #app-wrapper #word-index-content-fade {
+  #app-wrapper #word-index-content-fade,
+  #app-wrapper #index-word-view-content-fade {
     -webkit-transition: display 0.4s linear, opacity 0.3s linear;
     transition: display 0.4s linear, opacity 0.3s linear; }
   #app-wrapper #backButton {
@@ -185,8 +191,10 @@ body {
           padding-left: 2px;
           margin: .2rem 0; }
           #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul li {
-            list-style: none outside; }
+            list-style: none outside;
+            position: relative; }
           #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
+            display: inline-block;
             font-size: 1.4rem;
             margin: 1rem 0 0; }
             @media screen and (min-width: 750px) {
@@ -195,12 +203,26 @@ body {
           @media screen and (min-width: 750px) {
             #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul h3 {
               font-size: 1.4rem; } }
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button {
+            margin-left: 1.4rem;
+            position: absolute;
+            top: 28px; }
+            #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button:hover {
+              animation: hoverButtonRev .4s ease-in-out; }
+          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul img {
+            height: 1rem;
+            transform: rotate(180deg);
+            width: 2rem; }
         @media screen and (min-width: 750px) {
           #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
             padding-left: 1rem;
             margin: 2rem 0 0;
             max-width: 1175px;
             width: 66%; } }
+  #app-wrapper #index-word-view-content-wrapper {
+    display: none; }
+    #app-wrapper #index-word-view-content-wrapper #index-word-view-content-fade {
+      opacity: 0; }
   #app-wrapper .italic {
     font-family: 'gilroymedium-italic'; }
   #app-wrapper h1 {

@@ -25,6 +25,11 @@ $border-color: #a6a6a6;
 	100% { left: +5px; }
 }
 
+@keyframes hoverButtonRev {
+	50% { margin-left: 2rem; }
+	100% { margin-left: -1rem; }	
+}
+
 
 /*initial element positioning*/
 
@@ -101,7 +106,8 @@ body {
 #main-menu-content-fade,
 #card-front-content-fade,
 #card-back-content-fade,
-#word-index-content-fade {
+#word-index-content-fade,
+#index-word-view-content-fade {
     -webkit-transition: display 0.4s linear, opacity 0.3s linear;
     transition: display 0.4s linear, opacity 0.3s linear;
 }
@@ -247,8 +253,10 @@ body {
 		  			margin: .2rem 0;
 		  			li {
 		  				list-style: none outside;
+		  				position: relative;
 		  			}
 		  			p {
+		  				display: inline-block;
 		  				font-size: 1.4rem;
 		  				margin: 1rem 0 0;
 		  				@media screen and (min-width: 750px) {
@@ -258,9 +266,22 @@ body {
 		  			h3 {
 		  				@media screen and (min-width: 750px) {
 		  					font-size: 1.4rem;
+		  					}
 		  				}
-		  			}
-		  		}
+		  			button {
+		  				margin-left: 1.4rem;
+		  				position: absolute;
+		  				top: 28px;
+		  				&:hover {
+							animation: hoverButtonRev .4s ease-in-out;
+							}
+		  				}
+		  			img {
+						height: 1rem;
+						transform: rotate(180deg);
+						width: 2rem;
+						}
+					}
 		  		@media screen and (min-width: 750px) {
 		  			padding-left: 1rem;
 		  			margin: 2rem 0 0;
@@ -269,6 +290,14 @@ body {
 		  			}		
 		   	}
 	   }
+}
+
+#index-word-view-content-wrapper {
+	display: none;
+	#index-word-view-content-fade {
+		opacity: 0;
+	}
+ 
 }
 
 
