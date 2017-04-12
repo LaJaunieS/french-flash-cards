@@ -95,13 +95,12 @@
                     }, 500);
             };
 
-            //console.log($scope.thisSection.source);
-          
+                     
         $scope.startWordView =function(word) {
                 $scope.startUI();   
                 $scope.searchText = '';
                 $scope.word = word;
-                console.log($scope.thisSection);
+                //console.log($scope.thisSection);
                 $scope.hideElement('word-index-content-fade');
                 document.getElementById('flash-card-content-wrapper').style.display = "none";
                 document.getElementById('word-index-wrapper').style.display = "none";
@@ -202,22 +201,7 @@
     
     }])
 
-
     
-    // .controller("wordIndexCtrl", [ "$scope", "$http", "getData", function($scope, $http, getData)  { 
-    //         console.log("word index controller loaded");
-    //         $scope.wordIndexController = "!Word Index Controller!";
-    //     //     $scope.sectionsObject  = {
-    //     // "menuArray": []  //used to display length of section on main menu view
-    //     // };
-    //         $scope.sectionsObject = getData;
-    //         $scope.thisSection = $scope.startIndex;
-    //         console.log($scope.sectionsObject);
-
-             
-                        
-    //     } ])
-
     .factory('getData', ['$http', function($http){
 
         let sectionsObject  = {
@@ -297,23 +281,3 @@
     
     
 })(window.angular);
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
