@@ -310,14 +310,28 @@ body {
 					margin: 2rem 0 0;
 					}
 				}
-			}
 			#word-index-content {
-				padding-left: 1rem;
+				padding-left: 0;
 				position: absolute;
-				margin: 4rem 0 0;
+				margin: 7rem 0 0;
 				max-width: 1175px;
 				width: 88vw;
+				@media screen and (min-width: 750px) {
+					padding-left: 1rem;
 				}
+				h3 {
+		  			@media screen and (min-width: 750px) {
+		  				font-size: 1.4rem;
+		  					}
+		  				}
+				}
+				p {
+					margin: 1rem 0 0;
+					@media screen and (min-width: 750px) {
+						margin: 1.6rem 0 0;
+					}
+				}
+		}
 	}
 
 
