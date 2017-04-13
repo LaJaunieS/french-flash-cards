@@ -234,27 +234,27 @@
     .directive('wordIndex', function() {
         return {
             restrict: 'E',
-            templateUrl: "templates/wordIndex.html"
+            templateUrl: "partials/wordIndex.html"
         };
     })
 
     .directive('indexWordView', function() {
         return {
             restrict: 'E',
-            templateUrl: "templates/indexWordView.html"
+            templateUrl: "partials/indexWordView.html"
         };
     })
 
     .directive('mainMenu', function() {
         return {
             restrict: 'E',
-            templateUrl: "templates/mainMenu.html"
+            templateUrl: "partials/mainMenu.html"
             };
     })
     .directive('flashCard', function() {
         return {
             restrict: 'E',
-            templateUrl: "templates/flashCard.html",
+            templateUrl: "partials/flashCard.html",
             
             };
         
@@ -262,19 +262,19 @@
     .directive('cardFront', function() {
         return {
             restrict: 'E',
-            templateUrl: "templates/cardFront.html"            
+            templateUrl: "partials/cardFront.html"            
         };       
     })
     .directive('cardBack', function() {
         return {
             restrict: 'E',
-            templateUrl: "templates/cardBack.html"            
+            templateUrl: "partials/cardBack.html"            
         };       
     })
     .directive('about', function() {
         return {
             restrict: 'E',
-            templateUrl: "templates/about.html"
+            templateUrl: "partials/about.html"
         };
     });
 

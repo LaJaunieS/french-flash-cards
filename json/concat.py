@@ -11,7 +11,7 @@ class Concatenate():
 	'''
 
 	my_jsons = glob.glob("src/*.json")
-	agg_file = open("master/vocab_agg.json", 'w')
+	agg_file = open("../public/json/master/vocab_agg.json", 'w')
 
 	def create_aggregate(self):
 		self.aggregate = "["
@@ -31,7 +31,7 @@ class Concatenate():
 	def handle_file(self):
 		self.agg_file.write(self.aggregate)
 		self.agg_file.close()
-		self.new_file_size = os.stat("master/vocab_agg.json").st_size
+		self.new_file_size = os.stat("../public/json/master/vocab_agg.json").st_size
 
 	def __init__(self):
 		self.create_aggregate()
