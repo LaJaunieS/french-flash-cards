@@ -23,295 +23,14 @@
     margin-left: 2rem; }
   100% {
     margin-left: 1.4rem; } }
-/*initial element positioning*/
 body {
   font-size: 14px;
   margin: 0;
   padding: 0; }
 
-#app-wrapper {
-  position: relative;
-  /*styling & design*/ }
-  #app-wrapper #main-menu-wrapper,
-  #app-wrapper #flash-card-wrapper {
-    padding-left: 2px;
-    position: absolute;
-    top: 8px;
-    left: 0;
-    width: 98%; }
-    @media screen and (min-width: 750px) {
-      #app-wrapper #main-menu-wrapper,
-      #app-wrapper #flash-card-wrapper {
-        padding-left: 0; } }
-  #app-wrapper #flash-card-wrapper {
-    z-index: -1; }
-  #app-wrapper #main-menu-wrapper {
-    height: 90vh;
-    z-index: 100; }
-    #app-wrapper #main-menu-wrapper #footer {
-      margin-top: 20vh;
-      height: 20vh; }
-      @media screen and (min-width: 750px) {
-        #app-wrapper #main-menu-wrapper #footer {
-          margin-top: 10vh; } }
-    #app-wrapper #main-menu-wrapper ul {
-      list-style-type: none;
-      margin: 1px 0 0;
-      max-width: 1175px;
-      padding-left: 0;
-      width: 66%; }
-    #app-wrapper #main-menu-wrapper #main-menu-content-fade {
-      height: 85vh; }
-      #app-wrapper #main-menu-wrapper #main-menu-content-fade h6 {
-        margin: 1rem 0; }
-  #app-wrapper .aboutHook {
-    -webkit-transition: opacity .2s linear;
-    transition: opacity .2s linear; }
-  #app-wrapper .aboutHook.ng-hide {
-    -webkit-transition: opacity .2s ease-in-out;
-    transition: opacity .2s linear;
-    opacity: 0; }
-  #app-wrapper #flash-card-content-wrapper {
-    margin-top: 1rem;
-    position: relative;
-    height: 95vh; }
-  #app-wrapper #flash-card-content-wrapper,
-  #app-wrapper #main-menu-content-fade,
-  #app-wrapper #card-front-content-fade,
-  #app-wrapper #card-back-content-fade,
-  #app-wrapper #word-index-content-fade,
-  #app-wrapper #index-word-view-content-fade {
-    -webkit-transition: display 0.4s linear, opacity 0.3s linear;
-    transition: display 0.4s linear, opacity 0.3s linear; }
-  #app-wrapper #backButton {
-    cursor: pointer;
-    padding: 0;
-    position: absolute;
-    left: 0;
-    border-bottom: none;
-    z-index: 10000; }
-    #app-wrapper #backButton img {
-      height: 1rem;
-      width: 2rem; }
-    #app-wrapper #backButton:hover {
-      animation: hoverButton .4s ease-in-out; }
-    @media screen and (min-width: 750px) {
-      #app-wrapper #backButton {
-        padding-left: 1rem; }
-        #app-wrapper #backButton img {
-          width: 3rem; } }
-  #app-wrapper #flash-card-content-wrapper {
-    opacity: 0;
-    width: 100%; }
-  @media screen and (min-width: 750px) {
-    #app-wrapper #main-menu-content-fade,
-    #app-wrapper #card-section,
-    #app-wrapper #card-front,
-    #app-wrapper #card-back {
-      padding-left: 1rem; } }
-  #app-wrapper #card-section {
-    background: white;
-    position: absolute;
-    top: 10px;
-    width: 90%;
-    z-index: 100; }
-  #app-wrapper #card-front,
-  #app-wrapper #card-back {
-    position: absolute;
-    top: 35px;
-    width: 100%; }
-    @media screen and (min-width: 750px) {
-      #app-wrapper #card-front,
-      #app-wrapper #card-back {
-        top: 75px; } }
-  #app-wrapper #card-front-content-fade,
-  #app-wrapper #card-back-content-fade {
-    opacity: 0; }
-  #app-wrapper #card-back-content-fade {
-    position: absolute;
-    height: 52vh;
-    overflow-y: scroll;
-    width: 98%; }
-    @media screen and (min-width: 750px) {
-      #app-wrapper #card-back-content-fade {
-        height: 60vh; } }
-  #app-wrapper #card-front {
-    z-index: 10; }
-  #app-wrapper #card-back {
-    z-index: 1; }
-  #app-wrapper #button-wrapper {
-    bottom: 0;
-    height: 30vh;
-    position: absolute;
-    z-index: 1000;
-    text-align: center;
-    width: 100%; }
-    @media screen and (min-width: 750px) {
-      #app-wrapper #button-wrapper {
-        height: 23vh; } }
-    #app-wrapper #button-wrapper button {
-      cursor: pointer;
-      padding: 15px 0;
-      width: 66%;
-      margin: 0 0 5px; }
-  #app-wrapper #word-index-wrapper {
-    display: none;
-    height: 95vh;
-    padding-left: 2px;
-    position: absolute;
-    top: 8px;
-    left: 0;
-    width: 98%; }
-  #app-wrapper #word-index-content-wrapper {
-    margin-top: 1rem; }
-    #app-wrapper #word-index-content-wrapper #word-index-content-fade {
-      opacity: 0;
-      position: relative; }
-      #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper {
-        padding: 5px 0 2rem; }
-        #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper #index-search {
-          display: block;
-          margin: 2rem auto 0;
-          height: 2rem;
-          width: 90%; }
-        @media screen and (min-width: 750px) {
-          #app-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper {
-            margin: 2rem 0 0 1rem; } }
-      #app-wrapper #word-index-content-wrapper #word-index-content-fade h1 {
-        font-size: 1.4rem;
-        margin: 1rem 0 0; }
-        @media screen and (min-width: 750px) {
-          #app-wrapper #word-index-content-wrapper #word-index-content-fade h1 {
-            margin: 2rem 0 0; } }
-      #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
-        position: absolute;
-        top: 75px;
-        width: 98%; }
-        #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul {
-          padding-left: 2px;
-          margin: .2rem 0; }
-          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul li {
-            list-style: none outside;
-            position: relative; }
-          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
-            display: inline-block;
-            font-size: 1.4rem;
-            margin: 1rem 0 0; }
-            @media screen and (min-width: 750px) {
-              #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
-                font-size: 2rem; } }
-          @media screen and (min-width: 750px) {
-            #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul h3 {
-              font-size: 1.4rem; } }
-          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button {
-            background: none;
-            cursor: pointer;
-            margin-left: 1.4rem;
-            position: absolute;
-            top: 22px; }
-            #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button:hover {
-              animation: hoverButtonRev .4s ease-in-out; }
-            @media screen and (min-width: 750px) {
-              #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button {
-                top: 27px; } }
-            #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button img {
-              cursor: pointer;
-              height: 1rem;
-              transform: rotate(180deg);
-              width: 2rem; }
-              @media screen and (min-width: 750px) {
-                #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button img {
-                  width: 3rem; } }
-        @media screen and (min-width: 750px) {
-          #app-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
-            padding-left: 1rem;
-            margin: 2rem 0 0;
-            max-width: 1175px;
-            width: 66%; } }
-  #app-wrapper #index-word-view-wrapper {
-    position: absolute;
-    display: none;
-    height: 95vh;
-    padding-left: 2px;
-    left: 0;
-    width: 98%; }
-    #app-wrapper #index-word-view-wrapper #index-word-view-content-wrapper {
-      margin-top: 1.5rem; }
-    #app-wrapper #index-word-view-wrapper #index-word-view-content-fade {
-      opacity: 0;
-      position: relative; }
-      #app-wrapper #index-word-view-wrapper #index-word-view-content-fade h1 {
-        font-size: 1.4rem;
-        margin: 1rem 0 0;
-        width: 88vw; }
-        @media screen and (min-width: 750px) {
-          #app-wrapper #index-word-view-wrapper #index-word-view-content-fade h1 {
-            margin: 2rem 0 0; } }
-      #app-wrapper #index-word-view-wrapper #index-word-view-content-fade #word-index-content {
-        padding-left: 0;
-        position: absolute;
-        margin: 3.1rem 0 0;
-        max-width: 1175px;
-        width: 88vw; }
-        @media screen and (min-width: 750px) {
-          #app-wrapper #index-word-view-wrapper #index-word-view-content-fade #word-index-content {
-            padding-left: 1rem;
-            margin: 7.3rem 0 0; } }
-        @media screen and (min-width: 750px) {
-          #app-wrapper #index-word-view-wrapper #index-word-view-content-fade #word-index-content h3 {
-            font-size: 1.4rem; } }
-      #app-wrapper #index-word-view-wrapper #index-word-view-content-fade p {
-        margin: 1rem 0 0; }
-        @media screen and (min-width: 750px) {
-          #app-wrapper #index-word-view-wrapper #index-word-view-content-fade p {
-            margin: 0 0 0; } }
-  #app-wrapper .italic {
-    font-family: 'gilroymedium-italic'; }
-  #app-wrapper h1 {
-    color: #333;
-    font-family: 'gilroylight', sans-serif; }
-  #app-wrapper #main-menu-wrapper h1 {
-    font-size: 2.6rem;
-    margin: 2.6rem 0 1rem; }
-    @media screen and (min-width: 750px) {
-      #app-wrapper #main-menu-wrapper h1 {
-        font-size: 2.9rem;
-        margin: 3.6rem 0 3rem; } }
-  #app-wrapper #main-menu-wrapper li {
-    border-bottom: 1px solid #333;
-    border-radius: 3px;
-    cursor: pointer;
-    min-width: 225px;
-    padding: 15px 0;
-    transition: border-bottom .4s ease-in-out, color .4s ease-in-out; }
-    #app-wrapper #main-menu-wrapper li .vocab-count {
-      font-size: .6rem;
-      padding-left: .8rem; }
-      @media screen and (min-width: 750px) {
-        #app-wrapper #main-menu-wrapper li .vocab-count {
-          font-size: 1rem; } }
-    #app-wrapper #main-menu-wrapper li .index-link {
-      font-size: 1rem;
-      border-bottom: 1px solid silver; }
-      #app-wrapper #main-menu-wrapper li .index-link:hover {
-        border-bottom: 1px solid #0d0d0d; }
-      @media screen and (min-width: 750px) {
-        #app-wrapper #main-menu-wrapper li .index-link {
-          font-size: 1.2rem; } }
-    @media screen and (min-width: 750px) {
-      #app-wrapper #main-menu-wrapper li {
-        border: none;
-        border-bottom: 1px solid white;
-        font-size: 2rem; }
-        #app-wrapper #main-menu-wrapper li:hover {
-          border-bottom: 1px solid #a6a6a6; } }
-
-#flash-card-wrapper h1 {
-  font-size: 1.4rem;
-  margin: 1rem 0 0; }
-  @media screen and (min-width: 750px) {
-    #flash-card-wrapper h1 {
-      margin: 2rem 0 0; } }
+h1 {
+  color: #333;
+  font-family: 'gilroylight', sans-serif; }
 
 li, p, button, .word, h6, input {
   color: #333;
@@ -350,33 +69,8 @@ button {
   background-color: #fff;
   border: none; }
 
-#button-wrapper {
-  border-top: 1px solid #333;
-  background-color: #fff; }
-  @media screen and (min-width: 750px) {
-    #button-wrapper {
-      border-top: none; } }
-  #button-wrapper button {
-    border-bottom: 1px solid #333; }
-    @media screen and (min-width: 750px) {
-      #button-wrapper button {
-        background-color: #fff;
-        border: none;
-        border-bottom: 1px solid white;
-        font-size: 2rem;
-        transition: border-bottom .4s ease-in-out; }
-        #button-wrapper button:hover {
-          border-bottom: 1px solid #a6a6a6; } }
-
-#word-index-list-wrapper ul {
-  border-bottom: 1px solid #a6a6a6; }
-
-#search-input-wrapper {
-  border-radius: 5px; }
-
-#search-input-wrapper {
-  background: #b3b3b3;
-  border: none; }
+.italic {
+  font-family: 'gilroymedium-italic'; }
 
 .definitions ul {
   list-style-type: none;
@@ -391,5 +85,312 @@ button {
     -webkit-justify-content: flex-start; }
     .definitions ul {
       margin-right: 3rem; } }
+
+#backButton {
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  border-bottom: none;
+  z-index: 10000; }
+  #backButton img {
+    height: 1rem;
+    width: 2rem; }
+  #backButton:hover {
+    animation: hoverButton .4s ease-in-out; }
+  @media screen and (min-width: 750px) {
+    #backButton {
+      padding-left: 1rem; }
+      #backButton img {
+        width: 3rem; } }
+
+#app-wrapper {
+  position: relative; }
+  #app-wrapper #main-menu-wrapper,
+  #app-wrapper #flash-card-wrapper {
+    padding-left: 2px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 98%; }
+    @media screen and (min-width: 750px) {
+      #app-wrapper #main-menu-wrapper,
+      #app-wrapper #flash-card-wrapper {
+        padding-left: 0; } }
+  #app-wrapper #flash-card-wrapper {
+    z-index: -1; }
+
+#main-menu-wrapper {
+  height: 90vh;
+  z-index: 100; }
+  #main-menu-wrapper #main-menu-content-fade {
+    height: 85vh; }
+    #main-menu-wrapper #main-menu-content-fade h6 {
+      margin: 1rem 0; }
+  #main-menu-wrapper h1 {
+    font-size: 2.6rem;
+    margin: 2.6rem 0 1rem; }
+    @media screen and (min-width: 750px) {
+      #main-menu-wrapper h1 {
+        font-size: 2.9rem;
+        margin: 3.6rem 0 3rem; } }
+  #main-menu-wrapper ul {
+    list-style-type: none;
+    margin: 1px 0 0;
+    max-width: 1175px;
+    padding-left: 0;
+    width: 66%; }
+  #main-menu-wrapper li {
+    border-bottom: 1px solid #333;
+    border-radius: 3px;
+    cursor: pointer;
+    min-width: 225px;
+    padding: 15px 0;
+    transition: border-bottom .4s ease-in-out, color .4s ease-in-out; }
+    #main-menu-wrapper li .vocab-count {
+      font-size: .6rem;
+      padding-left: .8rem; }
+      @media screen and (min-width: 750px) {
+        #main-menu-wrapper li .vocab-count {
+          font-size: 1rem; } }
+    #main-menu-wrapper li .index-link {
+      font-size: 1rem;
+      border-bottom: 1px solid silver; }
+      #main-menu-wrapper li .index-link:hover {
+        border-bottom: 1px solid #0d0d0d; }
+      @media screen and (min-width: 750px) {
+        #main-menu-wrapper li .index-link {
+          font-size: 1.2rem; } }
+    #main-menu-wrapper li #footer {
+      margin-top: 20vh;
+      height: 20vh; }
+      @media screen and (min-width: 750px) {
+        #main-menu-wrapper li #footer {
+          margin-top: 10vh; } }
+    @media screen and (min-width: 750px) {
+      #main-menu-wrapper li {
+        border: none;
+        border-bottom: 1px solid white;
+        font-size: 2rem; }
+        #main-menu-wrapper li:hover {
+          border-bottom: 1px solid #a6a6a6; } }
+
+.aboutHook {
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear; }
+  .aboutHook .ng-hide {
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s linear;
+    opacity: 0; }
+
+#flash-card-content-wrapper,
+#main-menu-content-fade,
+#card-front-content-fade,
+#card-back-content-fade,
+#word-index-content-fade,
+#index-word-view-content-fade {
+  -webkit-transition: display 0.4s linear, opacity 0.3s linear;
+  transition: display 0.4s linear, opacity 0.3s linear; }
+
+@media screen and (min-width: 750px) {
+  #main-menu-content-fade,
+  #card-section,
+  #card-front,
+  #card-back {
+    padding-left: 1rem; } }
+
+#flash-card-wrapper h1 {
+  font-size: 1.4rem;
+  margin: 1rem 0 0; }
+  @media screen and (min-width: 750px) {
+    #flash-card-wrapper h1 {
+      margin: 2rem 0 0; } }
+
+#flash-card-content-wrapper {
+  margin-top: 1rem;
+  position: relative;
+  height: 95vh;
+  opacity: 0;
+  width: 100%; }
+
+#card-front-content-fade,
+#card-back-content-fade {
+  opacity: 0; }
+
+#card-back-content-fade {
+  position: absolute;
+  height: 52vh;
+  overflow-y: scroll;
+  width: 98%; }
+  @media screen and (min-width: 750px) {
+    #card-back-content-fade {
+      height: 60vh; } }
+
+#card-section {
+  background: white;
+  position: absolute;
+  top: 10px;
+  width: 90%;
+  z-index: 100; }
+
+#card-front,
+#card-back {
+  position: absolute;
+  top: 35px;
+  width: 100%; }
+  @media screen and (min-width: 750px) {
+    #card-front,
+    #card-back {
+      top: 75px; } }
+
+#card-front {
+  z-index: 10; }
+
+#card-back {
+  z-index: 1; }
+
+#button-wrapper {
+  border-top: 1px solid #333;
+  background-color: #fff;
+  bottom: 0;
+  height: 30vh;
+  position: absolute;
+  z-index: 1000;
+  text-align: center;
+  width: 100%; }
+  @media screen and (min-width: 750px) {
+    #button-wrapper {
+      border-top: none;
+      height: 23vh; } }
+  #button-wrapper button {
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    padding: 15px 0;
+    width: 66%;
+    margin: 0 0 5px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 2rem;
+    transition: border-bottom .4s ease-in-out; }
+    #button-wrapper button:hover {
+      border-bottom: 1px solid #a6a6a6; }
+
+#word-index-wrapper {
+  display: none;
+  height: 95vh;
+  padding-left: 2px;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 98%; }
+  #word-index-wrapper #word-index-content-wrapper {
+    margin-top: 1rem; }
+    #word-index-wrapper #word-index-content-wrapper #word-index-content-fade {
+      opacity: 0;
+      position: relative; }
+      #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper {
+        background: #b3b3b3;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 0 2rem; }
+        #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper #index-search {
+          display: block;
+          margin: 2rem auto 0;
+          height: 2rem;
+          width: 90%; }
+        @media screen and (min-width: 750px) {
+          #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #search-input-wrapper {
+            margin: 2rem 0 0 1rem; } }
+      #word-index-wrapper #word-index-content-wrapper #word-index-content-fade h1 {
+        font-size: 1.4rem;
+        margin: 1rem 0 0; }
+        @media screen and (min-width: 750px) {
+          #word-index-wrapper #word-index-content-wrapper #word-index-content-fade h1 {
+            margin: 2rem 0 0; } }
+      #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
+        position: absolute;
+        top: 75px;
+        width: 98%; }
+        #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul {
+          border-bottom: 1px solid #a6a6a6;
+          margin: .2rem 0;
+          padding-left: 2px; }
+          #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul li {
+            list-style: none outside;
+            position: relative; }
+          #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
+            display: inline-block;
+            font-size: 1.4rem;
+            margin: 1rem 0 0; }
+            @media screen and (min-width: 750px) {
+              #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul p {
+                font-size: 2rem; } }
+          @media screen and (min-width: 750px) {
+            #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul h3 {
+              font-size: 1.4rem; } }
+          #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button {
+            background: none;
+            cursor: pointer;
+            margin-left: 1.4rem;
+            position: absolute;
+            top: 22px; }
+            #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button:hover {
+              animation: hoverButtonRev .4s ease-in-out; }
+            @media screen and (min-width: 750px) {
+              #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button {
+                top: 27px; } }
+            #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button img {
+              cursor: pointer;
+              height: 1rem;
+              transform: rotate(180deg);
+              width: 2rem; }
+              @media screen and (min-width: 750px) {
+                #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper ul button img {
+                  width: 3rem; } }
+        @media screen and (min-width: 750px) {
+          #word-index-wrapper #word-index-content-wrapper #word-index-content-fade #word-index-list-wrapper {
+            padding-left: 1rem;
+            margin: 2rem 0 0;
+            max-width: 1175px;
+            width: 66%; } }
+
+#index-word-view-wrapper {
+  position: absolute;
+  display: none;
+  height: 95vh;
+  padding-left: 2px;
+  left: 0;
+  width: 98%; }
+  #index-word-view-wrapper #index-word-view-content-wrapper {
+    margin-top: 1.5rem; }
+  #index-word-view-wrapper #index-word-view-content-fade {
+    opacity: 0;
+    position: relative; }
+    #index-word-view-wrapper #index-word-view-content-fade h1 {
+      font-size: 1.4rem;
+      margin: 1rem 0 0;
+      width: 88vw; }
+      @media screen and (min-width: 750px) {
+        #index-word-view-wrapper #index-word-view-content-fade h1 {
+          margin: 2rem 0 0; } }
+    #index-word-view-wrapper #index-word-view-content-fade #word-index-content {
+      padding-left: 0;
+      position: absolute;
+      margin: 3.1rem 0 0;
+      max-width: 1175px;
+      width: 88vw; }
+      @media screen and (min-width: 750px) {
+        #index-word-view-wrapper #index-word-view-content-fade #word-index-content {
+          padding-left: 1rem;
+          margin: 7.3rem 0 0; } }
+      @media screen and (min-width: 750px) {
+        #index-word-view-wrapper #index-word-view-content-fade #word-index-content h3 {
+          font-size: 1.4rem; } }
+    #index-word-view-wrapper #index-word-view-content-fade p {
+      margin: 1rem 0 0; }
+      @media screen and (min-width: 750px) {
+        #index-word-view-wrapper #index-word-view-content-fade p {
+          margin: 0 0 0; } }
 
 /*# sourceMappingURL=main.css.map */
