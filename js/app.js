@@ -97,6 +97,7 @@
 
                      
         $scope.startWordView =function(word) {
+        		//console.log(word);
                 $scope.startUI();   
                 $scope.searchText = '';
                 $scope.word = word;
