@@ -47,11 +47,11 @@
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "je obitens", "tu obtiens", "il/elle/on obtient", "nous obtenons", "vous obtenez", "ils/elles obtiennent" ]
+            "descriptions": [ "j&#8217;obitens", "tu obtiens", "il/elle/on obtient", "nous obtenons", "vous obtenez", "ils/elles obtiennent" ]
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je obtenais", "tu obtenais", "il/elle/on obtenait", "nous obtenions", "vous obteniez", "ils/elles obteniaent" ]
+            "descriptions": [ "j&#8217;obtenais", "tu obtenais", "il/elle/on obtenait", "nous obtenions", "vous obteniez", "ils/elles obtenaient" ]
             },
             {
             "title": "present perfect tense",
@@ -70,7 +70,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je tirais", "tu tirais", "il/elle/on tirait", "nous tirions", "vous tiriez", "ils/elles tiriaent" ]
+            "descriptions": [ "je tirais", "tu tirais", "il/elle/on tirait", "nous tirions", "vous tiriez", "ils/elles tiraient" ]
             },
             {
             "title": "present perfect tense",
@@ -89,7 +89,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je tuais", "tu tuais", "il/elle/on tuait", "nous tuions", "vous tuiez", "ils/elles tuiaent" ]
+            "descriptions": [ "je tuais", "tu tuais", "il/elle/on tuait", "nous tuions", "vous tuiez", "ils/elles tuaient" ]
             },
             {
             "title": "present perfect tense",
@@ -108,7 +108,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je adoptais", "tu adoptais", "il/elle/on adoptait", "nous adoptions", "vous adoptiez", "ils/elles adoptiaent" ]
+            "descriptions": [ "j&#8217;adoptais", "tu adoptais", "il/elle/on adoptait", "nous adoptions", "vous adoptiez", "ils/elles adoptaient" ]
             },
             {
             "title": "present perfect tense",
@@ -119,7 +119,7 @@
         {
         "f": "commander",
         "a": "to order",
-        "keyword": "tuer",
+        "keyword": "commander",
         "definitions": [
             {
             "title": "present tense",
@@ -142,7 +142,7 @@
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "je con&#231;ois", "tu con&#231;ois", "il/elle/on con&#231;oit", "nous concevons", "vous concevez", "ils/elles con&#231;ovent" ]
+            "descriptions": [ "je con&#231;ois", "tu con&#231;ois", "il/elle/on con&#231;oit", "nous concevons", "vous concevez", "ils/elles con&#231;oivent" ]
             },
             {
             "title" : "imperfect tense",
@@ -165,7 +165,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je appr&#233;ciais", "tu appr&#233;ciais", "il/elle/on appr&#233;ciait", "nous appr&#233;ciions", "vous appr&#233;ciiez", "ils/elles appr&#233;ciaent" ]
+            "descriptions": [ "j&#8217;appr&#233;ciais", "tu appr&#233;ciais", "il/elle/on appr&#233;ciait", "nous appr&#233;ciions", "vous appr&#233;ciiez", "ils/elles appr&#233;ciaient" ]
             },
             {
             "title": "present perfect tense",
@@ -180,11 +180,11 @@
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "j*#8217;envoye", "tu envoyes", "il/elle/on envoye", "nous envoyons", "vous envoyez", "ils/elles envoient" ]
+            "descriptions": [ "j&#8217;envoye", "tu envoyes", "il/elle/on envoye", "nous envoyons", "vous envoyez", "ils/elles envoient" ]
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je envoyais", "tu envoyais", "il/elle/on envoyait", "nous envoyions", "vous envoyiez", "ils/elles envoyiaent" ]
+            "descriptions": [ "j&#8217;envoyais", "tu envoyais", "il/elle/on envoyait", "nous envoyions", "vous envoyiez", "ils/elles envoyaient" ]
             },
             {
             "title": "present perfect tense",
@@ -218,11 +218,11 @@
         "definitions": [
             {
             "title": "present tense",
-            "descriptions": [ "je atteins", "tu atteins", "il/elle/on atteint", "nous atteignons", "vous atteignez", "ils/elles atteignent" ]
+            "descriptions": [ "j&#8217;atteins", "tu atteins", "il/elle/on atteint", "nous atteignons", "vous atteignez", "ils/elles atteignent" ]
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je atteignais", "tu atteignais", "il/elle/on atteignait", "nous atteignions", "vous atteigniez", "ils/elles atteigniaent" ]
+            "descriptions": [ "j&#8217;atteignais", "tu atteignais", "il/elle/on atteignait", "nous atteignions", "vous atteigniez", "ils/elles atteignaient" ]
             },
             {
             "title": "present perfect tense",
@@ -241,7 +241,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je ratais", "tu ratais", "il/elle/on ratait", "nous rations", "vous ratiez", "ils/elles ratiaent" ]
+            "descriptions": [ "je ratais", "tu ratais", "il/elle/on ratait", "nous rations", "vous ratiez", "ils/elles rataient" ]
             },
             {
             "title": "present perfect tense",
@@ -260,7 +260,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je reprenais", "tu reprenais", "il/elle/on reprenait", "nous reprenions", "vous repreniez", "ils/elles repreniaent" ]
+            "descriptions": [ "je reprenais", "tu reprenais", "il/elle/on reprenait", "nous reprenions", "vous repreniez", "ils/elles reprenaient" ]
             },
             {
             "title": "present perfect tense",
@@ -279,7 +279,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "j&#8217;&#233;vitais", "tu &#233;vitais", "il/elle/on &#233;vitait", "nous &#233;vitions", "vous &#233;vititez", "ils/elles &#233;vitiaent" ]
+            "descriptions": [ "j&#8217;&#233;vitais", "tu &#233;vitais", "il/elle/on &#233;vitait", "nous &#233;vitions", "vous &#233;vitiez", "ils/elles &#233;vitaient" ]
             },
             {
             "title": "present perfect tense",
@@ -298,7 +298,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je r&#233;agissais", "tu r&#233;agissais", "il/elle/on r&#233;agissait", "nous r&#233;agissions", "vous r&#233;eagissiez", "ils/elles r&#233;agissiaent" ]
+            "descriptions": [ "je r&#233;agissais", "tu r&#233;agissais", "il/elle/on r&#233;agissait", "nous r&#233;agissions", "vous r&#233;eagissiez", "ils/elles r&#233;agissaient" ]
             },
             {
             "title": "present perfect tense",
@@ -317,11 +317,11 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je co&#251;tais", "tu co&#251;tais", "il/elle/on co&#251;tait", "nous co&#251;tions", "vous co&#251;tiez", "ils/elles co&#251;tiaent" ]
+            "descriptions": [ "je co&#251;tais", "tu co&#251;tais", "il/elle/on co&#251;tait", "nous co&#251;tions", "vous co&#251;tiez", "ils/elles co&#251;taient" ]
             },
             {
             "title": "present perfect tense",
-            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "command&#233;" ]   
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "co&#251;t&#233;" ]   
             }
             ]
         },
@@ -336,7 +336,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je me comportais", "tu te comportais", "il/elle/on se comportait", "nous nous comportions", "vous vous comportiez", "ils/elles se comportiaent" ]
+            "descriptions": [ "je me comportais", "tu te comportais", "il/elle/on se comportait", "nous nous comportions", "vous vous comportiez", "ils/elles se comportaient" ]
             },
             {
             "title": "present perfect tense",
@@ -355,7 +355,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je travaillais", "tu travaillais", "il/elle/on travaillait", "nous travaillions", "vous travailliez", "ils/elles travailliaent" ]
+            "descriptions": [ "je travaillais", "tu travaillais", "il/elle/on travaillait", "nous travaillions", "vous travailliez", "ils/elles travaillaient" ]
             },
             {
             "title": "present perfect tense",
@@ -374,7 +374,7 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je me inqui&#233;tais", "tu te inqui&#233;tais", "il/elle/on inqui&#233;tait", "nous nous inqui&#233;tions", "vous vous inqui&#233;tiez", "ils/elles inqui&#233;tiaent" ]
+            "descriptions": [ "je me inqui&#233;tais", "tu te inqui&#233;tais", "il/elle/on se inqui&#233;tait", "nous nous inqui&#233;tions", "vous vous inqui&#233;tiez", "ils/elles se inqui&#233;taient" ]
             },
             {
             "title": "present perfect tense",
