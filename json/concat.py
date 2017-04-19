@@ -10,10 +10,12 @@ class Concatenate():
 	 script must be located in parent directory of src and master
 	'''
 
-	my_jsons = glob.glob("src/*.json")
+	my_jsons = sorted(glob.glob("src/*.json"))
 	agg_file = open("../public/json/master/vocab_agg.json", 'w')
 
+
 	def create_aggregate(self):
+		print(self.my_jsons)
 		self.aggregate = "["
 
 		for json in self.my_jsons:
