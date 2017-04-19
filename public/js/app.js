@@ -1,11 +1,4 @@
 
-   let randomInt = function(min, max) {
-                      min = Math.ceil(min);
-                      max = Math.floor(max);
-                      return Math.floor(Math.random() * (max - min + 1)) + min;
-                    };
-
-
 
 (function(angular) {
     
@@ -23,8 +16,14 @@
                                 "source": {},
                                 "vocab": [{ }]
                                 };
-             
-        $scope.randomNum = randomInt(0, $scope.thisSection.vocab.length-1 );
+
+        $scope.randomInt = function(min, max) {
+                      min = Math.ceil(min);
+                      max = Math.floor(max);
+                      return Math.floor(Math.random() * (max - min + 1)) + min;
+                    };
+
+        $scope.randomNum = $scope.randomInt(0, $scope.thisSection.vocab.length-1 );
         $scope.randomWord = $scope.thisSection.vocab[$scope.randomNum];
         $scope.language = 1;  //1=anglais, 0=francais
         $scope.definitions = $scope.randomWord.definitions; 
@@ -32,7 +31,7 @@
                       
         $scope.getNewWord = function(dbArray) {
             $scope.descriptions = [];
-            $scope.randomNum = randomInt(0, dbArray.length-1);
+            $scope.randomNum = $scope.randomInt(0, dbArray.length-1);
             $scope.randomWord = dbArray[$scope.randomNum];
             $scope.definitions = $scope.randomWord.definitions;
             };   
@@ -205,14 +204,14 @@
     
     .factory('getData', ['$http', function($http){
 
-        let sectionsObject  = {
+        var sectionsObject  = {
             "menuArray": []  //used to display length of section on main menu view
             };
 
         $http.get('./json/master/vocab_agg.json').then(
                     function successCallback(data) {
                         //console.log(data.data);
-                        for (let z = 0; z < data.data.length; z++ ) {
+                        for (var z = 0; z < data.data.length; z++ ) {
                             //console.log(data.data[z]);
                             sectionsObject[data.data[z].type] = data.data[z];
                             sectionsObject.menuArray.push( { "source": data.data[z], "type": data.data[z].type, "count": data.data[z].vocabArray.length} )
