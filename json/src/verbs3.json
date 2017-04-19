@@ -1,0 +1,387 @@
+{
+    "type": "verbs3",
+    "fullTitle": "verbs pt. 3",
+    "vocabArray": [
+        {
+        "f": "dispara&#238;tre",
+        "a": "to disappear",
+        "keyword": "disparaitre",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je disparais", "tu disparais", "il/elle/on disparait", "nous disparissons", "vous disparissez", "ils/elles disparaissent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je disparissais", "tu disparissais", "il/elle/on disparissait", "nous disparissions", "vous disparissiez", "ils/elles disparissaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "disparu" ]   
+            }
+            ]
+        },
+        {
+        "f": "conduire",
+        "a": "to drive",
+        "keyword": "conduire",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je conduis", "tu conduis", "il/elle/on conduit", "nous conduisons", "vous conduisez", "ils/elles conduisent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je conduisais", "tu conduisais", "il/elle/on conduisait", "nous conduisions", "vous conduisiez", "ils/elles conduisaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "conduit" ]   
+            }
+            ]
+        },
+        {
+        "f": "obtenir",
+        "a": "to obtain",
+        "keyword": "obtenir",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je obitens", "tu obtiens", "il/elle/on obtient", "nous obtenons", "vous obtenez", "ils/elles obtiennent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je obtenais", "tu obtenais", "il/elle/on obtenait", "nous obtenions", "vous obteniez", "ils/elles obteniaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "obtenu" ]   
+            }
+            ]
+        },
+        {
+        "f": "tirer",
+        "a": "to pull/ shoot",
+        "keyword": "tirer",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je tire", "tu tires", "il/elle/on tire", "nous tirons", "vous tirez", "ils/elles tirent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je tirais", "tu tirais", "il/elle/on tirait", "nous tirions", "vous tiriez", "ils/elles tiriaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "tir&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "tuer",
+        "a": "to kill",
+        "keyword": "tuer",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je tue", "tu tues", "il/elle/on tue", "nous tuons", "vous tuez", "ils/elles tuent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je tuais", "tu tuais", "il/elle/on tuait", "nous tuions", "vous tuiez", "ils/elles tuiaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "tu&#233;" ]   
+            }
+            ]
+        },   
+        {
+        "f": "adopter",
+        "a": "to adopt",
+        "keyword": "adopt",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;adopte", "tu adoptes", "il/elle/on adopte", "nous adoptons", "vous adoptez", "ils/elles adoptent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je adoptais", "tu adoptais", "il/elle/on adoptait", "nous adoptions", "vous adoptiez", "ils/elles adoptiaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "adopt&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "commander",
+        "a": "to order",
+        "keyword": "tuer",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je commande", "tu commandes", "il/elle/on commande", "nous commandons", "vous commandez", "ils/elles commandent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je commandais", "tu commandais", "il/elle/on commandait", "nous commandions", "vous commandiez", "ils/elles commandaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "command&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "concevoir",
+        "a": "to design/ conceive",
+        "keyword": "conceive",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je con&#231;ois", "tu con&#231;ois", "il/elle/on con&#231;oit", "nous concevons", "vous concevez", "ils/elles con&#231;ovent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je concevais", "tu concevais", "il/elle/on concevait", "nous concevions", "vous conceviez", "ils/elles concevaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "con&#231;u" ]   
+            }
+            ]
+        },
+        {
+        "f": "appr&#233;cier",
+        "a": "to appreciate/ enjoy",
+        "keyword": "apprecier",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;appr&#233;cie", "tu appr&#233;cies", "il/elle/on appr&#233;cie", "nous appr&#233;cions", "vous appr&#233;ciez", "ils/elles appr&#233;cient" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je appr&#233;ciais", "tu appr&#233;ciais", "il/elle/on appr&#233;ciait", "nous appr&#233;ciions", "vous appr&#233;ciiez", "ils/elles appr&#233;ciaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "appr&#233;ci&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "envoyer",
+        "a": "to send/ forward",
+        "keyword": "envoyer",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j*#8217;envoye", "tu envoyes", "il/elle/on envoye", "nous envoyons", "vous envoyez", "ils/elles envoient" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je envoyais", "tu envoyais", "il/elle/on envoyait", "nous envoyions", "vous envoyiez", "ils/elles envoyiaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "envoy&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "reconna&#238;tre",
+        "a": "to order",
+        "keyword": "reconnaitre",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je reconnais", "tu reconnais", "il/elle/on reconnait", "nous reconnaissons", "vous reconnaissez", "ils/elles reconnaissent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je reconnaissais", "tu reconnaissais", "il/elle/on reconnaissait", "nous reconnaissions", "vous reconnaissiez", "ils/elles reconnaissaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "reconnu" ]   
+            }
+            ]
+        },
+        {
+        "f": "atteindre",
+        "a": "to reach/ attain/ acheive",
+        "keyword": "atteindre",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je atteins", "tu atteins", "il/elle/on atteint", "nous atteignons", "vous atteignez", "ils/elles atteignent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je atteignais", "tu atteignais", "il/elle/on atteignait", "nous atteignions", "vous atteigniez", "ils/elles atteigniaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "atteint" ]   
+            }
+            ]
+        },
+        {
+        "f": "rater",
+        "a": "to ruin",
+        "keyword": "rater",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je rate", "tu rates", "il/elle/on rate", "nous ratons", "vous ratez", "ils/elles ratent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je ratais", "tu ratais", "il/elle/on ratait", "nous rations", "vous ratiez", "ils/elles ratiaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "rat&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "reprendre",
+        "a": "to resume/ have another",
+        "keyword": "reprendre",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je reprends", "tu reprends", "il/elle/on reprend", "nous reprenons", "vous reprenez", "ils/elles reprennent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je reprenais", "tu reprenais", "il/elle/on reprenait", "nous reprenions", "vous repreniez", "ils/elles repreniaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "repris" ]   
+            }
+            ]
+        },
+        {
+        "f": "&#233;viter",
+        "a": "to avoid",
+        "keyword": "eviter",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "j&#8217;&#233;vite", "tu &#233;vites", "il/elle/on &#233;vite", "nous &#233;vitons", "vous &#233;vitez", "ils/elles &#233;vitent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "j&#8217;&#233;vitais", "tu &#233;vitais", "il/elle/on &#233;vitait", "nous &#233;vitions", "vous &#233;vititez", "ils/elles &#233;vitiaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "&#233;vit&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "r&#233;agir",
+        "a": "to react",
+        "keyword": "reagir",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je r&#233;agis", "tu r&#233;agis", "il/elle/on r&#233;agit", "nous r&#233;agissons", "vous r&#233;aggissez", "ils/elles r&#233;agissent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je r&#233;agissais", "tu r&#233;agissais", "il/elle/on r&#233;agissait", "nous r&#233;agissions", "vous r&#233;eagissiez", "ils/elles r&#233;agissiaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "r&#233;agi" ]   
+            }
+            ]
+        },
+        {
+        "f": "co&#251;ter",
+        "a": "to cost",
+        "keyword": "couter",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je co&#251;te", "tu co&#251;tes", "il/elle/on co&#251;te", "nous co&#251;tons", "vous co&#251;tez", "ils/elles co&#251;tent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je co&#251;tais", "tu co&#251;tais", "il/elle/on co&#251;tait", "nous co&#251;tions", "vous co&#251;tiez", "ils/elles co&#251;tiaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "command&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "se comporter",
+        "a": "to behave/to be driven",
+        "keyword": "se comporter",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je me comporte", "tu te comportes", "il/elle/on se comporte", "nous nous comportons", "vous vous comportez", "ils/elles se comportent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je me comportais", "tu te comportais", "il/elle/on se comportait", "nous nous comportions", "vous vous comportiez", "ils/elles se comportiaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>s&#8217;&#234;tre</span> +", "comport&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "travailler",
+        "a": "to work",
+        "keyword": "travailler",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je travaille", "tu travailles", "il/elle/on travaille", "nous travaillons", "vous travaillez", "ils/elles travaillent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je travaillais", "tu travaillais", "il/elle/on travaillait", "nous travaillions", "vous travailliez", "ils/elles travailliaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "travaill&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "se inqui&#232;ter",
+        "a": "to worry (someone)",
+        "keyword": "se inquiete",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je me inqui&#232;te", "tu te inqui&#232;tes", "il/elle/on se inqui&#232;te", "nous nous inqui&#233;tons", "vous vous inqui&#233;tez", "ils/elles se inqui&#232;tent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je me inqui&#233;tais", "tu te inqui&#233;tais", "il/elle/on inqui&#233;tait", "nous nous inqui&#233;tions", "vous vous inqui&#233;tiez", "ils/elles inqui&#233;tiaent" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "inqui&#233;t&#233;" ]   
+            }
+            ]
+        }
+
+    ]
+}

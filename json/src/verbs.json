@@ -1,7 +1,26 @@
 {
     "type": "verbs",
-    "fullTitle": "verbs",
+    "fullTitle": "verbs pt. 1",
     "vocabArray": [
+        {
+        "f": "faire",
+        "a": "to do/ to make",
+        "keyword": "faire",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je fais", "tu fais", "il/elle/on fait", "nous faisons", "vous faites", "ils/elles fort"  ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je visitais", "tu visitais", "il/elle/on visitait", "nous visitions", "vous visitiez", "ils/elles visitaient"  ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "visit&#233;" ]   
+            }
+            ]
+        },
         {
         "f": "visiter",
         "a": "to visit",
@@ -1937,28 +1956,6 @@
             "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "vid&#233;" ]   
             }
                 ]
-        },
-        {
-            "f": "griller",
-            "a": "to grill",
-            "keyword":"griller",
-            "definitions": [
-                {
-                "title": "present tense",
-                "descriptions": [ "je grille", "tu grilles", "il/elle/on grille", "nous grillons", "vous grillez", "ils/elles grillent" ]
-                },
-                {
-                "title": "imperfect tense",
-                "descriptions": [ "je grillais", "tu grillais", "il/elle/on grillait", "nous grillions", "vous grilliez", "ils/elles grillaient" ]
-                },
-                {
-            "title": "present perfect tense",
-            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "grill&#233;" ]   
-            }
-                ]
-        }        
-
-
-
+        }
     ]
 }

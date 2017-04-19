@@ -15,7 +15,7 @@ class Concatenate():
 
 
 	def create_aggregate(self):
-		print(self.my_jsons)
+		#print(self.my_jsons)
 		self.aggregate = "["
 
 		for json in self.my_jsons:

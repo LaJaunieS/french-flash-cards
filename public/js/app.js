@@ -80,9 +80,7 @@
             $scope.hideElement('main-menu-content-fade');
             document.getElementById('main-menu-wrapper').style.display="none";
             document.getElementById("word-index-wrapper").style.display = 'initial';
-            //document.getElementById('flash-card-content-wrapper').style.display = "none";
-
-            
+               
             $scope.thisSection = {
                 "source": $scope.sectionsObject[section],
                 "vocab": $scope.sectionsObject[section].vocabArray,
@@ -149,7 +147,7 @@
                     document.getElementById('flash-card-content-wrapper').style.display= 'none';
                     document.getElementById('word-index-wrapper').style.display='none';
                     }, 400);
-               } 
+        }; 
 
         $scope.backToIndex = function() {
             $scope.searchText = '';
@@ -162,7 +160,7 @@
                     document.getElementById('index-word-view-wrapper').style.display= 'none';
                     //console.log($scope.thisSection);
                     }, 400);
-            }; 
+        }; 
 
 
         
