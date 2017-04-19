@@ -11,7 +11,8 @@
 				<input ng-model="searchText" id="index-search" type="text" placeholder="search"/>
 			</ul>
 			<ul ng-repeat="word in thisSection.source.vocabArray | orderBy: 'keyword'| filter:searchText">
-					<li><p ng-bind-html="word.f">{{word.f}}</p><button ng-click=startWordView(word)><img src="img/arrow-left.png" alt="view word details"></img></button></li>
+					<li><p ng-bind-html="word.f">{{word.f}}</p><button ng-click=startWordView(word)><img src="img/arrow-left.png" alt="view word details"></img>
+					</button></li>
 					<li><h3>{{word.a}}</h3></li>
 
 			</ul>
