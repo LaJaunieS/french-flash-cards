@@ -79,7 +79,7 @@
             $scope.searchText = '';
             $scope.hideElement('main-menu-content-fade');
             document.getElementById('main-menu-wrapper').style.display="none";
-            document.getElementById("word-index-wrapper").style.display = 'initial';
+            document.getElementById("word-index-wrapper").style.display = 'block';
                
             $scope.thisSection = {
                 "source": $scope.sectionsObject[section],
@@ -102,7 +102,7 @@
                 $scope.hideElement('word-index-content-fade');
                 document.getElementById('flash-card-content-wrapper').style.display = "none";
                 document.getElementById('word-index-wrapper').style.display = "none";
-                document.getElementById('index-word-view-wrapper').style.display = "initial";
+                document.getElementById('index-word-view-wrapper').style.display = "block";
                 $timeout(function() {
                     $scope.showElement('index-word-view-content-fade');
                     }, 500);
