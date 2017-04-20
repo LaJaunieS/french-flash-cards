@@ -251,7 +251,7 @@
         },
         {
         "f": "reprendre",
-        "a": "to resume/ have another",
+        "a": "to resume/ retake/ take back/ restart",
         "keyword": "reprendre",
         "definitions": [
             {
@@ -378,7 +378,26 @@
             },
             {
             "title": "present perfect tense",
-            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "inqui&#233;t&#233;" ]   
+            "descriptions": [ "present tense of <span class='italic'>s&#8217;avoir</span> +", "inqui&#233;t&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "pousser",
+        "a": "to push",
+        "keyword": "pousser",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je pousse", "tu pousses", "il/elle/on pousse", "nous poussons", "vous poussez", "ils/elles poussent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je poussais", "tu poussais", "il/elle/on poussait", "nous poussions", "vous poussiez", "ils/elles poussaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "pouss&#233;" ]   
             }
             ]
         }

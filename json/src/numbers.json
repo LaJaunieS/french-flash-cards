@@ -1,0 +1,306 @@
+{
+    "type": "numbers",
+    "fullTitle": "numbers",
+    "vocabArray": [
+        {
+            "f": "un",
+            "a": "one",
+            "keyword": "000000001 un"
+        },
+        {
+            "f": "deux",
+            "a": "two",
+            "keyword": "000000002 deux"
+        },
+        {
+            "f": "trois",
+            "a": "three",
+            "keyword": "000000003 three"  
+        },
+        {
+            "f": "quatre",
+            "a": "four",
+            "keyword": "000000004 quatre"
+        },
+        {
+            "f": "cinq",
+            "a": "five",
+            "keyword": "000000005 cinq"
+        },
+        {
+            "f": "six",
+            "a": "six",
+            "keyword": "000000006 six"
+        },
+        {
+            "f": "sept",
+            "a": "seven",
+            "keyword": "000000007 sept"
+        },
+        {
+            "f": "huit",
+            "a": "eight",
+            "keyword": "000000008 huit"
+        },
+        {
+            "f": "neuf",
+            "a": "nine",
+            "keyword": "000000009 neuf"
+        },
+        {
+            "f": "dix",
+            "a": "ten",
+            "keyword": "000000010 dix"
+        },
+        {
+            "f": "onze",
+            "a": "eleven",
+            "keyword": "000000011 onze"
+        },
+        {
+            "f": "douze",
+            "a": "twelve",
+            "keyword": "000000012 douze"
+        },
+        {
+            "f": "treize",
+            "a": "thirteen",
+            "keyword": "000000013 treize"
+        },
+        {
+            "f": "quatorze",
+            "a": "fourteen",
+            "keyword": "000000014 quatorze"
+        },
+        {
+            "f": "cinze",
+            "a": "fifteen",
+            "keyword": "000000015 cinze"
+        },
+        {
+            "f": "seize",
+            "a": "sixteen",
+            "keyword": "000000016 seize"
+        },
+        {
+            "f": "dix-sept",
+            "a": "seventeen",
+            "keyword": "000000017 dix-sept"
+        },
+        {
+            "f": "dix-huit",
+            "a": "eighteen",
+            "keyword": "000000018 dix-huit"
+        },
+        {
+            "f": "dix-neuf",
+            "a": "nineteen",
+            "keyword": "000000019 dix-neuf"
+        },
+        {
+            "f": "vingt",
+            "a": "twenty",
+            "keyword": "000000020 vingt"
+        },
+        {
+            "f": "vingt et un",
+            "a": "twenty one",
+            "keyword": "000000021 vingt-et-un vingt et un"
+        },
+        {
+            "f": "vingt deux",
+            "a": "twenty two",
+            "keyword": "000000022 vingt deux vingt-deux"
+        },
+        {
+            "f": "vingt trois",
+            "a": "twenty three",
+            "keyword": "000000023 vingt trois vingt-trois"
+        },
+        {
+            "f": "vingt quatre",
+            "a": "twenty four",
+            "keyword": "000000024 vingt quatre vingt-quatre"
+        },
+        {
+            "f": "vingt cinq",
+            "a": "twenty five",
+            "keyword": "000000025 vingt cinq vingt-cinq"
+        },
+        {
+            "f": "trente",
+            "a": "thirty",
+            "keyword": "000000030 trente"
+        },
+        {
+            "f": "quarante",
+            "a": "forty",
+            "keyword": "000000040 quarante"
+        },
+        {
+            "f": "cinquante",
+            "a": "fifty",
+            "keyword": "000000050 cinquante"
+        },
+        {
+            "f": "soixante",
+            "a": "sixty",
+            "keyword": "000000060 soixante"
+        },
+        {
+            "f": "soixante-dix",
+            "a": "seventy",
+            "keyword": "000000070 soixante-dix soixante dix"
+        },
+        {
+            "f": "soixante-onze",
+            "a": "seventy one",
+            "keyword": "000000071 soixante onze soixante-onze"
+        },
+        {
+            "f": "soixante-dix-neuf",
+            "a": "seventy nine",
+            "keyword": "000000079 soixante dix neuf soixante-dix-neuf"
+        },
+        {
+            "f": "quatre-vingts",
+            "a": "eighty",
+            "keyword": "000000080 quatre vingts quatre-vingts"
+        },
+        {
+            "f": "quatre-vingt-un",
+            "a": "eighty one",
+            "keyword": "000000081 quatre-vingt-un quatre vingt un"
+        },
+        {
+            "f": "quatre-vingt-deux",
+            "a": "eighty two",
+            "keyword": "000000082 quatre-vingt-deux quatre vingt deux"
+        },
+        {
+            "f": "quatre-vingt-dix",
+            "a": "ninety",
+            "keyword": "000000090 quatre-vingt-dix quatre vingt dix"
+        },
+        {
+            "f": "quatre-vingt-dix-neuf",
+            "a": "ninety nine",
+            "keyword": "000000099 quatre-vingt-dix-neuf"
+        },
+        {
+            "f": "cent",
+            "a": "one hundred",
+            "keyword": "000000100 cent"
+        },
+        {
+            "f": "cent un",
+            "a": "one hundred and one",
+            "keyword": "000000101 cent un"
+        },
+        {
+            "f": "cent dix",
+            "a": "one hundred and ten",
+            "keyword": "000000110 cent dix"
+        },
+        {
+            "f": "cent vingt",
+            "a": "one hundred and twenty",
+            "keyword": "000000120 cent vingt"
+        },
+        {
+            "f": "cent quarante quarte",
+            "a": "one hundred and forty four",
+            "keyword": "000000120 cent quarante quart" 
+        },
+        {
+            "f": "deux cent",
+            "a": "two hundred",
+            "keyword": "000000200 deux cent"
+        },
+        {
+            "f": "trois cent",
+            "a": "three hundred",
+            "keyword": "000000300 trois cent"
+        },
+        {
+            "f": "neuf cent quatre-vingt-dix-neuf",
+            "a": "nine hundred and ninety nine",
+            "keyword": "000000999 neuf cent quatre vingt dix neuf neuf cent quatre-vingt-dix-neuf"
+        },
+        {
+            "f": "mille",
+            "a": "one thousand",
+            "keyword": "000001000 mille"
+        },
+        {
+            "f": "mille cinq cent",
+            "a": "one thousand five hundred",
+            "keyword": "000001500 mille cinq cent"
+        },
+        {
+            "f": "deux mille",
+            "a": "two thousand",
+            "keyword": "000002000 mille cinq cent"
+        },
+        {
+            "f": "neuf mille neuf cent quatre vingt dix neuf",
+            "a": "nine thousand nine hundred and ninety nine",
+            "keyword": "000009999 neuf mille neuf cent quatre-vingt-dix-neuf neuf mille neuf cent quatre vingt dix neuf"
+        },
+        {
+            "f": "dix mille",
+            "a": "ten thousand",
+            "keyword": "000010000 dix mille"  
+        },
+        {
+            "f": "cent mille",
+            "a": "one hundred thousand",
+            "keyword": "000100000 cent mille"
+        },
+        {
+            "f": "un million",
+            "a": "one million",
+            "keyword": "001000000 un million"
+        },
+        {
+            "f": "cent million",
+            "a": "one hundred million",
+            "keyword": "010000000 cent million"
+        },
+        {
+            "f": "un milliard",
+            "a": "one billion",
+            "keyword": "1000000000 un milliard"
+        },
+        {
+            "f": "les dizaines",
+            "a": "tens",
+            "keyword": "dizaines"
+        },
+        {
+            "f": "les centaines",
+            "a": "hundreds",
+            "keyword": "centaines"
+        },
+        {
+            "f": "les millions",
+            "a": "millions",
+            "keyword": "millions"
+        },
+        {
+            "f": "des milliards",
+            "a": "billions",
+            "keyword": "milliards"
+        },
+        {
+            "f": "le chiffre",
+            "a": "figure/ number/ digit",
+            "keyword": "chiffre"
+        },
+        {
+            "f": "la somme",
+            "a": "total/ sum/ amount",
+            "keyword": "somme"
+        }
+    ]
+}
