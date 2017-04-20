@@ -121,11 +121,11 @@ button {
     z-index: -1; }
 
 #main-menu-wrapper {
-  height: 190vh;
+  height: 220vh;
   z-index: 100; }
   @media screen and (min-width: 750px) {
     #main-menu-wrapper {
-      height: 250vh; } }
+      height: 190vh; } }
   #main-menu-wrapper #main-menu-content-fade {
     height: 85vh; }
     #main-menu-wrapper #main-menu-content-fade #footer > h6 {
