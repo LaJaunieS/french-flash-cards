@@ -121,12 +121,18 @@ button {
     z-index: -1; }
 
 #main-menu-wrapper {
-  height: 90vh;
+  height: 190vh;
   z-index: 100; }
+  @media screen and (min-width: 750px) {
+    #main-menu-wrapper {
+      height: 250vh; } }
   #main-menu-wrapper #main-menu-content-fade {
     height: 85vh; }
-    #main-menu-wrapper #main-menu-content-fade h6 {
-      margin: 1rem 0; }
+    #main-menu-wrapper #main-menu-content-fade #footer > h6 {
+      margin: 2rem 0 0; }
+      @media screen and (min-width: 750px) {
+        #main-menu-wrapper #main-menu-content-fade #footer > h6 {
+          margin: 4rem 0 1rem; } }
   #main-menu-wrapper h1 {
     font-size: 2.6rem;
     margin: 2.6rem 0 1rem; }
