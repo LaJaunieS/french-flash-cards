@@ -13,11 +13,11 @@
             },
             {
             "title" : "imperfect tense",
-            "descriptions": [ "je visitais", "tu visitais", "il/elle/on visitait", "nous visitions", "vous visitiez", "ils/elles visitaient"  ]
+            "descriptions": [ "je faisais", "tu faisais", "il/elle/on faisait", "nous faisions", "vous faisiez", "ils/elles faisaient"  ]
             },
             {
             "title": "present perfect tense",
-            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "visit&#233;" ]   
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "fait" ]   
             }
             ]
         },
