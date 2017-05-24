@@ -126,10 +126,10 @@
         };
         $scope.toggleTitle = function() {
             if ($scope.titleCondition=== true) {
-                document.getElementById('main-menu-content-fade').firstElementChild.textContent = 'french flash cards';
+                document.getElementById('main-menu-content-fade').firstElementChild.innerHTML = 'cartes flash fran&#231;ais';
                 $scope.titleCondition = false;
                 } else {
-                    document.getElementById('main-menu-content-fade').firstElementChild.innerHTML = 'cartes flash fran&#231;ais';
+                    document.getElementById('main-menu-content-fade').firstElementChild.innerHTML= 'french flash cards';
                     $scope.titleCondition = true;
                 };
         };
