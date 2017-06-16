@@ -1,0 +1,269 @@
+{
+    "type": "feelings",
+    "fullTitle": "feelings",
+    "vocabArray": [
+        {
+        "f": "bizarre",
+        "a": "weird/ strange",
+        "keyword": "bizarres",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "bizarre", "bizarres"  ]
+            }
+            ]
+        },
+        {
+        "f": "amour",
+        "a": "love",
+        "keyword": "amour"
+        },
+        {
+        "f": "peur",
+        "a": "afraid/ fear",
+        "keyword": "peur"
+        },
+        {
+        "f": "plaisir",
+        "a": "pleasure",
+        "keyword": "plaisir"
+        },
+        {
+        "f": "bonheur",
+        "a": "happiness",
+        "keyword": "bonheur"
+        },
+        {
+        "f": "joie",
+        "a": "joy",
+        "keyword": "joie"
+        },
+        {
+        "f": "paix",
+        "a": "peace",
+        "keyword": "paix"
+        },
+        {
+        "f": "desir",
+        "a": "desire",
+        "keyword": "desir"
+        },
+        {
+        "f": "go&#251;t",
+        "a": "taste",
+        "keyword": "gout"
+        },
+        {
+        "f": "espoir",
+        "a": "hope",
+        "keyword": "espoir"
+        },
+        {
+        "f": "sentiment",
+        "a": "feeling",
+        "keyword": "sentiment"
+        },
+        {
+        "f": "triste",
+        "a": "sad/ sorry",
+        "keyword": "bonheur",
+        "definitions": [
+            {
+            "title": "masculine/feminine",
+            "descriptions": [ "triste", "tristes"  ]
+            }
+            ]
+        },
+        {
+        "f": "honte",
+        "a": "shame/ ashamed",
+        "keyword": "honte"
+        },
+        {
+        "f": "surprise",
+        "a": "surprise",
+        "keyword": "surprise"
+        },
+        {
+        "f": "douleur",
+        "a": "pain/ grief/ suffering",
+        "keyword": "douleur"
+        },
+        {
+        "f": "col&#232;re",
+        "a": "anger",
+        "keyword": "colere"
+        },
+        {
+        "f": "heureux",
+        "a": "happiness",
+        "keyword": "heureux"
+        },
+        {
+        "f": "horreur",
+        "a": "feeling",
+        "keyword": "sentiment"
+        },
+        {
+        "f": "amiti&#232;",
+        "a": "friendship",
+        "keyword": "amitie"
+        },
+        {
+        "f": "content",
+        "a": "content/ satisfied",
+        "keyword": "content"
+        },
+        {
+        "f": "de bonne humeur",
+        "a": "a good mood",
+        "keyword": "de bonne humeur"
+        },
+        {
+        "f": "de mal humeur",
+        "a": "a bad mood",
+        "keyword": "de mal humeur"
+        },
+        {
+        "f": "patience",
+        "a": "patience",
+        "keyword": "patience"
+        },
+        {
+        "f": "&#233;motions",
+        "a": "emotions/ feeling",
+        "keyword": "emotions"
+        },
+        {
+        "f": "doux",
+        "a": "soft/ gentle/ mild",
+        "keyword": "doux"
+        },
+        {
+        "f": "l&#8217;impression",
+        "a": "feeling",
+        "keyword": "l'impression"
+        },
+        {
+        "f": "m&#233;moire",
+        "a": "memory",
+        "keyword": "sentiment"
+        },
+        {
+        "f": "odeur",
+        "a": "smell/ scent",
+        "keyword": "odeur"
+        },
+        {
+        "f": "honneur",
+        "a": "honor",
+        "keyword": "honneur"
+        },
+        {
+        "f": "inquiet",
+        "a": "worry",
+        "keyword": "sentiment"
+        },
+        {
+        "f": "confiance",
+        "a": "trust/ confidence",
+        "keyword": "confiance"
+        },
+        {
+        "f": "g&#234;n&#233;e",
+        "a": "embarassment",
+        "keyword": "genee"
+        },
+        {
+        "f": "sommeil",
+        "a": "sleepy/ drowsy",
+        "keyword": "sommeil"
+        },
+        {
+        "f": "soif",
+        "a": "thirst",
+        "keyword": "soif"
+        },
+        {
+        "f": "s&#251;r",
+        "a": "sure/ certain/ safe",
+        "keyword": "sur"
+        },
+        {
+        "f": "faim",
+        "a": "hungry",
+        "keyword": "faim"
+        },
+        {
+        "f": "ennuyeux",
+        "a": "annoying/ boring (adj)",
+        "keyword": "ennuyeux",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "ennuyeux"  ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "ennuyeuse", "ennuyeuses" ]
+            }
+            ]       
+        },
+        {
+        "f": "juste",
+        "a": "just/ right (adj)",
+        "keyword": "juste",
+        "definitions": [
+            {
+            "title": "masculine/ feminine",
+            "descriptions": [ "juste", "justes"  ]
+            }
+            ]       
+        },
+        {
+        "f": "tranquille",
+        "a": "quiet/ calm (adj)",
+        "keyword": "tranquille",
+        "definitions": [
+            {
+            "title": "masculine/ feminine",
+            "descriptions": [ "tranquille", "tranquilles"  ]
+            }
+            ]       
+        },
+        {
+        "f": "amoureux",
+        "a": "in love",
+        "keyword": "amoureux",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "amoureux" ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "amoureuse", "amoureuses" ]
+            }
+        ]
+        },
+        {
+        "f": "nul",
+        "a": "useless/ hopeless/ worthess (adj)",
+        "keyword": "nul",
+        "definitions": [
+            {
+            "title": "masculine",
+            "descriptions": [ "nul", "nuls" ]
+            },
+            {
+            "title": "feminine",
+            "descriptions": [ "nulle", "nulles" ]
+            }
+        ]
+        }
+
+
+
+        
+    ]
+}
