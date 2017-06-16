@@ -400,6 +400,139 @@
             "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "pouss&#233;" ]   
             }
             ]
+        },
+        {
+        "f": "rire",
+        "a": "to laugh",
+        "keyword": "rire",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je ris", "tu ris", "il/elle/on rit", "nous rions", "vous riez", "ils/elles rient" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je riais", "tu riais", "il/elle/on riait", "nous riions", "vous riiez", "ils/elles riaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "ri" ]   
+            }
+            ]
+        },
+        {
+        "f": "r&#234;ver",
+        "a": "to dream",
+        "keyword": "rever",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je r&#234;ve", "tu r&#234;ves", "il/elle/on r&#234;ve", "nous r&#234;vons", "vous r&#234;vez", "ils/elles r&#234;vent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je r&#234;vais", "tu r&#234;vais", "il/elle/on r&#234;vait", "nous r&#234;vions", "vous r&#234;viez", "ils/elles r&#234;vaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "r&#234;v&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "d&#233;sirer",
+        "a": "to desire",
+        "keyword": "desirer",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je d&#233;sire", "tu d&#233;sires", "il/elle/on d&#233;sire", "nous d&#233;sirons", "vous d&#233;sirez", "ils/elles d&#233;sirent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je d&#233;sirais", "tu d&#233;sirais", "il/elle/on d&#233;sirait", "nous d&#233;sirions", "vous d&#233;siriez", "ils/elles d&#233;siraient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "d&#233;sir&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "sourire",
+        "a": "to smile",
+        "keyword": "sourire",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je souris", "tu souris", "il/elle/on sourit", "nous sourions", "vous souriez", "ils/elles sourient" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je sourais", "tu sourais", "il/elle/on sourait", "nous souriions", "vous souriiez", "ils/elles souriaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "souri" ]   
+            }
+            ]
+        },
+        {
+        "f": "pleurer",
+        "a": "to cry",
+        "keyword": "pleurer",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je pleure", "tu pleures", "il/elle/on pleure", "nous pleurons", "vous pleurez", "ils/elles pleurent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je pleurais", "tu pleurais", "il/elle/on pleurait", "nous pleurions", "vous pleuriez", "ils/elles pleuraient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "pleur&#233;" ]   
+            }
+            ]
+        },
+        {
+        "f": "souffrir",
+        "a": "to suffer",
+        "keyword": "desirer",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je souffre", "tu souffres", "il/elle/on souffre", "nous souffrons", "vous souffrez", "ils/elles souffrent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je souffrais", "tu souffrais", "il/elle/on souffrait", "nous souffrions", "vous souffriez", "ils/elles souffraient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "souffert" ]   
+            }
+            ]
+        },
+        {
+        "f": "ha&#239;r",
+        "a": "to hate",
+        "keyword": "hair",
+        "definitions": [
+            {
+            "title": "present tense",
+            "descriptions": [ "je hais", "tu hais", "il/elle/on hait", "nous ha&#239;ssons", "vous ha&#239;ssez", "ils/elles ha&#239;ssent" ]
+            },
+            {
+            "title" : "imperfect tense",
+            "descriptions": [ "je ha&#239;ssais", "tu ha&#239;ssais", "il/elle/on ha&#239;ssait", "nous ha&#239;ssions", "vous ha&#239;ssiez", "ils/elles ha&#239;ssaient" ]
+            },
+            {
+            "title": "present perfect tense",
+            "descriptions": [ "present tense of <span class='italic'>avoir</span> +", "ha&#239;" ]   
+            }
+            ]
         }
 
     ]
